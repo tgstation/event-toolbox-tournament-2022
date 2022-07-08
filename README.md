@@ -1,60 +1,49 @@
-## /tg/station codebase
+## /tg/station Events Base
 
-[![Build Status](https://github.com/tgstation/tgstation/workflows/CI%20Suite/badge.svg)](https://github.com/tgstation/tgstation/actions?query=workflow%3A%22CI+Suite%22)
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/tgstation/tgstation.svg)](https://isitmaintained.com/project/tgstation/tgstation "Percentage of issues still open")
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/tgstation/tgstation.svg)](https://isitmaintained.com/project/tgstation/tgstation "Average time to resolve an issue")
-![Coverage](https://img.shields.io/badge/coverage---3%25-red.svg)
+This repository is a descendant of the "events base". The events base is **modular**, meaning **you should avoid editing code in the code folder itself.**
 
-[![resentment](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://www.monkeyuser.com/assets/images/2019/131-bug-free.png) [![resentment](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://user-images.githubusercontent.com/8171642/50290880-ffef5500-043a-11e9-8270-a2e5b697c86c.png) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
+## Adding a new module, where do I do it?
 
-* **Website:** https://www.tgstation13.org
-* **Code:** https://github.com/tgstation/tgstation
-* **Wiki:** https://tgstation13.org/wiki/Main_Page
-* **Codedocs:** https://codedocs.tgstation13.org/
-* **/tg/station Discord:** https://tgstation13.org/phpBB/viewforum.php?f=60
-* **Coderbus Discord:** https://discord.gg/Vh8TJp9
+Modules should be individual features/edits, packed into one.
 
-This is the codebase for the /tg/station flavoured fork of SpaceStation 13.
+`modular_event` houses two folders: one called `base`, and the other named whatever the event is called. `base` should hold anything that **makes sense and/or is likely to reuse in other events**. For example, multiple events want to limit jobs to only assistant and cyborg. Thus, the `limit_jobs` module exists in `base`. However, only the Toolbox Tournament is interested in running tournaments, so the `tournament` module only exists in `modular_event/toolbox_tournament`.
 
-Space Station 13 is a paranoia-laden round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. Have fun, and survive!
+`_modular_event` exists for one purpose: to run before `code`. Thus, this should only be used for non-modular changes that HAVE to run before `code`. Otherwise, just make your own `__DEFINES` file in your module.
 
-## DOWNLOADING
-[Downloading](.github/guides/DOWNLOADING.md)
+## Tips for writing modular code
 
-[Running on the server](.github/guides/RUNNING_A_SERVER.md)
+BYOND overrides are done in the order of which they appear, and you can even override the same proc twice!
 
-[Maps and Away Missions](.github/guides/MAPS_AND_AWAY_MISSIONS.md)
+For example, let's consider station traits, which look like this:
 
-## :exclamation: How to compile :exclamation:
+```dm
+/datum/controller/subsystem/processing/station/proc/SetupTraits()
+	// Find station traits
+	// Initialize some station traits
+```
 
-On **2021-01-04** we have changed the way to compile the codebase.
+We don't want this in our events, but how do we change it modularly? Well, like this!
 
-**The quick way**. Find `bin/server.cmd` in this folder and double click it to automatically build and host the server on port 1337.
+```dm
+// Avoid putting `proc/` here, since this isn't the base
+/datum/controller/subsystem/processing/station/SetupTraits()
+	return
+```
 
-**The long way**. Find `bin/build.cmd` in this folder, and double click it to initiate the build. It consists of multiple steps and might take around 1-5 minutes to compile. If it closes, it means it has finished its job. You can then [setup the server](.github/guides/RUNNING_A_SERVER.md) normally by opening `tgstation.dmb` in DreamDaemon.
+And...that's it! BYOND will use the latest override.
 
-**Building tgstation in DreamMaker directly is now deprecated and might produce errors**, such as `'tgui.bundle.js': cannot find file`.
+## I need to make a non-modular change!
 
-**[How to compile in VSCode and other build options](tools/build/README.md).**
+If you're confident you cannot make a change without editing something in `code`, do so while explicitly marking where it begins and ends. That way, it's easy for us to handle merge conflicts with `// EVENT EDIT: Description` and `// END EVENT EDIT`.
 
-## Contributors
-[Guides for Contributors](.github/CONTRIBUTING.md)
+```dm
+some_normal_code()
+other_normal_code()
+// EVENT EDIT: We needed to do something cool here
+do_something_cool_for_event()
+// END EVENT EDIT
+```
 
-[/tg/station HACKMD account](https://hackmd.io/@tgstation) - Design documentation here
+That being said, a lot of non-modular changes *can* be allowed modularly upstream. It's totally fine to add new signals on the tgstation repository that are only registered by events, for example, signals are basically free.
 
-[Interested in some starting lore?](https://github.com/tgstation/common_core)
-
-## LICENSE
-
-All code after [commit 333c566b88108de218d882840e61928a9b759d8f on 2014/31/12 at 4:38 PM PST](https://github.com/tgstation/tgstation/commit/333c566b88108de218d882840e61928a9b759d8f) is licensed under [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html).
-
-All code before [commit 333c566b88108de218d882840e61928a9b759d8f on 2014/31/12 at 4:38 PM PST](https://github.com/tgstation/tgstation/commit/333c566b88108de218d882840e61928a9b759d8f) is licensed under [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html).
-(Including tools unless their readme specifies otherwise.)
-
-See LICENSE and GPLv3.txt for more details.
-
-The TGS DMAPI API is licensed as a subproject under the MIT license.
-
-See the footer of [code/__DEFINES/tgs.dm](./code/__DEFINES/tgs.dm) and [code/modules/tgs/LICENSE](./code/modules/tgs/LICENSE) for the MIT license.
-
-All assets including icons and sound are under a [Creative Commons 3.0 BY-SA license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated.
+If possible, contact a maintainer (specifically Mothblocks, if she's still around) for help with non-modular code, and especially in the realm of being able to make non-modular code modular through upstream edits.
