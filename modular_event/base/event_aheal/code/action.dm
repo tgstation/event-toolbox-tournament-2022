@@ -8,7 +8,7 @@
 	button_icon_state = "arena_heal"
 	cooldown_time = 30 SECONDS
 
-/datum/action/cooldown/aheal/UpdateButtonIcon(status_only, force)
+/datum/action/cooldown/aheal/UpdateButton(status_only, force)
 	button_icon_state = IsAvailable() ? initial(button_icon_state) : "arena_heal_used"
 	return ..()
 
