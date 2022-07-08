@@ -65,6 +65,10 @@ export const DmTarget = new Juke.Target({
   inputs: [
     '_maps/map_files/generic/**',
     'code/**',
+    // EVENT EDIT: Build when event code changes
+    '_modular_event/**',
+    'modular_event/**',
+    // END EVENT EDIT
     'goon/**',
     'html/**',
     'icons/**',
