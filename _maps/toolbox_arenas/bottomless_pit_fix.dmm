@@ -1,0 +1,407 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/misc/asteroid,
+/area/space)
+"b" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/space)
+"i" = (
+/obj/structure/flora/bush/grassy/style_3,
+/turf/open/misc/asteroid,
+/area/space)
+"l" = (
+/obj/effect/decal/fakelattice,
+/obj/effect/turf_decal/sand{
+	density = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	pixel_y = 2
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/pod/light{
+	density = 1
+	},
+/area/space)
+"n" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/misc/asteroid,
+/area/space)
+"p" = (
+/obj/structure/mecha_wreckage/ripley/mk2,
+/turf/open/misc/asteroid,
+/area/space)
+"q" = (
+/obj/structure/flora/bush/style_4,
+/turf/open/misc/asteroid,
+/area/space)
+"t" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/railing,
+/turf/open/misc/asteroid,
+/area/space)
+"w" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	pixel_y = 2
+	},
+/turf/open/floor/wood,
+/area/space)
+"z" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/space)
+"A" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/misc/asteroid,
+/area/space)
+"C" = (
+/obj/structure/chair,
+/turf/open/floor/wood,
+/area/space)
+"D" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/railing,
+/obj/structure/sign/barsign{
+	name = "bottomless pit";
+	icon_state = "bottomlesspit1";
+	icon = 'icons/obj/sign2.dmi'
+	},
+/turf/open/misc/asteroid,
+/area/space)
+"E" = (
+/turf/open/chasm/icemoon{
+	name = "Bottomless Pit"
+	},
+/area/space)
+"I" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/railing/corner,
+/turf/open/misc/asteroid,
+/area/space)
+"J" = (
+/obj/structure/flora/bush/leafy,
+/turf/open/misc/asteroid,
+/area/space)
+"L" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/misc/asteroid,
+/area/space)
+"M" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/misc/asteroid,
+/area/space)
+"O" = (
+/obj/structure/flora/rock/pile/style_3,
+/turf/open/misc/asteroid,
+/area/space)
+"P" = (
+/obj/structure/mecha_wreckage/clarke,
+/turf/open/misc/asteroid,
+/area/space)
+"Q" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/item/card/id/away{
+	name = "Bottomless Pit Supervisor";
+	desc = "Sure hope nobody puts a bottom in it."
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/misc/asteroid,
+/area/space)
+"R" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/iron/stairs/old,
+/area/space)
+"T" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/misc/asteroid,
+/area/space)
+"U" = (
+/obj/structure/flora/rock/icy/style_2,
+/turf/open/misc/asteroid,
+/area/space)
+"W" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/space)
+"X" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	pixel_y = 2
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/space)
+"Y" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	pixel_y = 2
+	},
+/turf/open/floor/iron/stairs/old,
+/area/space)
+"Z" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/misc/asteroid,
+/area/space)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+U
+a
+a
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+a
+q
+a
+a
+a
+a
+a
+i
+a
+a
+"}
+(4,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(5,1,1) = {"
+a
+a
+a
+i
+a
+J
+a
+a
+a
+p
+"}
+(6,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+O
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+I
+M
+M
+Z
+a
+a
+a
+"}
+(8,1,1) = {"
+z
+b
+R
+D
+E
+E
+Q
+a
+a
+a
+"}
+(9,1,1) = {"
+W
+C
+l
+t
+E
+E
+A
+a
+a
+a
+"}
+(10,1,1) = {"
+X
+w
+Y
+t
+E
+E
+A
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+a
+L
+n
+n
+T
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+q
+a
+a
+"}
+(13,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+P
+"}
+(14,1,1) = {"
+a
+a
+i
+i
+a
+a
+a
+a
+a
+a
+"}
+(15,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(16,1,1) = {"
+a
+a
+a
+a
+q
+a
+U
+a
+a
+a
+"}
+(17,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
