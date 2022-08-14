@@ -28,14 +28,14 @@ jobs:
       with:
         ref: "gbp-balances" # The branch name
         path: gbp-balances
-    # This is to ensure we keep the gbp.toml from master
+    # This is to ensure we keep the gbp.toml from main
     # without having to update our separate branch.
     - name: Copy configuration
       if: steps.value_holder.outputs.ACTIONS_ENABLED
       run: cp ./.github/gbp.toml ./gbp-balances/.github/gbp.toml
     - name: GBP action
       if: steps.value_holder.outputs.ACTIONS_ENABLED
-      uses: tgstation/gbp-action@master
+      uses: tgstation/gbp-action@main
       with:
         branch: "gbp-balances"
         directory: ./gbp-balances
