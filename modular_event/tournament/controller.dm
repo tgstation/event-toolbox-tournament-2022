@@ -7,7 +7,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	desc = "contact mothblocks if you want to learn more"
 
 	/// The arena ID to be looking for
-	var/arena_id = ARENA_DEFAULT_ID
+	var/arena_id = EVENT_ARENA_DEFAULT_ID
 
 	var/list/contestants = list()
 	var/list/toolboxes = list()
@@ -59,6 +59,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 		team_hud_ids = setup_team_huds()
 
 /obj/machinery/computer/tournament_controller/ui_interact(mob/user, datum/tgui/ui)
+	. = ..()
 	ui = SStgui.try_update_ui(user, src, ui)
 	if (!ui)
 		ui = new(user, src, "TournamentController")
@@ -115,8 +116,8 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			return arena_landmark.loc
 
 /obj/machinery/computer/tournament_controller/proc/get_load_point()
-	var/turf/corner_a = get_landmark_turf(ARENA_CORNER_A)
-	var/turf/corner_b = get_landmark_turf(ARENA_CORNER_B)
+	var/turf/corner_a = get_landmark_turf(EVENT_ARENA_CORNER_A)
+	var/turf/corner_b = get_landmark_turf(EVENT_ARENA_CORNER_B)
 	return locate(min(corner_a.x, corner_b.x), min(corner_a.y, corner_b.y), corner_a.z)
 
 /obj/machinery/computer/tournament_controller/proc/close_shutters()
@@ -129,8 +130,8 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 
 /obj/machinery/computer/tournament_controller/proc/get_arena_turfs()
 	var/load_point = get_load_point()
-	var/turf/corner_a = get_landmark_turf(ARENA_CORNER_A)
-	var/turf/corner_b = get_landmark_turf(ARENA_CORNER_B)
+	var/turf/corner_a = get_landmark_turf(EVENT_ARENA_CORNER_A)
+	var/turf/corner_b = get_landmark_turf(EVENT_ARENA_CORNER_B)
 	var/turf/high_point = locate(max(corner_a.x, corner_b.x),max(corner_a.y, corner_b.y), corner_a.z)
 	return block(load_point, high_point)
 
@@ -155,8 +156,8 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	clear_arena()
 	close_shutters()
 
-	var/turf/corner_a = get_landmark_turf(ARENA_CORNER_A)
-	var/turf/corner_b = get_landmark_turf(ARENA_CORNER_B)
+	var/turf/corner_a = get_landmark_turf(EVENT_ARENA_CORNER_A)
+	var/turf/corner_b = get_landmark_turf(EVENT_ARENA_CORNER_B)
 	var/width = abs(corner_a.x - corner_b.x) + 1
 	var/height = abs(corner_a.y - corner_b.y) + 1
 	if(template.width > width || template.height > height)
@@ -233,6 +234,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			contestant_mob.reset_perspective()
 			contestant_mob.job = team.name
 			contestant_mob.set_nutrition(NUTRITION_LEVEL_FED + 50)
+			SEND_SIGNAL(contestant_mob, COMSIG_ADD_MOOD_EVENT, "event", /datum/mood_event/toolbox_arena)
 			ADD_TRAIT(contestant_mob, TRAIT_BYPASS_MEASURES, "arena")
 			RegisterSignal(contestant_mob, COMSIG_LIVING_DEATH, .proc/contestant_died)
 
@@ -244,6 +246,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 
 		index += 1
 
+	radio.talk_into(src, "Setting up [team_names.Join(" vs ")].")
 	var/message = "spawned [team_names.len] teams ([team_names.Join(", ")]) for [arena_id] arena."
 	message_admins("[key_name_admin(user)] [message]")
 	log_admin("[key_name(user)] [message]")
@@ -253,7 +256,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 /obj/machinery/computer/tournament_controller/proc/contestant_died(source, gibbed)
 	SIGNAL_HANDLER
 	var/mob/living/carbon/human/contestant_mob = source
-	radio.talk_into(src, "Toolboxer [contestant_mob] ([contestant_mob.job]) has died in the [arena_id] arena!")
+	radio.talk_into(src, "[contestant_mob] ([contestant_mob.job]) has died in the [arena_id] arena!")
 	UnregisterSignal(source, COMSIG_LIVING_DEATH)
 
 /obj/machinery/computer/tournament_controller/proc/spawn_toolboxes(toolbox_color, team_spawn_id, number_to_spawn)
@@ -268,3 +271,8 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 		toolbox.forceMove(get_turf(spawn_landmark))
 
 		toolboxes += toolbox
+
+/datum/mood_event/toolbox_arena
+	description = "I am taking part in the Toolbox Tournament!"
+	mood_change = 42
+	timeout = 5 MINUTES

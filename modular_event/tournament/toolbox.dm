@@ -4,8 +4,8 @@
 	icon_state = "toolbox"
 	layer = HIGH_OBJ_LAYER
 
-	var/arena_id = ARENA_DEFAULT_ID
-	var/team_id = ARENA_RED_TEAM
+	var/arena_id = EVENT_ARENA_DEFAULT_ID
+	var/team_id = EVENT_ARENA_RED_TEAM
 
 	var/obj/machinery/computer/tournament_controller/tournament_controller
 
