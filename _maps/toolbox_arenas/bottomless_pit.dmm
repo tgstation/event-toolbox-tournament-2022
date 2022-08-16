@@ -83,19 +83,21 @@
 /turf/open/floor/wood,
 /area/space)
 "D" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/structure/railing,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
 /obj/structure/sign/barsign{
 	name = "bottomless pit";
 	icon_state = "bottomlesspit1";
-	icon = 'icons/obj/sign2.dmi'
+	icon = 'modular_event/tournament/sign2.dmi'
 	},
 /turf/open/misc/asteroid,
 /area/space)
 "E" = (
-/turf/open/chasm/icemoon{
-	name = "Bottomless Pit"
-	},
+/turf/open/chasm,
 /area/space)
 "I" = (
 /obj/effect/turf_decal/stripes/corner,
@@ -289,7 +291,7 @@ a
 z
 b
 R
-D
+t
 E
 E
 Q
@@ -304,7 +306,7 @@ l
 t
 E
 E
-A
+D
 a
 a
 a
