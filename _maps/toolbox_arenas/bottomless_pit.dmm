@@ -1,17 +1,17 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "b" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/centcom/tdome/arena)
 "i" = (
 /obj/structure/flora/bush/grassy/style_3,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "l" = (
 /obj/effect/decal/fakelattice,
 /obj/effect/turf_decal/sand{
@@ -30,7 +30,7 @@
 /turf/open/floor/pod/light{
 	density = 1
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "n" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -39,27 +39,27 @@
 	dir = 8
 	},
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "p" = (
 /obj/structure/mecha_wreckage/ripley/mk2,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "q" = (
 /obj/structure/flora/bush/style_4,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "t" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/railing,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "w" = (
 /obj/structure/window/reinforced{
 	dir = 4;
 	pixel_y = 2
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/centcom/tdome/arena)
 "z" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -68,7 +68,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/centcom/tdome/arena)
 "A" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -77,11 +77,11 @@
 	dir = 1
 	},
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "C" = (
 /obj/structure/chair,
 /turf/open/floor/wood,
-/area/space)
+/area/centcom/tdome/arena)
 "D" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -89,25 +89,21 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/structure/sign/barsign{
-	name = "bottomless pit";
-	icon_state = "bottomlesspit1";
-	icon = 'modular_event/tournament/sign2.dmi'
-	},
+/obj/structure/sign/barsign/bottomless,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "E" = (
 /turf/open/chasm,
-/area/space)
+/area/centcom/tdome/arena)
 "I" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/structure/railing/corner,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "J" = (
 /obj/structure/flora/bush/leafy,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "L" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -116,7 +112,7 @@
 	dir = 8
 	},
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "M" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -125,15 +121,15 @@
 	dir = 4
 	},
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "O" = (
 /obj/structure/flora/rock/pile/style_3,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "P" = (
 /obj/structure/mecha_wreckage/clarke,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "Q" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -150,13 +146,13 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "R" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor/iron/stairs/old,
-/area/space)
+/area/centcom/tdome/arena)
 "T" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -165,17 +161,17 @@
 	dir = 1
 	},
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "U" = (
 /obj/structure/flora/rock/icy/style_2,
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 "W" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/centcom/tdome/arena)
 "X" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -185,14 +181,14 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/centcom/tdome/arena)
 "Y" = (
 /obj/structure/window/reinforced{
 	dir = 4;
 	pixel_y = 2
 	},
 /turf/open/floor/iron/stairs/old,
-/area/space)
+/area/centcom/tdome/arena)
 "Z" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -201,7 +197,7 @@
 	dir = 4
 	},
 /turf/open/misc/asteroid,
-/area/space)
+/area/centcom/tdome/arena)
 
 (1,1,1) = {"
 a

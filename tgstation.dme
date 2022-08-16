@@ -4634,6 +4634,7 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "modular_event\arena_assets\bottomless_sign.dm"
 #include "modular_event\base\disable_atmos.dm"
 #include "modular_event\base\disable_dynamic.dm"
 #include "modular_event\base\disable_economy.dm"
