@@ -1,0 +1,5 @@
+#define EVENT_ARENA_RED_TEAM "red"
+#define EVENT_ARENA_GREEN_TEAM "green"
+#define EVENT_ARENA_DEFAULT_ID "arena_default"
+#define EVENT_ARENA_CORNER_A "cornerA"
+#define EVENT_ARENA_CORNER_B "cornerB"

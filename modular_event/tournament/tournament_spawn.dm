@@ -5,19 +5,19 @@
 	resistance_flags = INDESTRUCTIBLE
 
 	/// In case we have multiple arena controllers at once.
-	var/arena_id = ARENA_DEFAULT_ID
+	var/arena_id = EVENT_ARENA_DEFAULT_ID
 	/// Team ID
 	var/team = "default"
 
 /obj/machinery/tournament_spawn/red
 	name = "Red Team Spawnpoint"
 	color = "red"
-	team = ARENA_RED_TEAM
+	team = EVENT_ARENA_RED_TEAM
 
 /obj/machinery/tournament_spawn/green
 	name = "Green Team Spawnpoint"
 	color = "green"
-	team = ARENA_GREEN_TEAM
+	team = EVENT_ARENA_GREEN_TEAM
 
 /obj/machinery/tournament_spawn/LateInitialize()
 	. = ..()

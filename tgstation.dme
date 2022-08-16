@@ -15,6 +15,7 @@
 // BEGIN_INCLUDE
 #include "_maps\_basemap.dm"
 #include "_modular_event\disable_mouse_entered.dm"
+#include "_modular_event\__DEFINES\arenas.dm"
 #include "code\_compile_options.dm"
 #include "code\_debugger.dm"
 #include "code\world.dm"
@@ -4651,4 +4652,13 @@
 #include "modular_event\base\station_traits.dm"
 #include "modular_event\base\event_aheal\code\action.dm"
 #include "modular_event\base\event_aheal\code\living.dm"
+#include "modular_event\tournament\auto_equip.dm"
+#include "modular_event\tournament\controller.dm"
+#include "modular_event\tournament\countdown.dm"
+#include "modular_event\tournament\disbanding.dm"
+#include "modular_event\tournament\hud.dm"
+#include "modular_event\tournament\team_chat.dm"
+#include "modular_event\tournament\teams.dm"
+#include "modular_event\tournament\toolbox.dm"
+#include "modular_event\tournament\tournament_spawn.dm"
 // END_INCLUDE

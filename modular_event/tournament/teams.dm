@@ -56,6 +56,7 @@ GLOBAL_LIST_INIT_TYPED(tournament_teams, /datum/tournament_team, get_tournament_
 		return "No outfit provided."
 
 	var/datum/outfit/outfit = new
+	outfit.name = name
 	var/datum/outfit/camo_placeholder = new
 	outfit.belt = text2path(outfit_data["belt"])
 	if (outfit.belt)
@@ -96,7 +97,7 @@ GLOBAL_LIST_INIT_TYPED(tournament_teams, /datum/tournament_team, get_tournament_
 /proc/get_tournament_teams()
 	var/list/tournament_teams = list()
 
-	var/directory = "strings/teams/"
+	var/directory = "modular_event/tournament/teams/"
 	for (var/team_filename in flist(directory))
 		var/datum/tournament_team/tournament_team_result = load_tournament_team(file2text("[directory]/[team_filename]"))
 		if (istype(tournament_team_result))

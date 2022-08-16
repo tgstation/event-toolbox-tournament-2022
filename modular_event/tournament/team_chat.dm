@@ -1,16 +1,13 @@
-GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "exavere", "sacko", "jaredfogle"))
+GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfogle"))
 
 /obj/machinery/modular_computer/console/preset/teamchat
 	name = "internal team chat console"
 	desc = "How are you examining this anyway?"
-	///chat client installed on this computer, just helpful for linking all the computers
+	///chat client installed of this computer
 	var/datum/computer_file/program/chatclient/team/chatprogram
 
 /obj/item/modular_computer/check_power_override()
 	return TRUE
-
-/obj/item/modular_computer
-	var/mob/mob_user
 
 /obj/machinery/modular_computer/console/preset/teamchat/install_programs()
 	var/obj/item/computer_hardware/hard_drive/hard_drive = cpu.all_components[MC_HDD]
@@ -31,11 +28,12 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "exavere", "sacko"
 
 /mob/Login()
 	. = ..()
+	if(isnewplayer(src))
+		return // avoid pre-game lobby issues
 	if(ckey in GLOB.team_chat_admin_ckeys)
 		team_chat_console = new
 		team_chat_console.chatprogram.username = key
 		team_chat_console.chatprogram.netadmin_mode = TRUE
-		team_chat_console.chatprogram.computer.mob_user = src
 		for(var/team_name in GLOB.tournament_teams)
 			var/datum/tournament_team/team = GLOB.tournament_teams[team_name]
 			if(ckey == GLOB.team_chat_admin_ckeys[1])
@@ -51,7 +49,6 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "exavere", "sacko"
 			team_chat_console.chatprogram.username = key
 			team.team_chat.add_client(team_chat_console.chatprogram, TRUE)
 			team_chat_console.chatprogram.active_channel = team.team_chat.id
-			team_chat_console.chatprogram.computer.mob_user = src
 			open_team_chat.Grant(src)
 			return
 
@@ -67,7 +64,7 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "exavere", "sacko"
 	icon_icon = 'icons/obj/modular_tablet.dmi'
 	button_icon_state = "command"
 
-/datum/action/team_chat/Trigger()
+/datum/action/team_chat/Trigger(trigger_flags)
 	// make sure the program is active in case they closed or minimized it
 	if(usr.team_chat_console.cpu.active_program != usr.team_chat_console.chatprogram)
 		usr.team_chat_console.chatprogram.program_state = PROGRAM_STATE_ACTIVE
@@ -92,7 +89,7 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "exavere", "sacko"
 	filedesc = "Team Chat Client"
 	category = PROGRAM_CATEGORY_MISC
 	program_icon_state = "command"
-	extended_desc = "This program allows communication over NTNRC network"
+	extended_desc = "This program allows communication over TLBX network"
 	size = 8
 	requires_ntnet = FALSE
 	requires_ntnet_feature = NTNET_COMMUNICATION
@@ -188,11 +185,12 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "exavere", "sacko"
 	var/list/all_channels = list()
 	for(var/C in SSnetworks.station_network.chat_channels)
 		var/datum/ntnet_conversation/conv = C
-		if(conv?.title)
-			all_channels.Add(list(list(
-				"chan" = conv.title,
-				"id" = conv.id
-			)))
+		if(src in conv.active_clients || netadmin_mode)
+			if(conv?.title)
+				all_channels.Add(list(list(
+					"chan" = conv.title,
+					"id" = conv.id
+				)))
 	data["all_channels"] = all_channels
 	data["auto_scroll"] = auto_scroll
 
