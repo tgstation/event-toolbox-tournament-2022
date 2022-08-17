@@ -14,6 +14,11 @@
 
 /datum/action/cooldown/aheal/Activate(atom/target)
 	var/mob/living/user = usr
+	var/area/user_area = get_area(user)
+	var/static/arena_areas = typecacheof(/area/centcom/tdome)
+	if(is_type_in_typecache(user_area.type, arena_areas))
+		to_chat(user, span_boldwarning("You cannot use this ability inside [user_area]!"))
+		return FALSE
 
 	// custom lightning bolt for sound
 	var/turf/lightning_source = get_step(get_step(user, NORTH), NORTH)
