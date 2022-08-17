@@ -41,7 +41,9 @@
 /turf/open/misc/asteroid,
 /area/centcom/tdome/arena)
 "p" = (
-/obj/structure/mecha_wreckage/ripley/mk2,
+/obj/structure/mecha_wreckage/ripley/mk2{
+	anchored = 1
+},
 /turf/open/misc/asteroid,
 /area/centcom/tdome/arena)
 "q" = (
@@ -127,7 +129,9 @@
 /turf/open/misc/asteroid,
 /area/centcom/tdome/arena)
 "P" = (
-/obj/structure/mecha_wreckage/clarke,
+/obj/structure/mecha_wreckage/clarke{
+	anchored = 1
+},
 /turf/open/misc/asteroid,
 /area/centcom/tdome/arena)
 "Q" = (
