@@ -1,0 +1,554 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet,
+/area/centcom/tdome/arena)
+"bd" = (
+/turf/open/floor/iron/chapel,
+/area/centcom/tdome/arena)
+"eS" = (
+/obj/item/kirbyplants{
+	icon_state = "applebush"
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/centcom/tdome/arena)
+"fm" = (
+/obj/structure/chair/pew/left{
+	dir = 1
+	},
+/turf/open/floor/iron/chapel{
+	dir = 4
+	},
+/area/centcom/tdome/arena)
+"fw" = (
+/obj/structure/chair/pew/right{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"fS" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"ih" = (
+/obj/structure/window/reinforced{
+	dir = 8;
+	layer = 2.9
+	},
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"iF" = (
+/obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"iM" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"jv" = (
+/obj/structure/chair/pew/right{
+	dir = 1
+	},
+/turf/open/floor/iron/chapel{
+	dir = 8
+	},
+/area/centcom/tdome/arena)
+"lO" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"mi" = (
+/turf/open/floor/carpet/red,
+/area/centcom/tdome/arena)
+"mV" = (
+/obj/structure/chair/pew/left{
+	dir = 1
+	},
+/turf/open/floor/iron/chapel,
+/area/centcom/tdome/arena)
+"nf" = (
+/obj/structure/chair/pew{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"nh" = (
+/obj/structure/flora/bush/lavendergrass/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"nL" = (
+/obj/machinery/light/directional/north,
+/obj/structure/flora/bush/lavendergrass/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"ox" = (
+/obj/structure/chair/pew/left{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"oO" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"oQ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/smooth_half,
+/area/centcom/tdome/arena)
+"pN" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/smooth_half,
+/area/centcom/tdome/arena)
+"qn" = (
+/obj/structure/window/reinforced{
+	dir = 8;
+	layer = 2.9
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"qD" = (
+/obj/structure/chair/pew/right{
+	dir = 1
+	},
+/turf/open/floor/iron/chapel{
+	dir = 1
+	},
+/area/centcom/tdome/arena)
+"rX" = (
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"tC" = (
+/turf/open/floor/iron/chapel{
+	dir = 8
+	},
+/area/centcom/tdome/arena)
+"uX" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	layer = 2.9
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"vZ" = (
+/obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"wf" = (
+/obj/structure/chair/pew/right{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"xo" = (
+/obj/structure/flora/tree/jungle/small/style_4,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"xq" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-08"
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/centcom/tdome/arena)
+"xA" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"yO" = (
+/obj/structure/flora/bush/flowers_pp/style_random,
+/obj/structure/flora/bush/flowers_br/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"At" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	layer = 2.9
+	},
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"Eb" = (
+/obj/structure/flora/bush/leavy/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"ER" = (
+/obj/structure/flora/bush/sunny/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"EZ" = (
+/obj/structure/chair/pew{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"Fp" = (
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"FI" = (
+/obj/structure/table/wood/fancy,
+/obj/item/candle{
+	pixel_x = -5;
+	start_lit = 1
+	},
+/obj/item/candle{
+	pixel_x = 6;
+	pixel_y = 8;
+	start_lit = 1
+	},
+/turf/open/floor/carpet/red,
+/area/centcom/tdome/arena)
+"GE" = (
+/obj/structure/flora/bush/flowers_pp/style_random,
+/obj/structure/flora/bush/pointy/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"GI" = (
+/obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/flora/bush/flowers_br,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"HK" = (
+/obj/structure/table/wood/fancy,
+/obj/item/food/grown/poppy,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"IH" = (
+/obj/structure/table/wood/fancy,
+/obj/item/flashlight/lantern,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"Kv" = (
+/turf/open/floor/iron/chapel{
+	dir = 4
+	},
+/area/centcom/tdome/arena)
+"Mb" = (
+/obj/structure/table/wood/fancy,
+/obj/item/candle{
+	start_lit = 1
+	},
+/obj/item/candle{
+	pixel_x = -8;
+	pixel_y = 6;
+	start_lit = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"Mk" = (
+/turf/open/floor/carpet,
+/area/centcom/tdome/arena)
+"Mm" = (
+/obj/structure/flora/bush/flowers_pp/style_random,
+/obj/structure/flora/bush/flowers_br,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"Mw" = (
+/obj/structure/flora/tree/jungle/small/style_3,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"NQ" = (
+/turf/open/floor/iron/dark/smooth_half,
+/area/centcom/tdome/arena)
+"Oz" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"Rt" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/structure/window/reinforced{
+	dir = 8;
+	layer = 2.9
+	},
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"RF" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"SA" = (
+/obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/obj/structure/flora/bush/pale/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"Ti" = (
+/obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/flora/bush/flowers_br/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"Tw" = (
+/obj/structure/flora/bush/flowers_br,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"Vg" = (
+/obj/structure/table/wood/fancy,
+/obj/item/candle{
+	pixel_x = -8;
+	pixel_y = 6;
+	start_lit = 1
+	},
+/obj/item/candle{
+	start_lit = 1
+	},
+/obj/item/candle{
+	pixel_x = 6;
+	pixel_y = 8;
+	start_lit = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"VZ" = (
+/obj/structure/altar_of_gods,
+/obj/item/reagent_containers/food/drinks/bottle/wine{
+	pixel_y = 8
+	},
+/turf/open/floor/carpet/red,
+/area/centcom/tdome/arena)
+"Wj" = (
+/turf/open/floor/iron/chapel{
+	dir = 1
+	},
+/area/centcom/tdome/arena)
+"Ws" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+"WB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/red,
+/area/centcom/tdome/arena)
+"Xn" = (
+/obj/structure/table/wood/fancy,
+/obj/item/reagent_containers/food/drinks/trophy{
+	pixel_y = 8
+	},
+/turf/open/floor/carpet/red,
+/area/centcom/tdome/arena)
+"Yy" = (
+/obj/structure/flora/bush/stalky/style_random,
+/obj/structure/window/reinforced{
+	dir = 4;
+	layer = 2.9
+	},
+/turf/open/floor/grass,
+/area/centcom/tdome/arena)
+
+(1,1,1) = {"
+uX
+uX
+uX
+uX
+fS
+Mk
+Mk
+Fp
+Fp
+Fp
+"}
+(2,1,1) = {"
+Eb
+xA
+rX
+Tw
+Oz
+Mk
+Mk
+ox
+ox
+NQ
+"}
+(3,1,1) = {"
+Mw
+rX
+Ws
+rX
+lO
+Mk
+Mk
+nf
+nf
+eS
+"}
+(4,1,1) = {"
+nL
+xA
+At
+Yy
+lO
+Mk
+Mk
+qD
+jv
+NQ
+"}
+(5,1,1) = {"
+rX
+rX
+lO
+Wj
+tC
+Mk
+Mk
+fm
+mV
+pN
+"}
+(6,1,1) = {"
+ER
+rX
+Oz
+Kv
+bd
+Mk
+Mk
+EZ
+EZ
+NQ
+"}
+(7,1,1) = {"
+Ti
+iF
+lO
+Mb
+HK
+Mk
+Mk
+wf
+fw
+NQ
+"}
+(8,1,1) = {"
+vZ
+vZ
+lO
+mi
+Xn
+Mk
+Mk
+Mk
+Mk
+aM
+"}
+(9,1,1) = {"
+iM
+SA
+lO
+WB
+VZ
+Mk
+Mk
+Mk
+Mk
+Mk
+"}
+(10,1,1) = {"
+GE
+yO
+lO
+mi
+FI
+Mk
+Mk
+Mk
+Mk
+Mk
+"}
+(11,1,1) = {"
+Mm
+GI
+lO
+Vg
+IH
+Mk
+Mk
+ox
+ox
+oQ
+"}
+(12,1,1) = {"
+xA
+rX
+Oz
+Wj
+tC
+Mk
+Mk
+EZ
+EZ
+NQ
+"}
+(13,1,1) = {"
+rX
+rX
+lO
+Kv
+bd
+Mk
+Mk
+qD
+jv
+pN
+"}
+(14,1,1) = {"
+RF
+nh
+Rt
+ih
+lO
+Mk
+Mk
+fm
+mV
+NQ
+"}
+(15,1,1) = {"
+xo
+Ws
+rX
+nh
+lO
+Mk
+Mk
+nf
+EZ
+xq
+"}
+(16,1,1) = {"
+rX
+rX
+Eb
+rX
+Oz
+Mk
+Mk
+wf
+wf
+NQ
+"}
+(17,1,1) = {"
+qn
+qn
+qn
+qn
+oO
+Mk
+Mk
+Fp
+Fp
+Fp
+"}
