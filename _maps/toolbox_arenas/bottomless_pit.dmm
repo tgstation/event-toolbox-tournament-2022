@@ -89,7 +89,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/structure/sign/barsign/bottomless,
+/obj/structure/sign/bottomless,
 /turf/open/misc/asteroid,
 /area/centcom/tdome/arena)
 "E" = (
