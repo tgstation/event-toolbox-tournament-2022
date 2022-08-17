@@ -1,0 +1,609 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aQ" = (
+/obj/item/kirbyplants/potty,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"bl" = (
+/obj/structure/chair/stool/bar/directional/south,
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/iron,
+/area/centcom/tdome/arena)
+"cc" = (
+/obj/structure/table,
+/obj/item/storage/fancy/egg_box,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"cp" = (
+/obj/structure/table/wood/poker,
+/obj/item/dice/d6/ebony,
+/turf/open/floor/carpet,
+/area/centcom/tdome/arena)
+"go" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 11
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"hm" = (
+/obj/structure/table/reinforced,
+/obj/item/food/pizza/pineapple,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen_arena"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"ih" = (
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"ix" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-18"
+	},
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"iS" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/wood/large,
+/area/centcom/tdome/arena)
+"jL" = (
+/obj/machinery/door/airlock/glass,
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"lt" = (
+/obj/structure/chair/stool/bar/directional/south,
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron,
+/area/centcom/tdome/arena)
+"lO" = (
+/obj/structure/table/wood/poker,
+/obj/item/clothing/head/fedora,
+/turf/open/floor/carpet,
+/area/centcom/tdome/arena)
+"mi" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"mv" = (
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/bot,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/obj/structure/sign/poster/random/directional/north,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"mG" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"oa" = (
+/obj/structure/table,
+/obj/item/book/manual/wiki/cooking_to_serve_man,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"ol" = (
+/obj/structure/table/wood,
+/obj/item/knife/plastic{
+	pixel_x = 6
+	},
+/obj/item/kitchen/fork/plastic{
+	pixel_x = -6
+	},
+/obj/item/food/soup/beet/red,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"oU" = (
+/obj/structure/chair/stool/bar/directional/south,
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/centcom/tdome/arena)
+"pD" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"pQ" = (
+/obj/structure/table/reinforced,
+/obj/item/food/burrito{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/food/burrito,
+/obj/item/food/burrito{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen_arena"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"qB" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"rX" = (
+/obj/structure/table,
+/obj/machinery/processor{
+	pixel_y = 12
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"tY" = (
+/obj/structure/table/wood,
+/obj/item/kitchen/spoon/plastic{
+	pixel_x = 12;
+	pixel_y = 6
+	},
+/obj/item/plate,
+/obj/item/food/spaghetti/pastatomato{
+	pixel_y = 4
+	},
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"um" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"uD" = (
+/obj/machinery/vending/cigarette,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"va" = (
+/obj/structure/table/wood/poker,
+/obj/item/clothing/mask/cigarette/pipe,
+/turf/open/floor/carpet,
+/area/centcom/tdome/arena)
+"vl" = (
+/obj/structure/table/wood/poker,
+/turf/open/floor/carpet,
+/area/centcom/tdome/arena)
+"wa" = (
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/carpet,
+/area/centcom/tdome/arena)
+"xl" = (
+/obj/structure/table/reinforced,
+/obj/structure/desk_bell,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen_arena"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"yB" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"zi" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"zl" = (
+/turf/closed/wall,
+/area/centcom/tdome/arena)
+"zT" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-21";
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"Ac" = (
+/obj/machinery/oven,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Ah" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"By" = (
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/bot,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/computer/security/telescreen/entertainment/directional/north,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"ET" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-14"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"EZ" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/carpet,
+/area/centcom/tdome/arena)
+"Fh" = (
+/obj/machinery/button/door/directional/north{
+	id = "kitchen_arena";
+	name = "Counter Shutters Control";
+	req_access = list("kitchen");
+	pixel_y = 30
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Fp" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"FF" = (
+/obj/structure/table/reinforced,
+/obj/item/food/spaghetti/beefnoodle,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen_arena"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"FM" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Gi" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"GL" = (
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"HK" = (
+/obj/structure/table,
+/obj/item/storage/bag/tray,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 3
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Ju" = (
+/obj/structure/table/wood/poker,
+/obj/item/toy/cards/deck,
+/turf/open/floor/carpet,
+/area/centcom/tdome/arena)
+"JO" = (
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"NQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"Pb" = (
+/obj/structure/table/reinforced,
+/obj/item/food/bbqribs,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen_arena"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Pd" = (
+/obj/machinery/vending/coffee,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"Pk" = (
+/obj/structure/table/reinforced,
+/obj/item/food/cake/bscc,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen_arena"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Re" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"RD" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Se" = (
+/obj/structure/table/reinforced,
+/obj/item/food/beef_wellington,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen_arena"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Ty" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Um" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/wood/large,
+/area/centcom/tdome/arena)
+"Vj" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/machinery/light/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Wc" = (
+/obj/structure/table,
+/obj/item/kitchen/rollingpin,
+/obj/item/reagent_containers/food/condiment/enzyme{
+	layer = 5
+	},
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 5
+	},
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"WQ" = (
+/obj/machinery/gibber,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"Xt" = (
+/obj/structure/table,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+"XU" = (
+/obj/machinery/computer/slot_machine{
+	pixel_y = 2
+	},
+/turf/open/floor/wood,
+/area/centcom/tdome/arena)
+"ZN" = (
+/obj/machinery/griddle,
+/turf/open/floor/iron/cafeteria,
+/area/centcom/tdome/arena)
+
+(1,1,1) = {"
+XU
+GL
+GL
+GL
+GL
+GL
+GL
+GL
+GL
+GL
+"}
+(2,1,1) = {"
+aQ
+GL
+NQ
+GL
+GL
+GL
+GL
+JO
+GL
+NQ
+"}
+(3,1,1) = {"
+uD
+GL
+GL
+GL
+mG
+NQ
+GL
+ol
+GL
+GL
+"}
+(4,1,1) = {"
+zl
+Ty
+Ty
+Ty
+zl
+By
+GL
+pD
+GL
+GL
+"}
+(5,1,1) = {"
+um
+ih
+ih
+Ah
+jL
+Um
+GL
+GL
+GL
+ET
+"}
+(6,1,1) = {"
+Vj
+ih
+WQ
+mi
+Pb
+bl
+GL
+NQ
+GL
+qB
+"}
+(7,1,1) = {"
+Ac
+ih
+rX
+mi
+Pk
+lt
+GL
+wa
+wa
+GL
+"}
+(8,1,1) = {"
+yB
+ih
+HK
+RD
+pQ
+lt
+GL
+vl
+Ju
+GL
+"}
+(9,1,1) = {"
+Xt
+Fh
+ih
+mi
+xl
+lt
+GL
+lO
+vl
+GL
+"}
+(10,1,1) = {"
+ZN
+ih
+Wc
+mi
+FF
+lt
+GL
+va
+cp
+GL
+"}
+(11,1,1) = {"
+Re
+ih
+oa
+mi
+Se
+lt
+GL
+EZ
+EZ
+GL
+"}
+(12,1,1) = {"
+Gi
+ih
+cc
+zi
+hm
+oU
+GL
+GL
+GL
+qB
+"}
+(13,1,1) = {"
+go
+ih
+ih
+FM
+jL
+iS
+NQ
+GL
+NQ
+zT
+"}
+(14,1,1) = {"
+zl
+Ty
+Ty
+Ty
+zl
+mv
+GL
+JO
+NQ
+GL
+"}
+(15,1,1) = {"
+Pd
+GL
+GL
+GL
+Fp
+GL
+GL
+tY
+GL
+GL
+"}
+(16,1,1) = {"
+ix
+GL
+GL
+GL
+GL
+GL
+GL
+pD
+GL
+GL
+"}
+(17,1,1) = {"
+XU
+GL
+GL
+GL
+NQ
+GL
+GL
+GL
+NQ
+GL
+"}
