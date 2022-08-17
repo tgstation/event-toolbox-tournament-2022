@@ -1,0 +1,378 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"cO" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/structure/bed/nest,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"eU" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/structure/alien/egg/burst,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"gC" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"ih" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"ja" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/xenoblood/xgibs/larva/body,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"lO" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/structure/alien/weeds/node{
+	obj_flags = null
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"nn" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/xenoblood,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"qe" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/item/bodypart/l_leg,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"rt" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/xenoblood/xgibs/up,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"rX" = (
+/obj/structure/alien/resin/wall,
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"sd" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/item/bodypart/r_arm,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"tg" = (
+/obj/structure/alien/resin/wall,
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood/splatter/over_window,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"wG" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/obj/structure/alien/egg/burst,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"xn" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"ya" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/xenoblood/xgibs/body,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"Cy" = (
+/obj/structure/alien/resin/membrane,
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood/splatter/over_window,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"CI" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/structure/alien/weeds/node{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"Fp" = (
+/obj/structure/alien/resin/membrane,
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"Is" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"Ix" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/mob_spawn/corpse/human/laborer,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"NG" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/xenoblood/xgibs/core,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"WA" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+"Xl" = (
+/obj/structure/alien/weeds{
+	obj_flags = null
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/mob_spawn/corpse/human/laborer,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena)
+
+(1,1,1) = {"
+Fp
+rX
+rX
+ih
+rX
+rX
+ih
+rX
+rX
+Fp
+"}
+(2,1,1) = {"
+Fp
+qe
+rX
+ih
+rX
+ih
+lO
+rX
+Ix
+Fp
+"}
+(3,1,1) = {"
+Cy
+Is
+ih
+ih
+rX
+ih
+ih
+wG
+ih
+Fp
+"}
+(4,1,1) = {"
+ih
+ih
+lO
+ih
+rX
+rX
+ih
+ih
+ih
+ih
+"}
+(5,1,1) = {"
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+"}
+(6,1,1) = {"
+ih
+ih
+rX
+xn
+eU
+Fp
+ih
+rX
+ih
+ih
+"}
+(7,1,1) = {"
+ih
+rX
+cO
+ih
+WA
+Fp
+ih
+ja
+rX
+ih
+"}
+(8,1,1) = {"
+ih
+ih
+ih
+lO
+ih
+rX
+ih
+ih
+ih
+ih
+"}
+(9,1,1) = {"
+ih
+Fp
+ya
+ih
+ih
+ih
+ih
+ih
+Fp
+ih
+"}
+(10,1,1) = {"
+WA
+rt
+ih
+ih
+ih
+rX
+ih
+gC
+ih
+ih
+"}
+(11,1,1) = {"
+ih
+rX
+nn
+ih
+ih
+Fp
+CI
+cO
+rX
+ih
+"}
+(12,1,1) = {"
+ih
+ih
+rX
+ih
+ih
+Fp
+eU
+rX
+ih
+ih
+"}
+(13,1,1) = {"
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+gC
+ih
+ih
+"}
+(14,1,1) = {"
+ih
+ih
+lO
+ih
+rX
+rX
+nn
+ih
+ih
+ih
+"}
+(15,1,1) = {"
+Fp
+sd
+ih
+ih
+rX
+NG
+ih
+Is
+Is
+Fp
+"}
+(16,1,1) = {"
+Fp
+eU
+rX
+ih
+rX
+ih
+lO
+tg
+Xl
+Fp
+"}
+(17,1,1) = {"
+Fp
+rX
+rX
+ih
+rX
+rX
+ih
+rX
+rX
+Fp
+"}
