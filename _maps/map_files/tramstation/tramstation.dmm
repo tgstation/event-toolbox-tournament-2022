@@ -2299,9 +2299,9 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
 /obj/machinery/door/poddoor/shutters/preopen{
-	dir = 4;
 	id = "cmoshutter";
-	name = "CMO Office Shutters"
+	name = "CMO Office Shutters";
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/cmo)
@@ -16253,9 +16253,9 @@
 "fIs" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
-	dir = 4;
 	id = "cmoshutter";
-	name = "CMO Office Shutters"
+	name = "CMO Office Shutters";
+	dir = 4
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
