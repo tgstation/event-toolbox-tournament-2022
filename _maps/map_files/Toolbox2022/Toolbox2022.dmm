@@ -703,7 +703,6 @@
 /turf/open/floor/iron/cafeteria,
 /area/space)
 "ty" = (
-/obj/machinery/door/airlock/maintenance_hatch,
 /turf/closed/indestructible/riveted,
 /area/space)
 "ul" = (
@@ -840,7 +839,6 @@
 /turf/open/floor/iron/cafeteria,
 /area/space)
 "yq" = (
-/obj/structure/table/reinforced,
 /obj/structure/table/reinforced,
 /turf/open/indestructible/dark,
 /area/space)
