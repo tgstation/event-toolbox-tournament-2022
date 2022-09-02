@@ -1,0 +1,600 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bA" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"fw" = (
+/turf/open/floor/carpet/neon/simple/white/nodots,
+/area/centcom/tdome/arena)
+"hX" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"ih" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/thinplating/light,
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"ip" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"iB" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"jn" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"ki" = (
+/turf/open/floor/carpet/red,
+/area/centcom/tdome/arena)
+"lz" = (
+/obj/effect/portal/permanent{
+	color = "#800080";
+	id = "arenapurple"
+	},
+/turf/open/floor/carpet/neon/simple/purple,
+/area/centcom/tdome/arena)
+"lO" = (
+/turf/open/floor/carpet/blue,
+/area/centcom/tdome/arena)
+"mf" = (
+/obj/effect/portal/permanent{
+	color = "#FF0000";
+	id = "arenared"
+	},
+/turf/open/floor/carpet/neon/simple/red,
+/area/centcom/tdome/arena)
+"mi" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"mA" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"nk" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"nz" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"oG" = (
+/obj/effect/portal/permanent{
+	color = "#FF0000";
+	id = "arenared"
+	},
+/turf/open/floor/carpet/red,
+/area/centcom/tdome/arena)
+"oJ" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"rF" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 10
+	},
+/turf/open/space/basic,
+/area/centcom/tdome/arena)
+"rX" = (
+/turf/open/floor/carpet/neon/simple/purple/nodots,
+/area/centcom/tdome/arena)
+"vc" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"vV" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"wq" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"CE" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/siding/thinplating/light/corner,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"EZ" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"Fp" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"HK" = (
+/turf/open/floor/carpet/neon/simple/red/nodots,
+/area/centcom/tdome/arena)
+"Jr" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/space/basic,
+/area/centcom/tdome/arena)
+"JZ" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"Kv" = (
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/tdome/arena)
+"Mk" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 6
+	},
+/turf/open/space/basic,
+/area/centcom/tdome/arena)
+"Mw" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"NQ" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"PD" = (
+/obj/effect/portal/permanent{
+	color = "#0000FF";
+	id = "arenablue"
+	},
+/turf/open/floor/carpet/blue,
+/area/centcom/tdome/arena)
+"TN" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"Wj" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"Wl" = (
+/obj/effect/portal/permanent{
+	color = "#0000FF";
+	id = "arenablue"
+	},
+/turf/open/floor/carpet/neon/simple/blue,
+/area/centcom/tdome/arena)
+"Xf" = (
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"XA" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 9
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+"Zz" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/fakespace{
+	density = 1
+	},
+/area/centcom/tdome/arena)
+
+(1,1,1) = {"
+Xf
+Xf
+Xf
+ih
+ki
+ki
+ki
+iB
+Xf
+Xf
+"}
+(2,1,1) = {"
+mi
+Zz
+Xf
+ih
+ki
+oG
+ki
+iB
+vV
+mi
+"}
+(3,1,1) = {"
+mf
+mA
+Zz
+ih
+ki
+ki
+ki
+Mw
+hX
+lz
+"}
+(4,1,1) = {"
+HK
+HK
+Jr
+bA
+Wj
+wq
+ip
+Mk
+rX
+rX
+"}
+(5,1,1) = {"
+HK
+HK
+HK
+HK
+NQ
+Fp
+rX
+rX
+rX
+rX
+"}
+(6,1,1) = {"
+HK
+HK
+HK
+HK
+NQ
+Fp
+rX
+rX
+rX
+rX
+"}
+(7,1,1) = {"
+HK
+HK
+HK
+HK
+NQ
+Fp
+rX
+rX
+rX
+rX
+"}
+(8,1,1) = {"
+HK
+HK
+HK
+HK
+NQ
+Fp
+rX
+rX
+rX
+rX
+"}
+(9,1,1) = {"
+fw
+fw
+fw
+fw
+NQ
+Fp
+fw
+fw
+fw
+fw
+"}
+(10,1,1) = {"
+rX
+rX
+rX
+rX
+NQ
+Fp
+Kv
+Kv
+Kv
+Kv
+"}
+(11,1,1) = {"
+rX
+rX
+rX
+rX
+NQ
+Fp
+Kv
+Kv
+Kv
+Kv
+"}
+(12,1,1) = {"
+rX
+rX
+rX
+rX
+NQ
+Fp
+Kv
+Kv
+Kv
+Kv
+"}
+(13,1,1) = {"
+rX
+rX
+rX
+rX
+NQ
+Fp
+Kv
+Kv
+Kv
+Kv
+"}
+(14,1,1) = {"
+rX
+rX
+XA
+CE
+vc
+nz
+jn
+rF
+Kv
+Kv
+"}
+(15,1,1) = {"
+lz
+XA
+EZ
+ih
+lO
+lO
+lO
+TN
+nk
+Wl
+"}
+(16,1,1) = {"
+oJ
+EZ
+Xf
+ih
+lO
+PD
+lO
+iB
+JZ
+oJ
+"}
+(17,1,1) = {"
+Xf
+Xf
+Xf
+ih
+lO
+lO
+lO
+iB
+Xf
+Xf
+"}
