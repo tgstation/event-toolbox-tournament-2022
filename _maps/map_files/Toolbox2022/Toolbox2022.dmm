@@ -41,8 +41,8 @@
 /turf/closed/indestructible/riveted,
 /area/space)
 "ai" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_ccw,
-/turf/open/floor/mineral/plastitanium,
+/obj/effect/turf_decal/trimline/blue/filled/arrow_ccw,
+/turf/open/floor/mineral/titanium/white,
 /area/space)
 "an" = (
 /turf/open/floor/grass,
@@ -113,6 +113,16 @@
 /area/space)
 "aT" = (
 /turf/open/floor/engine/air,
+/area/space)
+"aX" = (
+/obj/effect/turf_decal/trimline/blue/arrow_cw{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/arrow_cw{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/warning,
+/turf/open/floor/mineral/titanium/white,
 /area/space)
 "bb" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
@@ -316,6 +326,12 @@
 "dQ" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/carpet/neon/simple/white/nodots,
+/area/space)
+"dS" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/white,
 /area/space)
 "dW" = (
 /obj/machinery/abductor/pad,
@@ -759,6 +775,7 @@
 /turf/open/indestructible,
 /area/space)
 "jt" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner,
 /obj/effect/turf_decal/trimline/dark_red/filled,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -991,6 +1008,11 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"mt" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/siding/blue,
+/turf/open/floor/circuit,
+/area/space)
 "mu" = (
 /obj/structure/chair/stool/bar/directional/west,
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -1053,6 +1075,12 @@
 /obj/structure/chair/comfy,
 /turf/open/floor/carpet/neon/simple/white/nodots,
 /area/space)
+"mR" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/end{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "mT" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_master/condimaster{
@@ -1060,6 +1088,15 @@
 	name = "HoochMaster Deluxe"
 	},
 /turf/open/indestructible/dark,
+/area/space)
+"mV" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "mZ" = (
 /obj/effect/turf_decal/trimline/white/arrow_cw,
@@ -1080,11 +1117,11 @@
 /turf/open/floor/carpet/black,
 /area/space)
 "no" = (
-/obj/effect/turf_decal/trimline/dark_red/warning,
-/obj/effect/turf_decal/trimline/dark_red/arrow_cw{
+/obj/effect/turf_decal/trimline/blue/arrow_cw{
 	dir = 1
 	},
-/turf/open/floor/mineral/plastitanium,
+/obj/effect/turf_decal/trimline/blue/warning,
+/turf/open/floor/mineral/titanium/white,
 /area/space)
 "nu" = (
 /obj/machinery/door/airlock,
@@ -1283,6 +1320,9 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"qB" = (
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/space)
 "qI" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/window/reinforced/spawner,
@@ -1371,9 +1411,9 @@
 /turf/open/indestructible,
 /area/space)
 "sb" = (
-/obj/effect/turf_decal/trimline/red,
-/obj/effect/turf_decal/trimline/dark_red/filled,
-/turf/open/floor/mineral/plastitanium,
+/obj/effect/turf_decal/trimline/blue/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/blue/filled,
+/turf/open/floor/mineral/titanium/white,
 /area/space)
 "sd" = (
 /turf/open/floor/iron/stairs/medium,
@@ -1715,6 +1755,10 @@
 /obj/machinery/disposal/bin,
 /turf/open/indestructible,
 /area/space)
+"xO" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_white,
+/area/space)
 "xP" = (
 /obj/structure/table,
 /obj/machinery/computer/security/telescreen/entertainment/directional/south,
@@ -1734,6 +1778,13 @@
 	dir = 8
 	},
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"xU" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/siding/blue{
+	dir = 1
+	},
+/turf/open/floor/circuit,
 /area/space)
 "xX" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -2857,6 +2908,15 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"Ng" = (
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/space)
 "Nn" = (
 /obj/structure/chair/sofa/bench/corner{
 	dir = 4
@@ -3179,17 +3239,17 @@
 /turf/open/indestructible/dark,
 /area/space)
 "RT" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw{
+/obj/effect/turf_decal/trimline/blue/filled/arrow_cw{
 	dir = 1
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/titanium/white,
 /area/space)
 "RU" = (
-/obj/effect/turf_decal/trimline/dark_red/warning{
+/obj/effect/turf_decal/trimline/blue/arrow_ccw,
+/obj/effect/turf_decal/trimline/blue/warning{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/dark_red/arrow_ccw,
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/titanium/white,
 /area/space)
 "RX" = (
 /obj/structure/chair{
@@ -12087,16 +12147,16 @@ OK
 qq
 FE
 PF
-cs
+mt
 RU
-TF
-TF
-TF
-TF
-TF
-TF
+xO
+xO
+xO
+xO
+xO
+xO
 no
-WZ
+xU
 PF
 FE
 OK
@@ -12217,16 +12277,16 @@ OK
 qq
 FE
 PF
-cs
+mt
 RU
-TF
-NX
+xO
+qB
 RT
 ai
-NX
-TF
+qB
+xO
 no
-WZ
+xU
 PF
 FE
 OK
@@ -12347,16 +12407,16 @@ OK
 qq
 FE
 PF
-cs
+mt
 RU
-TF
-sb
-RT
+xO
+dS
+Ng
 ai
 sb
-TF
+xO
 no
-WZ
+xU
 PF
 FE
 OK
@@ -12477,16 +12537,16 @@ OK
 qq
 Ll
 PF
-cs
+mt
 RU
-TF
-NX
+xO
+qB
 RT
 ai
-NX
-TF
+qB
+xO
 no
-WZ
+xU
 PF
 Ll
 OK
@@ -12607,16 +12667,16 @@ zJ
 XO
 PF
 PF
-cs
+mt
 RU
-TF
-TF
-TF
-TF
-TF
-TF
-no
-WZ
+xO
+xO
+xO
+xO
+xO
+xO
+aX
+xU
 PF
 PF
 zJ
@@ -15470,8 +15530,8 @@ PF
 cs
 Jb
 TF
-jt
-ye
+mR
+mV
 wN
 jt
 TF
