@@ -259,7 +259,6 @@
 /obj/machinery/button/door/directional/north{
 	id = "kitchen_arena";
 	name = "Counter Shutters Control";
-	req_access = list("kitchen");
 	pixel_y = 30
 	},
 /obj/effect/decal/cleanable/blood,
@@ -359,6 +358,9 @@
 /area/centcom/tdome/arena)
 "Ty" = (
 /obj/effect/spawner/structure/window,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchen_arena"
+	},
 /turf/open/floor/iron/cafeteria,
 /area/centcom/tdome/arena)
 "Um" = (
