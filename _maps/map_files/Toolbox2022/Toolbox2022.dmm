@@ -35,13 +35,13 @@
 /turf/open/floor/glass,
 /area/space)
 "ah" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/carpet/black,
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/space)
 "ai" = (
 /obj/effect/turf_decal/trimline/blue/filled/arrow_ccw,
@@ -71,6 +71,12 @@
 /obj/item/kirbyplants/photosynthetic,
 /turf/open/floor/plating/abductor,
 /area/event)
+"ax" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/indestructible/dark,
+/area/space)
 "ay" = (
 /turf/closed/indestructible/rock,
 /area/space)
@@ -171,15 +177,6 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
-"bB" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 9
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "bF" = (
 /obj/structure/table,
 /obj/machinery/processor{
@@ -234,6 +231,15 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"cq" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/indestructible/dark,
+/area/space)
 "cs" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/siding/dark_red,
@@ -268,6 +274,15 @@
 /obj/machinery/door/airlock,
 /turf/open/indestructible,
 /area/space)
+"cF" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "cH" = (
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
 /turf/open/floor/mineral/plastitanium,
@@ -296,10 +311,22 @@
 	initial_gas_mix = "TEMP=2.7"
 	},
 /area/event)
+"dh" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
 "dl" = (
 /obj/structure/table,
 /obj/effect/turf_decal/trimline/neutral/filled/corner,
 /turf/open/indestructible/dark,
+/area/space)
+"dm" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/iron/checker,
 /area/space)
 "ds" = (
 /obj/structure/showcase/machinery/implanter{
@@ -329,13 +356,6 @@
 /obj/machinery/chem_dispenser/drinks/fullupgrade,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
-"dO" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/carpet/black,
-/area/space)
 "dP" = (
 /obj/structure/fluff{
 	deconstructible = 0;
@@ -355,22 +375,6 @@
 "dQ" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/carpet/neon/simple/white/nodots,
-/area/space)
-"dR" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "garbage"
-	},
-/obj/machinery/door/window{
-	base_state = "right";
-	dir = 4;
-	icon_state = "right";
-	layer = 3
-	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
 /area/space)
 "dS" = (
 /obj/effect/turf_decal/trimline/blue/filled/end{
@@ -412,6 +416,13 @@
 /obj/structure/chair/sofa/bench/right,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible,
+/area/space)
+"ex" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "eF" = (
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
@@ -498,15 +509,6 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
-"fu" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "fv" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/light/dim/directional/east,
@@ -525,13 +527,6 @@
 /obj/item/training_toolbox,
 /turf/open/misc/ironsand,
 /area/space)
-"fy" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "fz" = (
 /obj/structure/table,
 /obj/item/reagent_containers/spray/cleaner,
@@ -543,10 +538,8 @@
 	},
 /turf/open/indestructible,
 /area/space)
-"fA" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 4
-	},
+"fH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -668,13 +661,6 @@
 /obj/effect/turf_decal/trimline/neutral/filled/warning,
 /turf/open/indestructible/dark,
 /area/space)
-"ha" = (
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/space)
 "hg" = (
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/carpet/royalblack,
@@ -682,10 +668,6 @@
 "hj" = (
 /obj/structure/chair/sofa/bench/right,
 /turf/open/floor/carpet/black,
-/area/space)
-"hm" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible,
 /area/space)
 "hn" = (
 /obj/structure/railing,
@@ -778,15 +760,6 @@
 	},
 /turf/open/floor/catwalk_floor/iron_white,
 /area/space)
-"iA" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "iB" = (
 /obj/structure/chair/comfy{
 	dir = 1
@@ -826,6 +799,15 @@
 /obj/item/binoculars,
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"iO" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "iQ" = (
 /obj/structure/chair{
 	dir = 1
@@ -843,19 +825,6 @@
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/mineral/titanium/white,
 /area/event)
-"jd" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/iron/checker,
-/area/space)
-"jl" = (
-/obj/machinery/light/dim/directional/east,
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/turf/open/floor/iron/dark/textured_large,
-/area/space)
 "jo" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 4
@@ -902,6 +871,13 @@
 	icon_state = "ironsand12"
 	},
 /area/space)
+"jH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 8
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "jI" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
@@ -915,6 +891,14 @@
 	dir = 4
 	},
 /turf/open/indestructible/dark,
+/area/space)
+"jM" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/space)
 "jN" = (
 /obj/structure/chair{
@@ -965,20 +949,13 @@
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/wood,
 /area/space)
-"kk" = (
-/obj/structure/table,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/checker,
-/area/space)
-"ko" = (
-/obj/machinery/door/airlock/maintenance_hatch,
+"kf" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/floor/carpet/black,
 /area/space)
 "kr" = (
 /turf/open/misc/ironsand,
@@ -1002,6 +979,14 @@
 /obj/machinery/vending/clothing,
 /turf/open/floor/mineral/titanium/white,
 /area/space)
+"kK" = (
+/obj/structure/chair/stool/bar/directional/north,
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/checker,
+/area/space)
 "kL" = (
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/dark/textured_large,
@@ -1018,12 +1003,6 @@
 	initial_gas_mix = "TEMP=2.7"
 	},
 /area/event)
-"kU" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk,
-/turf/open/indestructible/dark,
-/area/space)
 "kW" = (
 /obj/structure/transit_tube/curved/flipped{
 	dir = 8
@@ -1034,6 +1013,15 @@
 /obj/structure/table/reinforced,
 /obj/item/fireaxe/metal_h2_axe,
 /turf/open/floor/carpet/royalblack,
+/area/space)
+"ld" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "le" = (
 /obj/effect/turf_decal/trimline/white/filled/corner,
@@ -1047,23 +1035,6 @@
 	dir = 1
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
-"li" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 4
-	},
-/obj/structure/disposalpipe/junction/flip,
-/turf/open/floor/carpet/black,
-/area/space)
-"ls" = (
-/mob/living/simple_animal/hostile/asteroid/basilisk{
-	faction = list("neutral");
-	wander = 0;
-	name = "Basil'isk";
-	desc = "Just chilling."
-	},
-/obj/structure/chair/plastic,
-/turf/open/misc/asteroid/airless,
 /area/space)
 "lz" = (
 /turf/open/floor/iron/stairs/medium{
@@ -1178,16 +1149,6 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
-"mB" = (
-/obj/machinery/conveyor{
-	dir = 5;
-	id = "garbage"
-	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
-/area/space)
 "mD" = (
 /obj/structure/table/abductor,
 /obj/item/toy/plush/abductor,
@@ -1296,21 +1257,14 @@
 "nF" = (
 /turf/open/misc/asteroid/snow/coldroom,
 /area/space)
-"nH" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/carpet/black,
-/area/space)
-"nL" = (
-/obj/structure/disposalpipe/segment{
+"nN" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
+/obj/structure/disposalpipe/segment{
+	dir = 9
 	},
+/turf/open/floor/carpet/black,
 /area/space)
 "nT" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -1328,33 +1282,11 @@
 /obj/structure/hedge,
 /turf/open/indestructible/dark,
 /area/space)
-"oc" = (
-/obj/machinery/light/dim/directional/west,
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/open/floor/iron/dark/textured_large,
-/area/space)
-"od" = (
-/obj/structure/disposalpipe/junction/yjunction{
-	dir = 1
-	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
-/area/space)
 "oj" = (
 /obj/structure/railing/corner{
 	dir = 8
 	},
 /turf/open/floor/catwalk_floor/iron_white,
-/area/space)
-"on" = (
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
-/turf/open/floor/carpet/black,
 /area/space)
 "oq" = (
 /obj/structure/sign/warning/vacuum/external/directional/south,
@@ -1383,15 +1315,6 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
-"oD" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "oI" = (
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -1400,15 +1323,6 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
-"oK" = (
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
 /area/space)
 "oM" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -1457,15 +1371,6 @@
 	icon_state = "ironsand3"
 	},
 /area/space)
-"pp" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 10
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "pr" = (
 /obj/structure/table,
 /turf/open/floor/iron/cafeteria,
@@ -1509,6 +1414,13 @@
 /obj/structure/statue/elder_atmosian,
 /turf/open/floor/carpet/royalblack,
 /area/space)
+"pM" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/black,
+/area/space)
 "pO" = (
 /turf/open/floor/iron/cafeteria,
 /area/space)
@@ -1541,6 +1453,13 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
+"qh" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/black,
+/area/space)
 "qq" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/carpet/black,
@@ -1552,20 +1471,6 @@
 	sign_change_name = "Warning - Do not attempt to pet"
 	},
 /turf/open/indestructible/dark,
-/area/space)
-"qt" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/indestructible/dark,
-/area/space)
-"qv" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/carpet/black,
 /area/space)
 "qB" = (
 /turf/open/floor/mineral/titanium/tiled/blue,
@@ -1587,10 +1492,21 @@
 /obj/effect/turf_decal/siding/purple/end,
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"qQ" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/space)
 "qT" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/light/dim/directional/east,
+/turf/open/indestructible,
+/area/space)
+"ra" = (
+/obj/structure/disposalpipe/segment,
 /turf/open/indestructible,
 /area/space)
 "rm" = (
@@ -1604,22 +1520,16 @@
 /obj/machinery/light/dim/directional/west,
 /turf/open/indestructible/dark,
 /area/space)
-"rq" = (
-/turf/closed/indestructible/opshuttle,
-/area/space)
-"rr" = (
-/obj/machinery/disposal/delivery_chute{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/structure/disposalpipe/trunk,
-/obj/structure/window/reinforced,
+"rp" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/structure/disposalpipe/segment,
 /turf/open/indestructible{
 	icon_state = "plating";
 	name = "plating"
 	},
+/area/space)
+"rq" = (
+/turf/closed/indestructible/opshuttle,
 /area/space)
 "rw" = (
 /obj/structure/hedge,
@@ -1632,18 +1542,18 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
-"rA" = (
-/obj/structure/closet/secure_closet/freezer/meat,
-/turf/open/misc/asteroid/snow/coldroom,
-/area/space)
-"rC" = (
+"ry" = (
 /obj/structure/disposalpipe/segment{
-	dir = 5
+	dir = 6
 	},
 /turf/open/indestructible{
 	icon_state = "plating";
 	name = "plating"
 	},
+/area/space)
+"rA" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/misc/asteroid/snow/coldroom,
 /area/space)
 "rD" = (
 /obj/effect/turf_decal/siding/dark/corner{
@@ -1651,13 +1561,6 @@
 	},
 /turf/open/floor/plating/abductor,
 /area/event)
-"rH" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/carpet/black,
-/area/space)
 "rN" = (
 /obj/machinery/vending/coffee{
 	onstation = 0
@@ -1716,15 +1619,6 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/black,
-/area/space)
-"st" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
 /area/space)
 "sy" = (
 /obj/structure/table/reinforced,
@@ -1800,6 +1694,13 @@
 "ty" = (
 /turf/closed/wall/mineral/abductor,
 /area/event)
+"tz" = (
+/obj/machinery/light/dim/directional/west,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
 "tF" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 1
@@ -1825,15 +1726,6 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
-"tZ" = (
-/obj/effect/turf_decal/trimline/neutral/filled/line{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/indestructible/dark,
-/area/space)
 "uc" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/flora/bush/grassy/style_2,
@@ -1851,6 +1743,13 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"uj" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/black,
 /area/space)
 "uk" = (
 /obj/structure/chair/sofa/bench/left{
@@ -1905,18 +1804,25 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"uM" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
+/obj/machinery/door/window{
+	base_state = "right";
+	dir = 4;
+	icon_state = "right";
+	layer = 3
+	},
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/space)
 "uZ" = (
 /obj/structure/rack,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
-"va" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 1
-	},
-/obj/structure/disposalpipe/junction{
-	dir = 8
-	},
-/turf/open/floor/carpet/black,
 /area/space)
 "vb" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
@@ -1982,12 +1888,24 @@
 /obj/machinery/door/airlock,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"vW" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
+/turf/open/indestructible/dark,
+/area/space)
 "wf" = (
 /obj/effect/turf_decal/trimline/neutral/line,
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
 /turf/open/indestructible,
+/area/space)
+"wr" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "ws" = (
 /obj/effect/turf_decal/trimline/white/arrow_cw,
@@ -2037,22 +1955,6 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
-"xd" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/structure/disposalpipe/junction/yjunction{
-	dir = 8
-	},
-/turf/open/floor/carpet/black,
-/area/space)
-"xf" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "xj" = (
 /obj/structure/transit_tube/station/dispenser{
 	dir = 4
@@ -2060,24 +1962,9 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible/dark,
 /area/space)
-"xk" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
-	},
-/obj/structure/disposalpipe/junction/yjunction,
-/turf/open/floor/carpet/black,
-/area/space)
 "xm" = (
 /obj/structure/railing/corner,
 /turf/open/floor/catwalk_floor/iron_white,
-/area/space)
-"xo" = (
-/obj/structure/chair/stool/bar/directional/north,
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/checker,
 /area/space)
 "xt" = (
 /obj/structure/sink/kitchen{
@@ -2092,11 +1979,21 @@
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
 "xw" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/disposalpipe/segment{
-	dir = 5
+	dir = 4
 	},
-/turf/open/floor/carpet/black,
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/space)
+"xx" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/turf/open/indestructible/dark,
 /area/space)
 "xE" = (
 /obj/machinery/disposal/bin,
@@ -2104,6 +2001,15 @@
 	dir = 1
 	},
 /turf/open/indestructible,
+/area/space)
+"xH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "xO" = (
 /obj/structure/cable,
@@ -2187,6 +2093,21 @@
 /obj/structure/table/reinforced,
 /turf/open/indestructible/dark,
 /area/space)
+"yu" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/space)
+"yv" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "yE" = (
 /obj/item/kirbyplants/photosynthetic,
 /obj/effect/turf_decal/siding/dark{
@@ -2204,6 +2125,14 @@
 	icon_state = "scrub_on";
 	max_integrity = 99999;
 	name = "air scrubber"
+	},
+/turf/open/indestructible/dark,
+/area/space)
+"yM" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
 	},
 /turf/open/indestructible/dark,
 /area/space)
@@ -2246,16 +2175,6 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/event)
-"zl" = (
-/obj/machinery/conveyor{
-	dir = 1;
-	id = "garbage"
-	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
-/area/space)
 "zo" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/trimline/dark_red/corner{
@@ -2267,15 +2186,6 @@
 /obj/item/stack/ore/bananium,
 /obj/structure/table/reinforced,
 /turf/open/floor/carpet/royalblack,
-/area/space)
-"zy" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
 /area/space)
 "zF" = (
 /obj/structure/window/reinforced/spawner,
@@ -2301,6 +2211,15 @@
 /area/space)
 "zT" = (
 /turf/open/floor/mineral/titanium/white,
+/area/space)
+"zX" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "Ai" = (
 /obj/structure/chair/comfy/shuttle,
@@ -2341,13 +2260,6 @@
 /obj/structure/table/reinforced/rglass,
 /obj/item/screwdriver,
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/space)
-"AD" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/structure/disposalpipe/junction/yjunction{
-	dir = 1
-	},
-/turf/open/floor/carpet/black,
 /area/space)
 "AG" = (
 /obj/structure/table/reinforced,
@@ -2431,6 +2343,11 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"Bu" = (
+/obj/structure/table,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/checker,
+/area/space)
 "Bv" = (
 /obj/structure/table/abductor,
 /obj/item/organ/internal/heart/gland/trauma,
@@ -2451,6 +2368,16 @@
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"BH" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "BN" = (
 /obj/structure/railing{
@@ -2580,6 +2507,13 @@
 /obj/structure/chair/comfy,
 /turf/open/floor/carpet/neon/simple/white/nodots,
 /area/space)
+"CU" = (
+/obj/machinery/light/dim/directional/west,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
 "CY" = (
 /obj/structure/cable,
 /obj/machinery/door/poddoor{
@@ -2587,15 +2521,6 @@
 	name = "Thunderdome Blast Door"
 	},
 /turf/open/floor/engine/air,
-/area/space)
-"Dd" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/carpet/black,
 /area/space)
 "Dk" = (
 /obj/effect/turf_decal/siding/dark/corner{
@@ -2625,19 +2550,10 @@
 /obj/item/clothing/under/costume/gladiator,
 /turf/open/misc/ironsand,
 /area/space)
-"Dw" = (
-/obj/machinery/light/dim/directional/east,
-/obj/structure/disposalpipe/segment{
-	dir = 10
+"Dy" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
 	},
-/turf/open/floor/iron/dark/textured_large,
-/area/space)
-"DD" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/carpet/black,
-/area/space)
-"DF" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -2685,10 +2601,6 @@
 	initial_gas_mix = "TEMP=2.7"
 	},
 /area/event)
-"Ek" = (
-/obj/structure/disposalpipe/junction,
-/turf/open/floor/iron/checker,
-/area/space)
 "Eo" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
@@ -2747,6 +2659,13 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible/dark,
 /area/space)
+"EV" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/disposalpipe/junction/yjunction,
+/turf/open/floor/carpet/black,
+/area/space)
 "EW" = (
 /obj/structure/fluff{
 	deconstructible = 0;
@@ -2777,6 +2696,10 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
+"Fe" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/checker,
+/area/space)
 "Fk" = (
 /obj/machinery/vending/wardrobe/chef_wardrobe,
 /turf/open/floor/iron/cafeteria,
@@ -2794,13 +2717,6 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
-/area/space)
-"Fo" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/structure/disposalpipe/junction{
-	dir = 1
-	},
-/turf/open/indestructible/dark,
 /area/space)
 "Fp" = (
 /obj/machinery/abductor/console,
@@ -2829,18 +2745,18 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/event)
-"Fu" = (
-/turf/open/floor/mineral/titanium/white,
-/area/event)
-"Fw" = (
+"Ft" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 6
+	dir = 10
 	},
 /obj/structure/disposalpipe/segment{
-	dir = 10
+	dir = 6
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"Fu" = (
+/turf/open/floor/mineral/titanium/white,
+/area/event)
 "Fx" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 8
@@ -2849,6 +2765,22 @@
 	dir = 4
 	},
 /turf/open/indestructible/dark,
+/area/space)
+"Fz" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "garbage"
+	},
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/space)
+"FD" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "FE" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -2861,16 +2793,6 @@
 	},
 /turf/open/floor/glass/plasma,
 /area/event)
-"FJ" = (
-/obj/machinery/door/airlock/public/glass,
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "FM" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/stripes/white/corner{
@@ -2878,13 +2800,6 @@
 	},
 /obj/structure/sign/warning/xeno_mining/directional/east,
 /turf/open/indestructible/dark,
-/area/space)
-"FN" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
 /area/space)
 "FV" = (
 /obj/structure/table/reinforced/rglass,
@@ -2907,6 +2822,12 @@
 "FY" = (
 /turf/open/floor/mineral/titanium/tiled,
 /area/space)
+"FZ" = (
+/obj/structure/disposalpipe/junction/flip{
+	dir = 8
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "Gc" = (
 /obj/structure/bed,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -2915,6 +2836,11 @@
 	},
 /obj/item/bedsheet/purple,
 /turf/open/indestructible/dark,
+/area/space)
+"Gf" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/black,
 /area/space)
 "Gg" = (
 /obj/structure/chair/comfy,
@@ -2970,6 +2896,13 @@
 	initial_gas_mix = "TEMP=2.7"
 	},
 /area/event)
+"GR" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/black,
+/area/space)
 "GV" = (
 /obj/machinery/chem_master/condimaster{
 	desc = "Looks like a knock-off chem-master. Perhaps useful for separating liquids when mixing drinks precisely. Also dispenses condiments.";
@@ -3024,6 +2957,16 @@
 /obj/effect/turf_decal/trimline/white/line,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"HS" = (
+/obj/machinery/conveyor{
+	dir = 5;
+	id = "garbage"
+	},
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/space)
 "HV" = (
 /turf/open/misc/ironsand{
 	icon_state = "ironsand13"
@@ -3065,22 +3008,31 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
-"Iw" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "IC" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/table,
 /obj/machinery/light/dim/directional/east,
 /turf/open/indestructible/dark,
 /area/space)
+"IE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/space)
 "IG" = (
 /obj/structure/statue/bananium/clown,
 /turf/open/floor/carpet/royalblack,
+/area/space)
+"IP" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/structure/disposalpipe/junction/flip,
+/turf/open/floor/carpet/black,
 /area/space)
 "IR" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
@@ -3122,16 +3074,39 @@
 	},
 /turf/open/indestructible,
 /area/space)
+"JH" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/indestructible/dark,
+/area/space)
 "JK" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/toy/plush/slimeplushie,
 /turf/open/floor/carpet/neon/simple/white/nodots,
+/area/space)
+"JM" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "JV" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 9
 	},
 /turf/open/indestructible,
+/area/space)
+"Ka" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "Kc" = (
 /obj/structure/transit_tube/curved{
@@ -3166,13 +3141,6 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
-"Ko" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 10
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/carpet/black,
-/area/space)
 "Kp" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -3203,6 +3171,15 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"KF" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "KO" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	dir = 4
@@ -3210,10 +3187,11 @@
 /turf/open/floor/mineral/titanium,
 /area/space)
 "KQ" = (
+/obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/disposalpipe/segment{
-	dir = 5
+	dir = 4
 	},
-/turf/open/floor/iron/checker,
+/turf/open/space/basic,
 /area/space)
 "KT" = (
 /obj/machinery/vending/clothing{
@@ -3249,12 +3227,6 @@
 /obj/effect/turf_decal/siding/purple,
 /turf/open/floor/mineral/titanium/white,
 /area/event)
-"Lz" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/textured_large,
-/area/space)
 "LC" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 8
@@ -3288,11 +3260,16 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
-"LN" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
+"LP" = (
+/obj/machinery/conveyor_switch/oneway{
+	dir = 8;
+	id = "garbage";
+	name = "disposal conveyor"
 	},
-/turf/open/floor/carpet/black,
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/space)
 "LU" = (
 /turf/open/indestructible/dark,
@@ -3350,21 +3327,19 @@
 /obj/machinery/computer/security/telescreen/entertainment/directional/west,
 /turf/open/floor/iron/checker,
 /area/space)
+"Mv" = (
+/obj/machinery/light/dim/directional/east,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
 "Mw" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/vending/clothing{
 	onstation = 0
 	},
 /turf/open/indestructible/dark,
-/area/space)
-"MC" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/carpet/black,
 /area/space)
 "MF" = (
 /obj/effect/turf_decal/trimline/white/corner{
@@ -3423,15 +3398,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
-"Nv" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 5
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "Nz" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 4
@@ -3454,6 +3420,12 @@
 	pixel_y = 32
 	},
 /turf/open/indestructible,
+/area/space)
+"NI" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/iron/checker,
 /area/space)
 "NJ" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -3496,35 +3468,11 @@
 	},
 /turf/open/floor/plating/abductor,
 /area/event)
-"OG" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 5
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "OH" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
-/area/space)
-"OI" = (
-/obj/structure/disposalpipe/junction{
-	dir = 8
-	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
-/area/space)
-"OJ" = (
-/obj/structure/disposalpipe/junction/flip{
-	dir = 8
-	},
-/turf/open/floor/carpet/black,
 /area/space)
 "OK" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -3540,6 +3488,15 @@
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"OQ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/space)
 "OS" = (
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/mineral/plastitanium,
@@ -3551,12 +3508,13 @@
 /turf/open/floor/carpet/black,
 /area/space)
 "OW" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/maintenance_hatch,
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "Pa" = (
 /mob/living/simple_animal/hostile/carp/holocarp,
@@ -3635,32 +3593,18 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/mineral/titanium/white,
 /area/space)
-"PT" = (
-/obj/machinery/door/airlock/public/glass,
-/obj/effect/turf_decal/siding/thinplating_new/dark,
+"PV" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/turf/open/floor/carpet/black,
-/area/space)
-"PZ" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 6
 	},
 /turf/open/floor/carpet/black,
 /area/space)
 "Qc" = (
 /obj/structure/chair/sofa/bench/right,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/indestructible/dark,
-/area/space)
-"Qe" = (
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
 /turf/open/indestructible/dark,
 /area/space)
 "Qq" = (
@@ -3694,6 +3638,17 @@
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"QM" = (
+/obj/structure/disposalpipe/junction,
+/turf/open/floor/iron/checker,
+/area/space)
+"QO" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "QT" = (
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
 	dir = 4
@@ -3719,6 +3674,12 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"Ra" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/space)
 "Rg" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /mob/living/simple_animal/crab/coffee,
@@ -3738,17 +3699,6 @@
 "Rr" = (
 /obj/structure/transit_tube,
 /turf/open/misc/asteroid,
-/area/space)
-"Rt" = (
-/obj/machinery/conveyor_switch/oneway{
-	dir = 8;
-	id = "garbage";
-	name = "disposal conveyor"
-	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
 /area/space)
 "Rx" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -3796,15 +3746,6 @@
 	},
 /turf/open/floor/glass/plasma,
 /area/event)
-"RP" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/turf/open/floor/carpet/black,
-/area/space)
 "RS" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/door/airlock/public/glass{
@@ -3831,6 +3772,15 @@
 	},
 /obj/effect/turf_decal/trimline/dark_red/corner,
 /turf/open/floor/iron/checker,
+/area/space)
+"Sa" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "Sb" = (
 /turf/open/floor/iron/dark/smooth_half,
@@ -3862,20 +3812,21 @@
 /obj/item/organ/internal/heart/gland/heal,
 /turf/open/floor/glass/plasma,
 /area/event)
-"SJ" = (
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/structure/disposalpipe/segment,
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
-/area/space)
 "SK" = (
 /obj/effect/turf_decal/trimline/white/filled/line,
 /obj/effect/turf_decal/trimline/white/arrow_ccw{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
+/area/space)
+"SM" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "SN" = (
 /obj/structure/table/optable,
@@ -3923,6 +3874,20 @@
 	},
 /obj/effect/turf_decal/trimline/dark_red/warning,
 /turf/open/indestructible/dark,
+/area/space)
+"Td" = (
+/obj/machinery/disposal/delivery_chute{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/disposalpipe/trunk,
+/obj/structure/window/reinforced,
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/space)
 "Th" = (
 /obj/effect/turf_decal/siding/dark/corner{
@@ -3980,6 +3945,15 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"TM" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "TQ" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -3993,10 +3967,6 @@
 /turf/open/floor/iron/stairs/medium{
 	dir = 1
 	},
-/area/space)
-"TV" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/checker,
 /area/space)
 "TX" = (
 /obj/structure/table,
@@ -4031,6 +4001,16 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible,
 /area/space)
+"Uu" = (
+/mob/living/simple_animal/hostile/asteroid/basilisk{
+	faction = list("neutral");
+	wander = 0;
+	name = "Basil'isk";
+	desc = "Just chilling."
+	},
+/obj/structure/chair/plastic,
+/turf/open/misc/asteroid/airless,
+/area/space)
 "Uv" = (
 /turf/open/floor/mineral/silver,
 /area/space)
@@ -4038,11 +4018,23 @@
 /obj/machinery/griddle,
 /turf/open/floor/iron/cafeteria,
 /area/space)
-"UK" = (
+"UO" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/floor/iron/checker,
+/turf/open/floor/carpet/black,
+/area/space)
+"US" = (
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 1
+	},
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/space)
 "UV" = (
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
@@ -4163,8 +4155,24 @@
 	},
 /turf/open/misc/asteroid,
 /area/space)
+"WD" = (
+/obj/machinery/light/dim/directional/east,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/space)
 "WF" = (
 /turf/open/misc/asteroid,
+/area/space)
+"WG" = (
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
+/turf/open/indestructible{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/space)
 "WI" = (
 /obj/structure/chair/sofa/bench/right{
@@ -4258,13 +4266,6 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/carpet/black,
 /area/space)
-"XZ" = (
-/obj/machinery/light/dim/directional/west,
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
-/turf/open/floor/iron/dark/textured_large,
-/area/space)
 "Ya" = (
 /turf/open/floor/plating/abductor,
 /area/event)
@@ -4314,6 +4315,13 @@
 /obj/item/reagent_containers/food/condiment/sugar,
 /turf/open/indestructible/dark,
 /area/space)
+"YZ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 1
+	},
+/turf/open/floor/carpet/black,
+/area/space)
 "Zf" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/clothing/under/costume/gladiator,
@@ -4330,14 +4338,6 @@
 "Zr" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/white,
-/area/space)
-"Zv" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
-/turf/open/indestructible/dark,
 /area/space)
 "ZC" = (
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
@@ -7180,9 +7180,9 @@ ay
 ay
 ay
 PF
-mB
-zl
-zl
+HS
+Fz
+Fz
 ch
 PF
 ay
@@ -7312,21 +7312,21 @@ ay
 PF
 XJ
 bj
-Rt
-nL
+LP
+ah
 PF
 PF
 PF
 PF
 PF
-oK
-FN
-FN
-FN
-FN
-FN
-FN
-rC
+ry
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+OQ
 PF
 ay
 ay
@@ -7440,23 +7440,23 @@ ay
 ay
 ay
 PF
-dR
+uM
 bj
 bj
-nL
+ah
 PF
-oK
-FN
-FN
-FN
-st
-PF
-PF
+ry
+qQ
+qQ
+qQ
+IE
 PF
 PF
 PF
 PF
-nL
+PF
+PF
+ah
 PF
 ay
 ay
@@ -7570,12 +7570,12 @@ ay
 ay
 ay
 PF
-rr
-FN
-FN
-OI
+Td
+qQ
+qQ
+WG
 PF
-nL
+ah
 PF
 PF
 PF
@@ -7586,7 +7586,7 @@ FE
 FE
 FE
 PF
-nL
+ah
 PF
 ay
 aa
@@ -7703,9 +7703,9 @@ PF
 PF
 PF
 PF
-ko
+xw
 PF
-nL
+ah
 PF
 aB
 aB
@@ -7716,7 +7716,7 @@ Av
 oA
 FE
 PF
-nL
+ah
 PF
 ay
 ay
@@ -7833,9 +7833,9 @@ bj
 bj
 bj
 bj
-zy
-FN
-od
+yu
+qQ
+US
 PF
 Wf
 Wf
@@ -7846,7 +7846,7 @@ OV
 qq
 FE
 PF
-nL
+ah
 PF
 ay
 ay
@@ -7965,7 +7965,7 @@ PF
 PF
 PF
 PF
-nL
+ah
 PF
 PF
 PF
@@ -7976,7 +7976,7 @@ OK
 qq
 FE
 PF
-nL
+ah
 PF
 PF
 PF
@@ -8095,18 +8095,18 @@ PF
 PF
 ay
 PF
-zy
-FN
-FN
-FN
-FN
-SJ
-Fo
-fu
+yu
+qQ
+qQ
+qQ
+qQ
+rp
+xx
+OW
 qq
 FE
 PF
-nL
+ah
 PF
 hO
 OH
@@ -8232,11 +8232,11 @@ PF
 PF
 PF
 Tl
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 lU
 Jv
@@ -8362,11 +8362,11 @@ ay
 ay
 PF
 fT
-ah
+SM
 qq
 fg
 PF
-nL
+ah
 PF
 hg
 Nq
@@ -8492,11 +8492,11 @@ PF
 ay
 PF
 Hh
-ah
+SM
 qq
 ZT
 PF
-nL
+ah
 PF
 aG
 XG
@@ -8622,11 +8622,11 @@ PF
 PF
 PF
 Rl
-ah
+SM
 qq
 xZ
 PF
-nL
+ah
 PF
 FE
 FE
@@ -8738,13 +8738,13 @@ Kk
 LU
 LU
 GI
-Qe
+ax
 gH
-xo
-TV
-TV
-TV
-KQ
+kK
+Fe
+Fe
+Fe
+NI
 QU
 QU
 QU
@@ -8752,11 +8752,11 @@ QU
 xb
 PF
 rm
-ah
+SM
 qq
 eL
 PF
-nL
+ah
 PF
 FE
 FE
@@ -8874,19 +8874,19 @@ bl
 QU
 QU
 kN
-jd
+Ra
 QU
 kN
 QU
 QU
-jd
+Ra
 gu
 FE
-ah
+SM
 qq
 Rx
 PF
-ko
+xw
 PF
 Eo
 Av
@@ -9004,21 +9004,21 @@ bl
 QU
 iS
 TX
-UK
-TV
-kk
-TV
-TV
-Ek
+dm
+Fe
+Bu
+Fe
+Fe
+QM
 jX
-nH
-va
+uj
+ld
 Cj
 Av
 Av
 pH
 Vf
-xf
+zX
 jO
 jO
 HB
@@ -9142,13 +9142,13 @@ QU
 QU
 ux
 jq
-iA
+iO
 AW
 jq
 jq
 oY
 Ld
-iA
+iO
 jO
 jO
 HB
@@ -9272,13 +9272,13 @@ HA
 jN
 gu
 FE
-ah
+SM
 qq
 Rx
 PF
-ko
+xw
 PF
-OG
+xH
 jq
 jq
 PF
@@ -9402,11 +9402,11 @@ PF
 PF
 PF
 rm
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 Pn
 FE
@@ -9532,11 +9532,11 @@ yl
 UF
 PF
 Mr
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 Cr
 FE
@@ -9662,11 +9662,11 @@ pO
 pO
 PF
 FE
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 Nb
 Uk
@@ -9792,11 +9792,11 @@ BA
 xt
 PF
 FE
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 EZ
 Nq
@@ -9922,11 +9922,11 @@ pO
 pO
 vV
 FE
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 lU
 Jv
@@ -10052,11 +10052,11 @@ bF
 Fk
 PF
 FE
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 fP
 Eu
@@ -10182,11 +10182,11 @@ PF
 PF
 PF
 FE
-ah
+SM
 qq
 eL
 PF
-nL
+ah
 PF
 PF
 PF
@@ -10312,11 +10312,11 @@ VV
 rA
 PF
 Xj
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 ay
 ay
@@ -10442,11 +10442,11 @@ nF
 nF
 PF
 ca
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 PF
 PF
@@ -10572,17 +10572,17 @@ cA
 Pg
 PF
 FE
-ah
+SM
 qq
 FE
 PF
-zy
-FN
-FN
-FN
-FN
-FN
-rC
+yu
+qQ
+qQ
+qQ
+qQ
+qQ
+OQ
 bj
 PF
 PF
@@ -10702,7 +10702,7 @@ PF
 PF
 PF
 rm
-ah
+SM
 qq
 nh
 PF
@@ -10712,7 +10712,7 @@ PF
 PF
 PF
 PF
-ko
+xw
 PF
 PF
 JB
@@ -10832,7 +10832,7 @@ FE
 FE
 oM
 Mr
-ah
+SM
 qq
 FE
 oM
@@ -10842,7 +10842,7 @@ FE
 FE
 FE
 FE
-qt
+JH
 Gk
 gu
 rw
@@ -10962,7 +10962,7 @@ Av
 Av
 Av
 Av
-MC
+PV
 Cj
 Av
 Av
@@ -10972,12 +10972,12 @@ Av
 Av
 Av
 Av
-Dd
-PZ
+KF
+cF
 sq
-Ko
+GR
 ZJ
-hm
+ra
 id
 yg
 bb
@@ -11092,7 +11092,7 @@ jO
 jO
 jO
 jO
-DF
+wr
 jO
 jO
 jO
@@ -11102,8 +11102,8 @@ jO
 jO
 jO
 jO
-OJ
-LN
+FZ
+yv
 gu
 Cz
 vP
@@ -11208,21 +11208,21 @@ jq
 jq
 jq
 OV
-fy
-rH
-rH
-rH
-rH
-rH
-rH
-rH
-rH
-li
-rH
-rH
-rH
-rH
-oD
+ex
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+qh
+IP
+qh
+qh
+qh
+qh
+nN
 AW
 jq
 jq
@@ -11232,7 +11232,7 @@ jq
 jq
 jq
 jq
-fA
+Dy
 jq
 vl
 nl
@@ -11338,7 +11338,7 @@ FE
 ff
 FE
 OK
-qv
+fH
 FE
 Pt
 jQ
@@ -11362,7 +11362,7 @@ FE
 FE
 FE
 FE
-qt
+JH
 WL
 gu
 rw
@@ -11468,7 +11468,7 @@ PF
 PF
 rm
 OK
-qv
+fH
 nh
 PF
 PF
@@ -11492,7 +11492,7 @@ PF
 PF
 PF
 PF
-ha
+KQ
 PF
 PF
 NF
@@ -11586,43 +11586,43 @@ aa
 aa
 aa
 PF
-oK
-FN
-FN
-FN
-FN
-FN
-FN
-FN
-FN
-SJ
+ry
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+rp
 Tk
-dO
-xd
+pM
+jH
 Tk
-SJ
-FN
-FN
-FN
-FN
-FN
-FN
-FN
-FN
-rC
+rp
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+qQ
+OQ
 PF
 FE
 OK
 qq
 fg
 PF
-oK
-FN
-FN
-FN
-FN
-FN
-st
+ry
+qQ
+qQ
+qQ
+qQ
+qQ
+IE
 bj
 PF
 PF
@@ -11716,7 +11716,7 @@ aa
 aa
 aa
 PF
-nL
+ah
 PF
 PF
 PF
@@ -11739,14 +11739,14 @@ PF
 PF
 PF
 PF
-nL
+ah
 PF
 FE
 OK
 qq
 mJ
 PF
-nL
+ah
 PF
 PF
 PF
@@ -11846,7 +11846,7 @@ aa
 aa
 aa
 PF
-nL
+ah
 PF
 ob
 FE
@@ -11869,14 +11869,14 @@ QY
 zo
 ob
 PF
-nL
+ah
 PF
 FE
 OK
 qq
 xZ
 PF
-nL
+ah
 PF
 ay
 ay
@@ -11976,7 +11976,7 @@ aa
 aa
 aa
 PF
-nL
+ah
 PF
 FE
 Eo
@@ -11999,18 +11999,18 @@ Av
 fK
 FE
 PF
-nL
+ah
 PF
 FE
 OK
 qq
 Mr
 PF
-nL
+ah
 PF
 ay
 ay
-ls
+Uu
 cS
 aa
 aa
@@ -12106,7 +12106,7 @@ aa
 aa
 aa
 PF
-nL
+ah
 PF
 eL
 OK
@@ -12125,18 +12125,18 @@ jq
 jq
 jq
 jq
-on
-DD
-Zv
+FD
+Gf
+yM
 PF
-nL
+ah
 PF
 FE
 OK
 qq
 FE
 PF
-nL
+ah
 PF
 ay
 cS
@@ -12236,7 +12236,7 @@ aa
 aa
 aa
 PF
-nL
+ah
 PF
 Qc
 OK
@@ -12255,18 +12255,18 @@ FE
 FE
 Ml
 FE
-ah
+SM
 qq
 NZ
 PF
-nL
+ah
 PF
 FE
 OK
 qq
 FE
 PF
-nL
+ah
 PF
 cS
 cS
@@ -12366,7 +12366,7 @@ aa
 aa
 aa
 PF
-nL
+ah
 PF
 eI
 OK
@@ -12385,18 +12385,18 @@ PF
 PF
 PF
 Sk
-ah
+SM
 qq
 Ey
 PF
-nL
+ah
 PF
 FE
 OK
 qq
 FE
 PF
-nL
+ah
 PF
 aa
 aa
@@ -12496,11 +12496,11 @@ aa
 aa
 aa
 PF
-nL
+ah
 PF
-kU
-dO
-xw
+vW
+pM
+QO
 FE
 PF
 mt
@@ -12515,18 +12515,18 @@ no
 xU
 PF
 FE
-ah
+SM
 qq
 eL
 PF
-nL
+ah
 PF
 eL
 OK
 qq
 FE
 PF
-nL
+ah
 PF
 aa
 aa
@@ -12626,11 +12626,11 @@ aa
 aa
 aa
 PF
-nL
+ah
 PF
 FE
 OK
-qv
+fH
 FE
 PF
 mt
@@ -12645,18 +12645,18 @@ no
 xU
 PF
 FE
-ah
+SM
 qq
 FE
 PF
-nL
+ah
 PF
 FE
 OK
 qq
 FE
 PF
-nL
+ah
 PF
 aa
 aa
@@ -12756,11 +12756,11 @@ aa
 aa
 aa
 PF
-zy
-SJ
+yu
+rp
 Tk
-dO
-AD
+pM
+YZ
 FE
 PF
 mt
@@ -12775,18 +12775,18 @@ no
 xU
 PF
 FE
-xk
-DD
+EV
+Gf
 Tk
-OW
-st
+jM
+IE
 PF
 rm
 OK
 qq
 nh
 PF
-ko
+xw
 PF
 PF
 PF
@@ -12890,7 +12890,7 @@ bj
 PF
 Ll
 OK
-qv
+fH
 Ll
 PF
 mt
@@ -12905,7 +12905,7 @@ no
 xU
 PF
 Ll
-ah
+SM
 qq
 Ll
 PF
@@ -13020,7 +13020,7 @@ PF
 PF
 PF
 zJ
-PT
+kf
 PF
 PF
 mt
@@ -13035,7 +13035,7 @@ aX
 xU
 PF
 PF
-FJ
+BH
 XO
 PF
 PF
@@ -13047,7 +13047,7 @@ Cj
 Av
 Av
 fK
-tZ
+cq
 av
 gu
 gu
@@ -13150,8 +13150,8 @@ vz
 ST
 kL
 yZ
-Fw
-oc
+UO
+CU
 PF
 PF
 kx
@@ -13164,8 +13164,8 @@ kx
 kx
 PF
 PF
-XZ
-Nv
+tz
+Ka
 nl
 kL
 tt
@@ -13177,7 +13177,7 @@ jO
 jO
 jO
 qq
-tZ
+cq
 uG
 Hp
 kC
@@ -13281,7 +13281,7 @@ hn
 yT
 yT
 yT
-Lz
+dh
 gu
 aT
 aT
@@ -13294,7 +13294,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 yT
 yT
 yT
@@ -13307,7 +13307,7 @@ AW
 jq
 jq
 nl
-tZ
+cq
 av
 PF
 gu
@@ -13411,7 +13411,7 @@ hn
 lQ
 lQ
 lQ
-Lz
+dh
 gu
 aT
 aT
@@ -13424,7 +13424,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 KZ
 KZ
 KZ
@@ -13541,7 +13541,7 @@ hn
 lQ
 lQ
 lQ
-Lz
+dh
 gu
 aT
 aT
@@ -13554,7 +13554,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 KZ
 KZ
 KZ
@@ -13671,7 +13671,7 @@ hn
 fV
 fV
 fV
-Lz
+dh
 gu
 aT
 aT
@@ -13684,7 +13684,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 Yr
 Yr
 Vu
@@ -13801,7 +13801,7 @@ Sb
 lz
 lz
 lz
-Lz
+dh
 gu
 aT
 aT
@@ -13814,7 +13814,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 sd
 sd
 sd
@@ -13931,7 +13931,7 @@ hn
 CS
 CS
 mN
-Lz
+dh
 gu
 aT
 aT
@@ -13944,7 +13944,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 iB
 iB
 PC
@@ -14061,7 +14061,7 @@ hn
 lQ
 lQ
 lQ
-Lz
+dh
 gu
 aT
 aT
@@ -14074,7 +14074,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 KZ
 KZ
 KZ
@@ -14191,7 +14191,7 @@ hn
 WN
 BO
 BO
-Lz
+dh
 gu
 aT
 aT
@@ -14204,7 +14204,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 BO
 BO
 JK
@@ -14321,7 +14321,7 @@ hn
 fS
 BO
 BO
-Lz
+dh
 gu
 aT
 aT
@@ -14334,7 +14334,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 BO
 BO
 fS
@@ -14451,7 +14451,7 @@ hn
 dQ
 BO
 BO
-Lz
+dh
 gu
 aT
 aT
@@ -14464,7 +14464,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 BO
 BO
 dQ
@@ -14581,7 +14581,7 @@ hn
 lQ
 lQ
 lQ
-Lz
+dh
 gu
 aT
 aT
@@ -14594,7 +14594,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 KZ
 KZ
 KZ
@@ -14711,7 +14711,7 @@ hn
 fV
 fV
 fV
-Lz
+dh
 gu
 aT
 aT
@@ -14724,7 +14724,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 Yr
 Yr
 Vu
@@ -14841,7 +14841,7 @@ Sb
 lz
 lz
 lz
-Lz
+dh
 gu
 aT
 aT
@@ -14854,7 +14854,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 sd
 sd
 sd
@@ -14971,7 +14971,7 @@ hn
 CS
 CS
 CS
-Lz
+dh
 gu
 aT
 aT
@@ -14984,7 +14984,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 iB
 iB
 PC
@@ -15101,7 +15101,7 @@ hn
 lQ
 lQ
 lQ
-Lz
+dh
 gu
 aT
 aT
@@ -15114,7 +15114,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 KZ
 KZ
 KZ
@@ -15231,7 +15231,7 @@ hn
 lQ
 lQ
 lQ
-Lz
+dh
 gu
 aT
 aT
@@ -15244,7 +15244,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 KZ
 KZ
 KZ
@@ -15361,7 +15361,7 @@ hn
 yT
 yT
 yT
-Lz
+dh
 gu
 aT
 aT
@@ -15374,7 +15374,7 @@ aT
 aT
 aT
 gu
-Lz
+dh
 yT
 yT
 yT
@@ -15490,8 +15490,8 @@ vz
 ST
 WU
 Eo
-pp
-jl
+Ft
+WD
 PF
 PF
 kx
@@ -15504,8 +15504,8 @@ kx
 kx
 PF
 PF
-Dw
-bB
+Mv
+Sa
 fK
 WU
 tt
@@ -15620,7 +15620,7 @@ PF
 PF
 PF
 zJ
-PT
+kf
 PF
 PF
 cs
@@ -15635,7 +15635,7 @@ NY
 WZ
 PF
 PF
-FJ
+BH
 XO
 PF
 PF
@@ -15750,7 +15750,7 @@ ay
 PF
 Ll
 OK
-qv
+fH
 Ll
 PF
 cs
@@ -15765,7 +15765,7 @@ NY
 WZ
 PF
 Ll
-ah
+SM
 qq
 Ll
 PF
@@ -15880,7 +15880,7 @@ ay
 PF
 FE
 OK
-qv
+fH
 FE
 PF
 cs
@@ -15895,7 +15895,7 @@ NY
 WZ
 PF
 FE
-ah
+SM
 qq
 FE
 PF
@@ -16010,7 +16010,7 @@ ay
 PF
 FE
 OK
-qv
+fH
 FE
 PF
 cs
@@ -16025,7 +16025,7 @@ NY
 WZ
 PF
 FE
-ah
+SM
 qq
 FE
 PF
@@ -16138,9 +16138,9 @@ aa
 PF
 ay
 PF
-kU
-dO
-Iw
+vW
+pM
+JM
 FE
 PF
 cs
@@ -16155,7 +16155,7 @@ NY
 WZ
 PF
 FE
-ah
+SM
 qq
 eL
 PF
@@ -16285,7 +16285,7 @@ PF
 PF
 PF
 Sk
-ah
+SM
 qq
 NZ
 PF
@@ -16415,7 +16415,7 @@ FE
 FE
 RF
 FE
-ah
+SM
 qq
 Ey
 PF
@@ -16545,9 +16545,9 @@ Av
 Av
 Av
 Av
-RP
-DD
-Zv
+TM
+Gf
+yM
 PF
 ay
 ay
