@@ -21,6 +21,10 @@
 	},
 /turf/open/floor/carpet/red,
 /area/centcom/tdome/arena)
+"hm" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
 "hA" = (
 /obj/structure/displaycase/noalert{
 	damage_deflection = 100;
@@ -65,7 +69,7 @@
 "kj" = (
 /obj/structure/displaycase/noalert{
 	damage_deflection = 100;
-	start_showpiece_type = /obj/item/storage/toolbox/infiltrator 
+	start_showpiece_type = /obj/item/storage/toolbox/infiltrator
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/centcom/tdome/arena)
@@ -364,6 +368,10 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/centcom/tdome/arena)
+"ZZ" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
 
 (1,1,1) = {"
 TW
@@ -414,7 +422,7 @@ yW
 TW
 "}
 (5,1,1) = {"
-TW
+ZZ
 jy
 EW
 Di
@@ -423,7 +431,7 @@ bs
 Cz
 EW
 Ky
-TW
+hm
 "}
 (6,1,1) = {"
 vb
@@ -510,7 +518,7 @@ SI
 vX
 "}
 (13,1,1) = {"
-TW
+ZZ
 AA
 ro
 tz
@@ -519,7 +527,7 @@ bs
 Wk
 ro
 OV
-TW
+hm
 "}
 (14,1,1) = {"
 TW
