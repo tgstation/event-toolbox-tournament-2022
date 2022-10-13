@@ -88,6 +88,11 @@
 /obj/item/trash/sosjerky,
 /turf/open/floor/vault/rock,
 /area/space)
+"au" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/space)
 "av" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/indestructible/dark,
@@ -179,6 +184,13 @@
 	dir = 4
 	},
 /turf/open/indestructible,
+/area/space)
+"bc" = (
+/obj/structure/chair/sofa/corp{
+	dir = 1
+	},
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "be" = (
 /obj/machinery/holopad,
@@ -815,6 +827,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/dark_red,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
 "ff" = (
@@ -1968,6 +1981,13 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"mo" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "mt" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/siding/blue,
@@ -2426,6 +2446,17 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
+"oU" = (
+/obj/structure/closet/secure_closet{
+	icon_state = "armory";
+	req_access = list("armory");
+	anchored = 1;
+	anchorable = 0
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "oW" = (
 /obj/effect/decal/cleanable/ash,
 /turf/open/misc/ironsand{
@@ -2711,6 +2742,7 @@
 	dir = 8;
 	icon_state = "bloodclaw2"
 	},
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
 "rm" = (
@@ -3151,6 +3183,7 @@
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
 	dir = 1
 	},
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
 "tL" = (
@@ -3537,6 +3570,11 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/wood,
 /area/space)
+"vT" = (
+/obj/effect/turf_decal/trimline/red/filled/warning,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "vV" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/iron/cafeteria,
@@ -3616,11 +3654,6 @@
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
 	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"wB" = (
-/obj/effect/turf_decal/trimline/red/filled/warning,
-/obj/machinery/light/small/directional/north,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "wC" = (
@@ -4460,6 +4493,11 @@
 "CL" = (
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"CM" = (
+/obj/machinery/suit_storage_unit,
+/obj/machinery/light/red/directional/north,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
 "CR" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/checker,
@@ -4505,6 +4543,7 @@
 	icon_state = "bloodclaw2"
 	},
 /obj/effect/turf_decal/trimline/dark_red/filled/line,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
 "Dk" = (
@@ -4945,6 +4984,10 @@
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plating/rust,
+/area/space)
+"FP" = (
+/obj/effect/turf_decal/trimline/white/filled/warning,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "FR" = (
 /obj/structure/table/reinforced/rglass,
@@ -5524,13 +5567,6 @@
 /turf/open/floor/iron/stairs/right{
 	dir = 8
 	},
-/area/space)
-"JZ" = (
-/obj/effect/turf_decal/trimline/red/filled/warning{
-	dir = 1
-	},
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/mineral/plastitanium,
 /area/space)
 "Kc" = (
 /obj/structure/transit_tube/curved{
@@ -6385,6 +6421,10 @@
 	icon_state = "ironsand9"
 	},
 /area/space)
+"PM" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
 "PQ" = (
 /turf/closed/mineral/ash_rock,
 /area/space)
@@ -6519,6 +6559,7 @@
 /area/space)
 "QW" = (
 /obj/machinery/suit_storage_unit,
+/obj/machinery/light/red/directional/south,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "QY" = (
@@ -6971,6 +7012,13 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"TI" = (
+/obj/effect/turf_decal/trimline/white/filled/line{
+	dir = 1
+	},
+/obj/machinery/light/red/directional/north,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "TJ" = (
 /obj/item/bedsheet/medical,
 /obj/structure/bed,
@@ -7185,6 +7233,11 @@
 /obj/machinery/door/airlock/external,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"Vr" = (
+/obj/effect/turf_decal/trimline/white/filled/line,
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "Vt" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
@@ -7661,6 +7714,13 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/neon/simple/white/nodots,
+/area/space)
+"Ys" = (
+/obj/effect/turf_decal/trimline/white/filled/line{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "Yt" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -28658,10 +28718,10 @@ rq
 Xb
 TA
 TV
-SE
+mo
 oI
 oI
-SE
+mo
 SE
 PD
 rq
@@ -28918,10 +28978,10 @@ zr
 cP
 rq
 Hx
+cg
 oI
 oI
-oI
-oI
+cg
 oI
 rV
 rq
@@ -29027,7 +29087,7 @@ vo
 KH
 hh
 rq
-vz
+PM
 vz
 vz
 vz
@@ -29573,7 +29633,7 @@ bU
 rq
 Gu
 vz
-jZ
+vT
 rq
 rq
 aa
@@ -29671,7 +29731,7 @@ KV
 rq
 pC
 AU
-BX
+au
 rq
 XV
 bV
@@ -30071,7 +30131,7 @@ fJ
 zB
 Ri
 vz
-zt
+Vr
 rq
 gc
 HY
@@ -30081,7 +30141,7 @@ kb
 yO
 br
 rq
-uM
+TI
 vz
 zt
 vo
@@ -30089,7 +30149,7 @@ Bq
 oI
 oI
 oI
-oC
+bc
 rq
 Gu
 vz
@@ -30483,7 +30543,7 @@ XK
 rq
 Gu
 vz
-jZ
+vT
 rq
 rq
 aa
@@ -31244,11 +31304,11 @@ vz
 oI
 jg
 iG
-zU
+Ys
 vz
 zU
 vz
-zU
+Ys
 iG
 Zj
 oI
@@ -31504,11 +31564,11 @@ Un
 tf
 rq
 rq
-wB
+jZ
 zh
 pi
 zh
-JZ
+Gu
 rq
 rq
 vz
@@ -31763,7 +31823,7 @@ kr
 kr
 kr
 rq
-QW
+CM
 vz
 zh
 qI
@@ -32024,11 +32084,11 @@ rq
 rq
 rq
 rq
-wB
+jZ
 zh
 qI
 zh
-JZ
+Gu
 rq
 rq
 kr
@@ -32283,7 +32343,7 @@ vz
 vz
 vz
 vz
-db
+vz
 vz
 vz
 vz
@@ -32413,7 +32473,7 @@ aL
 hG
 vz
 vz
-aL
+vz
 vz
 vz
 vz
@@ -32546,8 +32606,8 @@ Ht
 rq
 rq
 vz
-fL
-kS
+oU
+vz
 rq
 rq
 rq
@@ -33555,7 +33615,7 @@ oI
 oI
 Fy
 we
-oI
+FP
 aU
 sC
 sC
@@ -35375,7 +35435,7 @@ oI
 oI
 gL
 cg
-oI
+FP
 aU
 sC
 sC
