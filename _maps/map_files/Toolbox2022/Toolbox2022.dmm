@@ -56,6 +56,12 @@
 /obj/item/tailclub,
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"am" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/large,
+/obj/item/cigbutt/cigarbutt,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "an" = (
 /turf/open/floor/grass,
 /area/space)
@@ -142,6 +148,24 @@
 /obj/machinery/status_display/shuttle,
 /turf/closed/indestructible/riveted,
 /area/space)
+"aI" = (
+/mob/living/simple_animal/hostile/eyeball{
+	movement_type = 2;
+	icon = 'icons/obj/aquarium.dmi';
+	icon_living = "clownfish";
+	icon_state = "clownfish";
+	desc = "Clownfish catch prey by swimming onto the reef, attracting larger fish, and luring them back to the anemone. The anemone will sting and eat the larger fish, leaving the remains for the clownfish.";
+	faction = list("neutral");
+	name = "clownfish"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "aL" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -166,6 +190,13 @@
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"aW" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "aX" = (
 /obj/effect/turf_decal/trimline/blue/arrow_cw{
 	dir = 1
@@ -246,6 +277,10 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"bo" = (
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/carpet/neon/simple/cyan/nodots,
+/area/event/oceanarium)
 "bp" = (
 /obj/structure/holosign/wetsign,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -261,6 +296,17 @@
 	icon_state = "ironsand12"
 	},
 /area/space)
+"bs" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/can/food/pine_nuts{
+	pixel_x = 4;
+	pixel_y = -2
+	},
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "bt" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -292,6 +338,18 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"bG" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/hidden/layer2,
+/turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
+"bH" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "bI" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/glass,
@@ -458,6 +516,16 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"cx" = (
+/obj/structure/marker_beacon/olive,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "cy" = (
 /obj/effect/turf_decal/trimline/neutral/filled/end{
 	dir = 1
@@ -507,6 +575,16 @@
 	icon_state = "ironsand15"
 	},
 /area/space)
+"cI" = (
+/obj/item/aquarium_prop/treasure,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "cK" = (
 /obj/effect/turf_decal/trimline/white/line{
 	dir = 8
@@ -540,6 +618,13 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"cZ" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/food/tomato_smudge,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "da" = (
 /obj/structure/chair/sofa/corp/corner{
 	dir = 8
@@ -580,6 +665,11 @@
 /obj/effect/turf_decal/trimline/neutral/filled/corner,
 /turf/open/indestructible/dark,
 /area/space)
+"dn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "do" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -607,6 +697,14 @@
 /obj/structure/closet/wardrobe/white,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"dy" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/machinery/jukebox,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "dA" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
 	dir = 1
@@ -615,6 +713,19 @@
 /obj/structure/fireaxecabinet/directional/north,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"dC" = (
+/mob/living/simple_animal/hostile/asteroid/lobstrosity/lava{
+	faction = list("neutral");
+	move_force = 0
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "dD" = (
 /obj/structure/fluff{
 	deconstructible = 0;
@@ -638,6 +749,26 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"dH" = (
+/obj/structure/flora/rock/icy/style_3{
+	name = "rock"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
+"dN" = (
+/obj/structure/window/reinforced/fulltile/indestructable,
+/turf/open/misc/ashplanet/wateryrock{
+	light_range = 3;
+	light_color = "#6495ED";
+	light_power = 2
+	},
+/area/event/oceanarium)
 "dP" = (
 /obj/structure/fluff{
 	deconstructible = 0;
@@ -706,6 +837,15 @@
 	},
 /turf/open/indestructible,
 /area/space)
+"eg" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/flashlight/lantern/jade,
+/obj/effect/overlay/water,
+/turf/open/floor/iron/dark/airless{
+	icon_state = "bus"
+	},
+/area/event/oceanarium)
 "ei" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -791,6 +931,14 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
+"eU" = (
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/trimline/blue/filled,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "eV" = (
 /obj/machinery/door/poddoor/shutters/indestructible,
 /obj/structure/cable,
@@ -981,6 +1129,13 @@
 /obj/effect/turf_decal/trimline/white/arrow_ccw,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"fR" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/food/soup/jellyfish{
+	pixel_y = 3
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "fS" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/effect/turf_decal/trimline/white,
@@ -1015,6 +1170,29 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"ge" = (
+/obj/structure/aquarium/prefilled,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mineral/silver,
+/area/event/oceanarium)
+"gh" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
+"gj" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "gm" = (
 /obj/machinery/grill,
 /turf/open/floor/iron/cafeteria,
@@ -1084,6 +1262,12 @@
 	},
 /turf/open/floor/iron/terracotta/small,
 /area/space)
+"gK" = (
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "gL" = (
 /obj/machinery/camera/emp_proof/directional/east,
 /turf/open/floor/mineral/plastitanium,
@@ -1171,6 +1355,18 @@
 /obj/structure/railing,
 /turf/open/floor/iron/dark/smooth_half,
 /area/space)
+"ho" = (
+/obj/structure/flora/rock/pile/icy{
+	name = "rocks"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "hq" = (
 /obj/effect/turf_decal/trimline/dark_red/corner{
 	dir = 4
@@ -1218,6 +1414,16 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"hE" = (
+/obj/item/crusher_trophy/lobster_claw,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "hF" = (
 /obj/effect/decal/cleanable/blood/splatter/over_window{
 	icon_state = "floor4"
@@ -1269,6 +1475,18 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"hY" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "wheredahoodat"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "hZ" = (
 /obj/item/instrument/bikehorn,
 /obj/structure/table/reinforced,
@@ -1307,6 +1525,27 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
+"ik" = (
+/obj/item/aquarium_prop/rocks{
+	anchored = 1
+	},
+/mob/living/simple_animal/hostile/eyeball{
+	movement_type = 2;
+	icon = 'icons/obj/aquarium.dmi';
+	icon_living = "dwarf_moonfish";
+	icon_state = "dwarf_moonfish";
+	desc = "Ordinarily in the wild, the Zagoskian moonfish is around the size of a tuna, however through selective breeding a smaller breed suitable for being kept as an aquarium pet has been created.";
+	faction = list("neutral");
+	name = "dwarf moonfish"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "il" = (
 /mob/living/simple_animal/hostile/jungle/leaper{
 	faction = list("neutral");
@@ -1318,6 +1557,17 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/vault/rock,
 /area/space)
+"ip" = (
+/obj/effect/turf_decal/trimline/blue/filled/end,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
+"iq" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/plastic,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "ir" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -1331,6 +1581,16 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"it" = (
+/obj/effect/overlay/coconut,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "iu" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/hedge,
@@ -1535,6 +1795,12 @@
 /obj/effect/turf_decal/trimline/dark_red/filled,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"jw" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/large,
+/obj/item/food/fishandchips,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "jx" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
@@ -1568,6 +1834,14 @@
 	icon_state = "ironsand12"
 	},
 /area/space)
+"jD" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/machinery/griddle,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "jF" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "drip3"
@@ -1578,6 +1852,21 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"jG" = (
+/obj/structure/fluff/bus/passable/seat/driver,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/toy/captainsaid{
+	pixel_x = 6;
+	pixel_y = -4
+	},
+/obj/item/toy/dummy{
+	pixel_y = 20
+	},
+/obj/effect/overlay/water,
+/turf/open/floor/iron/dark/airless{
+	icon_state = "bus"
+	},
+/area/event/oceanarium)
 "jI" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
@@ -1592,6 +1881,11 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"jM" = (
+/obj/effect/decal/remains/human,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "jN" = (
 /obj/structure/chair{
 	dir = 1
@@ -1631,6 +1925,13 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible/dark,
 /area/space)
+"jS" = (
+/obj/structure/marker_beacon/teal,
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "jW" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line,
 /obj/structure/extinguisher_cabinet/directional/south,
@@ -1677,6 +1978,16 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"kp" = (
+/obj/structure/disposalpipe/broken{
+	dir = 4
+	},
+/obj/structure/disposalpipe/broken{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "kr" = (
 /turf/open/misc/ironsand,
 /area/space)
@@ -1725,10 +2036,27 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"kK" = (
+/obj/structure/marker_beacon/bronze,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "kL" = (
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"kM" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "kN" = (
 /obj/structure/chair{
 	dir = 4
@@ -1741,6 +2069,14 @@
 	initial_gas_mix = "TEMP=2.7"
 	},
 /area/event)
+"kR" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/large{
+	pixel_y = 4;
+	pixel_x = 3
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "kS" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -1807,17 +2143,38 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"lo" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/trash/tray{
+	pixel_x = 3;
+	pixel_y = -2
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "lt" = (
 /obj/effect/turf_decal/siding/wideplating_new/terracotta{
 	dir = 5
 	},
 /turf/open/floor/iron/terracotta/small,
 /area/space)
+"lu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
 "lz" = (
 /turf/open/floor/iron/stairs/medium{
 	dir = 1
 	},
 /area/space)
+"lA" = (
+/obj/machinery/atmospherics/components/binary/valve/on/layer2,
+/obj/item/broken_bottle,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "lB" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 1
@@ -1854,6 +2211,22 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"lJ" = (
+/obj/structure/flora/bush/stalky/style_random,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
+"lK" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
 "lL" = (
 /obj/item/bedsheet/medical,
 /obj/structure/bed,
@@ -1937,6 +2310,13 @@
 /obj/structure/table,
 /turf/open/indestructible/dark,
 /area/space)
+"mf" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "hoodbottom"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/asteroid/airless,
+/area/event/oceanarium)
 "mg" = (
 /turf/open/floor/vault/alien{
 	initial_gas_mix = "TEMP=2.7"
@@ -1972,6 +2352,21 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"mk" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/large,
+/obj/item/food/fishmeat/gunner_jellyfish,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
+"ml" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/item/trash/chips,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "mn" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	dir = 8
@@ -1988,6 +2383,21 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"mr" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/portal/permanent{
+	icon = 'icons/obj/objects.dmi';
+	icon_state = "anom";
+	id = "junk";
+	alpha = 150;
+	name = "wormhole"
+	},
+/obj/effect/overlay/water,
+/turf/open/floor/iron/dark/airless{
+	icon_state = "bus"
+	},
+/area/event/oceanarium)
 "mt" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/siding/blue,
@@ -2023,6 +2433,9 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"mA" = (
+/turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
 "mB" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -2178,6 +2591,14 @@
 /obj/item/storage/box/hug/plushes,
 /turf/open/floor/mineral/titanium/white,
 /area/space)
+"nf" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/trash/candle{
+	pixel_y = 2;
+	pixel_x = 2
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "nh" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/light/dim/directional/south,
@@ -2242,6 +2663,14 @@
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/mineral/titanium/white,
 /area/space)
+"nB" = (
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/mineral/silver,
+/area/event/oceanarium)
+"nD" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "nE" = (
 /obj/structure/statue/bone/rib{
 	dir = 1
@@ -2254,6 +2683,13 @@
 "nF" = (
 /turf/open/misc/asteroid/snow/coldroom,
 /area/space)
+"nH" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "nJ" = (
 /turf/open/misc/asteroid/basalt/wasteland{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
@@ -2273,6 +2709,26 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"nO" = (
+/obj/effect/overlay/water,
+/obj/structure/marker_beacon/indigo,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
+"nP" = (
+/obj/structure/flora/bush/reed/style_2,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "nR" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -2425,6 +2881,12 @@
 /obj/machinery/light/dim/directional/west,
 /turf/open/indestructible/dark,
 /area/space)
+"oN" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/tray,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "oO" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/pod/dark,
@@ -2485,6 +2947,10 @@
 	},
 /turf/open/floor/glass,
 /area/space)
+"pg" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden/layer4,
+/turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
 "pi" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/window/reinforced/spawner,
@@ -2537,6 +3003,10 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"pw" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
 "pC" = (
 /obj/structure/bed/roller,
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
@@ -2625,6 +3095,13 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"qf" = (
+/obj/effect/overlay/water,
+/turf/open/floor/glass{
+	light_range = 2;
+	light_color = "#6495ED"
+	},
+/area/event/oceanarium)
 "qg" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 4
@@ -2640,6 +3117,14 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
+"qi" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/machinery/computer/security/telescreen/entertainment/directional/north,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "qm" = (
 /obj/machinery/door/window/left/directional/south,
 /turf/open/floor/wood/tile,
@@ -2707,6 +3192,14 @@
 /obj/effect/turf_decal/siding/purple/end,
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"qQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/biohazard/directional/north,
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "qT" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -2837,6 +3330,24 @@
 	},
 /turf/open/misc/ironsand,
 /area/space)
+"rT" = (
+/mob/living/simple_animal/hostile/eyeball{
+	movement_type = 2;
+	icon = 'icons/obj/aquarium.dmi';
+	icon_living = "gunner_jellyfish";
+	icon_state = "gunner_jellyfish";
+	desc = "So called due to their resemblance to an artillery shell, the gunner jellyfish is native to Tizira, where it is enjoyed as a delicacy. Produces a mild hallucinogen that is destroyed by cooking.";
+	faction = list("neutral");
+	name = "gunner jellyfish"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "rV" = (
 /obj/structure/chair/greyscale{
 	dir = 1
@@ -2907,6 +3418,15 @@
 	},
 /turf/closed/indestructible/opshuttle,
 /area/space)
+"sn" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/book/fish_catalog,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "sp" = (
 /obj/structure/chair/plastic{
 	dir = 1
@@ -2955,6 +3475,23 @@
 "sC" = (
 /turf/open/floor/pod/dark,
 /area/space)
+"sF" = (
+/obj/structure/flora/bush/reed/style_4,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
+"sG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/comfy/carp{
+	dir = 1
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "sH" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -2970,6 +3507,15 @@
 /obj/item/reagent_containers/food/condiment/milk,
 /turf/open/indestructible/dark,
 /area/space)
+"sK" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "fronttire"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "sL" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/catwalk_floor/flat_white,
@@ -2989,6 +3535,15 @@
 	icon_state = "ironsand15"
 	},
 /area/space)
+"sO" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "sQ" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	dir = 8
@@ -3016,6 +3571,15 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible,
 /area/space)
+"ta" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/machinery/light/cold/directional/south,
+/obj/effect/decal/cleanable/plastic,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "tc" = (
 /obj/structure/shuttle/engine/huge{
 	dir = 4
@@ -3051,6 +3615,13 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"tg" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 8
+	},
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "th" = (
 /obj/structure/railing{
 	dir = 4
@@ -3123,6 +3694,11 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
+"tv" = (
+/obj/structure/window/reinforced/fulltile/indestructable,
+/obj/machinery/door/poddoor/shutters/window/preopen,
+/turf/open/floor/pod/dark,
+/area/event/oceanarium)
 "tx" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -3170,6 +3746,17 @@
 	},
 /turf/open/floor/plating/abductor,
 /area/event)
+"tG" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/structure/table/rolling,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "tH" = (
 /obj/structure/table/abductor,
 /obj/item/gun/energy/alien,
@@ -3200,6 +3787,11 @@
 /obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/terracotta/small,
 /area/space)
+"tO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "tP" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	dir = 10
@@ -3409,6 +4001,16 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"uL" = (
+/obj/structure/fluff/bus/dense,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "uM" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	dir = 1
@@ -3440,6 +4042,23 @@
 	},
 /turf/open/floor/cult,
 /area/space)
+"uV" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottom"
+	},
+/obj/effect/decal/cleanable/oil,
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
+"uW" = (
+/obj/machinery/atmospherics/components/binary/pressure_valve/on/layer4{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "uZ" = (
 /obj/structure/rack,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -3544,6 +4163,10 @@
 "vz" = (
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"vB" = (
+/obj/structure/chair/comfy/carp,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "vF" = (
 /obj/singularity/orion,
 /turf/open/space/basic,
@@ -3562,6 +4185,13 @@
 	},
 /turf/open/floor/catwalk_floor/iron,
 /area/space)
+"vL" = (
+/obj/machinery/computer/bsa_control{
+	name = "control console"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "vP" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/end,
 /turf/open/floor/carpet/black,
@@ -3579,6 +4209,9 @@
 /obj/machinery/door/airlock,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"vW" = (
+/turf/open/floor/mineral/silver,
+/area/event/oceanarium)
 "we" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/mineral/plastitanium,
@@ -3609,6 +4242,19 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"wj" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
+"wl" = (
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "wp" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -3670,6 +4316,14 @@
 	},
 /turf/open/misc/ironsand,
 /area/space)
+"wE" = (
+/obj/effect/decal/cleanable/food/plant_smudge,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
+"wF" = (
+/obj/effect/decal/cleanable/shreds,
+/turf/open/floor/carpet/neon/simple/cyan/nodots,
+/area/event/oceanarium)
 "wG" = (
 /obj/machinery/deepfryer,
 /obj/machinery/light/dim/directional/east,
@@ -3828,6 +4482,16 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible,
 /area/space)
+"yc" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer4,
+/obj/item/light/bulb/broken{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "ye" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/arrow_ccw{
 	dir = 1
@@ -3868,6 +4532,16 @@
 /obj/structure/table/reinforced,
 /turf/open/indestructible/dark,
 /area/space)
+"yr" = (
+/obj/item/fishing_hook,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "ys" = (
 /obj/effect/decal/cleanable/blood/splatter/over_window{
 	icon_state = "splatter6"
@@ -3953,6 +4627,13 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"ze" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/food/canned_jellyfish{
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "zf" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 1
@@ -3966,6 +4647,20 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"zi" = (
+/obj/structure/flora/bush/reed/style_3,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
+"zk" = (
+/obj/effect/decal/cleanable/food/salt,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "zl" = (
 /obj/structure/table/glass,
 /obj/item/tank/internals/anesthetic,
@@ -4006,6 +4701,13 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"zs" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/carpet/neon/simple/cyan/nodots,
+/area/event/oceanarium)
 "zt" = (
 /obj/effect/turf_decal/trimline/white/filled/line,
 /turf/open/floor/mineral/plastitanium,
@@ -4054,12 +4756,31 @@
 /obj/structure/flora/bush/flowers_pp/style_2,
 /turf/open/floor/grass,
 /area/space)
+"zG" = (
+/mob/living/simple_animal/hostile/carp/ranged/chaos/xenobiology{
+	faction = list("neutral")
+	},
+/obj/effect/overlay/water,
+/turf/open/floor/glass{
+	light_range = 2;
+	light_color = "#6495ED"
+	},
+/area/event/oceanarium)
 "zH" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
 	},
 /turf/open/floor/plating/abductor,
 /area/event)
+"zI" = (
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "zJ" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -4085,6 +4806,11 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"zW" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/trash/waffles,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "zX" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -4093,6 +4819,14 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"Ab" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/coin/diamond{
+	pixel_y = 4;
+	pixel_x = 2
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Ai" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/white,
@@ -4139,6 +4873,24 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"As" = (
+/mob/living/simple_animal/hostile/eyeball{
+	movement_type = 2;
+	icon = 'icons/obj/aquarium.dmi';
+	icon_living = "dwarf_moonfish";
+	icon_state = "dwarf_moonfish";
+	desc = "Ordinarily in the wild, the Zagoskian moonfish is around the size of a tuna, however through selective breeding a smaller breed suitable for being kept as an aquarium pet has been created.";
+	faction = list("neutral");
+	name = "dwarf moonfish"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Av" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -4153,6 +4905,26 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"Ay" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
+"Az" = (
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/carpet/neon/simple/cyan/nodots,
+/area/event/oceanarium)
+"AC" = (
+/mob/living/simple_animal/hostile/carp/ranged{
+	faction = list("neutral")
+	},
+/obj/effect/overlay/water,
+/turf/open/floor/glass{
+	light_range = 2;
+	light_color = "#6495ED"
+	},
+/area/event/oceanarium)
 "AE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -4190,6 +4962,15 @@
 	},
 /turf/open/floor/wood,
 /area/space)
+"AM" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "AN" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -4266,6 +5047,13 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"Bf" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/food/drinks/bottle/champagne{
+	pixel_x = -3
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Bg" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -4409,6 +5197,25 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"Cg" = (
+/mob/living/simple_animal/hostile/carp{
+	faction = list("neutral")
+	},
+/obj/effect/overlay/water,
+/turf/open/floor/glass{
+	light_range = 2;
+	light_color = "#6495ED"
+	},
+/area/event/oceanarium)
+"Ci" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "reartire"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "Cj" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
@@ -4420,6 +5227,18 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible/dark,
 /area/space)
+"Cn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/disposal/delivery_chute{
+	dir = 8
+	},
+/obj/machinery/light/small/red/directional/east,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "Co" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/railing/corner{
@@ -4477,6 +5296,9 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"CC" = (
+/turf/open/floor/carpet/neon/simple/cyan/nodots,
+/area/event/oceanarium)
 "CF" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "trails_1"
@@ -4498,6 +5320,10 @@
 /obj/machinery/light/red/directional/north,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"CQ" = (
+/obj/effect/decal/cleanable/plasma,
+/turf/open/floor/carpet/neon/simple/cyan/nodots,
+/area/event/oceanarium)
 "CR" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/checker,
@@ -4509,6 +5335,16 @@
 /obj/structure/chair/comfy,
 /turf/open/floor/carpet/neon/simple/white/nodots,
 /area/space)
+"CX" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/structure/statue/diamond/ai1{
+	anchored = 1
+	},
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "CY" = (
 /obj/structure/cable,
 /obj/machinery/door/poddoor{
@@ -4534,6 +5370,11 @@
 	},
 /turf/open/floor/cult,
 /area/space)
+"Dd" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/fish_feed,
+/turf/open/floor/mineral/silver,
+/area/event/oceanarium)
 "De" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "drip5"
@@ -4546,6 +5387,11 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"Dg" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate_shard,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Dk" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 8
@@ -4562,6 +5408,14 @@
 	},
 /turf/open/floor/iron/stairs,
 /area/space)
+"Dq" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/large,
+/obj/item/food/fishfingers{
+	pixel_y = 3
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Dr" = (
 /obj/structure/chair/stool/bar/directional/west,
 /obj/effect/turf_decal/siding/thinplating/dark{
@@ -4659,6 +5513,12 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"DW" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/neon/simple/cyan/nodots,
+/area/event/oceanarium)
 "DZ" = (
 /obj/effect/turf_decal/trimline/white/filled/line,
 /obj/machinery/door/firedoor,
@@ -4707,6 +5567,18 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"Em" = (
+/obj/structure/flora/rock/pile/icy/style_2{
+	name = "rocks"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Eo" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
@@ -4722,6 +5594,18 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
+"Er" = (
+/obj/structure/flora/rock/pile/icy/style_3{
+	name = "rocks"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Eu" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 8
@@ -4790,6 +5674,13 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/space)
+"EM" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer4,
+/obj/item/trash/can/food/beans,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "EN" = (
 /obj/machinery/portable_atmospherics/canister/zauker,
 /turf/open/floor/carpet/royalblack,
@@ -4916,6 +5807,15 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"Ft" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottom"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "Fu" = (
 /turf/open/floor/mineral/titanium/white,
 /area/event)
@@ -4932,6 +5832,13 @@
 /obj/machinery/camera/emp_proof/directional/west,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"FA" = (
+/obj/item/clothing/head/fedora/carpskin,
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "FB" = (
 /obj/machinery/door/airlock/highsecurity,
 /obj/effect/mapping_helpers/airlock/locked,
@@ -5038,6 +5945,14 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"Ga" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/biohazard/directional/north,
+/obj/machinery/atmospherics/components/tank/water_vapor,
+/obj/effect/turf_decal/box,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "Gc" = (
 /obj/structure/bed,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -5098,6 +6013,15 @@
 /obj/structure/transit_tube/diagonal,
 /turf/closed/indestructible/fakeglass,
 /area/space)
+"Gr" = (
+/obj/structure/fluff/bus/passable,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/food/meatball,
+/obj/effect/overlay/water,
+/turf/open/floor/iron/dark/airless{
+	icon_state = "bus"
+	},
+/area/event/oceanarium)
 "Gt" = (
 /obj/machinery/computer/camera_advanced/abductor,
 /turf/open/floor/glass/plasma,
@@ -5155,6 +6079,10 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"GK" = (
+/obj/item/trash/candy,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "GM" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/ironsand{
@@ -5216,6 +6144,19 @@
 	icon_state = "ironsand7"
 	},
 /area/space)
+"Hd" = (
+/obj/structure/disposaloutlet,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "He" = (
 /obj/structure/chair/office/tactical{
 	dir = 1
@@ -5275,6 +6216,19 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"Hv" = (
+/obj/item/aquarium_prop/seaweed{
+	anchored = 1
+	},
+/obj/structure/marker_beacon/fuchsia,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Hw" = (
 /obj/machinery/modular_computer/console/preset/cargochat,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -5296,6 +6250,25 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/black,
 /area/space)
+"HC" = (
+/obj/item/trash/pistachios,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
+"HD" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/cigbutt/cigarbutt{
+	pixel_y = 3;
+	pixel_x = 2
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
+"HE" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/small{
+	pixel_x = 3
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "HK" = (
 /obj/structure/closet/crate,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -5316,6 +6289,10 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"HU" = (
+/obj/effect/decal/cleanable/food/egg_smudge,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "HV" = (
 /turf/open/misc/ironsand{
 	icon_state = "ironsand13"
@@ -5342,6 +6319,14 @@
 	icon_state = "ironsand9"
 	},
 /area/space)
+"Ij" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/machinery/newscaster/directional/south,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "Io" = (
 /obj/structure/transit_tube/curved,
 /turf/open/space/basic,
@@ -5384,6 +6369,11 @@
 /obj/structure/closet/body_bag,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"IA" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/hidden/layer2,
+/turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
 "IC" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/table,
@@ -5415,6 +6405,14 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"IP" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/overlay/water,
+/turf/open/floor/iron/dark/airless{
+	icon_state = "bus"
+	},
+/area/event/oceanarium)
 "IR" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	dir = 8
@@ -5433,6 +6431,13 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"IX" = (
+/obj/structure/marker_beacon/purple,
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "IY" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
@@ -5563,6 +6568,10 @@
 	},
 /turf/open/indestructible,
 /area/space)
+"JW" = (
+/obj/item/trash/champagne_cork,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "JY" = (
 /turf/open/floor/iron/stairs/right{
 	dir = 8
@@ -5574,6 +6583,10 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"Kd" = (
+/obj/effect/decal/cleanable/food/tomato_smudge,
+/turf/open/floor/mineral/silver,
+/area/event/oceanarium)
 "Kg" = (
 /obj/effect/turf_decal/trimline/white/filled/shrink_ccw,
 /turf/open/floor/mineral/plastitanium,
@@ -5646,6 +6659,10 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"KB" = (
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/carpet/neon/simple/cyan/nodots,
+/area/event/oceanarium)
 "KD" = (
 /obj/structure/flora/rock,
 /turf/open/misc/ironsand,
@@ -5678,6 +6695,16 @@
 	},
 /turf/open/misc/ironsand,
 /area/space)
+"KM" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/south,
+/obj/machinery/space_heater,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "KN" = (
 /obj/structure/table/wood/fancy,
 /obj/item/food/pie/cream,
@@ -5773,6 +6800,12 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"Lh" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate,
+/obj/item/food/fishtaco,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Li" = (
 /obj/structure/railing{
 	dir = 1
@@ -5888,6 +6921,12 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"LI" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "LJ" = (
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/mineral/plastitanium,
@@ -5898,6 +6937,9 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"LO" = (
+/turf/closed/indestructible/rock,
+/area/event/oceanarium)
 "LT" = (
 /obj/structure/headpike/bamboo,
 /turf/open/floor/catwalk_floor/flat_white,
@@ -5939,11 +6981,29 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"Mg" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 4
+	},
+/obj/machinery/light/cold/directional/north,
+/obj/effect/decal/cleanable/oil/streak,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "Mj" = (
 /obj/item/inspector/clown/bananium,
 /obj/structure/table/reinforced,
 /turf/open/floor/carpet/royalblack,
 /area/space)
+"Mk" = (
+/obj/item/coin/thunderdome,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Ml" = (
 /obj/machinery/light/dim/directional/east,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -5984,6 +7044,18 @@
 /obj/effect/decal/remains/xeno/larva,
 /turf/open/floor/vault/rock,
 /area/space)
+"Mt" = (
+/obj/structure/flora/rock/icy{
+	name = "rock"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Mu" = (
 /obj/structure/table,
 /obj/machinery/computer/security/telescreen/entertainment/directional/west,
@@ -6049,6 +7121,13 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"MW" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/molten_object,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "MX" = (
 /obj/machinery/portable_atmospherics/canister/tritium,
 /turf/open/floor/carpet/royalblack,
@@ -6125,6 +7204,15 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"Ny" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/skub{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "Nz" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
 	dir = 4
@@ -6161,6 +7249,14 @@
 	},
 /turf/open/floor/vault/rock,
 /area/space)
+"NH" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/machinery/grill,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "NI" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible,
@@ -6172,6 +7268,20 @@
 /obj/effect/turf_decal/trimline/white/arrow_ccw,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"NK" = (
+/obj/machinery/door/airlock/highsecurity,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/plating,
+/area/event/oceanarium)
+"NU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/mopbucket,
+/obj/item/mop/advanced,
+/turf/open/floor/plating,
+/area/event/oceanarium)
+"NW" = (
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "NX" = (
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
@@ -6199,6 +7309,11 @@
 	name = "plating"
 	},
 /area/space)
+"Oe" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "Og" = (
 /obj/effect/turf_decal/trimline/dark_red/corner,
 /turf/open/indestructible/dark,
@@ -6216,12 +7331,27 @@
 	},
 /turf/open/floor/plating/abductor,
 /area/event)
+"Or" = (
+/mob/living/simple_animal/hostile/carp/megacarp{
+	faction = list("neutral")
+	},
+/obj/effect/overlay/water,
+/turf/open/floor/glass{
+	light_range = 2;
+	light_color = "#6495ED"
+	},
+/area/event/oceanarium)
 "Ow" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"Ox" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/caution,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "Oy" = (
 /obj/structure/table/reinforced/rglass,
 /obj/item/storage/backpack/duffelbag/med/surgery,
@@ -6287,6 +7417,26 @@
 /mob/living/simple_animal/hostile/carp/holocarp,
 /turf/open/floor/fakespace,
 /area/space)
+"Pc" = (
+/obj/structure/flora/rock/icy/style_2{
+	name = "rock"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
+"Pd" = (
+/obj/structure/fluff/bus/passable,
+/obj/item/banhammer,
+/obj/effect/overlay/water,
+/turf/open/floor/iron/dark/airless{
+	icon_state = "bus"
+	},
+/area/event/oceanarium)
 "Pe" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/mineral/plastitanium,
@@ -6445,6 +7595,30 @@
 /obj/effect/turf_decal/siding/thinplating/dark/end,
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
+"PW" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/large,
+/obj/item/food/moonfish_demiglace{
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
+"PY" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/item/toy/brokenradio,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
+"Qa" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/small{
+	pixel_y = -3
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Qc" = (
 /obj/structure/chair/sofa/bench/right,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -6461,6 +7635,12 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"Qe" = (
+/obj/structure/chair/comfy/carp{
+	dir = 1
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Qi" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -6470,6 +7650,37 @@
 	},
 /turf/open/floor/cult,
 /area/space)
+"Qj" = (
+/obj/item/aquarium_prop/seaweed{
+	anchored = 1
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
+"Qm" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "bottomdoor";
+	layer = 3
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
+"Qn" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "frontwallbottomrear"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "Qq" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -6587,6 +7798,11 @@
 /mob/living/simple_animal/crab/coffee,
 /turf/open/indestructible/dark,
 /area/space)
+"Rh" = (
+/obj/structure/chair/comfy/carp,
+/obj/effect/decal/cleanable/molten_object,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Ri" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 2;
@@ -6816,6 +8032,16 @@
 /obj/item/organ/internal/heart/gland/heal,
 /turf/open/floor/glass/plasma,
 /area/event)
+"Sv" = (
+/obj/structure/marker_beacon/jade,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Sx" = (
 /obj/machinery/smartfridge/organ,
 /turf/open/floor/mineral/titanium/tiled/white,
@@ -6828,12 +8054,37 @@
 	name = "plating"
 	},
 /area/space)
+"SA" = (
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
+"SB" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate,
+/obj/item/food/fishfry,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "SE" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"SF" = (
+/obj/structure/fluff/bus/dense{
+	icon_state = "hoodtop"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "SG" = (
 /obj/effect/turf_decal/box,
 /obj/machinery/door/airlock/external,
@@ -6911,6 +8162,18 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/space)
+"SZ" = (
+/obj/item/aquarium_prop/rocks{
+	anchored = 1
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Tb" = (
 /obj/structure/fluff{
 	deconstructible = 0;
@@ -6956,6 +8219,14 @@
 /obj/structure/rack,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"Tr" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/cigbutt{
+	pixel_x = -5;
+	pixel_y = 9
+	},
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Tt" = (
 /obj/effect/turf_decal/trimline/white/filled/corner,
 /turf/open/floor/vault/rock,
@@ -7038,6 +8309,18 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"TP" = (
+/obj/structure/fluff/bus/passable/seat,
+/obj/effect/decal/remains/human{
+	light_range = 3;
+	light_power = 2;
+	light_color = "#6495ED"
+	},
+/obj/effect/overlay/water,
+/turf/open/floor/iron/dark/airless{
+	icon_state = "bus"
+	},
+/area/event/oceanarium)
 "TQ" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -7070,6 +8353,16 @@
 /obj/structure/table,
 /turf/open/floor/iron/checker,
 /area/space)
+"Ub" = (
+/obj/effect/overlay/water,
+/obj/structure/marker_beacon/cerulean,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Uc" = (
 /obj/machinery/door/poddoor/shutters/preopen,
 /obj/effect/turf_decal/trimline/white/line{
@@ -7080,6 +8373,16 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"Ue" = (
+/mob/living/simple_animal/crab,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Uf" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -7087,6 +8390,11 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"Ug" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/candle,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "Uk" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 8
@@ -7136,6 +8444,25 @@
 /obj/item/chair/plastic,
 /turf/open/misc/ironsand,
 /area/space)
+"UD" = (
+/obj/item/toy/plush/slimeplushie,
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
+"UE" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/light/cold/directional/south,
+/obj/effect/decal/cleanable/insectguts,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "UF" = (
 /obj/machinery/griddle,
 /turf/open/floor/iron/cafeteria,
@@ -7164,6 +8491,13 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/space)
+"UR" = (
+/obj/structure/fluff/bus/passable,
+/obj/effect/overlay/water,
+/turf/open/floor/iron/dark/airless{
+	icon_state = "bus"
+	},
+/area/event/oceanarium)
 "UV" = (
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
 	dir = 8
@@ -7264,6 +8598,11 @@
 "Vx" = (
 /turf/open/floor/vault/rock,
 /area/space)
+"Vy" = (
+/obj/machinery/atmospherics/components/binary/valve/on/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "Vz" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/thinplating,
@@ -7296,6 +8635,10 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"VM" = (
+/obj/structure/aquarium/prefilled,
+/turf/open/floor/mineral/silver,
+/area/event/oceanarium)
 "VO" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -7353,6 +8696,23 @@
 	},
 /turf/open/floor/glass/plasma,
 /area/event)
+"Wb" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/rune/teleport,
+/obj/effect/portal/permanent{
+	icon = 'icons/obj/objects.dmi';
+	icon_state = "anom";
+	id = "junk";
+	name = "stable wormhole";
+	light_range = 3;
+	light_color = "#00ccff"
+	},
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "Wf" = (
 /obj/structure/railing{
 	dir = 4
@@ -7428,6 +8788,16 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible,
 /area/space)
+"WJ" = (
+/obj/structure/fluff/bus/passable{
+	icon_state = "topdoor"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/overlay/water,
+/turf/open/floor/iron/dark/airless{
+	icon_state = "bus"
+	},
+/area/event/oceanarium)
 "WL" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/light/dim/directional/east,
@@ -7487,6 +8857,19 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
+"Xd" = (
+/obj/vehicle/ridden/lavaboat/dragon{
+	desc = "This is junk.";
+	anchored = 1
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Xj" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/chair/sofa/bench/right,
@@ -7536,6 +8919,15 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"Xy" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/tray,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "Xz" = (
 /obj/item/chair/plastic{
 	pixel_y = 10
@@ -7608,6 +9000,13 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"XH" = (
+/obj/item/clothing/head/lobsterhat,
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "XJ" = (
 /obj/machinery/recycler,
 /obj/machinery/conveyor{
@@ -7649,6 +9048,34 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/carpet/black,
 /area/space)
+"XP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/comfy/carp,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
+"XQ" = (
+/obj/item/aquarium_prop/seaweed_top{
+	anchored = 1
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
+"XR" = (
+/obj/effect/overlay/water,
+/turf/closed/mineral/ash_rock,
+/area/event/oceanarium)
+"XT" = (
+/obj/item/clothing/under/suit/carpskin,
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "XU" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
@@ -7668,6 +9095,22 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"XX" = (
+/obj/structure/disposalpipe/segment,
+/obj/item/light/tube/broken,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
+"XZ" = (
+/obj/structure/marker_beacon/lime,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "Ya" = (
 /turf/open/floor/plating/abductor,
 /area/event)
@@ -7679,6 +9122,14 @@
 /obj/effect/turf_decal/trimline/white/filled/line,
 /turf/open/floor/vault/rock,
 /area/space)
+"Yg" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/fish_feed,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mineral/silver,
+/area/event/oceanarium)
 "Yh" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -7776,12 +9227,26 @@
 /obj/machinery/abductor/gland_dispenser,
 /turf/open/floor/glass/plasma,
 /area/event)
+"YJ" = (
+/obj/structure/marker_beacon/cerulean,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "YL" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
 	},
 /turf/open/floor/glass,
 /area/space)
+"YM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/cyan,
+/area/event/oceanarium)
 "YO" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/flora/bush/lavendergrass/style_random,
@@ -7949,6 +9414,12 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/space)
+"ZM" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 1
+	},
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "ZQ" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 8
@@ -7973,6 +9444,14 @@
 /obj/effect/turf_decal/trimline/dark_red/warning,
 /turf/open/indestructible/dark,
 /area/space)
+"ZU" = (
+/obj/machinery/button/door{
+	name = "button"
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 
 (1,1,1) = {"
 aa
@@ -48856,46 +50335,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+mA
+mA
+mA
+bG
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+LO
+LO
+LO
+LO
+LO
+LO
+LO
+LO
 ay
 ay
 ay
@@ -48986,46 +50465,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+Wb
+lA
+ml
+sO
+pg
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+lJ
+zI
+zI
+SZ
+zI
+zI
+zI
+cx
+zI
+sF
+zI
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+LO
+LO
 ay
 ay
 ay
@@ -49116,46 +50595,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+bG
+PY
+XX
+Xy
+EM
+mA
+zI
+zI
+XQ
+zI
+zI
+zI
+nP
+zI
+zI
+Qj
+zI
+YJ
+zI
+zI
+zI
+zI
+zI
+Xd
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+hE
+XR
+XR
+XR
+XR
+XR
+XR
+XR
+LO
 ay
 ay
 ay
@@ -49246,46 +50725,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+qQ
+jM
+kp
+uW
+mA
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+Ue
+zI
+zI
+zI
+zI
+zI
+zI
+aI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+XR
+uL
+mr
+UR
+Qn
+XR
+XR
 ay
 ay
 ay
@@ -49376,46 +50855,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+Cn
+Ny
+bs
+yc
+lK
+zI
+zI
+zI
+zI
+lJ
+zI
+zI
+zI
+zI
+Mt
+zI
+zI
+zI
+XQ
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+Em
+zI
+zI
+zI
+XZ
+zI
+zI
+uL
+IP
+Gr
+Ci
+gK
+XR
 ay
 ay
 ay
@@ -49506,46 +50985,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+gh
+mA
+mA
+lu
+Ay
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+zI
+zI
+zI
+SZ
+zI
+zI
+lJ
+uL
+TP
+Pd
+uV
+gK
+XR
 ay
 ay
 ay
@@ -49636,46 +51115,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+CC
+CC
+CC
+CC
+DW
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+dN
+zI
+Hv
+zI
+zI
+zI
+zI
+zI
+uL
+eg
+UR
+Ft
+gK
+XR
 ay
 ay
 ay
@@ -49766,46 +51245,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+CC
+CC
+CC
+CC
+DW
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+uL
+jG
+WJ
+Qm
+gK
+XR
 ay
 ay
 ay
@@ -49896,47 +51375,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+CC
+bo
+CC
+CQ
+DW
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+it
+zI
+zI
+hY
+SF
+mf
+sK
+gK
+XR
+XR
 ay
 ay
 ay
@@ -50026,47 +51505,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+mA
+mA
+KB
+zs
+pw
+lK
+mA
+CC
+CC
+CC
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+Pc
+zI
+zI
+gK
+gK
+gK
+gK
+XR
+XR
 ay
 ay
 ay
@@ -50156,47 +51635,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+VM
+vW
+ZM
+ip
+nB
+ge
+mA
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+lJ
+zI
+zI
+zI
+cI
+zI
+zI
+gK
+gK
+gK
+FA
+UD
+XR
 ay
 ay
 ay
@@ -50286,47 +51765,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+Dd
+GK
+YM
+wE
+NW
+Yg
+dN
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+As
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+XT
+XR
 ay
 ay
 ay
@@ -50416,47 +51895,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+tg
+NW
+tO
+NW
+HC
+wj
+dN
+CC
+CC
+CC
+dN
+qf
+Cg
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+Qj
+zI
+XQ
+zI
+zI
+zI
+zI
+zI
+dC
+zI
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -50546,47 +52025,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+kM
+NW
+lo
+Dg
+sG
+gj
+dN
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+zG
+qf
+qf
+qf
+qf
+Or
+qf
+dN
+CC
+CC
+CC
+dN
+Ue
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -50676,47 +52155,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+dy
+Rh
+mk
+HD
+zk
+gj
+mA
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+SZ
+zI
+zI
+lJ
+zI
+zI
+gK
+gK
+XR
 ay
 ay
 ay
@@ -50806,47 +52285,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+qi
+NW
+nf
+Dq
+Qe
+UE
+mA
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+Cg
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+XR
 ay
 ay
 ay
@@ -50936,47 +52415,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+CX
+vB
+zW
+kR
+Qe
+tG
+mA
+CC
+CC
+CC
+dN
+qf
+AC
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+lJ
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+XR
 ay
 ay
 ay
@@ -51066,47 +52545,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+kM
+YM
+Bf
+ze
+Qe
+AM
+dN
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+Cg
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+Sv
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -51196,47 +52675,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+sn
+XP
+jw
+Tr
+wl
+eU
+dN
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+XQ
+zI
+zI
+zI
+zI
+zI
+zI
+zi
+zI
+IX
+gK
+gK
+XR
 ay
 ay
 ay
@@ -51326,47 +52805,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+kM
+NW
+am
+Ab
+Ug
+MW
+dN
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+Cg
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+Ub
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -51456,47 +52935,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+kM
+NW
+fR
+Lh
+Qe
+nH
+mA
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+rT
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -51586,47 +53065,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+qi
+vB
+Qa
+oN
+NW
+ta
+mA
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+Or
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+XR
+XR
 ay
 ay
 ay
@@ -51716,47 +53195,47 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+NH
+vB
+HE
+SB
+NW
+Ij
+mA
+CC
+CC
+CC
+dN
+Cg
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+yr
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+XH
+gK
+XR
+XR
 ay
 ay
 ay
@@ -51846,46 +53325,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+jD
+YM
+PW
+nD
+NW
+nH
+dN
+CC
+CC
+CC
+dN
+qf
+qf
+Or
+qf
+qf
+qf
+qf
+AC
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -51976,46 +53455,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+Mg
+JW
+NW
+NW
+YM
+cZ
+dN
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -52106,46 +53585,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+Dd
+NW
+HU
+NW
+NW
+Dd
+dN
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+Cg
+qf
+qf
+qf
+qf
+qf
+dN
+CC
+CC
+CC
+dN
+zI
+ho
+zI
+zI
+zI
+lJ
+zI
+zI
+jS
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -52236,46 +53715,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+VM
+Kd
+iq
+ip
+vW
+VM
+mA
+CC
+CC
+CC
+dN
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+qf
+Cg
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+Qj
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -52366,46 +53845,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+mA
+mA
+KB
+KB
+mA
+mA
+mA
+CC
+CC
+CC
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+gK
+XR
 ay
 ay
 ay
@@ -52496,46 +53975,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-af
-af
-af
-af
-af
-af
-af
-af
-af
-af
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+CC
+Az
+CC
+wF
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+Mk
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+XR
+XR
 ay
 ay
 ay
@@ -52626,46 +54105,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+dN
+zI
+zI
+kK
+lJ
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+XR
+LO
 ay
 ay
 ay
@@ -52756,46 +54235,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+dN
+zI
+zI
+zI
+zI
+zI
+zI
+Mt
+zI
+gK
+gK
+gK
+XR
+LO
 ay
 ay
 aa
@@ -52886,46 +54365,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+mA
+mA
+mA
+NK
+mA
+mA
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+dN
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+XR
+XR
+LO
 ay
 ay
 aa
@@ -53016,46 +54495,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
-ay
+mA
+ZU
+NU
+dn
+KM
+IA
+Hd
+lJ
+zI
+zI
+zI
+zI
+rT
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+lJ
+zI
+XQ
+zI
+zI
+zI
+zI
+zI
+dC
+zI
+zI
+zI
+zI
+gK
+gK
+XR
+LO
+LO
 ay
 ay
 aa
@@ -53146,46 +54625,46 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
-ay
+mA
+vL
+Ox
+dn
+aW
+tv
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+dH
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+ik
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+XR
+LO
+LO
 ay
 aa
 aa
@@ -53276,44 +54755,44 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+mA
+Ga
+Oe
+LI
+SA
+tv
+zI
+zI
+zI
+nO
+zI
+Ue
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+Er
+zI
+zI
+zI
+Qj
+Sv
+zI
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+XR
+XR
 ay
 ay
 ay
@@ -53406,44 +54885,44 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+bG
+dn
+Vy
+dn
+bH
+pw
+Hd
+zI
+zI
+lJ
+zI
+zI
+zI
+zI
+XQ
+Hv
+zI
+zI
+zI
+Ub
+zI
+zI
+zI
+zI
+zI
+nP
+zI
+zI
+zI
+zI
+zI
+zI
+gK
+gK
+gK
+XR
+XR
+LO
 ay
 ay
 aa
@@ -53536,43 +55015,43 @@ aa
 aa
 aa
 aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-ay
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+XR
+XR
+XR
+XR
+XR
+LO
 ay
 ay
 aa
