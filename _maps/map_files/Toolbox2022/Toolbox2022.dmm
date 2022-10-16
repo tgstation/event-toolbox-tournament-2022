@@ -858,6 +858,24 @@
 	icon_state = "ironsand10"
 	},
 /area/space)
+"eu" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/hostile/eyeball{
+	movement_type = 2;
+	icon = 'icons/obj/aquarium.dmi';
+	icon_living = "dwarf_moonfish";
+	icon_state = "greenchromis";
+	desc = "The Chromis can vary in color from blue to green depending on the lighting and distance from the lights.";
+	faction = list("neutral");
+	name = "green chromis"
+	},
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "ev" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
@@ -1205,6 +1223,24 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"gq" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/hostile/eyeball{
+	movement_type = 2;
+	icon = 'icons/obj/aquarium.dmi';
+	icon_living = "dwarf_moonfish";
+	icon_state = "angelfish";
+	desc = "Young Angelfish often live in groups, while adults prefer solitary life. They become territorial and aggressive toward other fish when they reach adulthood.";
+	faction = list("neutral");
+	name = "angelfish"
+	},
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "gs" = (
 /obj/effect/decal/cleanable/blood/gibs{
 	icon_state = "gib1-old"
@@ -8608,6 +8644,14 @@
 /obj/effect/turf_decal/siding/thinplating,
 /turf/open/misc/ironsand,
 /area/space)
+"VA" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/item/food/burger/fish,
+/turf/open/floor/pod/light,
+/area/event/oceanarium)
 "VB" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-10"
@@ -50605,7 +50649,7 @@ zI
 zI
 XQ
 zI
-zI
+eu
 zI
 nP
 zI
@@ -52026,7 +52070,7 @@ aa
 aa
 aD
 mA
-kM
+VA
 NW
 lo
 Dg
@@ -53484,7 +53528,7 @@ CC
 dN
 zI
 zI
-zI
+gq
 zI
 zI
 zI
