@@ -12,7 +12,7 @@
 /obj/structure/transit_tube/curved{
 	dir = 4
 	},
-/turf/open/misc/asteroid,
+/turf/open/misc/asteroid/airless,
 /area/space)
 "ad" = (
 /mob/living/simple_animal/pet/gondola,
@@ -432,7 +432,7 @@
 /turf/open/floor/cult,
 /area/space)
 "cv" = (
-/obj/machinery/fat_sucker,
+/obj/structure/alien_tank/filled,
 /turf/open/floor/glass/plasma,
 /area/event)
 "cw" = (
@@ -586,7 +586,8 @@
 "ds" = (
 /obj/structure/showcase/machinery/implanter{
 	desc = "Implants, apparently.";
-	name = "implanter"
+	name = "implanter";
+	icon_state = "hypnochair_open"
 	},
 /turf/open/floor/glass/plasma,
 /area/event)
@@ -1024,10 +1025,7 @@
 /turf/closed/indestructible/fakeglass,
 /area/space)
 "gv" = (
-/obj/structure/showcase/machinery/cloning_pod{
-	desc = "Clones, apparently.";
-	name = "cloner"
-	},
+/obj/structure/alien_tank/filled/larva,
 /turf/open/floor/glass/plasma,
 /area/event)
 "gw" = (
@@ -1723,7 +1721,8 @@
 /turf/open/floor/iron/checker,
 /area/space)
 "kO" = (
-/obj/structure/showcase/horrific_experiment,
+/obj/structure/table/abductor,
+/obj/item/organ/internal/body_egg/changeling_egg,
 /turf/open/floor/vault/alien{
 	initial_gas_mix = "TEMP=2.7"
 	},
@@ -1748,7 +1747,7 @@
 /obj/structure/transit_tube/curved/flipped{
 	dir = 8
 	},
-/turf/open/misc/asteroid,
+/turf/open/misc/asteroid/airless,
 /area/space)
 "lb" = (
 /obj/structure/table/reinforced,
@@ -4274,6 +4273,7 @@
 "Bn" = (
 /obj/structure/closet/abductor,
 /obj/item/stock_parts/cell/infinite/abductor,
+/obj/item/organ/internal/ears/cybernetic/upgraded,
 /turf/open/floor/glass/plasma,
 /area/event)
 "Bo" = (
@@ -4882,7 +4882,7 @@
 /turf/open/floor/glass/plasma,
 /area/event)
 "Fq" = (
-/obj/machinery/dna_scannernew,
+/obj/structure/alien_tank/broken,
 /turf/open/floor/glass/plasma,
 /area/event)
 "Fr" = (
@@ -4940,9 +4940,7 @@
 /area/space)
 "FI" = (
 /obj/structure/closet/abductor,
-/obj/item/stack/sheet/mineral/abductor{
-	amount = 50
-	},
+/obj/item/skub,
 /turf/open/floor/glass/plasma,
 /area/event)
 "FL" = (
@@ -7199,7 +7197,7 @@
 /turf/open/indestructible/dark,
 /area/space)
 "Vd" = (
-/obj/machinery/stasis/survival_pod,
+/obj/structure/alien_tank/filled/hugger,
 /turf/open/floor/glass/plasma,
 /area/event)
 "Vf" = (
@@ -7333,10 +7331,8 @@
 	},
 /area/space)
 "Wa" = (
-/obj/structure/fluff/empty_sleeper/nanotrasen{
-	desc = "Appears to be occupied. Best not disturb their sleep.";
-	dir = 8;
-	name = "hypersleep chamber"
+/obj/structure/alien_sleeper{
+	dir = 8
 	},
 /turf/open/floor/glass/plasma,
 /area/event)
@@ -7361,7 +7357,7 @@
 /area/space)
 "Wr" = (
 /obj/structure/transit_tube/diagonal,
-/turf/open/misc/asteroid,
+/turf/open/misc/asteroid/airless,
 /area/space)
 "Wv" = (
 /obj/structure/disposalpipe/junction/flip{
@@ -7383,7 +7379,7 @@
 /obj/structure/transit_tube/curved/flipped{
 	dir = 4
 	},
-/turf/open/misc/asteroid,
+/turf/open/misc/asteroid/airless,
 /area/space)
 "WC" = (
 /obj/effect/turf_decal/siding/wood,
@@ -12819,7 +12815,11 @@ aa
 aa
 aa
 aa
-aD
+cS
+cS
+ay
+ay
+ay
 ay
 ay
 ay
@@ -12948,8 +12948,15 @@ aa
 aa
 aa
 aa
-WF
-WF
+cS
+cS
+cS
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -14958,9 +14965,12 @@ aa
 aa
 aa
 aa
-WF
-WF
-WF
+cS
+cS
+cS
+cS
+ay
+ay
 ay
 ay
 ay
@@ -15168,10 +15178,10 @@ aa
 aa
 aa
 aa
-WF
-WF
-WF
-WF
+cS
+cS
+cS
+cS
 ay
 ay
 ay
@@ -15428,10 +15438,8 @@ aa
 aa
 aa
 aa
-WF
-WF
-WF
-WF
+cS
+ay
 ay
 ay
 ay
@@ -15589,7 +15597,7 @@ aa
 aa
 aa
 aa
-WF
+cS
 ay
 ay
 ay
@@ -15764,7 +15772,7 @@ aa
 aa
 aa
 aa
-WF
+cS
 ay
 ay
 ay
@@ -15928,7 +15936,7 @@ ZS
 ZS
 aa
 aa
-WF
+cS
 ay
 ay
 ay
@@ -16085,7 +16093,7 @@ SR
 ZS
 VE
 aa
-WF
+cS
 ay
 ay
 ay
@@ -16249,8 +16257,7 @@ UY
 lN
 MF
 VE
-aa
-WF
+cS
 ay
 ay
 ay
@@ -16449,15 +16456,15 @@ KO
 le
 VE
 VE
-WF
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+aa
+cS
+PF
+PF
+PF
+PF
+PF
+PF
+PF
 ay
 ay
 ay
@@ -16631,7 +16638,7 @@ is
 EL
 VE
 aa
-WF
+cS
 PF
 PF
 PF
@@ -16802,7 +16809,13 @@ Bs
 EL
 gu
 aa
-WF
+cS
+gu
+fM
+jO
+jO
+jO
+fg
 PF
 Mb
 LH
@@ -17045,7 +17058,7 @@ is
 EL
 gu
 aa
-WF
+cS
 gu
 fM
 jO
@@ -17228,7 +17241,7 @@ Bs
 EL
 gu
 aa
-WF
+cS
 gu
 TK
 jO
@@ -17436,7 +17449,7 @@ is
 EL
 gu
 aa
-WF
+cS
 gu
 TK
 jO
@@ -17616,9 +17629,9 @@ Bs
 EL
 gu
 aa
-WF
-gu
-Wn
+cS
+PF
+FE
 jO
 Nq
 jO
@@ -18638,7 +18651,7 @@ SK
 EL
 gu
 aa
-WF
+cS
 PF
 XL
 jO
@@ -18785,7 +18798,7 @@ Bs
 EL
 gu
 aa
-WF
+cS
 PF
 xX
 jO
@@ -18915,7 +18928,7 @@ SK
 EL
 gu
 aa
-WF
+cS
 PF
 ob
 jO
@@ -19071,7 +19084,7 @@ Bs
 EL
 VE
 aa
-WF
+cS
 PF
 Ok
 jO
@@ -19171,8 +19184,8 @@ rx
 mn
 VE
 VE
-WF
-WF
+cS
+cS
 PF
 XL
 jO
@@ -19280,9 +19293,9 @@ qK
 zT
 Rn
 VE
-WF
-WF
-WF
+cS
+cS
+cS
 PF
 xX
 jO
@@ -19402,9 +19415,9 @@ VE
 Zr
 ck
 VE
-WF
-WF
-WF
+cS
+cS
+cS
 PF
 ob
 jO
@@ -19532,9 +19545,9 @@ DU
 zT
 Rn
 VE
-WF
-WF
-WF
+cS
+cS
+cS
 PF
 Ok
 jO
@@ -19654,9 +19667,9 @@ iI
 gd
 Kl
 ZS
-WF
-WF
-WF
+cS
+cS
+cS
 PF
 XL
 jO
@@ -20008,7 +20021,7 @@ aa
 aa
 aa
 aa
-WF
+cS
 PF
 gA
 Lm
@@ -20128,8 +20141,8 @@ aa
 aa
 aa
 aa
-WF
-WF
+cS
+cS
 PF
 ES
 an
@@ -20263,9 +20276,9 @@ aa
 aa
 aa
 aa
-WF
-WF
-WF
+cS
+cS
+cS
 PF
 lZ
 vj
@@ -20385,8 +20398,8 @@ aa
 aa
 aa
 aa
-WF
-WF
+cS
+cS
 PF
 PF
 PF
@@ -20516,8 +20529,8 @@ aa
 aa
 aa
 aa
-WF
-WF
+cS
+cS
 gu
 BS
 dl
@@ -20643,9 +20656,9 @@ aa
 aa
 aa
 aa
-WF
-WF
-WF
+cS
+cS
+cS
 gu
 FE
 uI
@@ -20771,9 +20784,9 @@ aa
 aa
 aa
 aa
-WF
-WF
-WF
+cS
+cS
+cS
 PF
 aA
 uI
@@ -20904,9 +20917,9 @@ aa
 aa
 aa
 aa
-WF
-WF
-WF
+cS
+cS
+cS
 gu
 wI
 uI
@@ -21031,8 +21044,8 @@ aa
 aa
 aa
 aa
-WF
-WF
+cS
+cS
 Gn
 aE
 FW
@@ -21151,11 +21164,11 @@ aa
 aa
 aa
 aa
-WF
+cS
 Io
 pe
 aa
-WF
+cS
 Wr
 PF
 gu
@@ -21284,10 +21297,10 @@ aa
 aa
 kE
 Kc
-WF
-WF
-WF
-WF
+cS
+cS
+cS
+cS
 ay
 PF
 jO
@@ -21416,10 +21429,10 @@ aa
 aa
 aa
 aa
-WF
-WF
-WF
-WF
+cS
+cS
+cS
+cS
 ay
 PF
 jO
@@ -21557,10 +21570,10 @@ ac
 aa
 aa
 aa
-WF
-WF
-WF
-WF
+cS
+cS
+cS
+cS
 ay
 PF
 jO
@@ -21661,14 +21674,14 @@ gu
 WF
 gu
 aa
-WF
+cS
 kW
 aa
 aa
 aa
 aa
 ay
-WF
+cS
 ay
 ay
 PF
@@ -21777,7 +21790,7 @@ PF
 PF
 aa
 Wz
-WF
+cS
 aa
 aa
 aa
@@ -23303,7 +23316,7 @@ YI
 ty
 ty
 ty
-aa
+ty
 aa
 aa
 aa
