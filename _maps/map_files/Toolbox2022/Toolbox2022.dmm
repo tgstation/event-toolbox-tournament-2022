@@ -1734,7 +1734,8 @@
 /turf/open/floor/iron/checker,
 /area/space)
 "kO" = (
-/obj/structure/showcase/horrific_experiment,
+/obj/structure/table/abductor,
+/obj/item/organ/internal/body_egg/changeling_egg,
 /turf/open/floor/vault/alien{
 	initial_gas_mix = "TEMP=2.7"
 	},
@@ -4285,6 +4286,7 @@
 "Bn" = (
 /obj/structure/closet/abductor,
 /obj/item/stock_parts/cell/infinite/abductor,
+/obj/item/organ/internal/ears/cybernetic/upgraded,
 /turf/open/floor/glass/plasma,
 /area/event)
 "Bo" = (
@@ -4951,9 +4953,7 @@
 /area/space)
 "FI" = (
 /obj/structure/closet/abductor,
-/obj/item/stack/sheet/mineral/abductor{
-	amount = 50
-	},
+/obj/item/skub,
 /turf/open/floor/glass/plasma,
 /area/event)
 "FL" = (
