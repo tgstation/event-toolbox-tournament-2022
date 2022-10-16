@@ -148,24 +148,6 @@
 /obj/machinery/status_display/shuttle,
 /turf/closed/indestructible/riveted,
 /area/space)
-"aI" = (
-/mob/living/simple_animal/hostile/eyeball{
-	movement_type = 2;
-	icon = 'icons/obj/aquarium.dmi';
-	icon_living = "clownfish";
-	icon_state = "clownfish";
-	desc = "Clownfish catch prey by swimming onto the reef, attracting larger fish, and luring them back to the anemone. The anemone will sting and eat the larger fish, leaving the remains for the clownfish.";
-	faction = list("neutral");
-	name = "clownfish"
-	},
-/obj/effect/overlay/water,
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	footstep = "water";
-	clawfootstep = "water";
-	heavyfootstep = "water"
-	},
-/area/event/oceanarium)
 "aL" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -858,24 +840,6 @@
 	icon_state = "ironsand10"
 	},
 /area/space)
-"eu" = (
-/obj/effect/overlay/water,
-/mob/living/simple_animal/hostile/eyeball{
-	movement_type = 2;
-	icon = 'icons/obj/aquarium.dmi';
-	icon_living = "dwarf_moonfish";
-	icon_state = "greenchromis";
-	desc = "The Chromis can vary in color from blue to green depending on the lighting and distance from the lights.";
-	faction = list("neutral");
-	name = "green chromis"
-	},
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	footstep = "water";
-	clawfootstep = "water";
-	heavyfootstep = "water"
-	},
-/area/event/oceanarium)
 "ev" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
@@ -1083,6 +1047,16 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"fB" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/dwarf_moonfish,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "fF" = (
 /obj/structure/chair/sofa/corp/corner{
 	dir = 4
@@ -1223,24 +1197,6 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
-"gq" = (
-/obj/effect/overlay/water,
-/mob/living/simple_animal/hostile/eyeball{
-	movement_type = 2;
-	icon = 'icons/obj/aquarium.dmi';
-	icon_living = "dwarf_moonfish";
-	icon_state = "angelfish";
-	desc = "Young Angelfish often live in groups, while adults prefer solitary life. They become territorial and aggressive toward other fish when they reach adulthood.";
-	faction = list("neutral");
-	name = "angelfish"
-	},
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	footstep = "water";
-	clawfootstep = "water";
-	heavyfootstep = "water"
-	},
-/area/event/oceanarium)
 "gs" = (
 /obj/effect/decal/cleanable/blood/gibs{
 	icon_state = "gib1-old"
@@ -1561,27 +1517,6 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
-"ik" = (
-/obj/item/aquarium_prop/rocks{
-	anchored = 1
-	},
-/mob/living/simple_animal/hostile/eyeball{
-	movement_type = 2;
-	icon = 'icons/obj/aquarium.dmi';
-	icon_living = "dwarf_moonfish";
-	icon_state = "dwarf_moonfish";
-	desc = "Ordinarily in the wild, the Zagoskian moonfish is around the size of a tuna, however through selective breeding a smaller breed suitable for being kept as an aquarium pet has been created.";
-	faction = list("neutral");
-	name = "dwarf moonfish"
-	},
-/obj/effect/overlay/water,
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	footstep = "water";
-	clawfootstep = "water";
-	heavyfootstep = "water"
-	},
-/area/event/oceanarium)
 "il" = (
 /mob/living/simple_animal/hostile/jungle/leaper{
 	faction = list("neutral");
@@ -3131,6 +3066,16 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"qe" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/plasmatetra,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "qf" = (
 /obj/effect/overlay/water,
 /turf/open/floor/glass{
@@ -3366,24 +3311,6 @@
 	},
 /turf/open/misc/ironsand,
 /area/space)
-"rT" = (
-/mob/living/simple_animal/hostile/eyeball{
-	movement_type = 2;
-	icon = 'icons/obj/aquarium.dmi';
-	icon_living = "gunner_jellyfish";
-	icon_state = "gunner_jellyfish";
-	desc = "So called due to their resemblance to an artillery shell, the gunner jellyfish is native to Tizira, where it is enjoyed as a delicacy. Produces a mild hallucinogen that is destroyed by cooking.";
-	faction = list("neutral");
-	name = "gunner jellyfish"
-	},
-/obj/effect/overlay/water,
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	footstep = "water";
-	clawfootstep = "water";
-	heavyfootstep = "water"
-	},
-/area/event/oceanarium)
 "rV" = (
 /obj/structure/chair/greyscale{
 	dir = 1
@@ -4063,6 +3990,16 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"uQ" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/goldfish,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "uT" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	dir = 4
@@ -4909,24 +4846,6 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
-"As" = (
-/mob/living/simple_animal/hostile/eyeball{
-	movement_type = 2;
-	icon = 'icons/obj/aquarium.dmi';
-	icon_living = "dwarf_moonfish";
-	icon_state = "dwarf_moonfish";
-	desc = "Ordinarily in the wild, the Zagoskian moonfish is around the size of a tuna, however through selective breeding a smaller breed suitable for being kept as an aquarium pet has been created.";
-	faction = list("neutral");
-	name = "dwarf moonfish"
-	},
-/obj/effect/overlay/water,
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	footstep = "water";
-	clawfootstep = "water";
-	heavyfootstep = "water"
-	},
-/area/event/oceanarium)
 "Av" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -5371,6 +5290,16 @@
 /obj/structure/chair/comfy,
 /turf/open/floor/carpet/neon/simple/white/nodots,
 /area/space)
+"CT" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/clownfish,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "CX" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -7151,6 +7080,16 @@
 	},
 /turf/open/floor/vault/rock,
 /area/space)
+"MT" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/angelfish,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "MU" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	dir = 1
@@ -7777,6 +7716,16 @@
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"QF" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/gunner_jellyfish,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "QJ" = (
 /obj/machinery/washing_machine,
 /obj/effect/turf_decal/box/white,
@@ -7964,6 +7913,19 @@
 	},
 /turf/open/floor/glass/plasma,
 /area/event)
+"RP" = (
+/obj/item/aquarium_prop/seaweed{
+	anchored = 1
+	},
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/guppy,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	footstep = "water";
+	clawfootstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "RS" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/door/airlock/public/glass{
@@ -8679,6 +8641,13 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"VI" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/greenchromis,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/oceanarium)
 "VM" = (
 /obj/structure/aquarium/prefilled,
 /turf/open/floor/mineral/silver,
@@ -50649,12 +50618,12 @@ zI
 zI
 XQ
 zI
-eu
+zI
 zI
 nP
 zI
 zI
-Qj
+RP
 zI
 YJ
 zI
@@ -50793,10 +50762,10 @@ zI
 zI
 zI
 zI
-aI
 zI
 zI
 zI
+MT
 zI
 zI
 zI
@@ -51708,7 +51677,7 @@ CC
 dN
 zI
 lJ
-zI
+CT
 zI
 zI
 cI
@@ -51837,7 +51806,7 @@ CC
 CC
 dN
 zI
-As
+zI
 zI
 zI
 zI
@@ -51970,7 +51939,7 @@ Qj
 zI
 XQ
 zI
-zI
+CT
 zI
 zI
 zI
@@ -52367,7 +52336,7 @@ zI
 zI
 zI
 zI
-gK
+VI
 gK
 XR
 ay
@@ -52487,7 +52456,7 @@ CC
 CC
 dN
 zI
-zI
+fB
 zI
 lJ
 zI
@@ -53011,7 +52980,7 @@ zI
 zI
 zI
 zI
-rT
+zI
 zI
 zI
 zI
@@ -53141,7 +53110,7 @@ zI
 zI
 zI
 zI
-zI
+uQ
 zI
 zI
 zI
@@ -53528,7 +53497,7 @@ CC
 dN
 zI
 zI
-gq
+zI
 zI
 zI
 zI
@@ -53787,12 +53756,12 @@ CC
 CC
 dN
 zI
-zI
+uQ
 Qj
 zI
 zI
 zI
-zI
+QF
 zI
 gK
 gK
@@ -54551,7 +54520,7 @@ zI
 zI
 zI
 zI
-rT
+zI
 zI
 zI
 zI
@@ -54684,13 +54653,13 @@ zI
 zI
 dH
 zI
+MT
 zI
 zI
 zI
 zI
 zI
-zI
-ik
+SZ
 zI
 zI
 zI
@@ -54805,7 +54774,7 @@ Oe
 LI
 SA
 tv
-zI
+qe
 zI
 zI
 nO
@@ -54823,7 +54792,7 @@ Er
 zI
 zI
 zI
-Qj
+RP
 Sv
 zI
 zI
