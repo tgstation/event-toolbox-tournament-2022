@@ -21,10 +21,6 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/centcom/tdome/arena)
-"e" = (
-/obj/effect/overlay/water,
-/turf/closed/indestructible/iron,
-/area/centcom/tdome/arena)
 "g" = (
 /obj/structure/flora/rock/pile/icy/style_2{
 	name = "rocks"
@@ -67,7 +63,10 @@
 "t" = (
 /obj/structure/atlantis/column/lantern,
 /obj/effect/overlay/water,
-/turf/closed/indestructible/iron,
+/turf/closed/indestructible/iron{
+	name = "ancient stone wall";
+	desc = "A wall with tough stone plating."
+	},
 /area/centcom/tdome/arena)
 "u" = (
 /obj/item/aquarium_prop/seaweed{
@@ -248,7 +247,7 @@ P
 P
 "}
 (5,1,1) = {"
-e
+X
 t
 P
 P
@@ -261,7 +260,7 @@ P
 "}
 (6,1,1) = {"
 T
-e
+X
 P
 P
 P
@@ -344,7 +343,7 @@ P
 g
 "}
 (13,1,1) = {"
-e
+X
 t
 P
 P
