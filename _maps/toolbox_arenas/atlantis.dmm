@@ -172,8 +172,13 @@
 	},
 /area/centcom/tdome/arena)
 "T" = (
+/obj/structure/atlantis/column/lantern,
+/obj/structure/atlantis/column/lantern,
 /obj/effect/overlay/water,
-/turf/closed/mineral/ash_rock,
+/turf/closed/indestructible/iron{
+	name = "ancient stone wall";
+	desc = "A wall with tough stone plating."
+	},
 /area/centcom/tdome/arena)
 "U" = (
 /obj/structure/flora/bush/reed/style_3,
@@ -247,8 +252,8 @@ P
 P
 "}
 (5,1,1) = {"
-X
-t
+P
+P
 P
 P
 P
@@ -259,8 +264,8 @@ V
 P
 "}
 (6,1,1) = {"
-T
 X
+t
 P
 P
 P
@@ -271,8 +276,8 @@ P
 h
 "}
 (7,1,1) = {"
-T
-T
+z
+X
 r
 z
 z
@@ -283,7 +288,7 @@ a
 z
 "}
 (8,1,1) = {"
-T
+z
 z
 z
 z
@@ -295,7 +300,7 @@ z
 z
 "}
 (9,1,1) = {"
-T
+z
 z
 z
 z
@@ -307,7 +312,7 @@ z
 z
 "}
 (10,1,1) = {"
-T
+z
 z
 z
 z
@@ -319,8 +324,8 @@ z
 z
 "}
 (11,1,1) = {"
-T
-T
+z
+X
 Q
 z
 z
@@ -331,8 +336,8 @@ a
 z
 "}
 (12,1,1) = {"
-T
 X
+T
 P
 E
 P
@@ -343,8 +348,8 @@ P
 g
 "}
 (13,1,1) = {"
-X
-t
+P
+P
 P
 P
 P
