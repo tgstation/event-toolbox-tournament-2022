@@ -186,7 +186,7 @@
 /area/centcom/tdome/arena)
 "By" = (
 /obj/effect/turf_decal/weather/snow/corner{
-	dir = 10
+	dir = 4
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/centcom/tdome/arena)
