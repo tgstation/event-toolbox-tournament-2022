@@ -9,8 +9,11 @@
 
 /area/event/oceanarium
 	name = "Oceanarium"
-	requires_power = FALSE
-	has_gravity = TRUE
+	static_lighting = TRUE
+	base_lighting_alpha = 0
+
+/area/event/club
+	name = "Club"
 	static_lighting = TRUE
 	base_lighting_alpha = 0
 
