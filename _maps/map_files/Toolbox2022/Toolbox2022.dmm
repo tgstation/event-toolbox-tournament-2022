@@ -38,10 +38,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "ai" = (
 /obj/effect/turf_decal/trimline/blue/filled/arrow_ccw,
@@ -223,10 +220,7 @@
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 1
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "bi" = (
 /obj/machinery/deepfryer,
@@ -234,10 +228,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/space)
 "bj" = (
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "bl" = (
 /obj/structure/chair/stool/bar/directional/north,
@@ -423,10 +414,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "ci" = (
 /obj/effect/turf_decal/trimline/neutral/line{
@@ -1575,10 +1563,7 @@
 	},
 /obj/structure/disposalpipe/trunk,
 /obj/structure/window/reinforced,
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "iw" = (
 /obj/effect/turf_decal/trimline/white/filled/shrink_ccw{
@@ -1735,10 +1720,7 @@
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 4
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "jq" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -2987,10 +2969,7 @@
 /area/space)
 "pD" = (
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "pE" = (
 /turf/open/floor/mineral/titanium/tiled/white,
@@ -3546,10 +3525,7 @@
 /obj/structure/shuttle/engine/huge{
 	dir = 4
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "td" = (
 /obj/structure/railing/corner,
@@ -3610,10 +3586,7 @@
 	dir = 5;
 	id = "garbage"
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "tm" = (
 /obj/structure/chair/sofa/corp/corner{
@@ -3630,10 +3603,7 @@
 	id = "garbage";
 	name = "disposal conveyor"
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "tr" = (
 /obj/effect/turf_decal/trimline/dark_red/corner{
@@ -4143,13 +4113,6 @@
 /obj/singularity/orion,
 /turf/open/space/basic,
 /area/event)
-"vG" = (
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/space)
 "vH" = (
 /mob/living/simple_animal/hostile/retaliate/snake{
 	name = "Hides-in-Closets";
@@ -4360,10 +4323,7 @@
 "xq" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/disposalpipe/segment,
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "xt" = (
 /obj/structure/sink/kitchen{
@@ -5018,10 +4978,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "Bl" = (
 /turf/open/indestructible,
@@ -5726,10 +5683,7 @@
 	icon_state = "right";
 	layer = 3
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "Fm" = (
 /obj/machinery/door/airlock/public/glass{
@@ -5950,10 +5904,7 @@
 /obj/structure/disposalpipe/junction{
 	dir = 8
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "Gj" = (
 /obj/effect/spawner/random/vending/colavend,
@@ -6872,10 +6823,7 @@
 /obj/structure/shuttle/engine/heater{
 	dir = 4
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "LH" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -7067,10 +7015,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "MR" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -7277,10 +7222,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "Oe" = (
 /obj/structure/disposalpipe/segment,
@@ -7428,10 +7370,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "Pm" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
@@ -8018,10 +7957,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "Su" = (
 /obj/structure/table/abductor,
@@ -8045,10 +7981,7 @@
 "Sy" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "SA" = (
 /obj/structure/disposalpipe/junction/yjunction{
@@ -8694,10 +8627,7 @@
 	dir = 1;
 	id = "garbage"
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "Wa" = (
 /obj/structure/alien_sleeper{
@@ -8998,10 +8928,7 @@
 /area/space)
 "XD" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "XG" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
@@ -9022,10 +8949,7 @@
 	dir = 4;
 	id = "garbage"
 	},
-/turf/open/indestructible{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/open/indestructible/event/plating,
 /area/space)
 "XK" = (
 /obj/machinery/computer/mech_bay_power_console{
@@ -16567,7 +16491,7 @@ PF
 PF
 PF
 PF
-vG
+Od
 PF
 PF
 NF
