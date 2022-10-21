@@ -365,7 +365,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/south,
-/obj/machinery/door/airlock/diamond,
 /turf/open/floor/plating,
 /area/event/oceanarium)
 "bI" = (
