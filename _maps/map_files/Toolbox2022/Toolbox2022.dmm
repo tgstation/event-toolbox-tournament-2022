@@ -365,6 +365,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/south,
+/obj/machinery/door/airlock/diamond,
 /turf/open/floor/plating,
 /area/event/oceanarium)
 "bI" = (
@@ -1973,7 +1974,10 @@
 	},
 /area/space)
 "jp" = (
-/obj/machinery/door/airlock/diamond,
+/obj/machinery/door/airlock/diamond{
+	name = "Kitchen"
+	},
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/oceanarium)
 "jq" = (
@@ -3550,6 +3554,12 @@
 /obj/machinery/camera/emp_proof/directional/south,
 /turf/open/floor/vault/rock,
 /area/space)
+"re" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Cabin 2"
+	},
+/turf/open/floor/iron/freezer,
+/area/event/club)
 "rj" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -4698,6 +4708,13 @@
 /obj/effect/turf_decal/trimline/white/arrow_cw,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"wu" = (
+/obj/machinery/door/airlock/plasma{
+	name = "Kitchen"
+	},
+/obj/effect/turf_decal/tile/purple/diagonal_centre,
+/turf/open/floor/iron/kitchen/diagonal,
+/area/event/club)
 "wv" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8;
@@ -5202,7 +5219,9 @@
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 8
 	},
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Cafe"
+	},
 /turf/open/floor/carpet/neon/simple/cyan/nodots,
 /area/event/oceanarium)
 "zt" = (
@@ -5607,7 +5626,8 @@
 /area/space)
 "Bp" = (
 /obj/machinery/door/airlock/freezer,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
+/turf/open/floor/iron/kitchen/diagonal,
 /area/event/club)
 "Bq" = (
 /obj/structure/chair/sofa/corp,
@@ -5797,7 +5817,9 @@
 /turf/open/indestructible/dark,
 /area/space)
 "Cp" = (
-/obj/machinery/door/airlock/titanium,
+/obj/machinery/door/airlock/titanium{
+	name = "Shower"
+	},
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/iron/freezer,
 /area/event/club)
@@ -6700,6 +6722,12 @@
 "GD" = (
 /turf/open/floor/iron/stairs/old,
 /area/space)
+"GE" = (
+/obj/machinery/door/airlock/titanium{
+	name = "Cabin 3"
+	},
+/turf/open/floor/iron/freezer,
+/area/event/club)
 "GI" = (
 /obj/structure/fluff{
 	deconstructible = 0;
@@ -7420,7 +7448,9 @@
 /turf/open/floor/mineral/titanium,
 /area/space)
 "KB" = (
-/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/airlock/public/glass{
+	name = "Cafe"
+	},
 /turf/open/floor/carpet/neon/simple/cyan/nodots,
 /area/event/oceanarium)
 "KD" = (
@@ -8046,13 +8076,17 @@
 /turf/open/floor/mineral/titanium,
 /area/space)
 "NK" = (
-/obj/machinery/door/airlock/highsecurity,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Water Pump Maintenance"
+	},
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/plating,
 /area/event/oceanarium)
 "NS" = (
-/obj/machinery/door/airlock/public/glass,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/public/glass{
+	name = "Cafe"
+	},
 /turf/open/floor/carpet/neon/simple/cyan/nodots,
 /area/event/oceanarium)
 "NU" = (
@@ -8456,7 +8490,9 @@
 	},
 /area/event/oceanarium)
 "Qk" = (
-/obj/machinery/door/airlock/titanium,
+/obj/machinery/door/airlock/titanium{
+	name = "Cabin 1"
+	},
 /turf/open/floor/iron/freezer,
 /area/event/club)
 "Qm" = (
@@ -10465,7 +10501,9 @@
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/club)
 "ZX" = (
-/obj/machinery/door/airlock/silver,
+/obj/machinery/door/airlock/silver{
+	name = "Restroom"
+	},
 /turf/open/floor/iron/freezer,
 /area/event/club)
 
@@ -54074,7 +54112,7 @@ xG
 Gq
 Gq
 Gq
-MO
+wu
 ou
 zY
 CJ
@@ -55894,7 +55932,7 @@ fE
 ro
 MO
 in
-Qk
+re
 EY
 Dw
 qY
@@ -56154,7 +56192,7 @@ MO
 MO
 MO
 Ti
-Qk
+GE
 EY
 qY
 EY
