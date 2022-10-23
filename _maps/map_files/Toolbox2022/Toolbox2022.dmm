@@ -4060,6 +4060,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/event/oceanarium)
+"vO" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/carpet/black,
+/area/space)
 "vP" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/end,
 /turf/open/floor/carpet/black,
@@ -23289,7 +23293,7 @@ jO
 jO
 jO
 jO
-jO
+vO
 jO
 jO
 jO
