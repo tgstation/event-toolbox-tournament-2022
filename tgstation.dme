@@ -4805,6 +4805,7 @@
 #include "modular_event\arena_assets\alien.dm"
 #include "modular_event\arena_assets\bottomless_sign.dm"
 #include "modular_event\arena_assets\event_walls.dm"
+#include "modular_event\arena_assets\event_floors.dm"
 #include "modular_event\arena_assets\statues.dm"
 #include "modular_event\arena_assets\fish.dm"
 #include "modular_event\arena_assets\water.dm"
