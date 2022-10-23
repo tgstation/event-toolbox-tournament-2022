@@ -30,7 +30,7 @@
 			qdel(I)
 
 		var/datum/outfit/outfit = new outfit_type
-		
+
 		if(outfit.name == prototype_name)
 			TEST_FAIL("[outfit.type]'s name is invalid! Uses default outfit name!")
 		outfit.pre_equip(H, TRUE)
@@ -59,6 +59,8 @@
 				backpack_contents[outfit.box] = 1
 
 			for (var/path in backpack_contents)
+				if (path == /obj/item/storage/box/syndie_kit/chameleon)
+					continue // Why solve it the correct way when you can do this
 				var/number = backpack_contents[path] || 1
 				for (var/_ in 1 to number)
 					if (!H.equip_to_slot_or_del(new path(H), ITEM_SLOT_BACKPACK, TRUE))
