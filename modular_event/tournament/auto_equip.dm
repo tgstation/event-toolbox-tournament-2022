@@ -102,7 +102,7 @@ SUBSYSTEM_DEF(auto_equip)
 	backpack_contents = list(/obj/item/storage/box/syndie_kit/chameleon = 1)
 
 	shoes = /obj/item/clothing/shoes/laceup
-	head = /obj/item/clothing/head/bowler
+	head = /obj/item/clothing/head/hats/bowler
 	ears = /obj/item/radio/headset/headset_srv
 	uniform = /obj/item/clothing/under/suit/black_really
 	gloves = /obj/item/clothing/gloves/color/white
