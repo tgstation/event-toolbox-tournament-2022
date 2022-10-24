@@ -9390,6 +9390,10 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"Xr" = (
+/turf/open/space/basic,
+/turf/closed/indestructible/fakeglass,
+/area/event/oceanarium)
 "Xt" = (
 /obj/effect/turf_decal/trimline/white/corner,
 /obj/effect/turf_decal/trimline/white/corner{
@@ -55265,7 +55269,7 @@ Ga
 Oe
 LI
 SA
-tv
+Xr
 qe
 zI
 zI
