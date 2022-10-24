@@ -2599,14 +2599,6 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
-"mN" = (
-/obj/effect/turf_decal/siding/thinplating/light{
-	dir = 8
-	},
-/obj/structure/chair/comfy,
-/obj/structure/chair/comfy,
-/turf/open/floor/carpet/neon/simple/white/nodots,
-/area/space)
 "mO" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8;
@@ -3834,7 +3826,6 @@
 /turf/open/floor/wood/tile,
 /area/space)
 "tv" = (
-/obj/machinery/door/poddoor/shutters/window/preopen,
 /turf/closed/indestructible/fakeglass,
 /turf/open/floor/pod/dark,
 /area/event/oceanarium)
@@ -19510,7 +19501,7 @@ iN
 hn
 CS
 CS
-mN
+CS
 yT
 gu
 aT
