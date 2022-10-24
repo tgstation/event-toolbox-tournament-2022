@@ -12,6 +12,7 @@
 		#include "map_files\MetaStation\MetaStation.dmm"
 		#include "map_files\IceBoxStation\IceBoxStation.dmm"
 		#include "map_files\tramstation\tramstation.dmm"
+		#include "map_files\Toolbox2022\Toolbox2022.dmm"
 
 		#ifdef CIBUILDING
 			#include "templates.dm"
