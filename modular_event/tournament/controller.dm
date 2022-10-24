@@ -234,7 +234,11 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			contestant_mob.reset_perspective()
 			contestant_mob.job = team.name
 			contestant_mob.set_nutrition(NUTRITION_LEVEL_FED + 50)
+<<<<<<< HEAD
 			SEND_SIGNAL(contestant_mob, COMSIG_ADD_MOOD_EVENT, "event", /datum/mood_event/toolbox_arena)
+=======
+			contestant_mob.add_mood_event("event", /datum/mood_event/toolbox_arena)
+>>>>>>> main
 			ADD_TRAIT(contestant_mob, TRAIT_BYPASS_MEASURES, "arena")
 			RegisterSignal(contestant_mob, COMSIG_LIVING_DEATH, .proc/contestant_died)
 

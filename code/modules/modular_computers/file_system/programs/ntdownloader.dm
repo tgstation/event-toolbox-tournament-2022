@@ -3,7 +3,6 @@
 	filedesc = "NT Software Hub"
 	program_icon_state = "generic"
 	extended_desc = "This program allows downloads of software from official NT repositories"
-	unsendable = TRUE
 	undeletable = TRUE
 	size = 4
 	requires_ntnet = TRUE
@@ -29,7 +28,7 @@
 		PROGRAM_CATEGORY_MISC,
 	)
 
-/datum/computer_file/program/ntnetdownload/run_program()
+/datum/computer_file/program/ntnetdownload/on_start()
 	. = ..()
 	main_repo = SSnetworks.station_network.available_station_software
 	antag_repo = SSnetworks.station_network.available_antag_software
@@ -93,7 +92,7 @@
 	download_completion = FALSE
 	ui_header = "downloader_finished.gif"
 
-/datum/computer_file/program/ntnetdownload/process_tick()
+/datum/computer_file/program/ntnetdownload/process_tick(delta_time)
 	if(!downloaded_file)
 		return
 	if(download_completion >= downloaded_file.size)
@@ -203,7 +202,7 @@
 	tgui_id = "NtosNetDownloader"
 	emagged = TRUE
 
-/datum/computer_file/program/ntnetdownload/syndicate/run_program()
+/datum/computer_file/program/ntnetdownload/syndicate/on_start()
 	. = ..()
 	main_repo = SSnetworks.station_network.available_antag_software
 	antag_repo = null

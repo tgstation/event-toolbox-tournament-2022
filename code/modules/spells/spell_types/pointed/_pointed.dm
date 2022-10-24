@@ -160,14 +160,15 @@
 	for(var/i in 1 to projectiles_per_fire)
 		var/obj/projectile/to_fire = new projectile_type()
 		ready_projectile(to_fire, target, owner, i)
+		SEND_SIGNAL(owner, COMSIG_MOB_SPELL_PROJECTILE, src, target, to_fire)
 		to_fire.fire()
 	return TRUE
 
 /datum/action/cooldown/spell/pointed/projectile/proc/ready_projectile(obj/projectile/to_fire, atom/target, mob/user, iteration)
 	to_fire.firer = owner
-	to_fire.fired_from = get_turf(owner)
+	to_fire.fired_from = src
 	to_fire.preparePixelProjectile(target, owner)
-	RegisterSignal(to_fire, COMSIG_PROJECTILE_ON_HIT, .proc/on_cast_hit)
+	RegisterSignal(to_fire, COMSIG_PROJECTILE_SELF_ON_HIT, .proc/on_cast_hit)
 
 	if(istype(to_fire, /obj/projectile/magic))
 		var/obj/projectile/magic/magic_to_fire = to_fire
@@ -175,7 +176,7 @@
 
 /// Signal proc for whenever the projectile we fire hits someone.
 /// Pretty much relays to the spell when the projectile actually hits something.
-/datum/action/cooldown/spell/pointed/projectile/proc/on_cast_hit(atom/source, mob/firer, atom/hit, angle)
+/datum/action/cooldown/spell/pointed/projectile/proc/on_cast_hit(datum/source, mob/firer, atom/target, angle, hit_limb)
 	SIGNAL_HANDLER
 
-	SEND_SIGNAL(src, COMSIG_SPELL_PROJECTILE_HIT, hit, firer, source)
+	SEND_SIGNAL(src, COMSIG_SPELL_PROJECTILE_HIT, source, firer, target, angle, hit_limb)
