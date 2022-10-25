@@ -2208,9 +2208,6 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
-"kn" = (
-/turf/open/floor/plating,
-/area/event/oceanarium)
 "ko" = (
 /obj/effect/overlay/water,
 /turf/closed/mineral/ash_rock,
@@ -5257,9 +5254,6 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/event)
-"yG" = (
-/turf/closed/indestructible/event/pod_purple,
-/area/event/oceanarium)
 "yI" = (
 /obj/structure/flora/rock/icy/style_2{
 	name = "rock"
@@ -7666,9 +7660,6 @@
 /obj/item/toy/plush/slimeplushie,
 /turf/open/floor/carpet/neon/simple/white/nodots,
 /area/space)
-"JL" = (
-/turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/event/oceanarium)
 "JO" = (
 /turf/open/floor/wood/parquet,
 /area/space)
@@ -51889,7 +51880,7 @@ mA
 mA
 mA
 mA
-JL
+mA
 mA
 mA
 mA
@@ -52796,7 +52787,7 @@ CC
 CC
 DW
 gn
-kn
+CC
 CC
 CC
 CC
@@ -55910,7 +55901,7 @@ pK
 pK
 pK
 pK
-yG
+mA
 mA
 mA
 mA
