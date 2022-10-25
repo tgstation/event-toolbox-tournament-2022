@@ -2208,27 +2208,6 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
-"kn" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/rune/teleport,
-/obj/effect/portal/permanent{
-	icon = 'icons/obj/objects.dmi';
-	icon_state = "anom";
-	id = "junk";
-	light_color = "#00ccff";
-	light_range = 3;
-	name = "stable wormhole"
-	},
-/obj/merge_conflict_marker{
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete.";
-	name = "---Merge Conflict Marker---"
-	},
-/turf/closed/indestructible/event/pod_blue,
-/area/event/oceanarium)
 "ko" = (
 /obj/effect/overlay/water,
 /turf/closed/mineral/ash_rock,
@@ -4519,7 +4498,7 @@
 /area/space)
 "uP" = (
 /obj/machinery/door/poddoor/shutters/window/preopen,
-/turf/open/space/basic,
+/turf/closed/indestructible/fakeglass,
 /area/event/oceanarium)
 "uT" = (
 /obj/effect/turf_decal/stripes/white/corner{
@@ -6193,16 +6172,12 @@
 /turf/open/floor/carpet/neon/simple/white/nodots,
 /area/space)
 "CV" = (
-/obj/merge_conflict_marker{
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete.";
-	name = "---Merge Conflict Marker---"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
-/turf/closed/indestructible/fakeglass,
+/turf/open/floor/plating,
 /area/event/oceanarium)
 "CW" = (
 /obj/structure/kitchenspike,
@@ -7371,16 +7346,12 @@
 	},
 /area/space)
 "Ii" = (
-/obj/merge_conflict_marker{
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete.";
-	name = "---Merge Conflict Marker---"
-	},
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
-/turf/closed/indestructible/fakeglass,
+/turf/open/floor/plating,
 /area/event/oceanarium)
 "Ij" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
@@ -8584,7 +8555,6 @@
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
 "Ox" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/caution,
 /turf/open/floor/plating,
 /area/event/oceanarium)
@@ -52047,7 +52017,7 @@ eH
 jO
 jO
 jO
-kn
+mA
 Za
 Wb
 lA
