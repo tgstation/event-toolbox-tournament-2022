@@ -389,7 +389,7 @@
 	},
 /obj/machinery/light/small/directional/south,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "bI" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -2437,7 +2437,8 @@
 	},
 /area/space)
 "lA" = (
-/turf/closed/indestructible/fakeglass,
+/obj/structure/disposalpipe/segment,
+/turf/closed/indestructible/event/pod_purple,
 /area/event/oceanarium)
 "lB" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
@@ -3643,8 +3644,9 @@
 /turf/open/floor/vault/rock,
 /area/space)
 "rg" = (
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /turf/open/space/basic,
-/turf/closed/indestructible/fakeglass,
+/turf/open/floor/plating,
 /area/event/oceanarium)
 "rm" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -4488,7 +4490,7 @@
 "uP" = (
 /obj/machinery/door/poddoor/shutters/window/preopen,
 /obj/effect/spawner/structure/window/reinforced/indestructible,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "uT" = (
 /obj/effect/turf_decal/stripes/white/corner{
@@ -4697,7 +4699,7 @@
 	name = "control console"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "vM" = (
 /obj/structure/table,
@@ -5521,6 +5523,11 @@
 /obj/item/trash/waffles,
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
+"zZ" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/space/basic,
+/area/event/oceanarium)
 "Ac" = (
 /obj/structure/bonfire/prelit,
 /obj/structure/window/reinforced/survival_pod{
@@ -6164,7 +6171,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "CW" = (
 /obj/structure/kitchenspike,
@@ -6902,7 +6909,7 @@
 /obj/machinery/atmospherics/components/tank/water_vapor,
 /obj/effect/turf_decal/box,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "Gc" = (
 /obj/structure/bed,
@@ -7337,7 +7344,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/space/basic,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "Ij" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
@@ -7856,7 +7863,7 @@
 /obj/machinery/light/small/directional/south,
 /obj/machinery/space_heater,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "KN" = (
 /obj/structure/table/wood/fancy,
@@ -8036,6 +8043,9 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"Lv" = (
+/turf/closed/indestructible/event/pod_purple,
+/area/event/oceanarium)
 "Lw" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
@@ -8092,7 +8102,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "LJ" = (
 /obj/structure/extinguisher_cabinet/directional/east,
@@ -8458,7 +8468,7 @@
 /obj/structure/mopbucket,
 /obj/item/mop/advanced,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "NW" = (
 /turf/open/floor/carpet/cyan,
@@ -8540,7 +8550,7 @@
 "Ox" = (
 /obj/effect/turf_decal/caution,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "Oy" = (
 /obj/structure/table/reinforced/rglass,
@@ -9021,6 +9031,11 @@
 "QU" = (
 /turf/open/floor/iron/checker,
 /area/space)
+"QV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/space/basic,
+/area/event/oceanarium)
 "QW" = (
 /obj/machinery/suit_storage_unit,
 /obj/machinery/light/red/directional/south,
@@ -9968,7 +9983,7 @@
 "Vy" = (
 /obj/machinery/atmospherics/components/binary/valve/on/layer2,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 "Vz" = (
 /obj/structure/railing,
@@ -10489,6 +10504,12 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"XI" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/closed/indestructible/event/pod_purple,
+/area/event/oceanarium)
 "XJ" = (
 /obj/machinery/recycler,
 /obj/machinery/conveyor{
@@ -10986,7 +11007,7 @@
 	},
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/event/oceanarium)
 
 (1,1,1) = {"
@@ -53041,14 +53062,14 @@ pK
 pK
 pK
 nI
-pw
-pw
-pw
+lA
+lA
+lA
 IB
 Vi
-pw
-lK
-mA
+lA
+XI
+Lv
 CC
 CC
 CC
@@ -53171,14 +53192,14 @@ Kh
 Es
 Gq
 Jj
-mA
+Lv
 VM
 vW
 ZM
 ip
 nB
 ge
-mA
+Lv
 CC
 CC
 CC
@@ -53301,7 +53322,7 @@ Gq
 vM
 pl
 Bk
-mA
+Lv
 Dd
 GK
 YM
@@ -53431,7 +53452,7 @@ Gq
 ht
 Gq
 Hf
-mA
+Lv
 tg
 NW
 tO
@@ -53561,7 +53582,7 @@ Gq
 Qt
 Gq
 wa
-mA
+Lv
 VA
 NW
 lo
@@ -53691,14 +53712,14 @@ Gq
 YP
 pl
 Gq
-mA
+Lv
 dy
 Rh
 mk
 vA
 zk
 gj
-mA
+Lv
 CC
 CC
 CC
@@ -53821,14 +53842,14 @@ Jx
 Jx
 Ww
 Gq
-mA
+Lv
 qi
 NW
 SC
 Dq
 Qe
 UE
-mA
+Lv
 CC
 CC
 CC
@@ -53951,14 +53972,14 @@ Ag
 jv
 MO
 Kh
-mA
+Lv
 CX
 vB
 zW
 dM
 Qe
 tG
-mA
+Lv
 CC
 CC
 CC
@@ -54081,7 +54102,7 @@ JF
 JF
 vJ
 xL
-mA
+Lv
 yj
 YM
 nD
@@ -54211,7 +54232,7 @@ JF
 vJ
 JF
 Lw
-mA
+Lv
 sn
 XP
 jw
@@ -54471,14 +54492,14 @@ JF
 JF
 vJ
 Cc
-mA
+Lv
 kM
 NW
 fR
 Lh
 Qe
 nH
-mA
+Lv
 CC
 CC
 CC
@@ -54601,14 +54622,14 @@ GJ
 GJ
 JF
 kj
-mA
+Lv
 qi
 vB
 Qa
 oN
 NW
 ta
-mA
+Lv
 CC
 CC
 CC
@@ -54731,14 +54752,14 @@ pK
 pK
 aN
 pK
-mA
+Lv
 kM
 vB
 HE
 SB
 NW
 Ij
-mA
+Lv
 CC
 CC
 CC
@@ -54861,7 +54882,7 @@ Vl
 zp
 pv
 kB
-mA
+Lv
 kM
 YM
 PW
@@ -54991,7 +55012,7 @@ RJ
 RJ
 vi
 kB
-mA
+Lv
 Mg
 JW
 NW
@@ -55121,7 +55142,7 @@ Sd
 aj
 si
 Le
-mA
+Lv
 Dd
 NW
 HU
@@ -55251,14 +55272,14 @@ CW
 KU
 dJ
 XB
-mA
+Lv
 VM
 Kd
 iq
 ip
 vW
 VM
-mA
+Lv
 CC
 CC
 CC
@@ -55381,14 +55402,14 @@ pK
 pK
 pK
 pK
-mA
-mA
-mA
+Lv
+Lv
+Lv
 bB
 bB
-mA
-mA
-mA
+Lv
+Lv
+Lv
 CC
 CC
 CC
@@ -56035,7 +56056,7 @@ LO
 mA
 ZU
 NU
-dn
+QV
 KM
 FN
 ra
@@ -56165,7 +56186,7 @@ LO
 mA
 vL
 Ox
-dn
+QV
 CV
 uP
 nj
@@ -56294,7 +56315,7 @@ pK
 LO
 mA
 Ga
-Oe
+zZ
 LI
 Ii
 uP
@@ -56423,9 +56444,9 @@ Dz
 pK
 LO
 bG
-dn
+QV
 Vy
-dn
+QV
 bH
 pw
 ra
@@ -56558,30 +56579,30 @@ mA
 mA
 mA
 mA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
-lA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
+mA
 XR
 XR
 XR
