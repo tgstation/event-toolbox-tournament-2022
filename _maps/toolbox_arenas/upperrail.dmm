@@ -53,12 +53,12 @@
 /turf/open/floor/iron/smooth_corner,
 /area/centcom/tdome/arena)
 "cT" = (
-/obj/item/reagent_containers/glass/bucket,
 /obj/structure/rack,
 /obj/item/wallframe/extinguisher_cabinet{
 	pixel_x = -32;
 	anchored = 1
 	},
+/obj/item/reagent_containers/cup/bucket,
 /turf/open/floor/iron/smooth_large,
 /area/centcom/tdome/arena)
 "ez" = (
@@ -89,7 +89,7 @@
 /area/centcom/tdome/arena)
 "hA" = (
 /obj/structure/rack,
-/obj/item/reagent_containers/glass/bottle,
+/obj/item/reagent_containers/cup/glass/waterbottle/large/empty,
 /turf/open/floor/iron/smooth_large,
 /area/centcom/tdome/arena)
 "hL" = (
@@ -353,7 +353,10 @@
 	pixel_x = 4;
 	pixel_y = 15
 	},
-/obj/item/broken_bottle,
+/obj/item/broken_bottle{
+	pixel_x = 9;
+	pixel_y = -4
+	},
 /turf/open/floor/iron/smooth_large,
 /area/centcom/tdome/arena)
 "Mj" = (
@@ -399,6 +402,7 @@
 	pixel_y = -4
 	},
 /obj/structure/grille/broken,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth_large,
 /area/centcom/tdome/arena)
 "TX" = (

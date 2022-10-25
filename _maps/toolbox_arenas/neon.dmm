@@ -75,19 +75,15 @@
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
 	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
 /turf/open/floor/fakespace{
 	density = 1
 	},
 /area/centcom/tdome/arena)
 "ki" = (
 /turf/open/floor/carpet/red,
-/area/centcom/tdome/arena)
-"lz" = (
-/obj/effect/portal/permanent{
-	color = "#800080";
-	id = "arenapurple"
-	},
-/turf/open/floor/carpet/neon/simple/purple,
 /area/centcom/tdome/arena)
 "lO" = (
 /turf/open/floor/carpet/blue,
@@ -136,18 +132,26 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/structure/railing/corner{
-	dir = 8
-	},
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 8
 	},
-/turf/open/floor/fakespace{
-	density = 1
+/obj/structure/railing{
+	dir = 8
 	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/centcom/tdome/arena)
+"nB" = (
+/obj/effect/portal/permanent{
+	color = "#800080";
+	id = "arenapurple"
+	},
+/turf/open/floor/carpet/neon/simple/purple/nodots,
 /area/centcom/tdome/arena)
 "oG" = (
 /obj/effect/portal/permanent{
@@ -189,14 +193,17 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
 	},
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 8
 	},
 /turf/open/floor/fakespace{
 	density = 1
@@ -213,11 +220,16 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/structure/railing/corner,
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
 /turf/open/floor/fakespace{
 	density = 1
 	},
@@ -346,13 +358,16 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/structure/railing/corner{
-	dir = 4
-	},
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 4
 	},
 /turf/open/floor/fakespace{
@@ -419,7 +434,7 @@ vV
 mi
 "}
 (3,1,1) = {"
-mf
+HK
 mA
 Zz
 ih
@@ -428,7 +443,7 @@ ki
 ki
 Mw
 hX
-lz
+Kv
 "}
 (4,1,1) = {"
 HK
@@ -439,32 +454,32 @@ Wj
 wq
 ip
 Mk
-rX
-rX
+Kv
+Kv
 "}
 (5,1,1) = {"
 HK
 HK
 HK
 HK
-NQ
-Fp
 rX
 rX
-rX
-rX
+Kv
+Kv
+Kv
+Kv
 "}
 (6,1,1) = {"
 HK
 HK
 HK
 HK
-NQ
-Fp
-rX
-rX
-rX
-rX
+XA
+nk
+Kv
+Kv
+Kv
+Kv
 "}
 (7,1,1) = {"
 HK
@@ -473,10 +488,10 @@ HK
 HK
 NQ
 Fp
-rX
-rX
-rX
-rX
+Kv
+Kv
+Kv
+Kv
 "}
 (8,1,1) = {"
 HK
@@ -485,28 +500,28 @@ HK
 HK
 NQ
 Fp
-rX
-rX
-rX
-rX
+Kv
+Kv
+Kv
+Kv
 "}
 (9,1,1) = {"
+mf
 fw
 fw
-fw
-fw
+nB
 NQ
 Fp
-fw
-fw
-fw
-fw
+nB
+Kv
+Kv
+Wl
 "}
 (10,1,1) = {"
-rX
-rX
-rX
-rX
+HK
+HK
+HK
+HK
 NQ
 Fp
 Kv
@@ -515,10 +530,10 @@ Kv
 Kv
 "}
 (11,1,1) = {"
-rX
-rX
-rX
-rX
+HK
+HK
+HK
+HK
 NQ
 Fp
 Kv
@@ -527,32 +542,32 @@ Kv
 Kv
 "}
 (12,1,1) = {"
-rX
-rX
-rX
-rX
-NQ
-Fp
+HK
+HK
+HK
+HK
+mA
+hX
 Kv
 Kv
 Kv
 Kv
 "}
 (13,1,1) = {"
+HK
+HK
+HK
+HK
 rX
 rX
-rX
-rX
-NQ
-Fp
 Kv
 Kv
 Kv
 Kv
 "}
 (14,1,1) = {"
-rX
-rX
+HK
+HK
 XA
 CE
 vc
@@ -563,7 +578,7 @@ Kv
 Kv
 "}
 (15,1,1) = {"
-lz
+HK
 XA
 EZ
 ih
@@ -572,7 +587,7 @@ lO
 lO
 TN
 nk
-Wl
+Kv
 "}
 (16,1,1) = {"
 oJ
