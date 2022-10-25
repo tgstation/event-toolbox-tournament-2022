@@ -16,9 +16,6 @@
 	density = 1
 	},
 /area/centcom/tdome/arena)
-"fw" = (
-/turf/open/floor/carpet/neon/simple/white/nodots,
-/area/centcom/tdome/arena)
 "hX" = (
 /obj/structure/railing{
 	dir = 6
@@ -507,8 +504,8 @@ Kv
 "}
 (9,1,1) = {"
 mf
-fw
-fw
+HK
+HK
 nB
 NQ
 Fp
