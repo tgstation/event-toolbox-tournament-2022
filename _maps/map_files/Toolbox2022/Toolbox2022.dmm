@@ -2796,14 +2796,6 @@
 /obj/effect/decal/cleanable/food/salt,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/nightclub)
-"mN" = (
-/obj/effect/turf_decal/siding/thinplating/light{
-	dir = 8
-	},
-/obj/structure/chair/comfy,
-/obj/structure/chair/comfy,
-/turf/open/floor/carpet/neon/simple/white/nodots,
-/area/space)
 "mO" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8;
@@ -20545,7 +20537,7 @@ iN
 hn
 CS
 CS
-mN
+CS
 yT
 gu
 aT
