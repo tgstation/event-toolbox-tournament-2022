@@ -267,9 +267,8 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "bo" = (
-/obj/machinery/light/cold/directional/east,
-/turf/open/floor/carpet/neon/simple/cyan/nodots,
-/area/event/oceanarium)
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/space)
 "bp" = (
 /obj/structure/holosign/wetsign,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -355,6 +354,11 @@
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/carpet/black,
 /area/space)
+"bL" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/spawner/random/food_or_drink/snack,
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
 "bM" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
@@ -388,8 +392,8 @@
 /area/space)
 "bT" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 8
+	dir = 8;
+	icon_state = "trails_1"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 9
@@ -410,8 +414,8 @@
 	icon_state = "floor5-old"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 1
+	dir = 1;
+	icon_state = "trails_1"
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
@@ -442,6 +446,11 @@
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
+"cf" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/food_or_drink/snack,
+/turf/open/floor/wood/parquet,
+/area/space)
 "cg" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/mineral/plastitanium,
@@ -497,6 +506,11 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/space)
+"cp" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/obj/structure/flora/bush/lavendergrass/style_random,
+/turf/open/floor/grass,
+/area/space)
 "cq" = (
 /obj/structure/rack{
 	icon = 'icons/obj/stationobjs.dmi';
@@ -536,8 +550,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -604,8 +618,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -628,6 +642,10 @@
 	dir = 10
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"cQ" = (
+/obj/structure/flora/bush/lavendergrass,
+/turf/open/floor/grass,
 /area/space)
 "cS" = (
 /turf/open/misc/asteroid/airless,
@@ -662,6 +680,10 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"dc" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/carpet/red,
+/area/space)
 "dd" = (
 /obj/structure/ice_stasis,
 /turf/open/floor/vault/alien{
@@ -683,6 +705,11 @@
 "dh" = (
 /obj/machinery/camera/emp_proof/directional/north,
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"dj" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/mob/living/simple_animal/butterfly,
+/turf/open/floor/grass,
 /area/space)
 "dl" = (
 /obj/structure/table,
@@ -707,8 +734,8 @@
 "ds" = (
 /obj/structure/showcase/machinery/implanter{
 	desc = "Implants, apparently.";
-	name = "implanter";
-	icon_state = "hypnochair_open"
+	icon_state = "hypnochair_open";
+	name = "implanter"
 	},
 /turf/open/floor/glass/plasma,
 /area/event)
@@ -756,8 +783,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -791,11 +818,17 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
+"dI" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/misc/asteroid/airless,
+/area/space)
 "dL" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 4
@@ -805,9 +838,9 @@
 "dN" = (
 /obj/structure/window/reinforced/fulltile/indestructible,
 /turf/open/misc/ashplanet/wateryrock{
-	light_range = 3;
 	light_color = "#6495ED";
-	light_power = 2
+	light_power = 2;
+	light_range = 3
 	},
 /area/event/oceanarium)
 "dP" = (
@@ -847,6 +880,10 @@
 /obj/structure/receiving_pad,
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"dZ" = (
+/obj/structure/flora/bush/fullgrass,
+/turf/open/floor/grass,
+/area/space)
 "eb" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -859,8 +896,8 @@
 "ec" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 1
+	dir = 1;
+	icon_state = "trails_1"
 	},
 /turf/closed/indestructible/opshuttle,
 /area/space)
@@ -883,6 +920,10 @@
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible/dark,
+/area/space)
+"ep" = (
+/obj/structure/chair/wood,
+/turf/open/floor/wood/parquet,
 /area/space)
 "et" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -1023,8 +1064,8 @@
 /area/space)
 "fe" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 1
+	dir = 1;
+	icon_state = "trails_1"
 	},
 /obj/effect/turf_decal/tile/dark_red,
 /obj/machinery/light/small/directional/south,
@@ -1047,7 +1088,13 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/catwalk_floor/iron_white,
+/turf/open/floor/carpet/black,
+/area/space)
+"fi" = (
+/obj/machinery/vending/games{
+	onstation = 0
+	},
+/turf/open/floor/wood/large,
 /area/space)
 "fk" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -1132,8 +1179,8 @@
 /mob/living/simple_animal/fish/dwarf_moonfish,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -1170,10 +1217,10 @@
 /area/space)
 "fL" = (
 /obj/structure/closet/secure_closet{
-	icon_state = "armory";
-	req_access = list("armory");
+	anchorable = 0;
 	anchored = 1;
-	anchorable = 0
+	icon_state = "armory";
+	req_access = list("armory")
 	},
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/mineral/plastitanium,
@@ -1230,6 +1277,18 @@
 	dir = 10
 	},
 /turf/open/indestructible/dark,
+/area/space)
+"fZ" = (
+/obj/structure/flora/rock/pile/icy/style_3{
+	name = "rocks"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
 /area/space)
 "gc" = (
 /turf/open/misc/ironsand{
@@ -1292,8 +1351,8 @@
 /area/event)
 "gw" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 8
+	dir = 8;
+	icon_state = "trails_1"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -1368,6 +1427,16 @@
 /obj/structure/chair/comfy,
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"gU" = (
+/mob/living/simple_animal/crab,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/space)
 "gW" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 6
@@ -1392,6 +1461,18 @@
 /obj/effect/turf_decal/trimline/neutral/filled/warning,
 /turf/open/indestructible/dark,
 /area/space)
+"hc" = (
+/obj/item/aquarium_prop/rocks{
+	anchored = 1
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/space)
 "hf" = (
 /obj/machinery/light/cold/directional/north,
 /obj/effect/decal/cleanable/dirt,
@@ -1411,8 +1492,8 @@
 "hi" = (
 /obj/structure/bonfire/prelit,
 /obj/structure/window/reinforced/survival_pod{
-	dir = 1;
-	damage_deflection = 100
+	damage_deflection = 100;
+	dir = 1
 	},
 /turf/open/floor/cult,
 /area/space)
@@ -1429,6 +1510,10 @@
 	light_color = "#9966ff";
 	light_range = 3
 	},
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
+"hl" = (
+/obj/machinery/light/cold/directional/east,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
 "hm" = (
@@ -1451,17 +1536,17 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
 "hp" = (
 /obj/structure/table/reinforced/plasmarglass,
 /obj/machinery/computer/secure_data/laptop{
+	desc = "Can it run?";
 	dir = 1;
-	name = "laptop";
-	desc = "Can it run?"
+	name = "laptop"
 	},
 /turf/open/floor/carpet/purple,
 /area/event/nightclub)
@@ -1522,13 +1607,18 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"hD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/biohazard/directional/north,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "hE" = (
 /obj/item/crusher_trophy/lobster_claw,
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -1565,6 +1655,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
+"hN" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/mob/living/simple_animal/rabbit,
+/turf/open/floor/grass,
+/area/space)
 "hO" = (
 /obj/structure/chair/sofa/corp/corner{
 	dir = 4
@@ -1600,8 +1695,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -1638,10 +1733,10 @@
 /area/space)
 "il" = (
 /mob/living/simple_animal/hostile/jungle/leaper{
+	desc = "Commonly referred to as 'leapers', the Geron Toad is a massive beast that spits out highly pressurized bubbles containing a unique toxin, knocking down its prey and then crushing it with its girth. This one appears to be restrained with chains.";
 	faction = list("neutral");
-	wander = 0;
 	name = "captured leaper";
-	desc = "Commonly referred to as 'leapers', the Geron Toad is a massive beast that spits out highly pressurized bubbles containing a unique toxin, knocking down its prey and then crushing it with its girth. This one appears to be restrained with chains."
+	wander = 0
 	},
 /obj/effect/gibspawner/xeno/bodypartless,
 /obj/effect/turf_decal/delivery,
@@ -1682,8 +1777,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -1721,7 +1816,7 @@
 /obj/structure/railing/corner{
 	dir = 1
 	},
-/turf/open/floor/catwalk_floor/iron_white,
+/turf/open/floor/carpet/black,
 /area/space)
 "iA" = (
 /turf/open/floor/catwalk_floor/iron,
@@ -1794,6 +1889,11 @@
 /obj/item/binoculars,
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"iO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/trashcart/filled,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "iQ" = (
 /obj/item/food/lizard_fries,
 /obj/structure/table/glass,
@@ -1857,6 +1957,12 @@
 "jg" = (
 /obj/effect/turf_decal/trimline/white/filled/corner,
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"jh" = (
+/obj/structure/chair/comfy/black{
+	dir = 8
+	},
+/turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
 "jj" = (
 /obj/effect/turf_decal/trimline/white/filled/corner,
@@ -1954,8 +2060,8 @@
 	icon_state = "drip3"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 1
+	dir = 1;
+	icon_state = "trails_1"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -2104,6 +2210,10 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"ko" = (
+/obj/effect/overlay/water,
+/turf/closed/mineral/ash_rock,
+/area/space)
 "kp" = (
 /obj/structure/disposalpipe/broken{
 	dir = 4
@@ -2117,12 +2227,26 @@
 "kr" = (
 /turf/open/misc/ironsand,
 /area/space)
+"kv" = (
+/obj/structure/table/wood,
+/obj/item/camera_film,
+/obj/item/camera_film,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "kx" = (
 /obj/machinery/door/poddoor{
 	id = "thunderdome";
 	name = "Thunderdome Blast Door"
 	},
 /turf/open/floor/engine/air,
+/area/space)
+"ky" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/fountainpens,
+/turf/open/floor/wood/large,
 /area/space)
 "kB" = (
 /obj/effect/turf_decal/trimline/neutral,
@@ -2143,9 +2267,9 @@
 "kF" = (
 /obj/effect/turf_decal/delivery/red,
 /obj/structure/closet/secure_closet{
-	req_access = list("armory");
+	anchorable = 0;
 	anchored = 1;
-	anchorable = 0
+	req_access = list("armory")
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -2175,8 +2299,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -2207,8 +2331,8 @@
 "kR" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/plate/large{
-	pixel_y = 4;
-	pixel_x = 3
+	pixel_x = 3;
+	pixel_y = 4
 	},
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
@@ -2362,8 +2486,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -2406,12 +2530,12 @@
 	name = "Surgery"
 	},
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "trails_1";
-	dir = 8
+	dir = 8;
+	icon_state = "trails_1"
 	},
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "tracks";
-	dir = 4
+	dir = 4;
+	icon_state = "tracks"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -2534,10 +2658,10 @@
 /obj/structure/fluff/bus/passable/seat,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/portal/permanent{
+	alpha = 150;
 	icon = 'icons/obj/objects.dmi';
 	icon_state = "anom";
 	id = "junk";
-	alpha = 150;
 	name = "wormhole"
 	},
 /obj/effect/overlay/water,
@@ -2596,9 +2720,9 @@
 /area/space)
 "mC" = (
 /obj/structure/closet/secure_closet{
-	req_access = list("armory");
+	anchorable = 0;
 	anchored = 1;
-	anchorable = 0
+	req_access = list("armory")
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
@@ -2682,8 +2806,8 @@
 /area/space)
 "mO" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 8
+	dir = 8;
+	icon_state = "trails_1"
 	},
 /obj/effect/turf_decal/siding/thinplating/dark/corner,
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
@@ -2707,9 +2831,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "mS" = (
-/obj/machinery/light/cold/directional/east,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
+/turf/open/floor/wood/parquet,
+/area/space)
 "mT" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_master/condimaster{
@@ -2717,6 +2840,12 @@
 	name = "HoochMaster Deluxe"
 	},
 /turf/open/indestructible/dark,
+/area/space)
+"mU" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
 /area/space)
 "mV" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/corner{
@@ -2753,6 +2882,10 @@
 	icon_state = "ironsand12"
 	},
 /area/space)
+"nb" = (
+/obj/structure/chair/stool/bar/directional/north,
+/turf/open/floor/carpet/red,
+/area/space)
 "nd" = (
 /obj/effect/decal/remains/human,
 /turf/open/misc/ashplanet/ash{
@@ -2768,8 +2901,8 @@
 "nf" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/trash/candle{
-	pixel_y = 2;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 2
 	},
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
@@ -2856,8 +2989,8 @@
 	dir = 1
 	},
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	icon_state = "wasteland1"
+	icon_state = "wasteland1";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/space)
 "nF" = (
@@ -2872,8 +3005,8 @@
 /area/event/oceanarium)
 "nJ" = (
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	icon_state = "wasteland1"
+	icon_state = "wasteland1";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/space)
 "nK" = (
@@ -2894,8 +3027,8 @@
 /obj/structure/marker_beacon/indigo,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -2904,8 +3037,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -2942,6 +3075,11 @@
 "nX" = (
 /obj/effect/turf_decal/trimline/white/corner,
 /turf/open/floor/mineral/titanium,
+/area/space)
+"nY" = (
+/obj/structure/flora/bush/lavendergrass/style_random,
+/mob/living/carbon/human/species/monkey,
+/turf/open/floor/grass,
 /area/space)
 "ob" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -2988,7 +3126,7 @@
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/turf/open/floor/catwalk_floor/iron_white,
+/turf/open/floor/carpet/black,
 /area/space)
 "ok" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -3046,6 +3184,10 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"oH" = (
+/obj/machinery/light/cold/directional/east,
+/turf/open/floor/carpet/neon/simple/cyan/nodots,
+/area/event/oceanarium)
 "oI" = (
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -3054,6 +3196,12 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
+/area/space)
+"oL" = (
+/obj/structure/chair/sofa/corp{
+	dir = 4
+	},
+/turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
 "oM" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -3097,10 +3245,10 @@
 /area/space)
 "oU" = (
 /obj/structure/closet/secure_closet{
-	icon_state = "armory";
-	req_access = list("armory");
+	anchorable = 0;
 	anchored = 1;
-	anchorable = 0
+	icon_state = "armory";
+	req_access = list("armory")
 	},
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/light/small/directional/east,
@@ -3220,6 +3368,12 @@
 /obj/machinery/status_display/ai/directional/north,
 /turf/open/floor/pod/dark,
 /area/event/nightclub)
+"pz" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "pC" = (
 /obj/structure/bed/roller,
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
@@ -3274,19 +3428,38 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"pQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/space)
+"pS" = (
+/turf/open/floor/bamboo,
+/area/space)
+"pT" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/space)
 "pW" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"pX" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/misc/asteroid/airless,
+/area/space)
 "pY" = (
 /obj/effect/turf_decal/box/red,
 /obj/structure/closet/secure_closet{
-	icon_state = "armory";
-	req_access = list("armory");
+	anchorable = 0;
 	anchored = 1;
-	anchorable = 0
+	icon_state = "armory";
+	req_access = list("armory")
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -3314,16 +3487,16 @@
 /mob/living/simple_animal/fish/plasmatetra,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
 "qf" = (
 /obj/effect/overlay/water,
 /turf/open/floor/glass{
-	light_range = 2;
-	light_color = "#6495ED"
+	light_color = "#6495ED";
+	light_range = 2
 	},
 /area/event/oceanarium)
 "qg" = (
@@ -3364,6 +3537,19 @@
 	sign_change_name = "Warning - Do not attempt to pet"
 	},
 /turf/open/indestructible/dark,
+/area/space)
+"qt" = (
+/obj/structure/statue/silver/janitor,
+/turf/open/floor/mineral/gold,
+/area/space)
+"qu" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/mob/living/simple_animal/deer,
+/turf/open/floor/grass,
+/area/space)
+"qw" = (
+/obj/structure/statue/gold/cmo,
+/turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
 "qx" = (
 /obj/structure/table,
@@ -3426,7 +3612,6 @@
 /area/event)
 "qQ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning/biohazard/directional/north,
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
@@ -3470,8 +3655,8 @@
 "rj" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 5
+	dir = 5;
+	icon_state = "trails_1"
 	},
 /obj/effect/turf_decal/tile/dark_red{
 	dir = 8
@@ -3482,6 +3667,11 @@
 	},
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/catwalk_floor/flat_white,
+/area/space)
+"rl" = (
+/obj/structure/flora/bush/fullgrass,
+/mob/living/simple_animal/rabbit,
+/turf/open/floor/grass,
 /area/space)
 "rm" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -3584,6 +3774,10 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"rW" = (
+/obj/structure/flora/tree/jungle/style_4,
+/turf/open/floor/grass,
 /area/space)
 "rZ" = (
 /obj/effect/turf_decal/loading_area{
@@ -3696,11 +3890,6 @@
 /area/space)
 "sz" = (
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/paper/crumpled/muddy/fluff/elephant_graveyard/rnd_notes{
-	desc = "Important stuff written here, judging by all the stamps.";
-	info = null;
-	name = "Arena Documentation"
-	},
 /turf/open/floor/pod/dark,
 /area/space)
 "sB" = (
@@ -3715,8 +3904,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -3779,6 +3968,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/event/oceanarium)
+"sP" = (
+/obj/structure/table/wood,
+/obj/item/paint_palette,
+/obj/item/paint_palette,
+/obj/item/paint_palette,
+/turf/open/floor/wood/large,
+/area/space)
 "sQ" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	dir = 8
@@ -3797,6 +3993,12 @@
 	},
 /obj/effect/turf_decal/siding/blue,
 /turf/open/floor/mineral/titanium/white,
+/area/space)
+"sV" = (
+/obj/machinery/door/airlock/wood/glass{
+	name = "Art Room"
+	},
+/turf/open/floor/wood/large,
 /area/space)
 "sW" = (
 /turf/closed/indestructible/event/pod_purple,
@@ -3843,10 +4045,10 @@
 /area/space)
 "tf" = (
 /obj/structure/closet/secure_closet{
-	icon_state = "armory";
-	req_access = list("armory");
+	anchorable = 0;
 	anchored = 1;
-	anchorable = 0
+	icon_state = "armory";
+	req_access = list("armory")
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
@@ -3869,10 +4071,10 @@
 /area/space)
 "ti" = (
 /obj/structure/flora/rock/pile/style_3{
+	desc = "When you really want to send a message.";
 	icon = 'icons/obj/structures.dmi';
 	icon_state = "headpike-bone";
-	name = "bone spike";
-	desc = "When you really want to send a message."
+	name = "bone spike"
 	},
 /turf/open/misc/asteroid/basalt/wasteland{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
@@ -3901,6 +4103,11 @@
 	name = "disposal conveyor"
 	},
 /turf/open/indestructible/event/plating,
+/area/space)
+"to" = (
+/turf/open/misc/asteroid/airless{
+	icon_state = "asteroid8"
+	},
 /area/space)
 "tr" = (
 /obj/effect/turf_decal/trimline/dark_red/corner{
@@ -3932,6 +4139,9 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
+"tv" = (
+/turf/closed/indestructible/event/pod_purple,
+/area/space)
 "tx" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -3944,10 +4154,10 @@
 "tz" = (
 /obj/effect/turf_decal/delivery/red,
 /obj/structure/closet/secure_closet{
-	icon_state = "armory";
-	req_access = list("armory");
+	anchorable = 0;
 	anchored = 1;
-	anchorable = 0
+	icon_state = "armory";
+	req_access = list("armory")
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -3956,8 +4166,8 @@
 	icon_state = "drip5"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 1
+	dir = 1;
+	icon_state = "trails_1"
 	},
 /turf/closed/indestructible/opshuttle,
 /area/space)
@@ -3966,6 +4176,11 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"tD" = (
+/turf/open/misc/asteroid/airless{
+	icon_state = "asteroid7"
+	},
 /area/space)
 "tE" = (
 /obj/structure/chair/pew/right{
@@ -4031,6 +4246,10 @@
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"tQ" = (
+/obj/structure/easel,
+/turf/open/floor/carpet/red,
 /area/space)
 "tR" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -4172,6 +4391,15 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"uq" = (
+/obj/structure/table/wood,
+/obj/item/canvas/twentyfour_twentyfour,
+/obj/item/canvas/twentyfour_twentyfour,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "ur" = (
 /obj/item/broken_bottle,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
@@ -4181,6 +4409,10 @@
 	dir = 4
 	},
 /turf/open/indestructible,
+/area/space)
+"uu" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/parquet,
 /area/space)
 "uv" = (
 /obj/effect/turf_decal/sand/plating,
@@ -4205,6 +4437,10 @@
 /turf/open/misc/ironsand{
 	icon_state = "ironsand3"
 	},
+/area/space)
+"uA" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood/parquet,
 /area/space)
 "uB" = (
 /obj/structure/window/reinforced/spawner/north,
@@ -4251,8 +4487,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -4265,10 +4501,10 @@
 "uO" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/closet/secure_closet{
-	icon_state = "armory";
-	req_access = list("armory");
+	anchorable = 0;
 	anchored = 1;
-	anchorable = 0
+	icon_state = "armory";
+	req_access = list("armory")
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -4277,8 +4513,8 @@
 /mob/living/simple_animal/fish/goldfish,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -4454,8 +4690,8 @@
 /area/event/nightclub)
 "vH" = (
 /mob/living/simple_animal/hostile/retaliate/snake{
-	name = "Hides-in-Closets";
-	desc = "Looks to be a lizard that lost all of it's legs from all the fighting. Poor thing..."
+	desc = "Looks to be a lizard that lost all of it's legs from all the fighting. Poor thing...";
+	name = "Hides-in-Closets"
 	},
 /turf/open/floor/catwalk_floor/iron,
 /area/space)
@@ -4464,6 +4700,14 @@
 /obj/effect/turf_decal/tile/dark_blue/fourcorners,
 /turf/open/floor/pod/light,
 /area/event/nightclub)
+"vK" = (
+/obj/structure/table/wood,
+/obj/item/paint_palette,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "vL" = (
 /obj/machinery/computer/bsa_control{
 	name = "control console"
@@ -4495,6 +4739,19 @@
 "vW" = (
 /turf/open/floor/mineral/silver,
 /area/event/oceanarium)
+"vX" = (
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
+"wa" = (
+/obj/structure/flora/tree/jungle/small/style_5,
+/turf/open/floor/grass,
+/area/space)
+"wc" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 8
+	},
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
 "we" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/mineral/plastitanium,
@@ -4565,9 +4822,20 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
+"wr" = (
+/obj/structure/statue/gold/rd,
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
 "ws" = (
 /obj/effect/turf_decal/trimline/white/arrow_cw,
 /turf/open/floor/mineral/titanium,
+/area/space)
+"wt" = (
+/obj/structure/marker_beacon/purple,
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/space)
 "wv" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -4583,6 +4851,13 @@
 	icon_state = "bloodclaw2"
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"ww" = (
+/obj/effect/spawner/random/clothing/costume,
+/obj/effect/spawner/random/clothing/costume,
+/obj/effect/spawner/random/clothing/costume,
+/obj/structure/rack,
+/turf/open/floor/wood/parquet,
 /area/space)
 "wy" = (
 /obj/effect/turf_decal/trimline/white/filled/corner,
@@ -4656,6 +4931,10 @@
 /obj/structure/sign/poster/random/directional/west,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
+"wQ" = (
+/obj/structure/flora/tree/jungle/small/style_6,
+/turf/open/floor/grass,
+/area/space)
 "wR" = (
 /obj/machinery/door/poddoor/shutters/window/preopen,
 /obj/structure/window/reinforced/fulltile/indestructible,
@@ -4670,7 +4949,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/catwalk_floor/iron_white,
+/turf/open/floor/carpet/black,
 /area/space)
 "wY" = (
 /obj/item/trash/tray{
@@ -4695,6 +4974,10 @@
 /obj/structure/closet/wardrobe/black,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"xh" = (
+/obj/structure/flora/bush/fullgrass/style_2,
+/turf/open/floor/grass,
+/area/space)
 "xj" = (
 /obj/structure/transit_tube/station/dispenser{
 	dir = 4
@@ -4704,12 +4987,21 @@
 /area/space)
 "xm" = (
 /obj/structure/railing/corner,
-/turf/open/floor/catwalk_floor/iron_white,
+/turf/open/floor/carpet/black,
 /area/space)
 "xq" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible/event/plating,
+/area/space)
+"xs" = (
+/obj/structure/table/wood,
+/obj/item/canvas/twentyfour_twentyfour,
+/obj/item/canvas/twentyfour_twentyfour,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/parquet,
 /area/space)
 "xt" = (
 /obj/structure/sink/kitchen{
@@ -4717,6 +5009,10 @@
 	pixel_y = -8
 	},
 /turf/open/floor/iron/cafeteria,
+/area/space)
+"xu" = (
+/obj/structure/flora/tree/jungle/small/style_2,
+/turf/open/floor/grass,
 /area/space)
 "xv" = (
 /obj/structure/table/reinforced/rglass,
@@ -4869,8 +5165,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -4957,6 +5253,11 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
+"yX" = (
+/obj/structure/flora/bush/fullgrass,
+/obj/structure/flora/bush/lavendergrass/style_random,
+/turf/open/floor/grass,
+/area/space)
 "yY" = (
 /obj/effect/spawner/random/entertainment/drugs,
 /obj/structure/table/reinforced/plastitaniumglass{
@@ -5002,8 +5303,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -5102,6 +5403,10 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"zD" = (
+/mob/living/simple_animal/deer,
+/turf/open/floor/grass,
+/area/space)
 "zF" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/flora/bush/flowers_pp/style_2,
@@ -5113,8 +5418,8 @@
 	},
 /obj/effect/overlay/water,
 /turf/open/floor/glass{
-	light_range = 2;
-	light_color = "#6495ED"
+	light_color = "#6495ED";
+	light_range = 2
 	},
 /area/event/oceanarium)
 "zH" = (
@@ -5127,8 +5432,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -5144,6 +5449,10 @@
 	icon_state = "plasma"
 	},
 /area/event/nightclub)
+"zO" = (
+/obj/structure/flora/bush/fullgrass/style_random,
+/turf/open/floor/grass,
+/area/space)
 "zP" = (
 /obj/structure/table,
 /obj/item/plate,
@@ -5156,6 +5465,10 @@
 /obj/structure/flora/rock,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
+"zR" = (
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "zS" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/iron/cafeteria,
@@ -5174,11 +5487,16 @@
 /obj/item/trash/waffles,
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
+"Aa" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/tree/jungle/small/style_5,
+/turf/open/floor/grass,
+/area/space)
 "Ab" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/coin/diamond{
-	pixel_y = 4;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 4
 	},
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
@@ -5258,8 +5576,8 @@
 	},
 /obj/effect/overlay/water,
 /turf/open/floor/glass{
-	light_range = 2;
-	light_color = "#6495ED"
+	light_color = "#6495ED";
+	light_range = 2
 	},
 /area/event/oceanarium)
 "AE" = (
@@ -5267,6 +5585,16 @@
 	dir = 8
 	},
 /turf/open/floor/cult,
+/area/space)
+"AF" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/gunner_jellyfish,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
 /area/space)
 "AG" = (
 /obj/structure/table/reinforced,
@@ -5282,6 +5610,19 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"AK" = (
+/obj/vehicle/ridden/lavaboat/dragon{
+	anchored = 1;
+	desc = "This is junk."
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
 /area/space)
 "AL" = (
 /obj/structure/fluff{
@@ -5342,12 +5683,12 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "trails_1";
-	dir = 8
+	dir = 8;
+	icon_state = "trails_1"
 	},
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "tracks";
-	dir = 4
+	dir = 4;
+	icon_state = "tracks"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -5418,8 +5759,8 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 10
+	dir = 10;
+	icon_state = "trails_1"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -5485,14 +5826,22 @@
 	icon_state = "ironsand10"
 	},
 /area/space)
+"BL" = (
+/obj/structure/statue/sandstone/venus,
+/turf/open/floor/mineral/gold,
+/area/space)
 "BN" = (
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/catwalk_floor/iron_white,
+/turf/open/floor/carpet/black,
 /area/space)
 "BO" = (
 /turf/open/floor/carpet/neon/simple/white/nodots,
+/area/space)
+"BP" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood/parquet,
 /area/space)
 "BS" = (
 /obj/structure/table,
@@ -5557,8 +5906,8 @@
 	},
 /obj/effect/overlay/water,
 /turf/open/floor/glass{
-	light_range = 2;
-	light_color = "#6495ED"
+	light_color = "#6495ED";
+	light_range = 2
 	},
 /area/event/oceanarium)
 "Ci" = (
@@ -5600,6 +5949,12 @@
 	},
 /obj/machinery/light/dim/directional/north,
 /turf/open/indestructible/dark,
+/area/space)
+"Cp" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/misc/asteroid/airless,
 /area/space)
 "Cq" = (
 /obj/structure/table/reinforced,
@@ -5740,11 +6095,15 @@
 /mob/living/simple_animal/fish/clownfish,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
+"CU" = (
+/obj/structure/flora/bush/lavendergrass/style_random,
+/turf/open/floor/grass,
+/area/space)
 "CX" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
@@ -5855,6 +6214,12 @@
 	name = "Broom Closet"
 	},
 /area/space)
+"Dw" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 4
+	},
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
 "DB" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -5873,6 +6238,14 @@
 /turf/closed/indestructible/fakedoor{
 	name = "Arena Access"
 	},
+/area/space)
+"DH" = (
+/obj/structure/table/wood,
+/obj/item/paint_palette,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/parquet,
 /area/space)
 "DJ" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -5977,12 +6350,12 @@
 	pixel_y = 7
 	},
 /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
-	pixel_y = -3;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = -3
 	},
 /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
-	pixel_y = -3;
-	pixel_x = -5
+	pixel_x = -5;
+	pixel_y = -3
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -6009,6 +6382,17 @@
 	initial_gas_mix = "TEMP=2.7"
 	},
 /area/event)
+"Ek" = (
+/obj/structure/table/wood,
+/obj/item/chisel,
+/obj/item/chisel,
+/obj/item/chisel,
+/obj/item/chisel,
+/obj/item/stack/sheet/mineral/gold{
+	amount = 50
+	},
+/turf/open/floor/wood/large,
+/area/space)
 "El" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -6023,11 +6407,17 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
+"En" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "Eo" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
@@ -6050,8 +6440,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -6129,6 +6519,15 @@
 /obj/item/mop,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"ED" = (
+/obj/structure/table/wood,
+/obj/item/camera,
+/obj/item/camera,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "EE" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /obj/machinery/disposal/bin,
@@ -6148,8 +6547,8 @@
 /area/event/nightclub)
 "EG" = (
 /obj/machinery/power/floodlight{
-	anchored = 1;
 	active_power_usage = 0;
+	anchored = 1;
 	icon_state = "floodlight_on"
 	},
 /obj/structure/cable,
@@ -6226,6 +6625,10 @@
 "EZ" = (
 /obj/structure/chair/sofa/corp/right,
 /turf/open/floor/carpet/royalblack,
+/area/space)
+"Fa" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
 /area/space)
 "Fb" = (
 /obj/structure/chair/stool/bar/directional/west{
@@ -6336,10 +6739,10 @@
 "Fz" = (
 /obj/effect/spawner/structure/window/hollow/plasma,
 /obj/effect/portal/permanent{
+	desc = "A highly advanced sound system, capable of producing horrifically loud noise.";
 	icon = 'icons/obj/carp_rift.dmi';
 	icon_state = "carp_rift_carpspawn";
-	name = "PLASMA SLUG 3000";
-	desc = "A highly advanced sound system, capable of producing horrifically loud noise."
+	name = "PLASMA SLUG 3000"
 	},
 /turf/open/floor/pod/dark,
 /area/event/nightclub)
@@ -6369,11 +6772,29 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible/dark,
 /area/space)
+"FF" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/spawner/random/food_or_drink/three_course_meal,
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
+"FH" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/item/storage/box/fountainpens,
+/turf/open/floor/wood/parquet,
+/area/space)
 "FI" = (
 /obj/structure/closet/abductor,
 /obj/item/skub,
 /turf/open/floor/glass/plasma,
 /area/event)
+"FK" = (
+/turf/open/misc/asteroid/airless{
+	icon_state = "asteroid5"
+	},
+/area/space)
 "FL" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "gib3"
@@ -6458,12 +6879,13 @@
 	},
 /area/event)
 "FY" = (
-/turf/open/floor/mineral/titanium/tiled,
+/obj/structure/statue/gold/hop,
+/turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
 "FZ" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 1
+	dir = 1;
+	icon_state = "trails_1"
 	},
 /obj/effect/turf_decal/trimline/dark_red/filled/corner{
 	dir = 1
@@ -6566,14 +6988,17 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"Gv" = (
+/turf/open/floor/wood/large,
+/area/space)
 "Gw" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/item/nullrod/claymore/chainsaw_sword{
+	desc = "Why would anyone make a replica of this?";
 	force = 3;
-	name = "chainsaw sword replica";
-	desc = "Why would anyone make a replica of this?"
+	name = "chainsaw sword replica"
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -6691,8 +7116,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -6723,8 +7148,8 @@
 	light_range = 3
 	},
 /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
-	pixel_y = -3;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = -3
 	},
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
@@ -6778,8 +7203,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -6811,8 +7236,8 @@
 "HD" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/cigbutt/cigarbutt{
-	pixel_y = 3;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 3
 	},
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
@@ -6841,8 +7266,8 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/cigbutt/cigarbutt{
-	pixel_y = 3;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 3
 	},
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
@@ -6868,6 +7293,20 @@
 /turf/open/misc/ironsand{
 	icon_state = "ironsand10"
 	},
+/area/space)
+"HZ" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/item/paper_bin,
+/obj/item/paper_bin{
+	pixel_y = 3
+	},
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/turf/open/floor/wood/parquet,
 /area/space)
 "Ie" = (
 /obj/structure/transit_tube,
@@ -6897,7 +7336,8 @@
 /turf/open/floor/mineral/titanium,
 /area/space)
 "Iq" = (
-/turf/closed/indestructible/event/pod_purple,
+/obj/structure/bookcase/manuals/research_and_development,
+/turf/open/floor/wood,
 /area/space)
 "Ir" = (
 /obj/structure/window/reinforced/spawner,
@@ -6945,6 +7385,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/brown/hidden/layer2,
 /turf/closed/indestructible/event/pod_blue,
 /area/event/oceanarium)
+"IB" = (
+/obj/structure/marker_beacon/cerulean,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/space)
 "IC" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/table,
@@ -6992,6 +7442,10 @@
 	dir = 5
 	},
 /turf/open/floor/mineral/titanium,
+/area/space)
+"IV" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/floor/grass,
 /area/space)
 "IW" = (
 /obj/item/kirbyplants{
@@ -7054,6 +7508,12 @@
 "Ji" = (
 /obj/structure/flora/rock/pile,
 /turf/open/misc/ironsand,
+/area/space)
+"Jj" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet/black,
 /area/space)
 "Jn" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -7120,6 +7580,12 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
+"Jz" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/misc/asteroid/airless,
+/area/space)
 "JA" = (
 /obj/effect/decal/cleanable/plasma,
 /obj/item/chair,
@@ -7143,8 +7609,8 @@
 /area/space)
 "JE" = (
 /turf/closed/indestructible/rock{
-	icon_state = "rock2";
-	base_icon_state = "rock_wall"
+	base_icon_state = "rock_wall";
+	icon_state = "rock2"
 	},
 /area/space)
 "JK" = (
@@ -7251,6 +7717,18 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"Kq" = (
+/obj/structure/flora/rock/icy{
+	name = "rock"
+	},
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/space)
 "Kr" = (
 /obj/structure/chair/sofa/bench,
 /turf/open/floor/carpet/black,
@@ -7368,14 +7846,14 @@
 /obj/structure/rack,
 /obj/effect/turf_decal/bot_white/right,
 /obj/item/reagent_containers/cup/glass/waterbottle/large{
+	desc = "A large bottle with no label. Probably just water.";
 	pixel_x = -7;
-	pixel_y = 3;
-	desc = "A large bottle with no label. Probably just water."
+	pixel_y = 3
 	},
 /obj/item/reagent_containers/cup/glass/waterbottle/large{
+	desc = "A large bottle with no label. Probably just water.";
 	pixel_x = 7;
-	pixel_y = 3;
-	desc = "A large bottle with no label. Probably just water."
+	pixel_y = 3
 	},
 /obj/item/reagent_containers/cup/glass/waterbottle/large{
 	desc = "A large bottle with no label. Probably just water."
@@ -7508,8 +7986,8 @@
 "Lz" = (
 /obj/structure/cable,
 /turf/closed/indestructible/rock{
-	icon_state = "rock2";
-	base_icon_state = "rock_wall"
+	base_icon_state = "rock_wall";
+	icon_state = "rock2"
 	},
 /area/space)
 "LC" = (
@@ -7582,6 +8060,10 @@
 /obj/structure/sign/warning/biohazard/directional/east,
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
+"LX" = (
+/obj/structure/statue/gold/ce,
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
 "LZ" = (
 /turf/open/floor/iron/stairs/right{
 	dir = 1
@@ -7597,6 +8079,15 @@
 "Mc" = (
 /obj/machinery/modular_computer/console/preset/engineering,
 /turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"Me" = (
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
 /area/space)
 "Mf" = (
 /obj/structure/chair/sofa/corp/right{
@@ -7629,8 +8120,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -7681,8 +8172,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -7739,8 +8230,8 @@
 /area/event/nightclub)
 "ML" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 6
+	dir = 6;
+	icon_state = "trails_1"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -7771,8 +8262,8 @@
 /mob/living/simple_animal/fish/angelfish,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -7817,8 +8308,8 @@
 /area/space)
 "Nc" = (
 /obj/machinery/vending/wardrobe/chef_wardrobe{
-	pixel_y = 0;
-	pixel_x = -2
+	pixel_x = -2;
+	pixel_y = 0
 	},
 /obj/effect/turf_decal/tile/yellow/diagonal_centre,
 /obj/machinery/light/cold/directional/south,
@@ -7940,6 +8431,12 @@
 	},
 /turf/open/floor/vault/rock,
 /area/space)
+"NH" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/open/misc/asteroid/airless,
+/area/space)
 "NI" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/indestructible,
@@ -7950,6 +8447,10 @@
 	},
 /obj/effect/turf_decal/trimline/white/arrow_ccw,
 /turf/open/floor/mineral/titanium,
+/area/space)
+"NT" = (
+/obj/structure/statue/silver/medborg,
+/turf/open/floor/mineral/gold,
 /area/space)
 "NU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7989,9 +8490,23 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/event/oceanarium)
+"Of" = (
+/obj/structure/chair/wood,
+/turf/open/floor/wood,
+/area/space)
 "Og" = (
 /obj/effect/turf_decal/trimline/dark_red/corner,
 /turf/open/indestructible/dark,
+/area/space)
+"Oj" = (
+/obj/effect/overlay/water,
+/obj/structure/flora/bush/stalky/style_random,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
 /area/space)
 "Ok" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -8012,10 +8527,14 @@
 	},
 /obj/effect/overlay/water,
 /turf/open/floor/glass{
-	light_range = 2;
-	light_color = "#6495ED"
+	light_color = "#6495ED";
+	light_range = 2
 	},
 /area/event/oceanarium)
+"Ot" = (
+/obj/structure/chair/sofa/corp/right,
+/turf/open/floor/carpet/red,
+/area/space)
 "Ow" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line{
 	dir = 4
@@ -8057,6 +8576,16 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/space)
+"OJ" = (
+/obj/structure/flora/bush/stalky/style_random,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/space)
 "OK" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -8097,6 +8626,12 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"OW" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "Pa" = (
 /mob/living/simple_animal/hostile/carp/holocarp,
 /turf/open/floor/fakespace,
@@ -8108,8 +8643,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -8184,8 +8719,8 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "tracks";
-	dir = 8
+	dir = 8;
+	icon_state = "tracks"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -8201,6 +8736,12 @@
 "Pw" = (
 /obj/structure/table,
 /turf/open/indestructible/dark,
+/area/space)
+"Px" = (
+/obj/machinery/door/airlock/gold{
+	name = "Art Supplies"
+	},
+/turf/open/floor/mineral/gold,
 /area/space)
 "Py" = (
 /obj/effect/turf_decal/siding/dark/corner,
@@ -8235,16 +8776,16 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "trails_1";
-	dir = 8
+	dir = 8;
+	icon_state = "trails_1"
 	},
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "tracks";
-	dir = 5
+	dir = 5;
+	icon_state = "tracks"
 	},
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "tracks";
-	dir = 8
+	dir = 8;
+	icon_state = "tracks"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -8266,6 +8807,12 @@
 	},
 /turf/open/floor/pod/dark,
 /area/event/nightclub)
+"PP" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "PQ" = (
 /turf/closed/mineral/ash_rock,
 /area/space)
@@ -8275,9 +8822,9 @@
 /obj/item/reagent_containers/cup/bottle/morphine,
 /obj/item/soap,
 /obj/item/toy/plush/lizard_plushie{
-	color = #281E5D;
-	name = "Tends-the-Wounds";
-	desc = "An adorable stuffed toy that resembles a blue lizardperson."
+	color = "#281E5D";
+	desc = "An adorable stuffed toy that resembles a blue lizardperson.";
+	name = "Tends-the-Wounds"
 	},
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/mineral/titanium/white,
@@ -8322,6 +8869,11 @@
 	},
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
+"Qb" = (
+/obj/structure/easel,
+/obj/item/canvas/twentyfour_twentyfour,
+/turf/open/floor/wood/large,
+/area/space)
 "Qc" = (
 /obj/structure/chair/sofa/bench/right,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -8360,8 +8912,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -8422,8 +8974,8 @@
 "Qy" = (
 /obj/structure/statue/bone/rib,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
-	icon_state = "wasteland1"
+	icon_state = "wasteland1";
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/space)
 "QC" = (
@@ -8438,9 +8990,9 @@
 "QD" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/closet/secure_closet{
-	req_access = list("armory");
+	anchorable = 0;
 	anchored = 1;
-	anchorable = 0
+	req_access = list("armory")
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
@@ -8454,8 +9006,8 @@
 /mob/living/simple_animal/fish/gunner_jellyfish,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -8469,6 +9021,10 @@
 	icon_state = "floor5-old"
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
+/area/space)
+"QP" = (
+/mob/living/carbon/human/species/monkey,
+/turf/open/floor/grass,
 /area/space)
 "QR" = (
 /obj/effect/turf_decal/siding/wood{
@@ -8674,8 +9230,8 @@
 /mob/living/simple_animal/fish/guppy,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -8707,6 +9263,22 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/space)
+"RV" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
+"RW" = (
+/obj/structure/flora/bush/reed/style_3,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/space)
 "RX" = (
 /obj/structure/chair{
 	dir = 8
@@ -8733,8 +9305,8 @@
 /area/space)
 "Sf" = (
 /obj/item/toy/plush/snakeplushie{
-	name = "snek";
-	desc = "SssSss..."
+	desc = "SssSss...";
+	name = "snek"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -8768,6 +9340,10 @@
 /obj/machinery/light/red/directional/south,
 /turf/open/floor/pod/dark,
 /area/space)
+"So" = (
+/obj/structure/chair/sofa/corp/left,
+/turf/open/floor/carpet/red,
+/area/space)
 "Sp" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/door/firedoor,
@@ -8793,8 +9369,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -8833,8 +9409,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -8864,8 +9440,8 @@
 	icon_state = "remainsxeno"
 	},
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "trails_1";
-	dir = 8
+	dir = 8;
+	icon_state = "trails_1"
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
@@ -8904,11 +9480,17 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"SV" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 4
+	},
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
 "SW" = (
 /obj/structure/railing/corner{
 	dir = 4
 	},
-/turf/open/floor/catwalk_floor/iron_white,
+/turf/open/floor/carpet/black,
 /area/space)
 "SY" = (
 /obj/structure/statue/bone/rib{
@@ -8925,8 +9507,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -8995,6 +9577,11 @@
 	},
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
+"Ts" = (
+/turf/open/misc/asteroid/airless{
+	icon_state = "asteroid_dug"
+	},
+/area/space)
 "Tt" = (
 /obj/effect/turf_decal/trimline/white/filled/corner,
 /turf/open/floor/vault/rock,
@@ -9014,6 +9601,17 @@
 	dir = 5
 	},
 /turf/open/indestructible,
+/area/space)
+"Ty" = (
+/mob/living/simple_animal/pet/gondola{
+	desc = "Holy SHIT he's in SPACE!";
+	name = "Space Gondola"
+	},
+/turf/open/misc/asteroid/airless,
+/area/space)
+"Tz" = (
+/mob/living/simple_animal/butterfly,
+/turf/open/floor/grass,
 /area/space)
 "TA" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -9085,9 +9683,9 @@
 "TP" = (
 /obj/structure/fluff/bus/passable/seat,
 /obj/effect/decal/remains/human{
-	light_range = 2;
+	light_color = "#6495ED";
 	light_power = 2;
-	light_color = "#6495ED"
+	light_range = 2
 	},
 /obj/effect/overlay/water,
 /turf/open/floor/iron/dark/airless{
@@ -9140,13 +9738,19 @@
 /obj/structure/table,
 /turf/open/floor/iron/checker,
 /area/space)
+"TY" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
 "Ub" = (
 /obj/effect/overlay/water,
 /obj/structure/marker_beacon/cerulean,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -9165,8 +9769,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -9204,8 +9808,8 @@
 /area/event/nightclub)
 "Um" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 8
+	dir = 8;
+	icon_state = "trails_1"
 	},
 /obj/effect/turf_decal/trimline/dark_red/filled/line,
 /turf/open/floor/mineral/titanium/tiled/white,
@@ -9233,13 +9837,19 @@
 /turf/open/indestructible,
 /area/space)
 "Uv" = (
-/turf/open/floor/mineral/silver,
+/turf/open/floor/mineral/gold,
 /area/space)
 "Uw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
 /turf/open/floor/iron/checker,
+/area/space)
+"Uy" = (
+/obj/structure/chair/sofa/corp{
+	dir = 8
+	},
+/turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
 "Uz" = (
 /obj/item/chair/plastic,
@@ -9276,8 +9886,9 @@
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
 "UI" = (
-/turf/open/floor/carpet/black,
-/area/event/oceanarium)
+/obj/structure/bookcase/manuals/engineering,
+/turf/open/floor/wood,
+/area/space)
 "UK" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/catwalk_floor/flat_white,
@@ -9296,9 +9907,9 @@
 	},
 /area/event/oceanarium)
 "UT" = (
-/obj/machinery/light/cold/directional/west,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
+/obj/structure/bookcase/random,
+/turf/open/floor/wood,
+/area/space)
 "UV" = (
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
 	dir = 8
@@ -9358,9 +9969,25 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/black,
 /area/space)
+"Vg" = (
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
 "Vh" = (
 /turf/open/floor/carpet/purple,
 /area/event/nightclub)
+"Vi" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/clownfish,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/space)
 "Vj" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -9465,6 +10092,11 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/event/oceanarium)
+"VK" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/binoculars,
+/turf/open/floor/bamboo,
+/area/space)
 "VM" = (
 /obj/structure/aquarium/prefilled,
 /turf/open/floor/mineral/silver,
@@ -9483,10 +10115,10 @@
 /area/space)
 "VP" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk{
+	desc = "Just chilling.";
 	faction = list("neutral");
-	wander = 0;
 	name = "Basil'isk";
-	desc = "Just chilling."
+	wander = 0
 	},
 /obj/structure/chair/plastic,
 /turf/open/misc/asteroid/airless,
@@ -9543,9 +10175,9 @@
 	icon = 'icons/obj/objects.dmi';
 	icon_state = "anom";
 	id = "junk";
-	name = "stable wormhole";
+	light_color = "#00ccff";
 	light_range = 3;
-	light_color = "#00ccff"
+	name = "stable wormhole"
 	},
 /turf/open/floor/plating,
 /area/event/oceanarium)
@@ -9595,8 +10227,8 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 6
+	dir = 6;
+	icon_state = "trails_1"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -9616,6 +10248,9 @@
 /obj/item/storage/secure/safe/directional/south,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
+"WB" = (
+/turf/open/floor/carpet/red,
+/area/space)
 "WC" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/cult,
@@ -9666,6 +10301,14 @@
 /obj/item/toy/plush/pkplush,
 /turf/open/floor/carpet/neon/simple/white/nodots,
 /area/space)
+"WO" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/food_or_drink/snack,
+/turf/open/floor/wood,
+/area/space)
+"WP" = (
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/event/nightclub)
 "WS" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 8
@@ -9689,8 +10332,8 @@
 /area/event/nightclub)
 "WX" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "trails_1";
-	dir = 10
+	dir = 10;
+	icon_state = "trails_1"
 	},
 /obj/effect/turf_decal/trimline/dark_red/filled/line,
 /turf/open/floor/mineral/titanium/tiled/white,
@@ -9722,14 +10365,14 @@
 /area/space)
 "Xd" = (
 /obj/vehicle/ridden/lavaboat/dragon{
-	desc = "This is junk.";
-	anchored = 1
+	anchored = 1;
+	desc = "This is junk."
 	},
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -9774,6 +10417,19 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
+/area/space)
+"Xw" = (
+/obj/item/aquarium_prop/seaweed{
+	anchored = 1
+	},
+/obj/effect/overlay/water,
+/mob/living/simple_animal/fish/guppy,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
 /area/space)
 "Xx" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -9908,8 +10564,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -9934,6 +10590,13 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"XW" = (
+/obj/structure/rack,
+/obj/effect/spawner/random/clothing/costume,
+/obj/effect/spawner/random/clothing/costume,
+/obj/effect/spawner/random/clothing/costume,
+/turf/open/floor/wood/parquet,
+/area/space)
 "XX" = (
 /obj/structure/disposalpipe/segment,
 /obj/item/light/tube/broken,
@@ -9945,8 +10608,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -9989,6 +10652,11 @@
 /obj/item/clothing/head/collectable/tophat,
 /turf/open/indestructible/dark,
 /area/space)
+"Yo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/hidden/layer2,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "Yp" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/chair/sofa/bench{
@@ -10066,7 +10734,8 @@
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
 "YH" = (
-/turf/open/floor/catwalk_floor/iron_white,
+/obj/structure/displaycase/trophy,
+/turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
 "YI" = (
 /obj/machinery/abductor/gland_dispenser,
@@ -10077,8 +10746,8 @@
 /obj/effect/overlay/water,
 /turf/open/misc/sandy_dirt{
 	barefootstep = "water";
-	footstep = "water";
 	clawfootstep = "water";
+	footstep = "water";
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
@@ -10099,8 +10768,8 @@
 /area/space)
 "YQ" = (
 /obj/effect/decal/cleanable/blood/old{
-	icon_state = "tracks";
-	dir = 8
+	dir = 8;
+	icon_state = "tracks"
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
@@ -10110,6 +10779,18 @@
 /obj/item/reagent_containers/condiment/sugar,
 /obj/item/reagent_containers/condiment/sugar,
 /turf/open/indestructible/dark,
+/area/space)
+"YV" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 8
+	},
+/turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
+"YY" = (
+/obj/effect/overlay/water,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/space)
 "Zb" = (
 /obj/structure/chair/stool/bar/directional/north,
@@ -10209,6 +10890,10 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/black,
+/area/space)
+"Zw" = (
+/obj/structure/flora/tree/jungle/style_6,
+/turf/open/floor/grass,
 /area/space)
 "Zz" = (
 /obj/structure/curtain/bounty,
@@ -10311,6 +10996,11 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
+"ZW" = (
+/turf/open/misc/asteroid/airless{
+	icon_state = "asteroid9"
+	},
+/area/space)
 
 (1,1,1) = {"
 aa
@@ -45976,9 +46666,9 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+NH
+Cp
+Jz
 aa
 ay
 ay
@@ -46102,11 +46792,16 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+Cp
+dI
+FK
+pX
+Cp
+dI
+Ts
 ay
 ay
 ay
@@ -46120,15 +46815,10 @@ ay
 ay
 ay
 ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
-ay
+bo
+bo
+bo
+bo
 ay
 ay
 ay
@@ -46231,9 +46921,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+ay
+ay
+ZW
+cS
+cS
+cS
+Ty
+tD
+cS
+cS
+cS
 ay
 ay
 ay
@@ -46246,20 +46944,12 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+bo
+bo
+vX
+vX
+bo
+bo
 ay
 ay
 ay
@@ -46360,38 +47050,38 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+ay
+ay
+FK
+cS
+cS
+cS
+cS
+cS
+cS
+to
+cS
 ay
 ay
 ay
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-VE
-VE
-VE
-VE
-VE
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+vX
+vX
+vX
+vX
+bo
+bo
+bo
 aa
 ay
 ay
@@ -46490,38 +47180,38 @@ aa
 aa
 aa
 aa
-aa
+ay
+ay
+ay
+bo
+bo
+gu
+gu
+gu
+gu
+gu
+gu
+bo
+bo
 ay
 ay
 ay
 ay
-ay
-ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
+bo
 Uv
-FY
-FY
+YH
+YH
 Uv
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
+bo
+Uv
+pS
+pS
+pS
+pS
+pS
+pS
+Uv
+bo
 aa
 aa
 aa
@@ -46620,38 +47310,38 @@ aa
 aa
 aa
 aa
-aa
+ay
+bo
+bo
+bo
+ep
+Fa
+mU
+cb
+cb
+Of
+WO
+RV
+bo
+bo
+bo
 ay
 ay
-ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
+bo
 FY
-YH
-YH
-FY
-VE
-Uv
-FY
-FY
-FY
-FY
-FY
-FY
-Uv
-VE
+jO
+jO
+qw
+bo
+pS
+pS
+pS
+pS
+pS
+pS
+pS
+pS
+bo
 aa
 aa
 aa
@@ -46751,37 +47441,37 @@ aa
 ay
 ay
 ay
-ay
-ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-FY
-YH
-YH
-FY
-VE
-FY
+bo
+qt
+Uv
+ep
+cf
+RV
+mS
+mS
+ep
+BP
+RV
+Uv
+Uv
+bo
+bo
+bo
+bo
+Uv
+jO
+jO
+Uv
+bo
+pS
 xm
 wX
 wX
 wX
 wX
 SW
-FY
-VE
+pS
+bo
 aa
 aa
 aa
@@ -46880,38 +47570,38 @@ aa
 aa
 ay
 ay
-ay
-ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-FY
-YH
-YH
-YH
-YH
-YH
+bo
+bo
+Uv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+sV
+Jj
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
 oj
 pj
 pj
 pj
 pj
 BN
-FY
-VE
+pS
+bo
 aa
 aa
 aa
@@ -47010,38 +47700,38 @@ aa
 ay
 ay
 ay
-ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-FY
-YH
-YH
-YH
-YH
-YH
+bo
+mS
+mS
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+sV
+Jj
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
 xm
 pj
 pj
 pj
 pj
 BN
-FY
-VE
+pS
+bo
 aa
 aa
 aa
@@ -47140,38 +47830,38 @@ aa
 ay
 ay
 ay
-ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-FY
-YH
-YH
-FY
-VE
-FY
+bo
+Iq
+mS
+Gv
+Gv
+uA
+OW
+uq
+vK
+OW
+HZ
+FH
+bo
+bo
+bo
+bo
+bo
+bo
+Uv
+jO
+jO
+Uv
+bo
+pS
 oj
 fh
 fh
 fh
 fh
 iz
-FY
-VE
+pS
+bo
 aa
 aa
 aa
@@ -47269,39 +47959,39 @@ aa
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-FY
-YH
-YH
-FY
-VE
-Uv
-FY
-FY
-FY
-FY
-FY
-FY
-Uv
-VE
+ay
+bo
+cb
+mS
+Gv
+Gv
+uu
+WB
+tQ
+nb
+WB
+PP
+dc
+bo
+fi
+Gv
+Gv
+Qb
+bo
+wr
+jO
+jO
+LX
+bo
+pS
+pS
+pS
+jO
+jO
+pS
+pS
+pS
+bo
 aa
 aa
 aa
@@ -47399,39 +48089,39 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-FY
+ay
+bo
+UI
+mS
+Gv
+Gv
+uu
+Ot
+WB
+WB
+WB
+WB
+WB
+Px
+Gv
+Gv
+Gv
+Qb
+bo
+Uv
 YH
 YH
-FY
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
+Uv
+bo
+Uv
+pS
+pS
+jO
+jO
+pS
+pS
+Uv
+bo
 aa
 aa
 aa
@@ -47528,40 +48218,40 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-FY
-YH
-YH
-FY
-VE
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+bo
+UI
+mS
+Gv
+Gv
+uu
+So
+WB
+WB
+WB
+WB
+WB
+Px
+Gv
+Gv
+Gv
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+jO
+jO
+bo
+bo
+bo
+bo
 aa
 aa
 aa
@@ -47657,40 +48347,40 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-FY
-YH
-YH
-FY
-VE
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+bo
+cb
+mS
+Gv
+Gv
+uu
+WB
+tQ
+nb
+WB
+WB
+WB
+bo
+Ek
+ky
+sP
+bo
+Uv
+vX
+vX
+vX
+vX
+Uv
+bo
+Uv
+pS
+jO
+jO
+pS
+Uv
+bo
 aa
 aa
 aa
@@ -47786,41 +48476,41 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-VE
-FY
-YH
-YH
-FY
-VE
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+bo
+UT
+mS
+Gv
+Gv
+TY
+En
+xs
+DH
+En
+ED
+kv
+bo
+bo
+bo
+bo
+bo
+pS
+pS
+pS
+pS
+pS
+pS
+bo
+pS
+pS
+jO
+jO
+pS
+vX
+bo
 aa
 aa
 aa
@@ -47915,42 +48605,42 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+bo
+mS
+mS
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+sV
+Jj
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+pS
+vX
+bo
 aa
 aa
 aa
@@ -48045,42 +48735,42 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+bo
+bo
+Uv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+sV
+Jj
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+pS
+vX
+bo
 aa
 aa
 aa
@@ -48174,43 +48864,43 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+NT
+Uv
+mS
+uA
+OW
+OW
+OW
+OW
+pz
+mS
+Uv
+Uv
+bo
+Uv
+vX
+vX
+vX
+vX
+Uv
+jO
+jO
+jO
+Uv
+vX
+vX
+Uv
+pS
+Uv
+bo
 aa
 aa
 aa
@@ -48304,43 +48994,43 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+bo
+bo
+XW
+pT
+WB
+WB
+WB
+WB
+pQ
+ww
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+jO
+jO
+jO
+bo
+bo
+bo
+bo
+bo
+bo
+bo
 aa
 aa
 aa
@@ -48433,38 +49123,38 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+bo
+gu
+gu
+gu
+gu
+gu
+gu
+bo
+bo
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+jO
+jO
+jO
+bo
 aa
 aa
 aa
@@ -48563,46 +49253,46 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+Me
+Oj
+fZ
+Me
+Xw
+Oj
+Me
+Oj
+bo
+ay
+ay
+ay
+ay
+ay
+bo
+bo
+bo
+jO
+jO
+jO
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
 aa
 aa
 aa
@@ -48691,49 +49381,49 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bo
+bL
+bL
+jO
+jO
+jO
+SV
+oL
+oL
+Dw
+gu
+Me
+ko
+ko
+bo
+bo
 aa
 aa
 aa
@@ -48821,49 +49511,49 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+Zw
+an
+yX
+xu
+xh
+zO
+dZ
+bo
+Vg
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+gu
+Oj
+Me
+ko
+ko
+bo
 aa
 aa
 aa
@@ -48950,50 +49640,50 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+IV
+zO
+IV
+zO
+xh
+zO
+dZ
+gu
+FF
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+gu
+Me
+gU
+ko
+ko
+bo
 aa
 aa
 aa
@@ -49080,50 +49770,50 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+bo
+cp
+an
+Tz
+rl
+nY
+an
+IV
+bo
+jh
+jO
+jO
+jO
+jO
+vX
+vX
+vX
+gu
+gu
+Me
+Me
+Me
+ko
+bo
 aa
 aa
 aa
@@ -49209,51 +49899,51 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+zO
+zO
+xh
+zO
+an
+cQ
+gu
+gu
+bo
+vX
+vX
+jO
+jO
+jO
+vX
+vX
+gu
+gu
+Me
+Me
+Oj
+Me
+Me
+bo
 aa
 aa
 aa
@@ -49339,51 +50029,51 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+zD
+an
+IV
+IV
+zO
+gu
+gu
+pS
+vX
+vX
+vX
+jO
+jO
+jO
+vX
+vX
+gu
+Xw
+Oj
+Me
+Me
+Oj
+YY
+bo
 aa
 aa
 aa
@@ -49468,52 +50158,52 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+bo
+an
+an
+IV
+IV
+zO
+gu
+pS
+vX
+vX
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+gu
+Me
+Me
+Me
+Me
+YY
+YY
+bo
 aa
 aa
 aa
@@ -49598,52 +50288,52 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+an
+dj
+dZ
+IV
+wQ
+dZ
+gu
+VK
+vX
+vX
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+gu
+Kq
+RW
+OJ
+YY
+wt
+YY
+bo
 aa
 aa
 aa
@@ -49727,53 +50417,53 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+IV
+CU
+an
+zO
+IV
+an
+gu
+VK
+vX
+vX
+jO
+jO
+zO
+zO
+zO
+jO
+jO
+gu
+RW
+Me
+Me
+Me
+YY
+YY
+bo
 aa
 aa
 aa
@@ -49857,53 +50547,53 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+xh
+rW
+dZ
+an
+dZ
+IV
+gu
+VK
+vX
+vX
+jO
+jO
+zO
+BL
+zO
+jO
+jO
+gu
+hc
+Me
+AF
+Me
+YY
+YY
+bo
 aa
 aa
 aa
@@ -49986,54 +50676,54 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+an
+an
+xh
+zO
+an
+cp
+gu
+VK
+vX
+vX
+jO
+jO
+zO
+zO
+zO
+jO
+jO
+gu
+AK
+RW
+Me
+Me
+Me
+YY
+bo
 aa
 aa
 aa
@@ -50115,55 +50805,55 @@ aa
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+an
+hN
+an
+wa
+IV
+an
+gu
+VK
+vX
+vX
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+gu
+Me
+Me
+Oj
+Oj
+Me
+Me
+bo
 aa
 aa
 aa
@@ -50245,55 +50935,55 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+bo
+an
+CU
+an
+zO
+an
+gu
+pS
+vX
+vX
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+gu
+Me
+RW
+Me
+Me
+Me
+Me
+bo
 aa
 aa
 aa
@@ -50375,55 +51065,55 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+zO
+CU
+qu
+dZ
+zO
+gu
+gu
+pS
+vX
+vX
+vX
+jO
+jO
+jO
+vX
+vX
+gu
+YY
+YY
+IB
+Vi
+Oj
+Me
+bo
 aa
 aa
 aa
@@ -50505,55 +51195,55 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+zO
+dZ
+QP
+dZ
+an
+zO
+gu
+gu
+bo
+vX
+vX
+jO
+jO
+jO
+vX
+vX
+gu
+gu
+YY
+YY
+Me
+Me
+Me
+bo
 aa
 aa
 aa
@@ -50634,56 +51324,56 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+bo
+CU
+dZ
+an
+xh
+an
+zO
+IV
+bo
+Vg
+vX
+jO
+jO
+jO
+vX
+vX
+vX
+gu
+gu
+YY
+Me
+OJ
+Me
+bo
 aa
 aa
 aa
@@ -50764,56 +51454,56 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+CU
+xh
+an
+zO
+IV
+Aa
+IV
+gu
+FF
+vX
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+gu
+Me
+Me
+Me
+Me
+bo
 aa
 aa
 aa
@@ -50893,57 +51583,57 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+bo
+dZ
+dZ
+qu
+dZ
+an
+an
+an
+bo
+jh
+vX
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+gu
+OJ
+Me
+ko
+ko
+bo
 aa
 aa
 aa
@@ -51022,27 +51712,27 @@ aa
 ay
 ay
 ay
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 sW
 sW
 sW
@@ -51050,30 +51740,30 @@ sW
 sW
 sW
 sW
-sW
-sW
-sW
-sW
-sW
-sW
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
-aD
+WP
+WP
+WP
+WP
+WP
+WP
+bo
+bo
+bo
+bL
+bL
+jO
+jO
+jO
+YV
+Uy
+Uy
+wc
+gu
+Me
+ko
+ko
+bo
+bo
 aD
 aD
 aD
@@ -51152,17 +51842,17 @@ aa
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51186,15 +51876,15 @@ bM
 RA
 wP
 sW
-aa
-aa
-aa
-aa
-aa
-Iq
+ay
+ay
+tv
+tv
+tv
 jO
 jO
-UI
+jO
+mA
 mA
 mA
 mA
@@ -51282,17 +51972,17 @@ aa
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51316,16 +52006,16 @@ oR
 EF
 WA
 sW
-aa
-aa
-aa
-aa
-aa
-Iq
+ay
+ay
+ay
+ay
+tv
 jO
 jO
-UI
+jO
 mA
+Ox
 Wb
 lA
 ml
@@ -51412,17 +52102,17 @@ aa
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51446,16 +52136,16 @@ Hl
 Bx
 Oz
 sW
-aa
-aa
-aa
-aa
-aa
-Iq
+ay
+ay
+ay
+ay
+tv
 jO
 jO
-UI
+jO
 bG
+Yo
 PY
 XX
 Xy
@@ -51542,17 +52232,17 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51576,16 +52266,16 @@ LF
 CE
 RA
 sW
-aa
-aa
-aa
-aa
-aa
-Iq
+ay
+ay
+ay
+ay
+tv
 jO
 jO
-UI
+jO
 mA
+hD
 qQ
 jM
 kp
@@ -51672,17 +52362,17 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51706,16 +52396,16 @@ RA
 Oz
 JA
 sW
-aa
-aa
-aa
-aa
-aa
-Iq
+ay
+ay
+ay
+ay
+tv
 jO
 jO
-UI
+jO
 mA
+iO
 Cn
 Ny
 bs
@@ -51802,17 +52492,17 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51841,10 +52531,10 @@ sW
 sW
 sW
 sW
-sW
 jO
 jO
-UI
+jO
+mA
 mA
 gh
 mA
@@ -51932,17 +52622,17 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51970,12 +52660,12 @@ RA
 bu
 RA
 RA
+zR
 RA
-UT
 RA
-jO
-CC
+RA
 Az
+CC
 CC
 CC
 DW
@@ -52062,17 +52752,17 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -52103,7 +52793,7 @@ RA
 RA
 RA
 RA
-jO
+RA
 CC
 CC
 CC
@@ -52192,17 +52882,17 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -52230,12 +52920,12 @@ RA
 RA
 RA
 RA
+hl
 RA
-mS
 RA
-jO
+RA
+oH
 CC
-bo
 CC
 CQ
 DW
@@ -52321,18 +53011,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -52451,18 +53141,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -52581,18 +53271,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -52711,18 +53401,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -52841,18 +53531,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 sW
@@ -52971,18 +53661,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 sW
 Et
@@ -53101,18 +53791,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 sW
 gD
@@ -53231,18 +53921,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 sW
 CJ
@@ -53361,18 +54051,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 sW
 py
@@ -53491,18 +54181,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 sW
 PG
@@ -53621,18 +54311,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 sW
 CJ
@@ -53751,18 +54441,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 sW
 CJ
@@ -53881,18 +54571,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 sW
 CJ
@@ -54011,18 +54701,18 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 sW
 Et
@@ -54141,18 +54831,18 @@ aa
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 sW
@@ -54272,17 +54962,17 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -54402,17 +55092,17 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -54532,17 +55222,17 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -54663,16 +55353,16 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -54793,16 +55483,16 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -54924,15 +55614,15 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -55054,15 +55744,15 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -55184,15 +55874,15 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -55314,15 +56004,15 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -55444,15 +56134,15 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -55575,14 +56265,14 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -55705,14 +56395,14 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -55835,14 +56525,14 @@ aa
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -55965,14 +56655,14 @@ aa
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -56095,14 +56785,14 @@ aa
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -56226,13 +56916,13 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -56357,12 +57047,12 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -56487,12 +57177,12 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -56618,11 +57308,11 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -56750,9 +57440,9 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
+ay
+ay
+ay
 ay
 ay
 ay
@@ -56881,8 +57571,8 @@ ay
 ay
 ay
 ay
-aa
-aa
+ay
+ay
 ay
 ay
 ay
@@ -57012,64 +57702,64 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -57144,56 +57834,56 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -57276,38 +57966,38 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -57406,34 +58096,34 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aD
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -57539,24 +58229,24 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -57671,21 +58361,21 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -57804,13 +58494,13 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
