@@ -267,7 +267,7 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
 "bo" = (
-/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/turf/closed/indestructible/event/pod_orange,
 /area/space)
 "bp" = (
 /obj/structure/holosign/wetsign,
@@ -901,6 +901,20 @@
 	},
 /turf/closed/indestructible/opshuttle,
 /area/space)
+"ed" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/portal/permanent{
+	icon = 'icons/obj/objects.dmi';
+	icon_state = "anom";
+	id = "junk";
+	light_color = "#00ccff";
+	light_range = 3;
+	name = "stable wormhole"
+	},
+/obj/effect/rune/teleport,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "ee" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 8
@@ -1610,6 +1624,7 @@
 "hD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning/biohazard/directional/north,
+/obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/event/oceanarium)
 "hE" = (
@@ -2209,10 +2224,6 @@
 	dir = 8
 	},
 /turf/open/floor/catwalk_floor/flat_white,
-/area/space)
-"ko" = (
-/obj/effect/overlay/water,
-/turf/closed/mineral/ash_rock,
 /area/space)
 "kp" = (
 /obj/structure/disposalpipe/broken{
@@ -3882,6 +3893,9 @@
 /area/space)
 "sz" = (
 /obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/skub{
+	pixel_y = 4
+	},
 /turf/open/floor/pod/dark,
 /area/space)
 "sB" = (
@@ -6281,7 +6295,9 @@
 /area/space)
 "DT" = (
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/toy/plush/lizard_plushie,
+/obj/item/toy/plush/lizard_plushie{
+	name = "Is-A-Placeholder"
+	},
 /turf/open/floor/pod/dark,
 /area/space)
 "DU" = (
@@ -6779,7 +6795,9 @@
 /area/space)
 "FI" = (
 /obj/structure/closet/abductor,
-/obj/item/skub,
+/obj/item/skub{
+	pixel_y = 4
+	},
 /turf/open/floor/glass/plasma,
 /area/event)
 "FK" = (
@@ -7599,12 +7617,6 @@
 	icon_state = "ironsand10"
 	},
 /area/space)
-"JE" = (
-/turf/closed/indestructible/rock{
-	base_icon_state = "rock_wall";
-	icon_state = "rock2"
-	},
-/area/space)
 "JK" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/toy/plush/slimeplushie,
@@ -7974,13 +7986,6 @@
 	dir = 9
 	},
 /turf/open/floor/carpet/black,
-/area/space)
-"Lz" = (
-/obj/structure/cable,
-/turf/closed/indestructible/rock{
-	base_icon_state = "rock_wall";
-	icon_state = "rock2"
-	},
 /area/space)
 "LC" = (
 /obj/structure/chair/comfy/shuttle/tactical{
@@ -9008,6 +9013,16 @@
 /obj/effect/turf_decal/box/white,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"QM" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/axolotl,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "QN" = (
 /obj/effect/decal/cleanable/blood/bubblegum{
 	icon_state = "floor5-old"
@@ -9698,6 +9713,16 @@
 	dir = 1
 	},
 /area/space)
+"TS" = (
+/mob/living/simple_animal/fish/goldfish,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "TT" = (
 /obj/structure/table/reinforced/plasmarglass,
 /obj/machinery/button/flasher/indestructible{
@@ -10162,15 +10187,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/rune/teleport,
-/obj/effect/portal/permanent{
-	icon = 'icons/obj/objects.dmi';
-	icon_state = "anom";
-	id = "junk";
-	light_color = "#00ccff";
-	light_range = 3;
-	name = "stable wormhole"
-	},
 /turf/open/floor/plating,
 /area/event/oceanarium)
 "Wf" = (
@@ -10299,7 +10315,7 @@
 /turf/open/floor/wood,
 /area/space)
 "WP" = (
-/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/turf/closed/indestructible/event/pod_orange,
 /area/event/nightclub)
 "WS" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
@@ -10563,7 +10579,6 @@
 /area/event/oceanarium)
 "XR" = (
 /obj/effect/overlay/water,
-/turf/closed/mineral/ash_rock,
 /area/event/oceanarium)
 "XT" = (
 /obj/item/clothing/under/suit/carpskin,
@@ -10646,7 +10661,7 @@
 /area/space)
 "Yo" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
 /turf/open/floor/plating,
 /area/event/oceanarium)
 "Yp" = (
@@ -34596,9 +34611,9 @@ vz
 vz
 rq
 rq
-JE
-JE
-JE
+PQ
+PQ
+PQ
 rq
 rq
 vz
@@ -34725,21 +34740,21 @@ rq
 rq
 rq
 rq
-JE
-JE
+PQ
+PQ
 Cx
-Lz
-JE
+Hy
+PQ
 rq
 rq
 rq
 rq
 rq
-JE
-JE
-JE
-JE
-JE
+PQ
+PQ
+PQ
+PQ
+PQ
 ay
 ay
 ay
@@ -34855,23 +34870,23 @@ Ji
 kr
 PQ
 PQ
-JE
-JE
+PQ
+PQ
 Cx
 EG
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
 ay
 ay
 ay
@@ -34984,9 +34999,9 @@ rq
 kr
 kr
 Cx
-JE
-JE
-JE
+PQ
+PQ
+PQ
 Cx
 Cx
 Cx
@@ -34998,11 +35013,11 @@ Cx
 Cx
 Cx
 ti
-JE
+PQ
+Hy
 PQ
 PQ
-JE
-JE
+PQ
 ay
 ay
 ay
@@ -35115,7 +35130,7 @@ kr
 kr
 kr
 Cx
-JE
+PQ
 PQ
 Cx
 nJ
@@ -35130,9 +35145,9 @@ nJ
 Cx
 Cx
 EG
-Hy
-JE
-JE
+PQ
+PQ
+PQ
 ay
 ay
 ay
@@ -35261,9 +35276,9 @@ nJ
 Cx
 Cx
 Cx
-JE
-JE
-JE
+PQ
+PQ
+PQ
 ay
 ay
 ay
@@ -35392,9 +35407,9 @@ nJ
 nJ
 Cx
 PQ
-JE
-JE
-JE
+PQ
+PQ
+PQ
 ay
 ay
 ay
@@ -35524,7 +35539,7 @@ nJ
 Cx
 PQ
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -35637,15 +35652,15 @@ kr
 Cx
 KY
 PQ
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
 PQ
 Cx
 Cx
@@ -35654,7 +35669,7 @@ nJ
 Cx
 EG
 Hy
-JE
+PQ
 ay
 ay
 ay
@@ -35766,8 +35781,8 @@ kr
 kr
 kr
 kr
-JE
-JE
+PQ
+PQ
 FO
 Cx
 ti
@@ -35776,7 +35791,7 @@ ti
 Cx
 Cx
 FO
-JE
+PQ
 PQ
 Cx
 nJ
@@ -35784,7 +35799,7 @@ nJ
 Cx
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -35896,7 +35911,7 @@ kr
 kr
 kr
 kr
-JE
+PQ
 mF
 Cx
 Cx
@@ -35907,14 +35922,14 @@ Cx
 Cx
 Cx
 mF
-JE
+PQ
 iC
 nJ
 nJ
 Cx
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -36026,7 +36041,7 @@ kr
 kr
 kr
 kr
-JE
+PQ
 mF
 Cx
 Cx
@@ -36037,14 +36052,14 @@ Cx
 Cx
 Cx
 mF
-JE
+PQ
 Cx
 nJ
 Cx
 Cx
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -36156,7 +36171,7 @@ kr
 kr
 kr
 kr
-JE
+PQ
 mF
 Cx
 Cx
@@ -36167,7 +36182,7 @@ Cx
 Cx
 Cx
 mF
-JE
+PQ
 Cx
 nJ
 nJ
@@ -36286,26 +36301,26 @@ ru
 kr
 kr
 kr
-JE
-JE
-uC
-Cx
-Cx
-Cx
-Cx
-Cx
-Cx
-uC
-JE
-JE
-nJ
-nJ
-Cx
-nJ
-nJ
 PQ
-JE
-JE
+PQ
+uC
+Cx
+Cx
+Cx
+Cx
+Cx
+Cx
+uC
+PQ
+PQ
+nJ
+nJ
+Cx
+nJ
+nJ
+Hy
+PQ
+PQ
 ay
 ay
 ay
@@ -36416,8 +36431,8 @@ kU
 KL
 KL
 Xz
-JE
-JE
+PQ
+PQ
 lk
 lk
 lk
@@ -36426,16 +36441,16 @@ Vb
 lk
 lk
 lk
-JE
-JE
+PQ
+PQ
 aF
 sH
 sH
 sH
 lT
 EG
-Hy
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -36565,7 +36580,7 @@ va
 AN
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -36695,7 +36710,7 @@ KR
 AN
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -36825,7 +36840,7 @@ KR
 AN
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -36955,7 +36970,7 @@ tE
 AN
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -37085,7 +37100,7 @@ Qi
 Db
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -37215,7 +37230,7 @@ va
 AN
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -37345,8 +37360,8 @@ KR
 AN
 Cx
 PQ
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -37475,8 +37490,8 @@ tE
 AN
 oh
 PQ
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -37605,8 +37620,8 @@ Qi
 Db
 ZB
 hi
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -37735,8 +37750,8 @@ va
 AN
 oh
 PQ
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -37865,8 +37880,8 @@ KR
 AN
 Cx
 PQ
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -37995,8 +38010,8 @@ tE
 AN
 Cx
 PQ
-JE
-ay
+PQ
+PQ
 ay
 ay
 ay
@@ -38125,7 +38140,7 @@ Qi
 Db
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -38255,7 +38270,7 @@ va
 AN
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -38385,7 +38400,7 @@ KR
 AN
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -38515,7 +38530,7 @@ KR
 AN
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -38645,7 +38660,7 @@ tE
 AN
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -38756,8 +38771,8 @@ Hs
 sl
 sl
 tW
-JE
-JE
+PQ
+PQ
 lk
 lk
 lk
@@ -38766,8 +38781,8 @@ Vb
 lk
 lk
 lk
-JE
-JE
+PQ
+PQ
 rB
 AE
 AE
@@ -38775,7 +38790,7 @@ AE
 cu
 Cx
 PQ
-JE
+PQ
 ay
 ay
 ay
@@ -38886,8 +38901,8 @@ rQ
 kr
 kr
 kr
-JE
-JE
+PQ
+PQ
 FO
 Cx
 Cx
@@ -38896,16 +38911,16 @@ Cx
 Cx
 Cx
 FO
-JE
-JE
+PQ
+PQ
 Cx
 Cx
 Cx
 Cx
 Cx
 EG
-Hy
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -39016,26 +39031,26 @@ kr
 kr
 kr
 kr
-JE
-mF
-Cx
-Cx
-Cx
-Cx
-Cx
-Cx
-Cx
-Cx
-mF
-JE
-Cx
-Cx
-nJ
-nJ
-Cx
 PQ
-JE
-JE
+mF
+Cx
+Cx
+Cx
+Cx
+Cx
+Cx
+Cx
+Cx
+mF
+PQ
+Cx
+Cx
+nJ
+nJ
+Cx
+Hy
+PQ
+PQ
 ay
 ay
 ay
@@ -39146,7 +39161,7 @@ kr
 kr
 kr
 kr
-JE
+PQ
 mF
 Cx
 Cx
@@ -39157,14 +39172,14 @@ Cx
 Cx
 Cx
 mF
-JE
+PQ
 Cx
 Cx
 nJ
 nJ
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -39276,7 +39291,7 @@ kr
 kr
 kr
 kr
-JE
+PQ
 mF
 Cx
 Cx
@@ -39287,14 +39302,14 @@ Cx
 Cx
 Cx
 mF
-JE
+PQ
 Cx
 nJ
 nJ
 nJ
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -39406,8 +39421,8 @@ kr
 II
 nJ
 PQ
-JE
-JE
+PQ
+PQ
 uC
 Cx
 ti
@@ -39416,15 +39431,15 @@ ti
 Cx
 Cx
 uC
-JE
+PQ
 PQ
 Cx
 Cx
 nJ
 Cx
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -39536,16 +39551,16 @@ kr
 kr
 nJ
 nE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
 PQ
 Cx
 Cx
@@ -39553,8 +39568,8 @@ nJ
 nJ
 Cx
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -39666,8 +39681,8 @@ yD
 kr
 Cx
 nJ
-JE
-JE
+PQ
+PQ
 Cx
 Cx
 Cx
@@ -39683,8 +39698,8 @@ nJ
 nJ
 Cx
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -39813,8 +39828,8 @@ nJ
 nJ
 Cx
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -39943,8 +39958,8 @@ nJ
 GR
 Cx
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -40073,8 +40088,8 @@ Cx
 Cx
 Cx
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -40203,8 +40218,8 @@ Cx
 Cx
 Cx
 Cx
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -40315,8 +40330,8 @@ kr
 kr
 kr
 PQ
-JE
-JE
+PQ
+PQ
 Cx
 Cx
 Cx
@@ -40332,9 +40347,9 @@ Cx
 Cx
 Cx
 Cx
-JE
-JE
-JE
+PQ
+PQ
+PQ
 ay
 ay
 ay
@@ -40443,12 +40458,12 @@ kr
 kr
 kr
 kr
-JE
 PQ
 PQ
-JE
-JE
-JE
+PQ
+PQ
+PQ
+PQ
 EG
 Cx
 Cx
@@ -40462,8 +40477,8 @@ Cx
 Cx
 Cx
 EG
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -40572,15 +40587,15 @@ kr
 kr
 kr
 kr
-JE
-JE
 PQ
-JE
-JE
-JE
-JE
-Lz
-JE
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+Hy
+PQ
 PQ
 Cx
 Cx
@@ -40592,8 +40607,8 @@ Cx
 Cx
 ti
 Hy
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
@@ -40703,27 +40718,27 @@ ay
 ay
 ay
 ay
-JE
-JE
+PQ
+PQ
 ay
 ay
 ay
-JE
-JE
-JE
 PQ
 PQ
-JE
-JE
-JE
-JE
-JE
-JE
-JE
 PQ
 PQ
-JE
-JE
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
 ay
 ay
 ay
@@ -40839,19 +40854,19 @@ ay
 ay
 ay
 ay
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
 ay
 ay
 ay
@@ -40971,13 +40986,13 @@ ay
 ay
 ay
 ay
-JE
-JE
-JE
-JE
-JE
-JE
-JE
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
+PQ
 ay
 ay
 ay
@@ -49412,8 +49427,8 @@ oL
 Dw
 gu
 Me
-ko
-ko
+YY
+YY
 bo
 bo
 aa
@@ -49543,8 +49558,8 @@ jO
 gu
 Oj
 Me
-ko
-ko
+YY
+YY
 bo
 aa
 aa
@@ -49673,8 +49688,8 @@ jO
 gu
 Me
 gU
-ko
-ko
+YY
+YY
 bo
 aa
 aa
@@ -49804,7 +49819,7 @@ gu
 Me
 Me
 Me
-ko
+YY
 bo
 aa
 aa
@@ -51623,8 +51638,8 @@ jO
 gu
 OJ
 Me
-ko
-ko
+YY
+YY
 bo
 aa
 aa
@@ -51752,8 +51767,8 @@ Uy
 wc
 gu
 Me
-ko
-ko
+YY
+YY
 bo
 bo
 aD
@@ -52007,7 +52022,7 @@ jO
 jO
 jO
 mA
-Ox
+ed
 Wb
 lA
 ml
@@ -52274,7 +52289,7 @@ kp
 uW
 mA
 zI
-zI
+QM
 zI
 zI
 zI
@@ -54638,7 +54653,7 @@ zI
 zI
 zI
 zI
-uQ
+TS
 zI
 zI
 zI

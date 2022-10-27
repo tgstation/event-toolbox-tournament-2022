@@ -28,3 +28,23 @@
 
 /turf/singularity_act()
 	return
+
+//I need mineral turfs for z2 for pretty smoothing but they also need to be indestructible by tools so...
+
+/turf/closed/mineral/ex_act(severity, target)
+	return
+
+/turf/closed/mineral/attack_alien(mob/living/carbon/alien/user, list/modifiers)
+	return
+
+/turf/closed/mineral/attack_hulk(mob/living/carbon/human/H)
+	return
+
+/turf/closed/mineral/attackby(obj/item/I, mob/user, params)
+	return
+
+/turf/closed/mineral/attack_robot(mob/living/silicon/robot/user)
+	return
+
+/turf/closed/mineral/attack_animal(mob/living/simple_animal/user, list/modifiers)
+	return
