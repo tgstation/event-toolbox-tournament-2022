@@ -442,6 +442,19 @@
 "cb" = (
 /turf/open/floor/wood,
 /area/space)
+"cc" = (
+/obj/effect/overlay/water,
+/obj/structure/cannon{
+	dir = 8;
+	desc = "This is junk."
+	},
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "ce" = (
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
@@ -10375,19 +10388,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
-"Xd" = (
-/obj/vehicle/ridden/lavaboat/dragon{
-	anchored = 1;
-	desc = "This is junk."
-	},
-/obj/effect/overlay/water,
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	clawfootstep = "water";
-	footstep = "water";
-	heavyfootstep = "water"
-	},
-/area/event/oceanarium)
 "Xj" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/chair/sofa/bench/right,
@@ -52178,8 +52178,8 @@ zI
 zI
 zI
 zI
+cc
 zI
-Xd
 zI
 zI
 zI
