@@ -64,6 +64,9 @@
 /area/space)
 "ao" = (
 /obj/effect/decal/cleanable/shreds,
+/obj/structure/barricade/slime{
+	opacity = 1
+	},
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
 "ap" = (
@@ -359,10 +362,6 @@
 /obj/effect/spawner/random/food_or_drink/snack,
 /turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
-"bM" = (
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "bN" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
@@ -2382,6 +2381,9 @@
 	},
 /turf/open/misc/asteroid/airless,
 /area/space)
+"kY" = (
+/turf/closed/indestructible/rock,
+/area/event/nightclub)
 "lb" = (
 /obj/structure/table/reinforced,
 /obj/item/fireaxe/metal_h2_axe,
@@ -2660,6 +2662,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
 /obj/item/trash/chips,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/west,
 /turf/open/floor/plating,
 /area/event/oceanarium)
 "mn" = (
@@ -3240,11 +3243,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/space)
 "oR" = (
-/obj/item/trash/candy,
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
+/obj/structure/barricade/slime,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
 "oS" = (
@@ -3639,6 +3638,7 @@
 	light_color = "#9966ff";
 	light_range = 3
 	},
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
 "qT" = (
@@ -3658,6 +3658,16 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"qX" = (
+/obj/structure/table/reinforced/plastitaniumglass{
+	light_color = "#9966ff";
+	light_range = 3
+	},
+/obj/structure/barricade/slime{
+	opacity = 1
+	},
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "qZ" = (
 /obj/machinery/door/airlock/freezer,
 /obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
@@ -4952,7 +4962,7 @@
 /area/space)
 "wP" = (
 /obj/structure/sign/poster/random/directional/west,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
+/turf/closed/indestructible/rock,
 /area/event/nightclub)
 "wQ" = (
 /obj/structure/flora/tree/jungle/small/style_6,
@@ -5387,6 +5397,11 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"zv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/slime,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "zw" = (
 /obj/item/stack/ore/bananium,
 /obj/structure/table/reinforced,
@@ -6054,14 +6069,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/nightclub)
-"CE" = (
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
-/obj/item/reagent_containers/syringe/contraband/space_drugs,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "CF" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "trails_1"
@@ -6243,6 +6250,12 @@
 	},
 /turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
+"Dx" = (
+/obj/structure/barricade/slime{
+	opacity = 1
+	},
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "DB" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -6563,11 +6576,11 @@
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/nightclub)
 "EF" = (
-/obj/item/food/drug/moon_rock,
 /obj/structure/table/reinforced/plastitaniumglass{
 	light_color = "#9966ff";
 	light_range = 3
 	},
+/obj/structure/barricade/slime,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
 "EG" = (
@@ -7041,6 +7054,17 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
+"Gy" = (
+/obj/structure/table/reinforced/plastitaniumglass{
+	light_color = "#9966ff";
+	light_range = 3
+	},
+/obj/item/pizzabox/pineapple{
+	pixel_y = 6;
+	pixel_x = 2
+	},
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "GA" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8
@@ -7169,17 +7193,6 @@
 /obj/structure/table/wood,
 /turf/open/indestructible/dark,
 /area/space)
-"Hl" = (
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
-/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
-	pixel_x = 5;
-	pixel_y = -3
-	},
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "Hm" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor1-old"
@@ -7615,7 +7628,7 @@
 /area/space)
 "JA" = (
 /obj/effect/decal/cleanable/plasma,
-/obj/item/chair,
+/obj/structure/barricade/slime,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
 "JB" = (
@@ -8020,14 +8033,6 @@
 	},
 /turf/open/indestructible,
 /area/space)
-"LF" = (
-/obj/item/pizzabox/pineapple,
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "LG" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/power/shuttle_engine/heater{
@@ -8203,6 +8208,11 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
+"My" = (
+/obj/structure/curtain/bounty,
+/obj/structure/barricade/slime,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "MA" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -9593,6 +9603,9 @@
 /obj/structure/sign/poster/random/directional/north,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
+"Tq" = (
+/turf/closed/indestructible/syndicate,
+/area/event/nightclub)
 "Tr" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/cigbutt{
@@ -10331,9 +10344,6 @@
 /obj/effect/spawner/random/food_or_drink/snack,
 /turf/open/floor/wood,
 /area/space)
-"WP" = (
-/turf/closed/indestructible/event/pod_orange,
-/area/event/nightclub)
 "WS" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 8
@@ -10852,6 +10862,10 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"Zo" = (
+/obj/item/storage/secure/safe/directional/south,
+/turf/closed/indestructible/rock,
+/area/event/nightclub)
 "Zp" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor4-old"
@@ -51752,12 +51766,12 @@ sW
 sW
 sW
 sW
-WP
-WP
-WP
-WP
-WP
-WP
+bo
+bo
+bo
+bo
+bo
+bo
 bo
 bo
 bo
@@ -51882,10 +51896,10 @@ RA
 Oz
 Wj
 sW
-vq
-RA
-bM
-RA
+kY
+kY
+kY
+kY
 wP
 sW
 ay
@@ -52012,11 +52026,11 @@ Np
 RA
 im
 sW
-pl
-RA
+oR
+oR
 oR
 EF
-WA
+Zo
 sW
 ay
 ay
@@ -52138,15 +52152,15 @@ ay
 sW
 RA
 RR
-Bx
+Gy
 RA
 im
 sW
-pl
+oR
 ao
-Hl
-Bx
-Oz
+qX
+qX
+zv
 sW
 ay
 ay
@@ -52272,11 +52286,11 @@ Ul
 Hr
 im
 sW
-pl
-RA
-LF
-CE
-RA
+Dx
+Dx
+EF
+qX
+Dx
 sW
 ay
 ay
@@ -52402,10 +52416,10 @@ Oz
 RA
 EY
 sW
-ce
-Oz
-RA
-Oz
+oR
+zv
+oR
+zv
 JA
 sW
 ay
@@ -52522,7 +52536,7 @@ ay
 ay
 ay
 ay
-ay
+Tq
 sW
 sW
 sW
@@ -52534,7 +52548,7 @@ sW
 sW
 sW
 sW
-Zz
+My
 sW
 sW
 sW
@@ -53556,7 +53570,7 @@ ay
 ay
 ay
 ay
-ay
+Tq
 sW
 sW
 sW
@@ -54856,7 +54870,7 @@ ay
 ay
 ay
 ay
-ay
+Tq
 sW
 sW
 sW
@@ -55902,7 +55916,7 @@ ay
 ay
 ay
 ay
-ay
+Tq
 sW
 sW
 sW
