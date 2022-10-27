@@ -4808,6 +4808,10 @@
 	},
 /turf/open/floor/pod/dark,
 /area/event/nightclub)
+"wn" = (
+/obj/effect/overlay/water,
+/turf/closed/mineral/ash_rock,
+/area/space)
 "wo" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/turf_decal/tile/dark_blue/fourcorners,
@@ -10579,6 +10583,7 @@
 /area/event/oceanarium)
 "XR" = (
 /obj/effect/overlay/water,
+/turf/closed/mineral/ash_rock,
 /area/event/oceanarium)
 "XT" = (
 /obj/item/clothing/under/suit/carpskin,
@@ -49427,8 +49432,8 @@ oL
 Dw
 gu
 Me
-YY
-YY
+wn
+wn
 bo
 bo
 aa
@@ -49558,8 +49563,8 @@ jO
 gu
 Oj
 Me
-YY
-YY
+wn
+wn
 bo
 aa
 aa
@@ -49688,8 +49693,8 @@ jO
 gu
 Me
 gU
-YY
-YY
+wn
+wn
 bo
 aa
 aa
@@ -49819,7 +49824,7 @@ gu
 Me
 Me
 Me
-YY
+wn
 bo
 aa
 aa
@@ -51638,8 +51643,8 @@ jO
 gu
 OJ
 Me
-YY
-YY
+wn
+wn
 bo
 aa
 aa
@@ -51767,8 +51772,8 @@ Uy
 wc
 gu
 Me
-YY
-YY
+wn
+wn
 bo
 bo
 aD
