@@ -4833,7 +4833,7 @@
 /area/event/nightclub)
 "wn" = (
 /obj/effect/overlay/water,
-/turf/closed/mineral/ash_rock,
+/turf/closed/indestructible/event/rock,
 /area/space)
 "wo" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
@@ -5354,7 +5354,6 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced/spawner,
-/obj/effect/mapping_helpers/airlock/access/any,
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
 "zn" = (
@@ -7258,7 +7257,7 @@
 /area/space)
 "Hy" = (
 /obj/structure/cable,
-/turf/closed/mineral/ash_rock,
+/turf/closed/indestructible/event/rock,
 /area/space)
 "HA" = (
 /obj/structure/table,
@@ -7953,7 +7952,6 @@
 /obj/machinery/door/window{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/airlock/access/any,
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
 "Ll" = (
@@ -8838,7 +8836,7 @@
 /turf/open/floor/carpet/red,
 /area/space)
 "PQ" = (
-/turf/closed/mineral/ash_rock,
+/turf/closed/indestructible/event/rock,
 /area/space)
 "PS" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -10593,7 +10591,7 @@
 /area/event/oceanarium)
 "XR" = (
 /obj/effect/overlay/water,
-/turf/closed/mineral/ash_rock,
+/turf/closed/indestructible/event/rock,
 /area/event/oceanarium)
 "XT" = (
 /obj/item/clothing/under/suit/carpskin,
@@ -10895,7 +10893,6 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced/spawner/north,
-/obj/effect/mapping_helpers/airlock/access/any,
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
 "Zu" = (
