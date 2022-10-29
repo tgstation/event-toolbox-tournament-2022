@@ -17,6 +17,7 @@
 			countdown_timers[player_mob.client] = tournament_countdown
 			player_mob.client?.screen += tournament_countdown
 
+	warn_oneways()
 	for (var/timer in 3 to 1 step -1)
 		for (var/client in countdown_timers)
 			var/atom/movable/screen/tournament_countdown/tournament_countdown = countdown_timers[client]
@@ -24,7 +25,7 @@
 
 		stoplag(1 SECONDS)
 
-	open_shutters()
+	open_oneways()
 	countdown_started = FALSE
 
 	for (var/client in countdown_timers)
