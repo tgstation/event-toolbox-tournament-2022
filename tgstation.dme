@@ -4831,6 +4831,7 @@
 #include "modular_event\tournament\countdown.dm"
 #include "modular_event\tournament\disbanding.dm"
 #include "modular_event\tournament\hud.dm"
+#include "modular_event\tournament\oneway.dm"
 #include "modular_event\tournament\team_chat.dm"
 #include "modular_event\tournament\teams.dm"
 #include "modular_event\tournament\toolbox.dm"

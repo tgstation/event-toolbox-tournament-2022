@@ -15,7 +15,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	var/list/valid_team_spawns = list()
 
 	/// Shutters that separate teams from the arena
-	var/list/obj/machinery/door/poddoor/arena_shutters = list()
+	var/list/obj/effect/oneway/arena_oneways = list()
 
 	/// The places to disband team members
 	var/list/disband_locations = list()
@@ -82,13 +82,13 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			clear_arena(usr, manual = TRUE)
 			return TRUE
 		if ("close_shutters")
-			close_shutters()
+			close_oneways()
 			return TRUE
 		if ("disband_teams")
 			disband_teams(usr)
 			return TRUE
 		if ("open_shutters")
-			open_shutters()
+			open_oneways()
 			return TRUE
 		if ("start_countdown")
 			start_countdown(usr)
@@ -120,13 +120,20 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	var/turf/corner_b = get_landmark_turf(EVENT_ARENA_CORNER_B)
 	return locate(min(corner_a.x, corner_b.x), min(corner_a.y, corner_b.y), corner_a.z)
 
-/obj/machinery/computer/tournament_controller/proc/close_shutters()
-	for(var/obj/machinery/door/poddoor/door in arena_shutters)
-		INVOKE_ASYNC(door, /obj/machinery/door/poddoor.proc/close)
+/obj/machinery/computer/tournament_controller/proc/close_oneways()
+	for(var/obj/effect/oneway/oneway in arena_oneways)
+		oneway.density = 1
+		oneway.color = "#ff0000"
 
-/obj/machinery/computer/tournament_controller/proc/open_shutters()
-	for(var/obj/machinery/door/poddoor/door in arena_shutters)
-		INVOKE_ASYNC(door, /obj/machinery/door/poddoor.proc/open)
+/obj/machinery/computer/tournament_controller/proc/warn_oneways()
+	for(var/obj/effect/oneway/oneway in arena_oneways)
+		oneway.density = 1
+		oneway.color = "#ffc917"
+
+/obj/machinery/computer/tournament_controller/proc/open_oneways()
+	for(var/obj/effect/oneway/oneway in arena_oneways)
+		oneway.density = 0
+		oneway.color = "#62ff62"
 
 /obj/machinery/computer/tournament_controller/proc/get_arena_turfs()
 	var/load_point = get_load_point()
@@ -154,7 +161,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 		return
 
 	clear_arena()
-	close_shutters()
+	close_oneways()
 
 	var/turf/corner_a = get_landmark_turf(EVENT_ARENA_CORNER_A)
 	var/turf/corner_b = get_landmark_turf(EVENT_ARENA_CORNER_B)
@@ -212,7 +219,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 				qdel(old_mob)
 			else if (isliving(old_mob))
 				new_old_mobs[team_spawn_id][client] = old_mob
-				old_mob.visible_message(span_notice("[old_mob] was teleported away to participate in the tournament!"))
+				old_mob.visible_message(span_notice("[old_mob] teleported away to participate in the tournament!"))
 				playsound(get_turf(old_mob), 'sound/magic/wand_teleport.ogg', 50, TRUE)
 				old_mob.forceMove(src)
 
