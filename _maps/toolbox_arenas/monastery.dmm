@@ -314,8 +314,8 @@
 /area/centcom/tdome/arena)
 "VZ" = (
 /obj/structure/altar_of_gods,
-/obj/item/reagent_containers/food/drinks/bottle/wine{
-	pixel_y = 8
+/obj/item/reagent_containers/cup/glass/bottle/wine/unlabeled{
+	pixel_y = 4
 	},
 /turf/open/floor/carpet/red,
 /area/centcom/tdome/arena)
@@ -334,8 +334,8 @@
 /area/centcom/tdome/arena)
 "Xn" = (
 /obj/structure/table/wood/fancy,
-/obj/item/reagent_containers/food/drinks/trophy{
-	pixel_y = 8
+/obj/item/reagent_containers/cup/glass/trophy{
+	pixel_y = 6
 	},
 /turf/open/floor/carpet/red,
 /area/centcom/tdome/arena)

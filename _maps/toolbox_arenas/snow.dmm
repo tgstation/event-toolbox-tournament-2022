@@ -170,6 +170,7 @@
 /area/centcom/tdome/arena)
 "zi" = (
 /obj/structure/bookcase/random/fiction,
+/obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/wood/large,
 /area/centcom/tdome/arena)
 "zl" = (
