@@ -40,11 +40,6 @@
 	},
 /turf/open/indestructible/event/plating,
 /area/space)
-"ai" = (
-/obj/effect/turf_decal/trimline/blue/filled/arrow_ccw,
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/titanium/white,
-/area/space)
 "al" = (
 /obj/structure/closet/l3closet/janitor,
 /obj/item/clothing/suit/hooded/wintercoat/janitor,
@@ -63,10 +58,6 @@
 "an" = (
 /turf/open/floor/grass,
 /area/space)
-"ao" = (
-/obj/effect/decal/cleanable/shreds,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "ap" = (
 /obj/structure/fans/tiny,
 /obj/structure/mineral_door/wood,
@@ -112,6 +103,19 @@
 "ay" = (
 /turf/closed/indestructible/rock,
 /area/space)
+"az" = (
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar"
+	},
+/obj/effect/landmark/toolbox{
+	arena_id = "north";
+	team_id = "green"
+	},
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "aA" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/c_transit_tube/station/dispenser/reverse/flipped{
@@ -150,6 +154,16 @@
 /obj/machinery/status_display/shuttle,
 /turf/closed/indestructible/riveted,
 /area/space)
+"aK" = (
+/obj/structure/table/glass,
+/obj/item/clothing/mask/muzzle/breath,
+/obj/item/clothing/mask/muzzle/breath,
+/obj/item/clothing/mask/muzzle/breath,
+/obj/machinery/door/window{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor/flat_white,
+/area/space)
 "aL" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -166,13 +180,6 @@
 	dir = 1
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
-"aS" = (
-/obj/effect/oneway{
-	dir = 8;
-	id_tag = "north"
-	},
-/turf/open/floor/engine/air,
 /area/space)
 "aT" = (
 /turf/open/floor/engine/air,
@@ -274,9 +281,6 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
-"bo" = (
-/turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/space)
 "bp" = (
 /obj/structure/holosign/wetsign,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -367,10 +371,6 @@
 /obj/effect/spawner/random/food_or_drink/snack,
 /turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
-"bM" = (
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "bN" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
@@ -450,6 +450,12 @@
 "cb" = (
 /turf/open/floor/wood,
 /area/space)
+"cc" = (
+/obj/effect/landmark/arena/start{
+	arena_id = "north"
+	},
+/turf/open/floor/engine/air,
+/area/space)
 "ce" = (
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
@@ -502,6 +508,16 @@
 /obj/effect/decal/cleanable/blood/splatter/over_window,
 /turf/closed/indestructible/opshuttle,
 /area/space)
+"cn" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/item/trash/chips,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/cold/directional/west,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "co" = (
 /obj/item/bedsheet/medical,
 /obj/structure/bed,
@@ -518,27 +534,6 @@
 /obj/structure/flora/bush/fullgrass/style_random,
 /obj/structure/flora/bush/lavendergrass/style_random,
 /turf/open/floor/grass,
-/area/space)
-"cq" = (
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar"
-	},
-/obj/effect/landmark/toolbox{
-	arena_id = "north";
-	team_id = "green"
-	},
-/turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/space)
-"cs" = (
-/obj/structure/rack,
-/obj/effect/turf_decal/siding/dark_red,
-/obj/effect/landmark/toolbox{
-	arena_id = "center"
-	},
-/turf/open/floor/circuit/red,
 /area/space)
 "cu" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -578,19 +573,6 @@
 /obj/machinery/light/dim/directional/north,
 /obj/structure/disposalpipe/trunk,
 /turf/open/indestructible/dark,
-/area/space)
-"cz" = (
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar"
-	},
-/obj/effect/landmark/toolbox{
-	arena_id = "north";
-	team_id = "green"
-	},
-/turf/open/misc/ashplanet/rocky{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
 /area/space)
 "cA" = (
 /obj/machinery/gibber,
@@ -848,6 +830,9 @@
 	},
 /turf/open/misc/asteroid/airless,
 /area/space)
+"dJ" = (
+/turf/closed/indestructible/rock,
+/area/event/nightclub)
 "dL" = (
 /obj/effect/turf_decal/siding/dark/corner{
 	dir = 4
@@ -888,13 +873,13 @@
 /obj/item/trash/tray,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/nightclub)
-"dS" = (
-/obj/effect/turf_decal/trimline/blue/filled/end{
-	dir = 1
+"dU" = (
+/obj/effect/decal/cleanable/shreds,
+/obj/structure/barricade/slime{
+	opacity = 1
 	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/titanium/white,
-/area/space)
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "dW" = (
 /obj/machinery/abductor/pad,
 /obj/structure/receiving_pad,
@@ -1194,12 +1179,6 @@
 	},
 /turf/open/indestructible,
 /area/space)
-"fA" = (
-/obj/effect/landmark/arena/start{
-	arena_id = "center"
-	},
-/turf/open/floor/engine/air,
-/area/space)
 "fB" = (
 /obj/effect/overlay/water,
 /mob/living/simple_animal/fish/dwarf_moonfish,
@@ -1362,13 +1341,6 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
-"gp" = (
-/obj/effect/oneway{
-	dir = 8;
-	id_tag = "center"
-	},
-/turf/open/floor/engine/air,
-/area/space)
 "gs" = (
 /obj/effect/decal/cleanable/blood/gibs{
 	icon_state = "gib1-old"
@@ -1414,6 +1386,16 @@
 /obj/effect/turf_decal/trimline/dark_red/corner,
 /turf/open/floor/iron/checker,
 /area/space)
+"gG" = (
+/obj/structure/table/reinforced/plastitaniumglass{
+	light_color = "#9966ff";
+	light_range = 3
+	},
+/obj/structure/barricade/slime{
+	opacity = 1
+	},
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "gH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light/dim/directional/west,
@@ -1640,11 +1622,6 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/space)
-"hD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning/biohazard/directional/north,
-/turf/open/floor/plating,
-/area/event/oceanarium)
 "hE" = (
 /obj/item/crusher_trophy/lobster_claw,
 /obj/effect/overlay/water,
@@ -1715,12 +1692,6 @@
 /obj/item/reagent_containers/cup/glass/bottle/lizardwine,
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
-"hW" = (
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/space)
 "hX" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -1755,6 +1726,16 @@
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/iron/cafeteria,
 /area/space)
+"ih" = (
+/obj/effect/overlay/water,
+/mob/living/simple_animal/axolotl,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "ij" = (
 /obj/effect/turf_decal/siding/thinplating/dark/corner{
 	dir = 8
@@ -1770,6 +1751,10 @@
 	},
 /turf/open/floor/iron/checker,
 /area/space)
+"ik" = (
+/obj/effect/overlay/water,
+/turf/closed/indestructible/event/rock,
+/area/event/oceanarium)
 "il" = (
 /mob/living/simple_animal/hostile/jungle/leaper{
 	desc = "Commonly referred to as 'leapers', the Geron Toad is a massive beast that spits out highly pressurized bubbles containing a unique toxin, knocking down its prey and then crushing it with its girth. This one appears to be restrained with chains.";
@@ -2042,12 +2027,6 @@
 	},
 /turf/open/indestructible,
 /area/space)
-"jt" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner,
-/obj/effect/turf_decal/trimline/dark_red/filled,
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
 "ju" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /obj/structure/table,
@@ -2192,6 +2171,13 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/event/oceanarium)
+"jT" = (
+/obj/effect/oneway{
+	dir = 4;
+	id_tag = "center"
+	},
+/turf/open/floor/engine/air,
+/area/space)
 "jW" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/line,
 /obj/structure/extinguisher_cabinet/directional/south,
@@ -2250,10 +2236,6 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
-"ko" = (
-/obj/effect/overlay/water,
-/turf/closed/mineral/ash_rock,
-/area/space)
 "kp" = (
 /obj/structure/disposalpipe/broken{
 	dir = 4
@@ -2267,6 +2249,13 @@
 "kr" = (
 /turf/open/misc/ironsand,
 /area/space)
+"ks" = (
+/obj/structure/flora/rock/pile/style_3,
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "kv" = (
 /obj/structure/table/wood,
 /obj/item/camera_film,
@@ -2275,13 +2264,6 @@
 	dir = 8
 	},
 /turf/open/floor/wood/parquet,
-/area/space)
-"kx" = (
-/obj/effect/oneway{
-	dir = 4;
-	id_tag = "center"
-	},
-/turf/open/floor/engine/air,
 /area/space)
 "ky" = (
 /obj/structure/table/wood,
@@ -2426,6 +2408,16 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"lg" = (
+/obj/effect/rune/apocalypse,
+/obj/machinery/tournament_spawn/green{
+	arena_id = "south"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/asteroid/basalt/wasteland{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "li" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	dir = 8
@@ -2435,15 +2427,6 @@
 "lj" = (
 /obj/structure/closet/wardrobe/pjs,
 /turf/open/floor/iron/cafeteria,
-/area/space)
-"lk" = (
-/obj/effect/oneway{
-	dir = 4;
-	id_tag = "south"
-	},
-/turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
 /area/space)
 "ln" = (
 /obj/effect/turf_decal/trimline/white/filled/shrink_cw{
@@ -2459,6 +2442,13 @@
 	},
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
+"lq" = (
+/obj/effect/oneway{
+	dir = 4;
+	id_tag = "north"
+	},
+/turf/open/floor/engine/air,
+/area/space)
 "ls" = (
 /obj/machinery/newscaster/directional/north,
 /obj/effect/turf_decal/tile/red/diagonal_centre,
@@ -2475,6 +2465,20 @@
 	dir = 6
 	},
 /turf/closed/indestructible/event/pod_blue,
+/area/event/oceanarium)
+"ly" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/portal/permanent{
+	icon = 'icons/obj/objects.dmi';
+	icon_state = "anom";
+	id = "junk";
+	light_color = "#00ccff";
+	light_range = 3;
+	name = "stable wormhole"
+	},
+/obj/effect/rune/teleport,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
 /area/event/oceanarium)
 "lz" = (
 /turf/open/floor/iron/stairs/medium{
@@ -2508,16 +2512,6 @@
 "lE" = (
 /turf/open/floor/glass/plasma,
 /area/event)
-"lF" = (
-/obj/effect/rune/apocalypse,
-/obj/machinery/tournament_spawn/red{
-	arena_id = "south"
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/space)
 "lG" = (
 /obj/machinery/computer/shuttle/ferry{
 	dir = 8
@@ -2633,15 +2627,6 @@
 /obj/structure/table,
 /turf/open/indestructible/dark,
 /area/space)
-"me" = (
-/obj/effect/oneway{
-	dir = 8;
-	id_tag = "south"
-	},
-/turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/space)
 "mf" = (
 /obj/structure/fluff/bus/dense{
 	icon_state = "hoodbottom"
@@ -2690,15 +2675,6 @@
 /obj/item/food/fishmeat/gunner_jellyfish,
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
-"ml" = (
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
-/obj/item/trash/chips,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/event/oceanarium)
 "mn" = (
 /obj/effect/turf_decal/trimline/white/filled/corner{
 	dir = 8
@@ -2730,31 +2706,12 @@
 	icon_state = "bus"
 	},
 /area/event/oceanarium)
-"mt" = (
-/obj/structure/rack,
-/obj/effect/turf_decal/siding/blue,
-/obj/effect/landmark/toolbox{
-	arena_id = "center";
-	team_id = "green"
-	},
-/turf/open/floor/circuit,
-/area/space)
 "mu" = (
 /obj/structure/chair/stool/bar/directional/west,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
 	},
 /turf/open/floor/iron/checker,
-/area/space)
-"mv" = (
-/obj/effect/rune/apocalypse,
-/obj/machinery/tournament_spawn/green{
-	arena_id = "south"
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
 /area/space)
 "mw" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
@@ -2817,17 +2774,6 @@
 /obj/structure/barricade/slime,
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
-"mF" = (
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar"
-	},
-/obj/effect/landmark/toolbox{
-	arena_id = "south";
-	team_id = "green"
-	},
-/turf/open/floor/plating/rust,
-/area/space)
 "mG" = (
 /obj/structure/table/wood/fancy/black,
 /turf/open/floor/light,
@@ -2889,13 +2835,6 @@
 "mP" = (
 /turf/open/floor/wood/tile,
 /area/space)
-"mR" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/end{
-	dir = 1
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
 "mS" = (
 /turf/open/floor/wood/parquet,
 /area/space)
@@ -2912,16 +2851,6 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/space)
-"mV" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/corner{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/dark_red/filled/corner{
-	dir = 4
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/plastitanium,
 /area/space)
 "mX" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
@@ -2953,13 +2882,6 @@
 /obj/structure/chair/stool/bar/directional/north,
 /turf/open/floor/carpet/red,
 /area/space)
-"nd" = (
-/obj/effect/decal/remains/human,
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/space)
 "ne" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/soap,
@@ -2978,6 +2900,13 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/light/dim/directional/south,
 /turf/open/indestructible/dark,
+/area/space)
+"nj" = (
+/obj/effect/turf_decal/trimline/blue/filled/arrow_cw{
+	dir = 1
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/titanium/white,
 /area/space)
 "nk" = (
 /obj/effect/decal/cleanable/blood/tracks,
@@ -3026,13 +2955,6 @@
 	dir = 4
 	},
 /turf/open/misc/ironsand,
-/area/space)
-"ny" = (
-/obj/structure/flora/rock/pile/style_3,
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
 /area/space)
 "nz" = (
 /obj/machinery/vending/wardrobe/medi_wardrobe,
@@ -3141,6 +3063,19 @@
 /obj/item/soap/syndie,
 /turf/open/floor/iron/terracotta/small,
 /area/space)
+"nV" = (
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar"
+	},
+/obj/effect/landmark/toolbox{
+	arena_id = "north";
+	team_id = "green"
+	},
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "nX" = (
 /obj/effect/turf_decal/trimline/white/corner,
 /turf/open/floor/mineral/titanium,
@@ -3203,6 +3138,14 @@
 	},
 /turf/open/floor/glass,
 /area/space)
+"om" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/siding/dark_red,
+/obj/effect/landmark/toolbox{
+	arena_id = "center"
+	},
+/turf/open/floor/circuit/red,
+/area/space)
 "op" = (
 /obj/machinery/door/airlock/hatch,
 /obj/effect/turf_decal/box/white,
@@ -3253,6 +3196,17 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"oF" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/siding/blue{
+	dir = 1
+	},
+/obj/effect/landmark/toolbox{
+	arena_id = "center";
+	team_id = "green"
+	},
+/turf/open/floor/circuit,
+/area/space)
 "oH" = (
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/carpet/neon/simple/cyan/nodots,
@@ -3292,14 +3246,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/carpet/royalblack,
 /area/space)
-"oR" = (
-/obj/item/trash/candy,
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "oS" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
@@ -3591,6 +3537,19 @@
 /obj/machinery/computer/security/telescreen/entertainment/directional/north,
 /turf/open/floor/pod/light,
 /area/event/oceanarium)
+"qj" = (
+/obj/effect/overlay/water,
+/obj/structure/cannon{
+	dir = 8;
+	desc = "This is junk."
+	},
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "qm" = (
 /obj/machinery/door/window/left/directional/south,
 /turf/open/floor/wood/tile,
@@ -3598,6 +3557,15 @@
 "qq" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/carpet/black,
+/area/space)
+"qr" = (
+/obj/machinery/tournament_spawn/red{
+	arena_id = "north"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/space)
 "qs" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -3616,6 +3584,11 @@
 /mob/living/simple_animal/deer,
 /turf/open/floor/grass,
 /area/space)
+"qv" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw,
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
 "qw" = (
 /obj/structure/statue/gold/cmo,
 /turf/open/floor/carpet/neon/simple/orange/nodots,
@@ -3630,10 +3603,12 @@
 /obj/effect/decal/cleanable/blood/splatter/over_window,
 /turf/closed/indestructible/opshuttle,
 /area/space)
-"qB" = (
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/titanium/tiled/blue,
-/area/space)
+"qz" = (
+/obj/structure/barricade/slime{
+	opacity = 1
+	},
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "qD" = (
 /obj/item/trash/popcorn,
 /obj/structure/table/reinforced/plastitaniumglass{
@@ -3687,14 +3662,6 @@
 	},
 /turf/open/floor/plating,
 /area/event/oceanarium)
-"qR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "qT" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -3717,6 +3684,12 @@
 /obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/nightclub)
+"rc" = (
+/obj/machinery/computer/tournament_controller{
+	arena_id = "center"
+	},
+/turf/open/floor/engine/air,
+/area/space)
 "rd" = (
 /obj/effect/turf_decal/trimline/white/filled/line,
 /obj/machinery/camera/emp_proof/directional/south,
@@ -3770,6 +3743,13 @@
 	dir = 4
 	},
 /turf/open/misc/ironsand,
+/area/space)
+"rv" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/end{
+	dir = 1
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "rw" = (
 /obj/structure/hedge,
@@ -3849,15 +3829,6 @@
 /obj/structure/flora/tree/jungle/style_4,
 /turf/open/floor/grass,
 /area/space)
-"rX" = (
-/obj/machinery/tournament_spawn/red{
-	arena_id = "north"
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/ashplanet/rocky{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/space)
 "rZ" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 8
@@ -3878,12 +3849,6 @@
 	dir = 8
 	},
 /turf/open/indestructible,
-/area/space)
-"sb" = (
-/obj/effect/turf_decal/trimline/blue/filled/mid_joiner,
-/obj/effect/turf_decal/trimline/blue/filled,
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/titanium/white,
 /area/space)
 "sd" = (
 /turf/open/floor/iron/stairs/medium,
@@ -3932,6 +3897,12 @@
 /obj/item/book/fish_catalog,
 /turf/open/floor/pod/light,
 /area/event/oceanarium)
+"so" = (
+/obj/effect/landmark/arena/start{
+	arena_id = "center"
+	},
+/turf/open/floor/engine/air,
+/area/space)
 "sp" = (
 /obj/structure/chair/plastic{
 	dir = 1
@@ -3955,6 +3926,15 @@
 	},
 /turf/open/misc/ironsand,
 /area/space)
+"st" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced/plastitaniumglass{
+	light_color = "#9966ff";
+	light_range = 3
+	},
+/obj/item/reagent_containers/syringe/contraband/space_drugs,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "sw" = (
 /obj/structure/mopbucket,
 /obj/effect/turf_decal/bot_white,
@@ -3967,10 +3947,6 @@
 	pixel_y = 8
 	},
 /turf/open/floor/iron/checker,
-/area/space)
-"sz" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/floor/pod/dark,
 /area/space)
 "sB" = (
 /obj/structure/grille/indestructible,
@@ -4001,6 +3977,14 @@
 	dir = 4
 	},
 /turf/open/floor/cult,
+/area/space)
+"sI" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw,
+/obj/machinery/tournament_spawn/red{
+	arena_id = "center"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "sJ" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
@@ -4100,6 +4084,13 @@
 /obj/effect/decal/cleanable/plastic,
 /turf/open/floor/pod/light,
 /area/event/oceanarium)
+"tb" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/toy/plush/lizard_plushie{
+	name = "Is-A-Placeholder"
+	},
+/turf/open/floor/pod/dark,
+/area/space)
 "tc" = (
 /obj/machinery/power/shuttle_engine/huge{
 	dir = 4
@@ -4157,12 +4148,6 @@
 	name = "bone spike"
 	},
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/space)
-"tj" = (
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/ashplanet/ash{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/space)
@@ -4296,6 +4281,12 @@
 /obj/item/gun/energy/alien,
 /turf/open/floor/glass/plasma,
 /area/event)
+"tJ" = (
+/obj/effect/turf_decal/trimline/blue/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/blue/filled,
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/titanium/white,
+/area/space)
 "tK" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/rxglasses,
@@ -4320,6 +4311,13 @@
 	},
 /obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /turf/open/floor/iron/terracotta/small,
+/area/space)
+"tN" = (
+/obj/effect/oneway{
+	dir = 8;
+	id_tag = "north"
+	},
+/turf/open/floor/engine/air,
 /area/space)
 "tO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4604,6 +4602,12 @@
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
+"uR" = (
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/asteroid/basalt/wasteland{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "uS" = (
 /obj/machinery/smartfridge/food,
 /turf/closed/indestructible/event/pod_purple,
@@ -4813,16 +4817,17 @@
 /obj/machinery/vending/coffee,
 /turf/open/floor/wood,
 /area/space)
+"vR" = (
+/obj/structure/closet/abductor,
+/obj/item/skub{
+	pixel_y = 4
+	},
+/turf/open/floor/glass/plasma,
+/area/event)
 "vT" = (
 /obj/effect/turf_decal/trimline/red/filled/warning,
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
-"vU" = (
-/obj/effect/landmark/arena/end{
-	arena_id = "center"
-	},
-/turf/open/floor/engine/air,
 /area/space)
 "vV" = (
 /obj/machinery/door/airlock,
@@ -5015,15 +5020,6 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
-"wN" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw,
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"wP" = (
-/obj/structure/sign/poster/random/directional/west,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "wQ" = (
 /obj/structure/flora/tree/jungle/small/style_6,
 /turf/open/floor/grass,
@@ -5115,23 +5111,15 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
-"xw" = (
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar"
+"xx" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/corner{
+	dir = 1
 	},
-/obj/effect/landmark/toolbox{
-	arena_id = "south"
-	},
-/turf/open/floor/plating/rust,
-/area/space)
-"xy" = (
-/obj/effect/turf_decal/trimline/blue/filled/arrow_ccw,
-/obj/machinery/tournament_spawn/green{
-	arena_id = "center"
+/obj/effect/turf_decal/trimline/dark_red/filled/corner{
+	dir = 4
 	},
 /obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "xD" = (
 /obj/machinery/light/cold/directional/north,
@@ -5144,18 +5132,15 @@
 	},
 /turf/open/indestructible,
 /area/space)
-"xG" = (
-/obj/effect/landmark/arena/start{
-	arena_id = "south"
-	},
-/turf/open/floor/engine/air,
-/area/space)
 "xJ" = (
 /obj/machinery/flasher/directional/north{
 	id = "disco"
 	},
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
+"xL" = (
+/turf/closed/indestructible/event/pod_orange,
+/area/space)
 "xO" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_white,
@@ -5192,17 +5177,6 @@
 /obj/machinery/door/airlock/wood,
 /obj/machinery/door/firedoor,
 /turf/open/floor/wood/large,
-/area/space)
-"xU" = (
-/obj/structure/rack,
-/obj/effect/turf_decal/siding/blue{
-	dir = 1
-	},
-/obj/effect/landmark/toolbox{
-	arena_id = "center";
-	team_id = "green"
-	},
-/turf/open/floor/circuit,
 /area/space)
 "xX" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -5241,13 +5215,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/event/oceanarium)
-"ye" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_ccw{
-	dir = 1
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
+"yd" = (
+/obj/structure/sign/poster/random/directional/west,
+/turf/closed/indestructible/rock,
+/area/event/nightclub)
 "yg" = (
 /obj/effect/turf_decal/trimline/neutral/line{
 	dir = 4
@@ -5304,6 +5275,10 @@
 /obj/effect/turf_decal/tile/dark_green/diagonal_centre,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/nightclub)
+"yC" = (
+/obj/structure/cable,
+/turf/closed/indestructible/event/rock,
+/area/space)
 "yD" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -5375,6 +5350,11 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
+"yW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/slime,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "yX" = (
 /obj/structure/flora/bush/fullgrass,
 /obj/structure/flora/bush/lavendergrass/style_random,
@@ -5434,18 +5414,6 @@
 /obj/effect/decal/cleanable/food/salt,
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
-"zl" = (
-/obj/structure/table/glass,
-/obj/item/tank/internals/anesthetic,
-/obj/item/tank/internals/anesthetic,
-/obj/item/tank/internals/anesthetic,
-/obj/machinery/door/window{
-	dir = 8
-	},
-/obj/structure/window/reinforced/spawner,
-/obj/effect/mapping_helpers/airlock/access/any,
-/turf/open/floor/catwalk_floor/flat_white,
-/area/space)
 "zn" = (
 /turf/open/floor/iron/stairs/left{
 	dir = 1
@@ -5609,6 +5577,13 @@
 /obj/item/trash/waffles,
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
+"zZ" = (
+/obj/structure/flora/rock/pile/style_2,
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "Aa" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/tree/jungle/small/style_5,
@@ -5635,6 +5610,10 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"Al" = (
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "Am" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -5924,6 +5903,15 @@
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
+"Bz" = (
+/obj/effect/oneway{
+	dir = 4;
+	id_tag = "south"
+	},
+/turf/open/misc/asteroid/basalt/wasteland{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "BA" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/effect/turf_decal/bot_white,
@@ -5932,6 +5920,12 @@
 "BC" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/corner,
 /turf/open/floor/mineral/titanium/tiled/white,
+/area/space)
+"BF" = (
+/obj/effect/landmark/arena/end{
+	arena_id = "center"
+	},
+/turf/open/floor/engine/air,
 /area/space)
 "BH" = (
 /obj/machinery/light/small/directional/east,
@@ -5971,6 +5965,24 @@
 	dir = 4
 	},
 /turf/open/indestructible/dark,
+/area/space)
+"BT" = (
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar"
+	},
+/obj/effect/landmark/toolbox{
+	arena_id = "north"
+	},
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
+"BU" = (
+/obj/machinery/computer/tournament_controller{
+	arena_id = "north"
+	},
+/turf/open/floor/engine/air,
 /area/space)
 "BV" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
@@ -6046,6 +6058,14 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/black,
+/area/space)
+"Cl" = (
+/obj/effect/turf_decal/trimline/blue/filled/arrow_ccw,
+/obj/machinery/tournament_spawn/green{
+	arena_id = "center"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/titanium/white,
 /area/space)
 "Cm" = (
 /obj/machinery/light/dim/directional/south,
@@ -6152,14 +6172,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/diagonal,
-/area/event/nightclub)
-"CE" = (
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
-/obj/item/reagent_containers/syringe/contraband/space_drugs,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
 "CF" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -6276,6 +6288,14 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"Df" = (
+/obj/structure/table/reinforced/plastitaniumglass{
+	light_color = "#9966ff";
+	light_range = 3
+	},
+/obj/structure/barricade/slime,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "Dg" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/plate_shard,
@@ -6296,6 +6316,15 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/event)
+"Dl" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/siding/blue,
+/obj/effect/landmark/toolbox{
+	arena_id = "center";
+	team_id = "green"
+	},
+/turf/open/floor/circuit,
+/area/space)
 "Dn" = (
 /obj/structure/stairs/north,
 /obj/structure/railing{
@@ -6361,6 +6390,11 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/space)
+"DI" = (
+/obj/effect/decal/cleanable/plasma,
+/obj/structure/barricade/slime,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "DJ" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	dir = 10
@@ -6400,11 +6434,6 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/black,
-/area/space)
-"DT" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/toy/plush/lizard_plushie,
-/turf/open/floor/pod/dark,
 /area/space)
 "DU" = (
 /obj/structure/chair/comfy/shuttle{
@@ -6633,6 +6662,15 @@
 /obj/item/mop,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"EC" = (
+/obj/machinery/tournament_spawn/green{
+	arena_id = "north"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "ED" = (
 /obj/structure/table/wood,
 /obj/item/camera,
@@ -6651,14 +6689,6 @@
 /obj/effect/turf_decal/tile/dark_green/diagonal_centre,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/nightclub)
-"EF" = (
-/obj/item/food/drug/moon_rock,
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "EG" = (
 /obj/machinery/power/floodlight{
 	active_power_usage = 0;
@@ -6667,6 +6697,12 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating/rust,
+/area/space)
+"EJ" = (
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/space)
 "EL" = (
 /obj/structure/chair/comfy/shuttle{
@@ -6892,17 +6928,13 @@
 /turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/space)
 "FG" = (
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar"
+/obj/structure/disposalpipe/segment{
+	dir = 5
 	},
-/obj/effect/landmark/toolbox{
-	arena_id = "north"
-	},
-/turf/open/misc/ashplanet/rocky{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/space)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "FH" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -6911,11 +6943,10 @@
 /obj/item/storage/box/fountainpens,
 /turf/open/floor/wood/parquet,
 /area/space)
-"FI" = (
-/obj/structure/closet/abductor,
-/obj/item/skub,
-/turf/open/floor/glass/plasma,
-/area/event)
+"FJ" = (
+/obj/effect/overlay/water,
+/turf/closed/indestructible/event/rock,
+/area/space)
 "FK" = (
 /turf/open/misc/asteroid/airless{
 	icon_state = "asteroid5"
@@ -7040,6 +7071,16 @@
 /obj/effect/turf_decal/tile/yellow/diagonal_centre,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/nightclub)
+"Ge" = (
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/corner{
+	dir = 4
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/titanium/white,
+/area/space)
 "Gf" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -7140,12 +7181,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
-"Gy" = (
-/obj/machinery/computer/tournament_controller{
-	arena_id = "center"
-	},
-/turf/open/floor/engine/air,
-/area/space)
 "GA" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8
@@ -7169,6 +7204,13 @@
 	name = "air vent"
 	},
 /turf/open/indestructible/dark,
+/area/space)
+"GJ" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/arrow_ccw{
+	dir = 1
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "GK" = (
 /obj/item/trash/candy,
@@ -7195,6 +7237,13 @@
 	initial_gas_mix = "TEMP=2.7"
 	},
 /area/event)
+"GQ" = (
+/obj/effect/turf_decal/trimline/blue/filled/end{
+	dir = 1
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/titanium/white,
+/area/space)
 "GR" = (
 /obj/structure/flora/rock/pile/style_3,
 /turf/open/misc/asteroid/basalt/wasteland{
@@ -7274,17 +7323,6 @@
 /obj/structure/table/wood,
 /turf/open/indestructible/dark,
 /area/space)
-"Hl" = (
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
-/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
-	pixel_x = 5;
-	pixel_y = -3
-	},
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "Hm" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor1-old"
@@ -7348,10 +7386,6 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
-"Hy" = (
-/obj/structure/cable,
-/turf/closed/mineral/ash_rock,
-/area/space)
 "HA" = (
 /obj/structure/table,
 /obj/machinery/computer/security/telescreen/entertainment/directional/east,
@@ -7412,6 +7446,9 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"HR" = (
+/turf/closed/indestructible/event/rock,
+/area/space)
 "HU" = (
 /obj/effect/decal/cleanable/food/egg_smudge,
 /turf/open/floor/carpet/cyan,
@@ -7420,6 +7457,17 @@
 /turf/open/misc/ironsand{
 	icon_state = "ironsand13"
 	},
+/area/space)
+"HX" = (
+/obj/structure/table/glass,
+/obj/item/tank/internals/anesthetic,
+/obj/item/tank/internals/anesthetic,
+/obj/item/tank/internals/anesthetic,
+/obj/machinery/door/window{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/catwalk_floor/flat_white,
 /area/space)
 "HY" = (
 /turf/open/misc/ironsand{
@@ -7440,6 +7488,12 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/space)
+"Ib" = (
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "Ie" = (
 /obj/structure/transit_tube,
 /turf/closed/indestructible/fakeglass,
@@ -7449,6 +7503,11 @@
 	icon_state = "ironsand9"
 	},
 /area/space)
+"Ii" = (
+/obj/structure/curtain/bounty,
+/obj/structure/barricade/slime,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "Ij" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -7575,6 +7634,11 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
+"IU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "IV" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/floor/grass,
@@ -7718,11 +7782,6 @@
 	},
 /turf/open/misc/asteroid/airless,
 /area/space)
-"JA" = (
-/obj/effect/decal/cleanable/plasma,
-/obj/item/chair,
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "JB" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -7739,11 +7798,11 @@
 	icon_state = "ironsand10"
 	},
 /area/space)
-"JE" = (
-/turf/closed/indestructible/rock{
-	base_icon_state = "rock_wall";
-	icon_state = "rock2"
+"JJ" = (
+/obj/effect/landmark/arena/start{
+	arena_id = "south"
 	},
+/turf/open/floor/engine/air,
 /area/space)
 "JK" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -7917,6 +7976,16 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"KK" = (
+/mob/living/simple_animal/fish/goldfish,
+/obj/effect/overlay/water,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event/oceanarium)
 "KL" = (
 /obj/effect/turf_decal/trimline/white/filled/warning{
 	dir = 8
@@ -8012,6 +8081,15 @@
 	icon_state = "ironsand13"
 	},
 /area/space)
+"Lc" = (
+/obj/effect/oneway{
+	dir = 8;
+	id_tag = "south"
+	},
+/turf/open/misc/asteroid/basalt/wasteland{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "Ld" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
@@ -8042,17 +8120,6 @@
 	dir = 1
 	},
 /turf/open/misc/ironsand,
-/area/space)
-"Lj" = (
-/obj/structure/table/glass,
-/obj/item/clothing/mask/muzzle/breath,
-/obj/item/clothing/mask/muzzle/breath,
-/obj/item/clothing/mask/muzzle/breath,
-/obj/machinery/door/window{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/airlock/access/any,
-/turf/open/floor/catwalk_floor/flat_white,
 /area/space)
 "Ll" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -8115,13 +8182,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
-"Lz" = (
-/obj/structure/cable,
-/turf/closed/indestructible/rock{
-	base_icon_state = "rock_wall";
-	icon_state = "rock2"
-	},
-/area/space)
 "LC" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 8
@@ -8138,14 +8198,6 @@
 	},
 /turf/open/indestructible,
 /area/space)
-"LF" = (
-/obj/item/pizzabox/pineapple,
-/obj/structure/table/reinforced/plastitaniumglass{
-	light_color = "#9966ff";
-	light_range = 3
-	},
-/turf/open/floor/carpet/neon/simple/violet/nodots,
-/area/event/nightclub)
 "LG" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/power/shuttle_engine/heater{
@@ -8195,6 +8247,13 @@
 "LX" = (
 /obj/structure/statue/gold/ce,
 /turf/open/floor/carpet/neon/simple/orange/nodots,
+/area/space)
+"LY" = (
+/obj/effect/decal/remains/human,
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/space)
 "LZ" = (
 /turf/open/floor/iron/stairs/right{
@@ -8321,12 +8380,6 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
-"Mx" = (
-/obj/machinery/computer/tournament_controller{
-	arena_id = "north"
-	},
-/turf/open/floor/engine/air,
-/area/space)
 "MA" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -8341,6 +8394,16 @@
 	dir = 1
 	},
 /turf/open/misc/ironsand,
+/area/space)
+"MC" = (
+/obj/effect/rune/apocalypse,
+/obj/machinery/tournament_spawn/red{
+	arena_id = "south"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/misc/asteroid/basalt/wasteland{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/space)
 "MF" = (
 /obj/effect/turf_decal/trimline/white/corner{
@@ -8456,16 +8519,6 @@
 "Ne" = (
 /obj/effect/gibspawner/human,
 /turf/open/floor/vault/rock,
-/area/space)
-"Ng" = (
-/obj/effect/turf_decal/trimline/blue/filled/corner{
-	dir = 1
-	},
-/obj/effect/turf_decal/trimline/blue/filled/corner{
-	dir = 4
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/titanium/white,
 /area/space)
 "Nj" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/corner{
@@ -8587,6 +8640,12 @@
 /obj/effect/turf_decal/trimline/white/arrow_ccw,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"NR" = (
+/obj/effect/landmark/arena/end{
+	arena_id = "south"
+	},
+/turf/open/floor/engine/air,
+/area/space)
 "NT" = (
 /obj/structure/statue/silver/medborg,
 /turf/open/floor/mineral/gold,
@@ -8597,13 +8656,14 @@
 /obj/item/mop/advanced,
 /turf/open/floor/plating,
 /area/event/oceanarium)
+"NV" = (
+/obj/effect/turf_decal/trimline/blue/filled/arrow_ccw,
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/titanium/white,
+/area/space)
 "NW" = (
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
-"NX" = (
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/plastitanium/red,
-/area/space)
 "NY" = (
 /obj/effect/turf_decal/trimline/dark_red/warning,
 /obj/effect/turf_decal/trimline/dark_red/arrow_ccw{
@@ -8617,18 +8677,6 @@
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/indestructible/dark,
-/area/space)
-"Ob" = (
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar"
-	},
-/obj/effect/landmark/toolbox{
-	arena_id = "north"
-	},
-/turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
 /area/space)
 "Od" = (
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -8673,12 +8721,6 @@
 	},
 /turf/open/floor/plating/abductor,
 /area/event)
-"Om" = (
-/obj/effect/landmark/arena/end{
-	arena_id = "north"
-	},
-/turf/open/floor/engine/air,
-/area/space)
 "Or" = (
 /mob/living/simple_animal/hostile/carp/megacarp{
 	faction = list("neutral")
@@ -8818,13 +8860,6 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
-"Pf" = (
-/obj/structure/flora/rock/pile/style_2,
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/space)
 "Pg" = (
 /obj/structure/kitchenspike,
 /turf/open/misc/asteroid/snow/coldroom,
@@ -8859,6 +8894,13 @@
 	dir = 8
 	},
 /turf/open/indestructible/dark,
+/area/space)
+"Po" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/skub{
+	pixel_y = 4
+	},
+/turf/open/floor/pod/dark,
 /area/space)
 "Pp" = (
 /obj/effect/turf_decal/sand/plating,
@@ -8972,9 +9014,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/space)
-"PQ" = (
-/turf/closed/mineral/ash_rock,
-/area/space)
 "PS" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/reagent_containers/cup/bottle/morphine,
@@ -8989,10 +9028,10 @@
 /turf/open/floor/mineral/titanium/white,
 /area/space)
 "PT" = (
-/obj/effect/landmark/arena/start{
-	arena_id = "north"
-	},
-/turf/open/floor/engine/air,
+/obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/dark_red/filled,
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "PU" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
@@ -9082,6 +9121,10 @@
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
+"Qk" = (
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/mineral/titanium/tiled/blue,
+/area/space)
 "Qm" = (
 /obj/structure/fluff/bus/passable{
 	icon_state = "bottomdoor";
@@ -9101,6 +9144,10 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/event/oceanarium)
+"Qo" = (
+/obj/structure/barricade/slime,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "Qq" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -9120,6 +9167,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen/diagonal,
 /area/event/nightclub)
+"Qu" = (
+/obj/structure/table/glass,
+/obj/item/clothing/suit/jacket/straight_jacket,
+/obj/item/clothing/suit/jacket/straight_jacket,
+/obj/item/clothing/suit/jacket/straight_jacket,
+/obj/machinery/door/window{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/catwalk_floor/flat_white,
+/area/space)
 "Qv" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/stripes/white/line{
@@ -9415,13 +9473,6 @@
 	},
 /turf/open/indestructible/dark,
 /area/space)
-"RT" = (
-/obj/effect/turf_decal/trimline/blue/filled/arrow_cw{
-	dir = 1
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/floor/mineral/titanium/white,
-/area/space)
 "RU" = (
 /obj/effect/turf_decal/trimline/blue/arrow_ccw,
 /obj/effect/turf_decal/trimline/blue/warning{
@@ -9611,6 +9662,16 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
+"SP" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/siding/dark_red{
+	dir = 1
+	},
+/obj/effect/landmark/toolbox{
+	arena_id = "center"
+	},
+/turf/open/floor/circuit/red,
+/area/space)
 "SQ" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 8
@@ -9657,6 +9718,12 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/black,
+/area/space)
+"SX" = (
+/obj/machinery/computer/tournament_controller{
+	arena_id = "south"
+	},
+/turf/open/floor/engine/air,
 /area/space)
 "SY" = (
 /obj/structure/statue/bone/rib{
@@ -9767,13 +9834,6 @@
 	dir = 5
 	},
 /turf/open/indestructible,
-/area/space)
-"Tx" = (
-/obj/effect/oneway{
-	dir = 4;
-	id_tag = "north"
-	},
-/turf/open/floor/engine/air,
 /area/space)
 "Ty" = (
 /mob/living/simple_animal/pet/gondola{
@@ -9917,6 +9977,17 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/space)
+"TZ" = (
+/obj/structure/table/reinforced/plastitaniumglass{
+	light_color = "#9966ff";
+	light_range = 3
+	},
+/obj/item/pizzabox/pineapple{
+	pixel_y = 6;
+	pixel_x = 2
+	},
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "Ub" = (
 /obj/effect/overlay/water,
 /obj/structure/marker_beacon/cerulean,
@@ -10002,6 +10073,9 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/ironsand,
 /area/space)
+"Us" = (
+/turf/closed/indestructible/syndicate,
+/area/event/nightclub)
 "Ut" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
@@ -10083,6 +10157,10 @@
 /obj/structure/bookcase/random,
 /turf/open/floor/wood,
 /area/space)
+"UU" = (
+/obj/item/storage/secure/safe/directional/south,
+/turf/closed/indestructible/rock,
+/area/event/nightclub)
 "UV" = (
 /obj/effect/turf_decal/trimline/neutral/filled/warning{
 	dir = 8
@@ -10172,14 +10250,6 @@
 "Vr" = (
 /obj/effect/turf_decal/trimline/white/filled/line,
 /obj/machinery/light/red/directional/south,
-/turf/open/floor/mineral/plastitanium,
-/area/space)
-"Vs" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw,
-/obj/machinery/tournament_spawn/red{
-	arena_id = "center"
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "Vt" = (
@@ -10337,23 +10407,6 @@
 	},
 /turf/open/floor/glass/plasma,
 /area/event)
-"Wb" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/visible/layer2,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/rune/teleport,
-/obj/effect/portal/permanent{
-	icon = 'icons/obj/objects.dmi';
-	icon_state = "anom";
-	id = "junk";
-	light_color = "#00ccff";
-	light_range = 3;
-	name = "stable wormhole"
-	},
-/turf/open/floor/plating,
-/area/event/oceanarium)
 "Wf" = (
 /obj/structure/railing{
 	dir = 4
@@ -10365,6 +10418,12 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
+/area/space)
+"Wh" = (
+/obj/effect/landmark/arena/end{
+	arena_id = "north"
+	},
+/turf/open/floor/engine/air,
 /area/space)
 "Wj" = (
 /obj/structure/chair/sofa/corp/right{
@@ -10479,9 +10538,17 @@
 /obj/effect/spawner/random/food_or_drink/snack,
 /turf/open/floor/wood,
 /area/space)
-"WP" = (
-/turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/event/nightclub)
+"WR" = (
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar"
+	},
+/obj/effect/landmark/toolbox{
+	arena_id = "south";
+	team_id = "green"
+	},
+/turf/open/floor/plating/rust,
+/area/space)
 "WS" = (
 /obj/effect/turf_decal/trimline/blue/filled/warning{
 	dir = 8
@@ -10511,16 +10578,6 @@
 /obj/effect/turf_decal/trimline/dark_red/filled/line,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
-"WZ" = (
-/obj/structure/rack,
-/obj/effect/turf_decal/siding/dark_red{
-	dir = 1
-	},
-/obj/effect/landmark/toolbox{
-	arena_id = "center"
-	},
-/turf/open/floor/circuit/red,
-/area/space)
 "Xb" = (
 /obj/effect/decal/cleanable/blood/splatter/over_window{
 	icon_state = "gibbl3"
@@ -10539,19 +10596,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/space)
-"Xd" = (
-/obj/vehicle/ridden/lavaboat/dragon{
-	anchored = 1;
-	desc = "This is junk."
-	},
-/obj/effect/overlay/water,
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	clawfootstep = "water";
-	footstep = "water";
-	heavyfootstep = "water"
-	},
-/area/event/oceanarium)
 "Xj" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/chair/sofa/bench/right,
@@ -10586,12 +10630,6 @@
 	dir = 1
 	},
 /turf/open/indestructible/dark,
-/area/space)
-"Xs" = (
-/obj/machinery/computer/tournament_controller{
-	arena_id = "south"
-	},
-/turf/open/floor/engine/air,
 /area/space)
 "Xt" = (
 /obj/effect/turf_decal/trimline/white/corner,
@@ -10751,10 +10789,6 @@
 	heavyfootstep = "water"
 	},
 /area/event/oceanarium)
-"XR" = (
-/obj/effect/overlay/water,
-/turf/closed/mineral/ash_rock,
-/area/event/oceanarium)
 "XT" = (
 /obj/item/clothing/under/suit/carpskin,
 /obj/effect/overlay/water,
@@ -10829,16 +10863,21 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"Yi" = (
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar"
+	},
+/obj/effect/landmark/toolbox{
+	arena_id = "south"
+	},
+/turf/open/floor/plating/rust,
+/area/space)
 "Ym" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/head/collectable/tophat,
 /turf/open/indestructible/dark,
 /area/space)
-"Yo" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/brown/hidden/layer2,
-/turf/open/floor/plating,
-/area/event/oceanarium)
 "Yp" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/chair/sofa/bench{
@@ -10955,18 +10994,18 @@
 	},
 /turf/open/floor/catwalk_floor/flat_white,
 /area/space)
+"YS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/biohazard/directional/north,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
+/area/event/oceanarium)
 "YT" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/condiment/sugar,
 /obj/item/reagent_containers/condiment/sugar,
 /turf/open/indestructible/dark,
-/area/space)
-"YU" = (
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/ashplanet/rocky{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
 /area/space)
 "YV" = (
 /obj/structure/chair/sofa/corp/right{
@@ -10987,6 +11026,13 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/checker,
+/area/space)
+"Ze" = (
+/obj/effect/oneway{
+	dir = 8;
+	id_tag = "center"
+	},
+/turf/open/floor/engine/air,
 /area/space)
 "Zf" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -11022,6 +11068,18 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"Zk" = (
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar"
+	},
+/obj/effect/landmark/toolbox{
+	arena_id = "north"
+	},
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/space)
 "Zl" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	dir = 8
@@ -11048,24 +11106,6 @@
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/white,
 /area/space)
-"Zs" = (
-/obj/structure/table/glass,
-/obj/item/clothing/suit/jacket/straight_jacket,
-/obj/item/clothing/suit/jacket/straight_jacket,
-/obj/item/clothing/suit/jacket/straight_jacket,
-/obj/machinery/door/window{
-	dir = 8
-	},
-/obj/structure/window/reinforced/spawner/north,
-/obj/effect/mapping_helpers/airlock/access/any,
-/turf/open/floor/catwalk_floor/flat_white,
-/area/space)
-"Zt" = (
-/obj/effect/landmark/arena/end{
-	arena_id = "south"
-	},
-/turf/open/floor/engine/air,
-/area/space)
 "Zu" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -11088,15 +11128,6 @@
 "Zw" = (
 /obj/structure/flora/tree/jungle/style_6,
 /turf/open/floor/grass,
-/area/space)
-"Zy" = (
-/obj/machinery/tournament_spawn/green{
-	arena_id = "north"
-	},
-/obj/effect/landmark/tournament_spawn_valid_location,
-/turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
 /area/space)
 "Zz" = (
 /obj/structure/curtain/bounty,
@@ -19302,9 +19333,9 @@ aT
 aT
 aT
 aT
-Mx
-Gy
-Xs
+BU
+rc
+SX
 aT
 aT
 aT
@@ -19321,7 +19352,7 @@ vm
 qq
 FE
 PF
-mt
+Dl
 RU
 xO
 xO
@@ -19330,7 +19361,7 @@ xO
 xO
 xO
 no
-xU
+oF
 PF
 FE
 OK
@@ -19451,16 +19482,16 @@ Yh
 qq
 FE
 PF
-mt
+Dl
 RU
 xO
-qB
-RT
-ai
-qB
+Qk
+nj
+NV
+Qk
 xO
 no
-xU
+oF
 PF
 FE
 OK
@@ -19581,16 +19612,16 @@ zu
 qq
 FE
 PF
-mt
+Dl
 RU
 xO
-dS
-Ng
-xy
-sb
+GQ
+Ge
+Cl
+tJ
 xO
 no
-xU
+oF
 PF
 FE
 OK
@@ -19622,7 +19653,7 @@ zf
 Fu
 Fu
 Lx
-FI
+vR
 ty
 mg
 kO
@@ -19711,16 +19742,16 @@ OK
 qq
 Ll
 PF
-mt
+Dl
 RU
 xO
-qB
-RT
-ai
-qB
+Qk
+nj
+NV
+Qk
 xO
 no
-xU
+oF
 PF
 Ll
 OK
@@ -19841,7 +19872,7 @@ zJ
 XO
 PF
 PF
-mt
+Dl
 RU
 xO
 xO
@@ -19850,7 +19881,7 @@ xO
 xO
 xO
 aX
-xU
+oF
 PF
 PF
 zJ
@@ -19972,14 +20003,14 @@ nl
 kL
 PF
 PF
-kx
-kx
-kx
-kx
-kx
-kx
-kx
-kx
+jT
+jT
+jT
+jT
+jT
+jT
+jT
+jT
 PF
 PF
 kL
@@ -20110,7 +20141,7 @@ aT
 aT
 aT
 aT
-fA
+so
 gu
 yT
 yT
@@ -22181,7 +22212,7 @@ yT
 yT
 yT
 gu
-vU
+BF
 aT
 aT
 aT
@@ -22312,14 +22343,14 @@ fK
 WU
 PF
 PF
-gp
-gp
-gp
-gp
-gp
-gp
-gp
-gp
+Ze
+Ze
+Ze
+Ze
+Ze
+Ze
+Ze
+Ze
 PF
 PF
 WU
@@ -22441,7 +22472,7 @@ zJ
 XO
 PF
 PF
-cs
+om
 Jb
 TF
 TF
@@ -22450,7 +22481,7 @@ TF
 TF
 TF
 NY
-WZ
+SP
 PF
 PF
 zJ
@@ -22571,16 +22602,16 @@ OK
 qq
 Ll
 PF
-cs
+om
 Jb
 TF
-NX
-ye
-wN
-NX
+Al
+GJ
+qv
+Al
 TF
 NY
-WZ
+SP
 PF
 Ll
 OK
@@ -22701,16 +22732,16 @@ vm
 qq
 FE
 PF
-cs
+om
 Jb
 TF
-mR
-mV
-Vs
-jt
+rv
+xx
+sI
+PT
 TF
 NY
-WZ
+SP
 PF
 FE
 OK
@@ -22831,16 +22862,16 @@ Yh
 qq
 FE
 PF
-cs
+om
 Jb
 TF
-NX
-ye
-wN
-NX
+Al
+GJ
+qv
+Al
 TF
 NY
-WZ
+SP
 PF
 FE
 OK
@@ -22961,7 +22992,7 @@ zu
 qq
 FE
 PF
-cs
+om
 Jb
 TF
 TF
@@ -22970,7 +23001,7 @@ TF
 TF
 TF
 NY
-WZ
+SP
 PF
 FE
 OK
@@ -34005,9 +34036,9 @@ Zp
 rq
 rq
 rq
-Zs
-Lj
-zl
+Qu
+aK
+HX
 rq
 rq
 iL
@@ -34807,9 +34838,9 @@ vz
 vz
 rq
 rq
-JE
-JE
-JE
+HR
+HR
+HR
 rq
 rq
 vz
@@ -34936,21 +34967,21 @@ rq
 rq
 rq
 rq
-JE
-JE
+HR
+HR
 Cx
-Lz
-JE
+yC
+HR
 rq
 rq
 rq
 rq
 rq
-JE
-JE
-JE
-JE
-JE
+HR
+HR
+HR
+HR
+HR
 ay
 ay
 ay
@@ -35064,25 +35095,25 @@ QW
 rq
 Ji
 kr
-PQ
-PQ
-JE
-JE
+HR
+HR
+HR
+HR
 Cx
 EG
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
 ay
 ay
 ay
@@ -35195,9 +35226,9 @@ rq
 kr
 kr
 Cx
-JE
-JE
-JE
+HR
+HR
+HR
 Cx
 Cx
 Cx
@@ -35209,11 +35240,11 @@ Cx
 Cx
 Cx
 ti
-JE
-PQ
-PQ
-JE
-JE
+HR
+yC
+HR
+HR
+HR
 ay
 ay
 ay
@@ -35326,8 +35357,8 @@ kr
 kr
 kr
 Cx
-JE
-PQ
+HR
+HR
 Cx
 nJ
 nJ
@@ -35341,9 +35372,9 @@ nJ
 Cx
 Cx
 EG
-Hy
-JE
-JE
+HR
+HR
+HR
 ay
 ay
 ay
@@ -35428,7 +35459,7 @@ zt
 rq
 ka
 oO
-sz
+Po
 rq
 dh
 oI
@@ -35472,9 +35503,9 @@ nJ
 Cx
 Cx
 Cx
-JE
-JE
-JE
+HR
+HR
+HR
 ay
 ay
 ay
@@ -35602,10 +35633,10 @@ nJ
 nJ
 nJ
 Cx
-PQ
-JE
-JE
-JE
+HR
+HR
+HR
+HR
 ay
 ay
 ay
@@ -35733,9 +35764,9 @@ nJ
 nJ
 nJ
 Cx
-PQ
-PQ
-JE
+HR
+HR
+HR
 ay
 ay
 ay
@@ -35847,25 +35878,25 @@ kr
 kr
 Cx
 KY
-PQ
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-PQ
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
 Cx
 Cx
 nJ
 nJ
 Cx
 EG
-Hy
-JE
+yC
+HR
 ay
 ay
 ay
@@ -35946,7 +35977,7 @@ vz
 vz
 zt
 rq
-cq
+az
 dg
 vg
 vg
@@ -35955,7 +35986,7 @@ vg
 vg
 vg
 vg
-cz
+nV
 rq
 rq
 rq
@@ -35977,8 +36008,8 @@ kr
 kr
 kr
 kr
-JE
-JE
+HR
+HR
 FO
 Cx
 ti
@@ -35987,15 +36018,15 @@ ti
 Cx
 Cx
 FO
-JE
-PQ
+HR
+HR
 Cx
 nJ
 nJ
 Cx
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -36076,16 +36107,16 @@ vz
 vz
 zt
 rq
-cz
+nV
 dg
-ny
-YU
-YU
-tj
-YU
-YU
+ks
+EJ
+EJ
+Ib
+EJ
+EJ
 vg
-cz
+nV
 rq
 kr
 rq
@@ -36107,25 +36138,25 @@ kr
 kr
 kr
 kr
-JE
-mF
+HR
+WR
 Cx
-hW
-hW
-hW
-hW
-hW
-hW
+uR
+uR
+uR
+uR
+uR
+uR
 Cx
-mF
-JE
+WR
+HR
 iC
 nJ
 nJ
 Cx
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -36206,16 +36237,16 @@ vz
 vz
 zt
 rq
-cz
+nV
 dg
-tj
-YU
-YU
-Zy
-tj
-YU
+Ib
+EJ
+EJ
+EC
+Ib
+EJ
 vg
-cz
+nV
 rq
 kr
 rq
@@ -36237,25 +36268,25 @@ kr
 kr
 kr
 kr
-JE
-mF
+HR
+WR
 Cx
-hW
-hW
-mv
-hW
-hW
-hW
+uR
+uR
+lg
+uR
+uR
+uR
 Cx
-mF
-JE
+WR
+HR
 Cx
 nJ
 Cx
 Cx
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -36336,16 +36367,16 @@ vz
 vz
 Kg
 rq
-cz
+nV
 vg
-tj
-tj
-tj
-tj
-tj
-nd
+Ib
+Ib
+Ib
+Ib
+Ib
+LY
 dg
-cz
+nV
 rq
 or
 kr
@@ -36367,25 +36398,25 @@ kr
 kr
 kr
 kr
-JE
-mF
+HR
+WR
 Cx
-hW
-hW
-hW
-hW
-hW
-hW
+uR
+uR
+uR
+uR
+uR
+uR
 Cx
-mF
-JE
+WR
+HR
 Cx
 nJ
 nJ
 nJ
 nJ
-PQ
-PQ
+HR
+HR
 ay
 ay
 ay
@@ -36466,7 +36497,7 @@ op
 op
 rq
 rq
-cz
+nV
 vg
 vg
 vg
@@ -36475,7 +36506,7 @@ vg
 vg
 dg
 dg
-cq
+az
 rq
 kr
 kr
@@ -36497,8 +36528,8 @@ ru
 kr
 kr
 kr
-JE
-JE
+HR
+HR
 uC
 Cx
 Cx
@@ -36507,16 +36538,16 @@ Cx
 Cx
 Cx
 uC
-JE
-JE
+HR
+HR
 nJ
 nJ
 Cx
 nJ
 nJ
-PQ
-JE
-JE
+yC
+HR
+HR
 ay
 ay
 ay
@@ -36597,14 +36628,14 @@ sC
 Sm
 rq
 rq
-Tx
-Tx
-Tx
-Tx
-Tx
-Tx
-Tx
-Tx
+lq
+lq
+lq
+lq
+lq
+lq
+lq
+lq
 rq
 rq
 Xz
@@ -36627,26 +36658,26 @@ kU
 KL
 KL
 Xz
-JE
-JE
-lk
-lk
-lk
-lk
-lk
-lk
-lk
-lk
-JE
-JE
+HR
+HR
+Bz
+Bz
+Bz
+Bz
+Bz
+Bz
+Bz
+Bz
+HR
+HR
 aF
 sH
 sH
 sH
 lT
 EG
-Hy
-JE
+HR
+HR
 ay
 ay
 ay
@@ -36735,7 +36766,7 @@ aT
 aT
 aT
 aT
-PT
+cc
 vo
 kr
 kr
@@ -36767,7 +36798,7 @@ aT
 aT
 aT
 aT
-xG
+JJ
 vo
 WC
 va
@@ -36775,8 +36806,8 @@ va
 va
 AN
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -36905,8 +36936,8 @@ KR
 KR
 AN
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -37035,8 +37066,8 @@ KR
 KR
 AN
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -37165,8 +37196,8 @@ tE
 tE
 AN
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -37295,8 +37326,8 @@ Qi
 Qi
 Db
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -37425,8 +37456,8 @@ va
 va
 AN
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -37555,9 +37586,9 @@ KR
 KR
 AN
 Cx
-PQ
-JE
-JE
+HR
+HR
+HR
 ay
 ay
 ay
@@ -37685,9 +37716,9 @@ tE
 tE
 AN
 oh
-PQ
-JE
-JE
+HR
+HR
+HR
 ay
 ay
 ay
@@ -37816,8 +37847,8 @@ Qi
 Db
 ZB
 hi
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -37945,9 +37976,9 @@ va
 va
 AN
 oh
-PQ
-JE
-JE
+HR
+HR
+HR
 ay
 ay
 ay
@@ -38075,9 +38106,9 @@ KR
 KR
 AN
 Cx
-PQ
-JE
-JE
+HR
+HR
+HR
 ay
 ay
 ay
@@ -38205,9 +38236,9 @@ tE
 tE
 AN
 Cx
-PQ
-JE
-ay
+HR
+HR
+HR
 ay
 ay
 ay
@@ -38335,8 +38366,8 @@ Qi
 Qi
 Db
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -38465,8 +38496,8 @@ va
 va
 AN
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -38595,8 +38626,8 @@ KR
 KR
 AN
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -38725,8 +38756,8 @@ KR
 KR
 AN
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -38806,7 +38837,7 @@ ym
 ym
 sC
 vo
-Om
+Wh
 aT
 aT
 aT
@@ -38838,7 +38869,7 @@ kr
 kr
 kr
 vo
-Zt
+NR
 aT
 aT
 aT
@@ -38855,8 +38886,8 @@ tE
 tE
 AN
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -38937,14 +38968,14 @@ sC
 Sm
 rq
 rq
-aS
-aS
-aS
-aS
-aS
-aS
-aS
-aS
+tN
+tN
+tN
+tN
+tN
+tN
+tN
+tN
 rq
 rq
 tW
@@ -38967,26 +38998,26 @@ Hs
 sl
 sl
 tW
-JE
-JE
-me
-me
-me
-me
-me
-me
-me
-me
-JE
-JE
+HR
+HR
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+Lc
+HR
+HR
 rB
 AE
 AE
 AE
 cu
 Cx
-PQ
-JE
+HR
+HR
 ay
 ay
 ay
@@ -39066,7 +39097,7 @@ op
 op
 rq
 rq
-FG
+BT
 vg
 vg
 vg
@@ -39075,7 +39106,7 @@ dg
 dg
 vg
 vg
-Ob
+Zk
 rq
 kr
 kr
@@ -39097,8 +39128,8 @@ rQ
 kr
 kr
 kr
-JE
-JE
+HR
+HR
 FO
 Cx
 Cx
@@ -39107,16 +39138,16 @@ Cx
 Cx
 Cx
 FO
-JE
-JE
+HR
+HR
 Cx
 Cx
 Cx
 Cx
 Cx
 EG
-Hy
-JE
+HR
+HR
 ay
 ay
 ay
@@ -39196,16 +39227,16 @@ vz
 vz
 WH
 rq
-FG
+BT
 dg
-tj
-tj
-tj
-YU
-tj
-YU
+Ib
+Ib
+Ib
+EJ
+Ib
+EJ
 vg
-Ob
+Zk
 rq
 kr
 kr
@@ -39227,26 +39258,26 @@ kr
 kr
 kr
 kr
-JE
-xw
+HR
+Yi
 Cx
-hW
-hW
-hW
-hW
-hW
-hW
+uR
+uR
+uR
+uR
+uR
+uR
 Cx
-xw
-JE
+Yi
+HR
 Cx
 Cx
 nJ
 nJ
 Cx
-PQ
-JE
-JE
+yC
+HR
+HR
 ay
 ay
 ay
@@ -39326,16 +39357,16 @@ vz
 vz
 zt
 rq
-FG
+BT
 dg
-YU
-tj
-YU
-rX
-YU
-tj
+EJ
+Ib
+EJ
+qr
+EJ
+Ib
 dg
-FG
+BT
 rq
 kr
 rq
@@ -39357,25 +39388,25 @@ kr
 kr
 kr
 kr
-JE
-xw
+HR
+Yi
 Cx
-hW
-hW
-lF
-hW
-hW
-hW
+uR
+uR
+MC
+uR
+uR
+uR
 Cx
-xw
-JE
+Yi
+HR
 Cx
 Cx
 nJ
 nJ
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -39456,16 +39487,16 @@ vz
 vz
 zt
 rq
-FG
+BT
 dg
-Pf
-tj
-tj
-YU
-YU
-tj
+zZ
+Ib
+Ib
+EJ
+EJ
+Ib
 dg
-FG
+BT
 rq
 kr
 rq
@@ -39487,25 +39518,25 @@ kr
 kr
 kr
 kr
-JE
-xw
+HR
+Yi
 Cx
-hW
-hW
-hW
-hW
-hW
-hW
+uR
+uR
+uR
+uR
+uR
+uR
 Cx
-xw
-JE
+Yi
+HR
 Cx
 nJ
 nJ
 nJ
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -39586,7 +39617,7 @@ vz
 vz
 zt
 rq
-FG
+BT
 Lr
 vg
 vg
@@ -39595,7 +39626,7 @@ vg
 vg
 vg
 vg
-Ob
+Zk
 rq
 rq
 rq
@@ -39616,9 +39647,9 @@ kr
 kr
 II
 nJ
-PQ
-JE
-JE
+HR
+HR
+HR
 uC
 Cx
 ti
@@ -39627,15 +39658,15 @@ ti
 Cx
 Cx
 uC
-JE
-PQ
+HR
+HR
 Cx
 Cx
 nJ
 Cx
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -39747,25 +39778,25 @@ kr
 kr
 nJ
 nE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-PQ
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
 Cx
 Cx
 nJ
 nJ
 Cx
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -39848,7 +39879,7 @@ zt
 rq
 ka
 sC
-DT
+tb
 rq
 AI
 AI
@@ -39877,8 +39908,8 @@ yD
 kr
 Cx
 nJ
-JE
-JE
+HR
+HR
 Cx
 Cx
 Cx
@@ -39894,8 +39925,8 @@ nJ
 nJ
 Cx
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -40024,8 +40055,8 @@ nJ
 nJ
 Cx
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -40154,8 +40185,8 @@ nJ
 GR
 Cx
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -40265,8 +40296,8 @@ kr
 kr
 kr
 Cx
-PQ
-PQ
+HR
+HR
 nJ
 Cx
 nJ
@@ -40284,8 +40315,8 @@ Cx
 Cx
 Cx
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -40395,8 +40426,8 @@ kr
 kr
 kr
 kr
-PQ
-PQ
+HR
+HR
 Cx
 nJ
 nJ
@@ -40414,8 +40445,8 @@ Cx
 Cx
 Cx
 Cx
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -40525,9 +40556,9 @@ kr
 kr
 kr
 kr
-PQ
-JE
-JE
+HR
+HR
+HR
 Cx
 Cx
 Cx
@@ -40543,9 +40574,9 @@ Cx
 Cx
 Cx
 Cx
-JE
-JE
-JE
+HR
+HR
+HR
 ay
 ay
 ay
@@ -40654,12 +40685,12 @@ kr
 kr
 kr
 kr
-JE
-PQ
-PQ
-JE
-JE
-JE
+HR
+HR
+HR
+HR
+HR
+HR
 EG
 Cx
 Cx
@@ -40673,8 +40704,8 @@ Cx
 Cx
 Cx
 EG
-JE
-JE
+HR
+HR
 ay
 ay
 ay
@@ -40783,16 +40814,16 @@ kr
 kr
 kr
 kr
-JE
-JE
-PQ
-JE
-JE
-JE
-JE
-Lz
-JE
-PQ
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+yC
+HR
+HR
 Cx
 Cx
 Cx
@@ -40802,9 +40833,9 @@ Cx
 Cx
 Cx
 ti
-Hy
-JE
-JE
+yC
+HR
+HR
 ay
 ay
 ay
@@ -40914,27 +40945,27 @@ ay
 ay
 ay
 ay
-JE
-JE
+HR
+HR
 ay
 ay
 ay
-JE
-JE
-JE
-PQ
-PQ
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-PQ
-PQ
-JE
-JE
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
 ay
 ay
 ay
@@ -41050,19 +41081,19 @@ ay
 ay
 ay
 ay
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
-JE
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
+HR
 ay
 ay
 ay
@@ -41182,13 +41213,13 @@ ay
 ay
 ay
 ay
-JE
-JE
-JE
-JE
-JE
-JE
-JE
+HR
+HR
+HR
+HR
+HR
+HR
+HR
 ay
 ay
 ay
@@ -47018,10 +47049,10 @@ ay
 ay
 ay
 ay
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
 ay
 ay
 ay
@@ -47147,12 +47178,12 @@ ay
 ay
 ay
 ay
-bo
-bo
+xL
+xL
 vX
 vX
-bo
-bo
+xL
+xL
 ay
 ay
 ay
@@ -47270,21 +47301,21 @@ ay
 ay
 ay
 ay
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
 vX
 vX
 vX
 vX
-bo
-bo
-bo
+xL
+xL
+xL
 aa
 ay
 ay
@@ -47386,26 +47417,26 @@ aa
 ay
 ay
 ay
-bo
-bo
+xL
+xL
 gu
 gu
 gu
 gu
 gu
 gu
-bo
-bo
+xL
+xL
 ay
 ay
 ay
 ay
-bo
+xL
 Uv
 YH
 YH
 Uv
-bo
+xL
 Uv
 pS
 pS
@@ -47414,7 +47445,7 @@ pS
 pS
 pS
 Uv
-bo
+xL
 aa
 aa
 aa
@@ -47514,9 +47545,9 @@ aa
 aa
 aa
 ay
-bo
-bo
-bo
+xL
+xL
+xL
 ep
 Fa
 mU
@@ -47525,17 +47556,17 @@ cb
 Of
 WO
 RV
-bo
-bo
-bo
+xL
+xL
+xL
 ay
 ay
-bo
+xL
 FY
 jO
 jO
 qw
-bo
+xL
 pS
 pS
 pS
@@ -47544,7 +47575,7 @@ pS
 pS
 pS
 pS
-bo
+xL
 aa
 aa
 aa
@@ -47644,7 +47675,7 @@ aa
 ay
 ay
 ay
-bo
+xL
 qt
 Uv
 ep
@@ -47657,15 +47688,15 @@ BP
 RV
 Uv
 Uv
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
 Uv
 jO
 jO
 Uv
-bo
+xL
 pS
 xm
 wX
@@ -47674,7 +47705,7 @@ wX
 wX
 SW
 pS
-bo
+xL
 aa
 aa
 aa
@@ -47773,8 +47804,8 @@ aa
 aa
 ay
 ay
-bo
-bo
+xL
+xL
 Uv
 Gv
 Gv
@@ -47804,7 +47835,7 @@ pj
 pj
 BN
 pS
-bo
+xL
 aa
 aa
 aa
@@ -47903,7 +47934,7 @@ aa
 ay
 ay
 ay
-bo
+xL
 mS
 mS
 Gv
@@ -47934,7 +47965,7 @@ pj
 pj
 BN
 pS
-bo
+xL
 aa
 aa
 aa
@@ -48033,7 +48064,7 @@ aa
 ay
 ay
 ay
-bo
+xL
 Iq
 mS
 Gv
@@ -48045,17 +48076,17 @@ vK
 OW
 HZ
 FH
-bo
-bo
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
+xL
+xL
 Uv
 jO
 jO
 Uv
-bo
+xL
 pS
 oj
 fh
@@ -48064,7 +48095,7 @@ fh
 fh
 iz
 pS
-bo
+xL
 aa
 aa
 aa
@@ -48163,7 +48194,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 cb
 mS
 Gv
@@ -48175,17 +48206,17 @@ nb
 WB
 PP
 dc
-bo
+xL
 fi
 Gv
 Gv
 Qb
-bo
+xL
 wr
 jO
 jO
 LX
-bo
+xL
 pS
 pS
 pS
@@ -48194,7 +48225,7 @@ jO
 pS
 pS
 pS
-bo
+xL
 aa
 aa
 aa
@@ -48293,7 +48324,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 UI
 mS
 Gv
@@ -48310,12 +48341,12 @@ Gv
 Gv
 Gv
 Qb
-bo
+xL
 Uv
 YH
 YH
 Uv
-bo
+xL
 Uv
 pS
 pS
@@ -48324,7 +48355,7 @@ jO
 pS
 pS
 Uv
-bo
+xL
 aa
 aa
 aa
@@ -48423,7 +48454,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 UI
 mS
 Gv
@@ -48439,22 +48470,22 @@ Px
 Gv
 Gv
 Gv
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
 jO
 jO
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
 aa
 aa
 aa
@@ -48553,7 +48584,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 cb
 mS
 Gv
@@ -48565,25 +48596,25 @@ nb
 WB
 WB
 WB
-bo
+xL
 Ek
 ky
 sP
-bo
+xL
 Uv
 vX
 vX
 vX
 vX
 Uv
-bo
+xL
 Uv
 pS
 jO
 jO
 pS
 Uv
-bo
+xL
 aa
 aa
 aa
@@ -48683,7 +48714,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 UT
 mS
 Gv
@@ -48695,25 +48726,25 @@ DH
 En
 ED
 kv
-bo
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
+xL
 pS
 pS
 pS
 pS
 pS
 pS
-bo
+xL
 pS
 pS
 jO
 jO
 pS
 vX
-bo
+xL
 aa
 aa
 aa
@@ -48813,7 +48844,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 mS
 mS
 Gv
@@ -48843,7 +48874,7 @@ jO
 jO
 pS
 vX
-bo
+xL
 aa
 aa
 aa
@@ -48943,8 +48974,8 @@ ay
 ay
 ay
 ay
-bo
-bo
+xL
+xL
 Uv
 Gv
 Gv
@@ -48973,7 +49004,7 @@ jO
 jO
 pS
 vX
-bo
+xL
 aa
 aa
 aa
@@ -49074,7 +49105,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 NT
 Uv
 mS
@@ -49087,7 +49118,7 @@ pz
 mS
 Uv
 Uv
-bo
+xL
 Uv
 vX
 vX
@@ -49103,7 +49134,7 @@ vX
 Uv
 pS
 Uv
-bo
+xL
 aa
 aa
 aa
@@ -49204,9 +49235,9 @@ ay
 ay
 ay
 ay
-bo
-bo
-bo
+xL
+xL
+xL
 XW
 pT
 WB
@@ -49215,25 +49246,25 @@ WB
 WB
 pQ
 ww
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
 jO
 jO
 jO
-bo
-bo
-bo
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
+xL
+xL
+xL
 aa
 aa
 aa
@@ -49336,16 +49367,16 @@ ay
 ay
 ay
 ay
-bo
-bo
+xL
+xL
 gu
 gu
 gu
 gu
 gu
 gu
-bo
-bo
+xL
+xL
 ay
 ay
 ay
@@ -49353,11 +49384,11 @@ ay
 ay
 ay
 ay
-bo
+xL
 jO
 jO
 jO
-bo
+xL
 aa
 aa
 aa
@@ -49466,7 +49497,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 Me
 Oj
 fZ
@@ -49475,27 +49506,27 @@ Xw
 Oj
 Me
 Oj
-bo
+xL
 ay
 ay
 ay
 ay
 ay
-bo
-bo
-bo
+xL
+xL
+xL
 jO
 jO
 jO
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
 aa
 aa
 aa
@@ -49596,22 +49627,22 @@ ay
 ay
 ay
 ay
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
-bo
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
 bL
 bL
 jO
@@ -49623,10 +49654,10 @@ oL
 Dw
 gu
 Me
-ko
-ko
-bo
-bo
+FJ
+FJ
+xL
+xL
 aa
 aa
 aa
@@ -49733,7 +49764,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 Zw
 an
 yX
@@ -49741,7 +49772,7 @@ xu
 xh
 zO
 dZ
-bo
+xL
 Vg
 jO
 jO
@@ -49754,9 +49785,9 @@ jO
 gu
 Oj
 Me
-ko
-ko
-bo
+FJ
+FJ
+xL
 aa
 aa
 aa
@@ -49863,7 +49894,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 IV
 zO
 IV
@@ -49884,9 +49915,9 @@ jO
 gu
 Me
 gU
-ko
-ko
-bo
+FJ
+FJ
+xL
 aa
 aa
 aa
@@ -49992,8 +50023,8 @@ ay
 ay
 ay
 ay
-bo
-bo
+xL
+xL
 cp
 an
 Tz
@@ -50001,7 +50032,7 @@ rl
 nY
 an
 IV
-bo
+xL
 jh
 jO
 jO
@@ -50015,8 +50046,8 @@ gu
 Me
 Me
 Me
-ko
-bo
+FJ
+xL
 aa
 aa
 aa
@@ -50122,7 +50153,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 zO
 zO
 xh
@@ -50131,7 +50162,7 @@ an
 cQ
 gu
 gu
-bo
+xL
 vX
 vX
 jO
@@ -50146,7 +50177,7 @@ Me
 Oj
 Me
 Me
-bo
+xL
 aa
 aa
 aa
@@ -50252,7 +50283,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 zD
 an
 IV
@@ -50276,7 +50307,7 @@ Me
 Me
 Oj
 YY
-bo
+xL
 aa
 aa
 aa
@@ -50381,8 +50412,8 @@ ay
 ay
 ay
 ay
-bo
-bo
+xL
+xL
 an
 an
 IV
@@ -50406,7 +50437,7 @@ Me
 Me
 YY
 YY
-bo
+xL
 aa
 aa
 aa
@@ -50511,7 +50542,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 an
 dj
 dZ
@@ -50536,7 +50567,7 @@ OJ
 YY
 wt
 YY
-bo
+xL
 aa
 aa
 aa
@@ -50641,7 +50672,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 IV
 CU
 an
@@ -50666,7 +50697,7 @@ Me
 Me
 YY
 YY
-bo
+xL
 aa
 aa
 aa
@@ -50771,7 +50802,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 xh
 rW
 dZ
@@ -50796,7 +50827,7 @@ AF
 Me
 YY
 YY
-bo
+xL
 aa
 aa
 aa
@@ -50901,7 +50932,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 an
 an
 xh
@@ -50926,7 +50957,7 @@ Me
 Me
 Me
 YY
-bo
+xL
 aa
 aa
 aa
@@ -51031,7 +51062,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 an
 hN
 an
@@ -51056,7 +51087,7 @@ Oj
 Oj
 Me
 Me
-bo
+xL
 aa
 aa
 aa
@@ -51161,8 +51192,8 @@ ay
 ay
 ay
 ay
-bo
-bo
+xL
+xL
 an
 CU
 an
@@ -51186,7 +51217,7 @@ Me
 Me
 Me
 Me
-bo
+xL
 aa
 aa
 aa
@@ -51292,7 +51323,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 zO
 CU
 qu
@@ -51316,7 +51347,7 @@ IB
 Vi
 Oj
 Me
-bo
+xL
 aa
 aa
 aa
@@ -51422,7 +51453,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 zO
 dZ
 QP
@@ -51431,7 +51462,7 @@ an
 zO
 gu
 gu
-bo
+xL
 vX
 vX
 jO
@@ -51446,7 +51477,7 @@ YY
 Me
 Me
 Me
-bo
+xL
 aa
 aa
 aa
@@ -51552,8 +51583,8 @@ ay
 ay
 ay
 ay
-bo
-bo
+xL
+xL
 CU
 dZ
 an
@@ -51561,7 +51592,7 @@ xh
 an
 zO
 IV
-bo
+xL
 Vg
 vX
 jO
@@ -51576,7 +51607,7 @@ YY
 Me
 OJ
 Me
-bo
+xL
 aa
 aa
 aa
@@ -51683,7 +51714,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 CU
 xh
 an
@@ -51706,7 +51737,7 @@ Me
 Me
 Me
 Me
-bo
+xL
 aa
 aa
 aa
@@ -51813,7 +51844,7 @@ ay
 ay
 ay
 ay
-bo
+xL
 dZ
 dZ
 qu
@@ -51821,7 +51852,7 @@ dZ
 an
 an
 an
-bo
+xL
 jh
 vX
 jO
@@ -51834,9 +51865,9 @@ jO
 gu
 OJ
 Me
-ko
-ko
-bo
+FJ
+FJ
+xL
 aa
 aa
 aa
@@ -51943,15 +51974,15 @@ sW
 sW
 sW
 sW
-WP
-WP
-WP
-WP
-WP
-WP
-bo
-bo
-bo
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
+xL
 bL
 bL
 jO
@@ -51963,10 +51994,10 @@ Uy
 wc
 gu
 Me
-ko
-ko
-bo
-bo
+FJ
+FJ
+xL
+xL
 aD
 aD
 aD
@@ -52073,11 +52104,11 @@ RA
 Oz
 Wj
 sW
-vq
-RA
-bM
-RA
-wP
+dJ
+dJ
+dJ
+dJ
+yd
 sW
 ay
 ay
@@ -52203,11 +52234,11 @@ Np
 RA
 im
 sW
-pl
-RA
-oR
-EF
-WA
+Qo
+Qo
+Qo
+Df
+UU
 sW
 ay
 ay
@@ -52218,10 +52249,10 @@ jO
 jO
 jO
 mA
-Ox
-Wb
+ly
+FG
 lA
-ml
+cn
 sO
 pg
 zI
@@ -52248,13 +52279,13 @@ cx
 zI
 sF
 zI
-XR
-XR
-XR
-XR
-XR
-XR
-XR
+ik
+ik
+ik
+ik
+ik
+ik
+ik
 LO
 LO
 ay
@@ -52329,15 +52360,15 @@ ay
 sW
 RA
 RR
-Bx
+TZ
 RA
 im
 sW
-pl
-ao
-Hl
-Bx
-Oz
+Qo
+dU
+gG
+gG
+yW
 sW
 ay
 ay
@@ -52348,7 +52379,7 @@ jO
 jO
 jO
 bG
-Yo
+IU
 PY
 XX
 Xy
@@ -52369,8 +52400,8 @@ zI
 zI
 zI
 zI
+qj
 zI
-Xd
 zI
 zI
 zI
@@ -52379,13 +52410,13 @@ zI
 zI
 zI
 hE
-XR
-XR
-XR
-XR
-XR
-XR
-XR
+ik
+ik
+ik
+ik
+ik
+ik
+ik
 LO
 ay
 ay
@@ -52463,11 +52494,11 @@ Ul
 Hr
 im
 sW
-pl
-RA
-LF
-CE
-RA
+qz
+qz
+Df
+gG
+qz
 sW
 ay
 ay
@@ -52478,14 +52509,14 @@ jO
 jO
 jO
 mA
-hD
+YS
 qQ
 jM
 kp
 uW
 mA
 zI
-zI
+ih
 zI
 zI
 zI
@@ -52510,13 +52541,13 @@ zI
 zI
 zI
 zI
-XR
+ik
 uL
 mr
 UR
 Qn
-XR
-XR
+ik
+ik
 ay
 ay
 ay
@@ -52593,11 +52624,11 @@ Oz
 RA
 EY
 sW
-ce
-Oz
-RA
-Oz
-JA
+Qo
+yW
+Qo
+yW
+DI
 sW
 ay
 ay
@@ -52646,7 +52677,7 @@ IP
 Gr
 Ci
 gK
-XR
+ik
 ay
 ay
 ay
@@ -52713,7 +52744,7 @@ ay
 ay
 ay
 ay
-ay
+Us
 sW
 sW
 sW
@@ -52725,7 +52756,7 @@ sW
 sW
 sW
 sW
-Zz
+Ii
 sW
 sW
 sW
@@ -52776,7 +52807,7 @@ TP
 Pd
 uV
 gK
-XR
+ik
 ay
 ay
 ay
@@ -52906,7 +52937,7 @@ eg
 UR
 Ft
 gK
-XR
+ik
 ay
 ay
 ay
@@ -53036,7 +53067,7 @@ jG
 WJ
 Qm
 gK
-XR
+ik
 ay
 ay
 ay
@@ -53166,8 +53197,8 @@ SF
 mf
 sK
 gK
-XR
-XR
+ik
+ik
 ay
 ay
 ay
@@ -53296,8 +53327,8 @@ gK
 gK
 gK
 gK
-XR
-XR
+ik
+ik
 ay
 ay
 ay
@@ -53427,7 +53458,7 @@ gK
 gK
 FA
 UD
-XR
+ik
 ay
 ay
 ay
@@ -53557,7 +53588,7 @@ gK
 gK
 gK
 XT
-XR
+ik
 ay
 ay
 ay
@@ -53687,7 +53718,7 @@ zI
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -53747,7 +53778,7 @@ ay
 ay
 ay
 ay
-ay
+Us
 sW
 sW
 sW
@@ -53817,7 +53848,7 @@ zI
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -53947,7 +53978,7 @@ zI
 zI
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -54077,7 +54108,7 @@ zI
 zI
 VI
 gK
-XR
+ik
 ay
 ay
 ay
@@ -54207,7 +54238,7 @@ zI
 zI
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -54337,7 +54368,7 @@ zI
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -54467,7 +54498,7 @@ zI
 IX
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -54597,7 +54628,7 @@ zI
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -54727,7 +54758,7 @@ zI
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -54849,15 +54880,15 @@ zI
 zI
 zI
 zI
-uQ
+KK
 zI
 zI
 zI
 zI
 gK
 gK
-XR
-XR
+ik
+ik
 ay
 ay
 ay
@@ -54986,8 +55017,8 @@ zI
 gK
 gK
 gK
-XR
-XR
+ik
+ik
 ay
 ay
 ay
@@ -55047,7 +55078,7 @@ ay
 ay
 ay
 ay
-ay
+Us
 sW
 sW
 sW
@@ -55116,7 +55147,7 @@ zI
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -55246,7 +55277,7 @@ gK
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -55376,7 +55407,7 @@ jS
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -55506,7 +55537,7 @@ gK
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -55636,7 +55667,7 @@ gK
 gK
 gK
 gK
-XR
+ik
 ay
 ay
 ay
@@ -55765,8 +55796,8 @@ zI
 zI
 gK
 gK
-XR
-XR
+ik
+ik
 ay
 ay
 ay
@@ -55895,7 +55926,7 @@ zI
 zI
 gK
 gK
-XR
+ik
 LO
 ay
 ay
@@ -56025,7 +56056,7 @@ zI
 gK
 gK
 gK
-XR
+ik
 LO
 ay
 ay
@@ -56093,7 +56124,7 @@ ay
 ay
 ay
 ay
-ay
+Us
 sW
 sW
 sW
@@ -56154,8 +56185,8 @@ zI
 zI
 gK
 gK
-XR
-XR
+ik
+ik
 LO
 ay
 ay
@@ -56247,7 +56278,7 @@ hM
 ts
 TW
 sW
-LO
+ay
 mA
 ZU
 NU
@@ -56284,7 +56315,7 @@ zI
 zI
 gK
 gK
-XR
+ik
 LO
 LO
 ay
@@ -56359,7 +56390,7 @@ ay
 sW
 Tp
 wY
-qR
+st
 bR
 im
 sW
@@ -56377,7 +56408,7 @@ do
 bC
 kD
 sW
-LO
+ay
 mA
 vL
 Ox
@@ -56414,7 +56445,7 @@ zI
 gK
 gK
 gK
-XR
+ik
 LO
 LO
 ay
@@ -56507,7 +56538,7 @@ kB
 Nm
 FS
 sW
-LO
+ay
 mA
 Ga
 Oe
@@ -56543,8 +56574,8 @@ zI
 gK
 gK
 gK
-XR
-XR
+ik
+ik
 ay
 ay
 ay
@@ -56637,7 +56668,7 @@ nQ
 nQ
 kD
 sW
-LO
+ay
 bG
 dn
 Vy
@@ -56672,8 +56703,8 @@ zI
 gK
 gK
 gK
-XR
-XR
+ik
+ik
 LO
 ay
 ay
@@ -56767,7 +56798,7 @@ do
 do
 FS
 sW
-LO
+ay
 mA
 mA
 mA
@@ -56798,11 +56829,11 @@ mA
 mA
 mA
 mA
-XR
-XR
-XR
-XR
-XR
+ik
+ik
+ik
+ik
+ik
 LO
 ay
 ay
