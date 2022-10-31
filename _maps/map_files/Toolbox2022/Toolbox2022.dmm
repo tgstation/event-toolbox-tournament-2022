@@ -1296,6 +1296,17 @@
 /obj/machinery/vending/cigarette,
 /turf/open/indestructible/dark,
 /area/space)
+"fU" = (
+/obj/effect/overlay/water{
+	opacity = 1
+	},
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water"
+	},
+/area/event)
 "fV" = (
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
@@ -8042,7 +8053,7 @@
 	dir = 6
 	},
 /turf/closed/indestructible/event/pod_blue,
-/area/event/oceanarium)
+/area/event)
 "JI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/visible/layer4,
 /turf/open/misc/ashplanet/rocky{
@@ -52315,7 +52326,7 @@ Uy
 Uy
 wc
 GH
-Me
+fU
 FJ
 FJ
 OD
@@ -52443,8 +52454,8 @@ Lj
 dr
 dr
 dr
-mA
-mA
+dr
+dr
 JD
 Xn
 Xn
