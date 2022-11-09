@@ -1,11 +1,11 @@
 /obj/item/fish/coinfish
-	name = "toolbox fish"
+	name = "coin fish"
 	desc = "A great piece of currency, though depreciated in value."
 	icon = 'modular_event/arena_assets/eventfish.dmi'
 	icon_state = "coin_fish"
 
 /obj/item/fish/toolboxfish
-	name = "coin fish"
+	name = "toolbox fish"
 	desc = "A solitary fish, known to swim vertically, refusing to go horizontal."
 	icon = 'modular_event/arena_assets/eventfish.dmi'
 	icon_state = "toolbox_fish"
