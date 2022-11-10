@@ -1,14 +1,18 @@
 /obj/item/fish/coinfish
 	name = "coin fish"
-	desc = "A great piece of currency, though depreciated in value."
+	desc = "A widely used piece of currency, though depreciated in value."
 	icon = 'modular_event/arena_assets/eventfish.dmi'
 	icon_state = "coin_fish"
+	average_size = 5
+	average_weight = 100
 
 /obj/item/fish/toolboxfish
 	name = "toolbox fish"
 	desc = "A solitary fish, known to swim vertically, refusing to go horizontal."
 	icon = 'modular_event/arena_assets/eventfish.dmi'
 	icon_state = "toolbox_fish"
+	average_size = 30
+	average_weight = 500
 
 /datum/fish_source/event
 	fish_table = list(
@@ -46,14 +50,13 @@
 	else
 		if (istype(M,/obj/item/fish/lanternfish) || (istype(M,/obj/item/fish/gunner_jellyfish)))
 			fishing_score +=15
-		if (istype(M,/obj/item/fish/toolboxfish))
+		else if (istype(M,/obj/item/fish/toolboxfish))
 			fishing_score +=25
-		if (istype(M,/obj/item/fish/coinfish))
+		else if (istype(M,/obj/item/fish/coinfish))
 			fishing_score +=1
 		else
 			fishing_score +=10
 		qdel(M)
-
 
 /obj/effect/fishing_portal/Bumped(atom/movable/bumper)
 	fish_input(bumper)
