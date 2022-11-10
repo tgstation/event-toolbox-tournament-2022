@@ -579,18 +579,6 @@
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/space)
-"cx" = (
-/obj/structure/marker_beacon/olive,
-/obj/effect/overlay/water,
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	clawfootstep = "water";
-	footstep = "water";
-	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
-	},
-/area/event/oceanarium)
 "cy" = (
 /obj/effect/turf_decal/trimline/neutral/filled/end{
 	dir = 1
@@ -648,8 +636,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "cK" = (
@@ -818,8 +806,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "dD" = (
@@ -855,8 +843,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "dI" = (
@@ -1237,8 +1225,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "fF" = (
@@ -1436,16 +1424,6 @@
 /obj/structure/chair/sofa/bench/left,
 /turf/open/floor/carpet/black,
 /area/space)
-"gz" = (
-/turf/open/misc/sandy_dirt{
-	barefootstep = "water";
-	clawfootstep = "water";
-	footstep = "water";
-	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
-	},
-/area/event/oceanarium)
 "gA" = (
 /obj/structure/flora/bush/grassy/style_4,
 /turf/open/floor/grass,
@@ -1637,8 +1615,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "hp" = (
@@ -1715,8 +1693,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "hF" = (
@@ -1826,8 +1804,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "ij" = (
@@ -1898,8 +1876,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "iu" = (
@@ -2427,8 +2405,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "kL" = (
@@ -2668,8 +2646,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "lK" = (
@@ -3158,8 +3136,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "nP" = (
@@ -3170,8 +3148,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "nQ" = (
@@ -3650,8 +3628,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "qf" = (
@@ -3695,8 +3673,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "qm" = (
@@ -4151,8 +4129,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "sG" = (
@@ -4816,8 +4794,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "uR" = (
@@ -5514,8 +5492,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "ys" = (
@@ -5682,8 +5660,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "zk" = (
@@ -6523,8 +6501,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "CU" = (
@@ -6641,6 +6619,18 @@
 	},
 /turf/open/floor/iron/stairs,
 /area/space)
+"Dp" = (
+/obj/effect/overlay/water,
+/obj/structure/marker_beacon/olive,
+/turf/open/misc/sandy_dirt{
+	barefootstep = "water";
+	clawfootstep = "water";
+	footstep = "water";
+	heavyfootstep = "water";
+	light_color = "#0033cc";
+	light_range = 1.4
+	},
+/area/event/oceanarium)
 "Dq" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/plate/large,
@@ -6879,8 +6869,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "En" = (
@@ -6914,8 +6904,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Es" = (
@@ -7644,8 +7634,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "He" = (
@@ -7722,8 +7712,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Hw" = (
@@ -8382,8 +8372,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "KL" = (
@@ -8714,8 +8704,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Ml" = (
@@ -8768,8 +8758,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Mu" = (
@@ -8870,8 +8860,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "MU" = (
@@ -9283,8 +9273,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Pd" = (
@@ -9558,8 +9548,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Qk" = (
@@ -9684,8 +9674,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "QJ" = (
@@ -9888,11 +9878,6 @@
 "RI" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/event)
-"RL" = (
-/turf/open/misc/ashplanet/rocky{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/event/oceanarium)
 "RM" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -9922,8 +9907,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "RR" = (
@@ -10060,8 +10045,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Sx" = (
@@ -10213,8 +10198,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Tb" = (
@@ -10481,8 +10466,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Uc" = (
@@ -10503,8 +10488,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Uf" = (
@@ -10743,8 +10728,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Vm" = (
@@ -11327,8 +11312,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "XT" = (
@@ -11369,8 +11354,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "Ya" = (
@@ -11514,8 +11499,8 @@
 	clawfootstep = "water";
 	footstep = "water";
 	heavyfootstep = "water";
-	light_color = "#0000cc";
-	light_range = 1
+	light_color = "#0033cc";
+	light_range = 1.4
 	},
 /area/event/oceanarium)
 "YL" = (
@@ -52821,7 +52806,7 @@ SZ
 Vl
 Vl
 Vl
-cx
+Vl
 Vl
 sF
 Vl
@@ -52943,7 +52928,7 @@ RP
 Vl
 YJ
 Vl
-gz
+Vl
 Vl
 Vl
 qj
@@ -52951,7 +52936,7 @@ Vl
 Vl
 Vl
 Vl
-Vl
+Dp
 Vl
 Vl
 Vl
@@ -53869,9 +53854,9 @@ Vl
 Pc
 Vl
 Vl
-RL
 gK
-RL
+gK
+gK
 gK
 ik
 ik
