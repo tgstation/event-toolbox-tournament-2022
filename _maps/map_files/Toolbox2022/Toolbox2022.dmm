@@ -387,7 +387,8 @@
 /area/event)
 "bM" = (
 /obj/machinery/conveyor/auto{
-	dir = 1
+	dir = 1;
+	conveying = 1
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
@@ -3913,6 +3914,16 @@
 	},
 /turf/open/floor/plating/abductor,
 /area/event)
+"rG" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	conveying = 1
+	},
+/turf/open/floor/pod/dark,
+/area/event)
 "rH" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor4"
@@ -4056,12 +4067,6 @@
 	},
 /turf/open/misc/ironsand,
 /area/space)
-"ss" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 4
-	},
-/turf/open/floor/pod/dark,
-/area/event)
 "st" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced/plastitaniumglass{
@@ -4923,7 +4928,8 @@
 /area/event/oceanarium)
 "vC" = (
 /obj/machinery/conveyor/auto{
-	dir = 1
+	dir = 1;
+	conveying = 1
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -5004,7 +5010,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "vU" = (
-/obj/machinery/conveyor/auto,
+/obj/machinery/conveyor/auto{
+	conveying = 1
+	},
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
@@ -7054,7 +7062,9 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
-/obj/machinery/conveyor/auto,
+/obj/machinery/conveyor/auto{
+	conveying = 1
+	},
 /turf/open/floor/pod/dark,
 /area/event)
 "Fd" = (
@@ -7749,7 +7759,9 @@
 	},
 /area/space)
 "HW" = (
-/obj/machinery/conveyor/auto,
+/obj/machinery/conveyor/auto{
+	conveying = 1
+	},
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 4
 	},
@@ -11011,7 +11023,9 @@
 /turf/open/floor/wood/tile,
 /area/space)
 "Xf" = (
-/obj/machinery/conveyor/auto,
+/obj/machinery/conveyor/auto{
+	conveying = 1
+	},
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
@@ -48410,15 +48424,15 @@ ay
 OD
 vU
 IN
-ss
+rG
 OD
 Fc
 IN
-CO
+rG
 OD
 Fc
 IN
-CO
+rG
 OD
 HW
 IN
@@ -50360,15 +50374,15 @@ Dz
 OD
 vU
 IN
-ss
-OD
-Fc
-IN
 CO
 OD
 Fc
 IN
-CO
+rG
+OD
+Fc
+IN
+rG
 OD
 HW
 IN
