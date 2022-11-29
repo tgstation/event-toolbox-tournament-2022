@@ -44,6 +44,12 @@
 /obj/structure/cable,
 /turf/closed/indestructible/event/pod/blue,
 /area/event/cavern)
+"fU" = (
+/obj/structure/flora/ash/tall_shroom,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/cavern)
 "he" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/flashlight/lamp,
@@ -117,6 +123,15 @@
 	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"lS" = (
+/obj/item/skub,
+/turf/open/misc/ashplanet/wateryrock{
+	light_color = "#6495ED";
+	light_power = 2;
+	light_range = 3;
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/cavern)
 "lW" = (
 /obj/structure{
 	icon = 'icons/obj/lighting.dmi';
@@ -131,6 +146,14 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
 	slowdown = 0
 	},
+/area/event/cavern)
+"or" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/bot,
+/obj/machinery/computer/old{
+	dir = 1
+	},
+/turf/open/indestructible/event/plating,
 /area/event/cavern)
 "os" = (
 /obj/machinery/light/directional/east,
@@ -216,6 +239,17 @@
 /obj/machinery/griddle,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"tV" = (
+/obj/structure/flora/ash/cap_shroom,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/cavern)
+"ub" = (
+/obj/structure/filingcabinet,
+/obj/effect/turf_decal/bot_white,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
 "uH" = (
 /obj/structure/curtain/bounty,
 /obj/effect/turf_decal/trimline/brown/filled/warning{
@@ -223,6 +257,16 @@
 	},
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/indestructible/event/plating,
+/area/event/cavern)
+"vQ" = (
+/obj/effect/turf_decal/loading_area,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
+"xl" = (
+/obj/structure/atlantis/statue/small,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/event/cavern)
 "xC" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -278,6 +322,18 @@
 /obj/structure/reagent_dispensers/cooking_oil,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"Cf" = (
+/obj/structure/flora/ash/leaf_shroom,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/cavern)
+"Db" = (
+/obj/machinery/computer/old{
+	dir = 8
+	},
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
 "Dt" = (
 /obj/effect/turf_decal/siding/thinplating_new/light{
 	dir = 9
@@ -320,8 +376,25 @@
 "HT" = (
 /turf/closed/indestructible/event/pod/blue,
 /area/event/cavern)
+"IX" = (
+/obj/structure/flora/ash/stem_shroom,
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
+	},
+/area/event/cavern)
+"Jt" = (
+/obj/structure/flora/ash/stem_shroom,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/cavern)
 "Ka" = (
 /turf/closed/indestructible/iron,
+/area/event/cavern)
+"LR" = (
+/obj/machinery/suit_storage_unit/industrial,
+/turf/open/indestructible/event/plating,
 /area/event/cavern)
 "LX" = (
 /obj/effect/turf_decal/siding/thinplating_new/light{
@@ -352,7 +425,6 @@
 	},
 /area/event/cavern)
 "PH" = (
-/obj/item/flashlight/lantern,
 /obj/item/flashlight/lantern,
 /obj/item/flashlight/lantern,
 /obj/item/flashlight/lantern,
@@ -389,13 +461,6 @@
 "Sf" = (
 /obj/item/hatchet/wooden,
 /obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/indestructible/event/plating,
-/area/event/cavern)
-"Uy" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 4
-	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "WA" = (
@@ -441,6 +506,12 @@
 "Zy" = (
 /obj/machinery/light/directional/south,
 /turf/open/indestructible/event/plating,
+/area/event/cavern)
+"ZL" = (
+/obj/structure/flora/ash/seraka,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/event/cavern)
 
 (1,1,1) = {"
@@ -7719,7 +7790,7 @@ Qg
 Qg
 Qg
 Qg
-Rf
+xl
 Rf
 Ad
 Ad
@@ -11758,7 +11829,7 @@ YH
 Rf
 Rf
 Rf
-Rf
+Jt
 ov
 Rf
 Rf
@@ -11768,7 +11839,7 @@ MH
 Rf
 Rf
 Rf
-Rf
+tV
 Rf
 ov
 ov
@@ -12498,7 +12569,7 @@ Rf
 Rf
 Rf
 Rf
-Rf
+tV
 Rf
 Rf
 Rf
@@ -12702,7 +12773,7 @@ Rf
 Rf
 Rf
 Rf
-Rf
+ZL
 Rf
 Rf
 Rf
@@ -12953,10 +13024,10 @@ Rf
 Rf
 HT
 WA
-WA
 XD
 WA
-WA
+LR
+LR
 sA
 fQ
 Rf
@@ -12965,7 +13036,7 @@ HT
 jq
 iS
 WA
-OG
+or
 HT
 Rf
 Rf
@@ -13106,7 +13177,7 @@ Rf
 HT
 WA
 he
-WA
+XD
 WA
 XD
 WA
@@ -13408,7 +13479,7 @@ Rf
 Rf
 Rf
 HT
-DV
+Db
 DV
 WA
 WA
@@ -13419,8 +13490,8 @@ Rf
 Rf
 HT
 Ya
-Uy
-Uy
+Yz
+Yz
 jS
 HT
 Rf
@@ -13560,7 +13631,7 @@ Rf
 ov
 Rf
 HT
-WA
+ub
 XD
 WA
 XD
@@ -13570,10 +13641,10 @@ HT
 Rf
 Rf
 HT
-HT
+fQ
 eR
 eR
-HT
+fQ
 HT
 Rf
 Rf
@@ -13613,7 +13684,7 @@ Rf
 Rf
 Rf
 Rf
-Rf
+ZL
 Rf
 Rf
 Rf
@@ -13712,7 +13783,7 @@ Rf
 ov
 ov
 HT
-WA
+ub
 aJ
 Yz
 Yz
@@ -13737,6 +13808,7 @@ Rf
 Rf
 Rf
 Rf
+tV
 Rf
 Rf
 Rf
@@ -13744,8 +13816,7 @@ Rf
 Rf
 Rf
 Rf
-Rf
-Rf
+fU
 Rf
 Rf
 YH
@@ -14489,7 +14560,7 @@ MH
 MH
 MH
 Rf
-Rf
+Cf
 Rf
 HT
 eX
@@ -14645,7 +14716,7 @@ MH
 MH
 qq
 re
-WA
+vQ
 Dt
 LX
 XZ
@@ -14797,7 +14868,7 @@ MH
 MH
 qq
 re
-WA
+vQ
 ER
 ym
 qc
@@ -15244,7 +15315,7 @@ Rf
 MH
 MH
 Rf
-Rf
+fU
 Rf
 Rf
 MH
@@ -15273,7 +15344,7 @@ YH
 Rf
 Rf
 Qg
-Rf
+ZL
 Qg
 Rf
 yQ
@@ -15387,7 +15458,7 @@ Rf
 Rf
 Rf
 Rf
-ov
+IX
 ov
 Rf
 HT
@@ -16011,7 +16082,7 @@ MH
 MH
 MH
 Rf
-Rf
+Cf
 Rf
 ov
 ov
@@ -16205,7 +16276,7 @@ Rf
 Rf
 ov
 ov
-Rf
+ZL
 Rf
 Rf
 Rf
@@ -17090,7 +17161,7 @@ YH
 Rf
 Rf
 Rf
-Rf
+ZL
 Rf
 Qg
 Qg
@@ -17223,7 +17294,7 @@ Rf
 ov
 Rf
 Rf
-Rf
+Jt
 Rf
 Rf
 Rf
@@ -17401,7 +17472,7 @@ Qg
 Qg
 yQ
 Qg
-yQ
+lS
 yQ
 Qg
 Qg
@@ -17870,7 +17941,7 @@ Qg
 Qg
 Rf
 Rf
-Rf
+ZL
 Rf
 Rf
 Rf
@@ -18015,7 +18086,7 @@ Qg
 Rf
 Rf
 Qg
-Rf
+ZL
 Rf
 Rf
 Qg
@@ -18754,7 +18825,7 @@ Rf
 Rf
 Rf
 Rf
-Rf
+ZL
 Rf
 yQ
 yQ
@@ -20121,6 +20192,7 @@ Rf
 Rf
 Rf
 Rf
+ZL
 Rf
 Rf
 Rf
@@ -20136,8 +20208,7 @@ Rf
 Rf
 Rf
 Rf
-Rf
-Rf
+ZL
 YH
 YH
 YH
