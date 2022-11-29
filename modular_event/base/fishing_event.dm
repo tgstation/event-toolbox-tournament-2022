@@ -34,7 +34,7 @@
 	fishing_difficulty = FISHING_DEFAULT_DIFFICULTY + 5
 
 /turf/open/water/event
-	name = "water"
+	name = "shallow water"
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
 
 /turf/open/water/event/deep
@@ -49,7 +49,7 @@
 /turf/open/water/event/deep/CanAllowThrough(atom/movable/mover, border_dir)
 	. = ..()
 	if(iscarbon(mover))
-		//if(target.buckled)
+		//if(mover.buckled)
 		return TRUE
 	if (isvehicle(mover))
 		return TRUE
@@ -79,8 +79,3 @@
 	AddElement(/datum/element/ridable, /datum/component/riding/vehicle/fishingboat)
 
 //fishing scores
-
-/datum/fishing_challenge/complete(win = FALSE, perfect_win = FALSE)
-	for(var/fishing_score in (/datum/mind/))
-		fishing_score += 1
-		to_chat(user, span_warning("Your new score is [fishing_score]."))
