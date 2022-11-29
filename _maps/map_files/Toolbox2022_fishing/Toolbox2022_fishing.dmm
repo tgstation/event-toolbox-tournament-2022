@@ -6,7 +6,7 @@
 /area/event/cavern)
 "bI" = (
 /obj/structure/table,
-/obj/item/storage/fish_case/random,
+/obj/item/storage/fish_case,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "cX" = (
