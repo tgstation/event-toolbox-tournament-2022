@@ -30,18 +30,21 @@
 /obj/structure/cable,
 /turf/closed/indestructible/event/pod/blue,
 /area/event/cavern)
-"gY" = (
-/obj/structure/curtain/bounty,
-/obj/structure/cable,
-/obj/effect/turf_decal/trimline/brown/filled/warning{
-	dir = 4
-	},
+"he" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/flashlight/lamp,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "hl" = (
 /obj/structure/table,
 /obj/item/book/manual/chef_recipes,
 /turf/open/indestructible/event/plating,
+/area/event/cavern)
+"hF" = (
+/obj/machinery/light/directional/south,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
 /area/event/cavern)
 "iS" = (
 /obj/machinery/power/apc/highcap/ten_k/directional/west,
@@ -65,12 +68,6 @@
 /obj/machinery/deepfryer,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
-"kL" = (
-/obj/structure/cable,
-/turf/open/misc/ashplanet/rocky{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/event/cavern)
 "kZ" = (
 /obj/structure/closet/crate/miningcar{
 	name = "Mining cart";
@@ -79,15 +76,37 @@
 	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"lh" = (
+/obj/machinery/light/directional/north,
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/cavern)
 "lq" = (
 /obj/structure/marker_beacon/yellow{
-	light_range = 5
+	light_range = 3
 	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"lW" = (
+/obj/structure{
+	icon = 'icons/obj/lighting.dmi';
+	icon_state = "floodlight_on";
+	anchored = 1;
+	light_range = 12;
+	light_power = 1.75;
+	desc = "A pole with powerful mounted lights on it. Due to its high power draw, it must be powered by a direct connection to a wire node.";
+	name = "floodlight"
+	},
+/turf/open/misc/ashplanet/ash{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
+	},
+/area/event/cavern)
 "ov" = (
 /turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/event/cavern)
 "qb" = (
@@ -105,6 +124,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/warning{
 	dir = 1
 	},
+/obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "rx" = (
@@ -116,6 +136,7 @@
 /obj/effect/turf_decal/trimline/brown/filled/warning{
 	dir = 8
 	},
+/obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "sA" = (
@@ -132,20 +153,26 @@
 	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"tw" = (
+/obj/machinery/light/directional/west,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
 "tx" = (
 /obj/machinery/griddle,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
-"wL" = (
-/obj/machinery/power/floodlight{
-	active_power_usage = 0;
-	anchored = 1;
-	icon_state = "floodlight_on";
-	light_range = 12
+"uH" = (
+/obj/structure/curtain/bounty,
+/obj/effect/turf_decal/trimline/brown/filled/warning{
+	dir = 4
 	},
-/turf/open/misc/ashplanet/rocky{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
+/obj/effect/turf_decal/sand/plating/volcanic,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
+"xC" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/folder/red,
+/turf/open/indestructible/event/plating,
 /area/event/cavern)
 "ym" = (
 /obj/structure/table_frame/wood,
@@ -172,7 +199,6 @@
 /turf/open/water/event/deep,
 /area/event/cavern)
 "As" = (
-/obj/machinery/light/small/directional/north,
 /obj/structure/chair,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
@@ -211,6 +237,20 @@
 	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"FJ" = (
+/obj/structure{
+	icon = 'icons/obj/lighting.dmi';
+	icon_state = "floodlight_on";
+	anchored = 1;
+	light_range = 12;
+	light_power = 1.75;
+	desc = "A pole with powerful mounted lights on it. Due to its high power draw, it must be powered by a direct connection to a wire node.";
+	name = "floodlight"
+	},
+/turf/open/misc/ashplanet/rocky{
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	},
+/area/event/cavern)
 "HH" = (
 /obj/structure/table,
 /obj/item/plate,
@@ -237,7 +277,8 @@
 	icon = 'icons/obj/power.dmi';
 	icon_state = "portgen2_1";
 	name = "\improper P.A.C.M.A.N.-type portable generator";
-	desc = "A portable generator for emergency backup power."
+	desc = "A portable generator for emergency backup power.";
+	anchored = 1
 	},
 /obj/structure/cable,
 /turf/open/indestructible/event/plating,
@@ -270,11 +311,6 @@
 	},
 /turf/open/water/event/deep,
 /area/event/cavern)
-"Rw" = (
-/obj/effect/turf_decal/sand/plating/volcanic,
-/obj/structure/cable,
-/turf/open/indestructible/event/plating,
-/area/event/cavern)
 "RH" = (
 /obj/structure/flora/rock/pile/icy/style_random{
 	name = "rocks"
@@ -288,24 +324,6 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
-"Tv" = (
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/obj/structure/table,
-/obj/item/flashlight/lantern,
-/obj/item/flashlight/lantern,
-/turf/open/misc/ashplanet/rocky{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
-	},
-/area/event/cavern)
 "Uy" = (
 /obj/structure/cable,
 /turf/open/indestructible/event/plating,
@@ -317,6 +335,10 @@
 	},
 /area/event/cavern)
 "WA" = (
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
+"XD" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "XZ" = (
@@ -6794,7 +6816,7 @@ Zd
 Zd
 WA
 WA
-WA
+qb
 WA
 WA
 Zd
@@ -6946,7 +6968,7 @@ Ad
 Ad
 WA
 WA
-WA
+Ka
 WA
 WA
 Ad
@@ -7098,7 +7120,7 @@ Ad
 Ad
 WA
 WA
-WA
+Ka
 WA
 WA
 Ad
@@ -7250,7 +7272,7 @@ Zd
 Zd
 WA
 WA
-WA
+tw
 WA
 WA
 Zd
@@ -7706,7 +7728,7 @@ Zd
 Zd
 WA
 WA
-WA
+qb
 WA
 WA
 Zd
@@ -7858,7 +7880,7 @@ Ad
 Ad
 WA
 WA
-WA
+Ka
 WA
 WA
 Ad
@@ -8010,7 +8032,7 @@ Ad
 Ad
 WA
 WA
-WA
+Ka
 WA
 WA
 Ad
@@ -8162,7 +8184,7 @@ Zd
 Zd
 WA
 WA
-WA
+tw
 WA
 WA
 Zd
@@ -8618,7 +8640,7 @@ Zd
 Zd
 WA
 WA
-WA
+qb
 WA
 WA
 Zd
@@ -8770,7 +8792,7 @@ Ad
 Ad
 WA
 WA
-WA
+Ka
 WA
 WA
 Ad
@@ -8922,7 +8944,7 @@ Ad
 Ad
 WA
 WA
-WA
+Ka
 WA
 WA
 Ad
@@ -9074,7 +9096,7 @@ Zd
 Zd
 WA
 WA
-WA
+tw
 WA
 WA
 Zd
@@ -9530,7 +9552,7 @@ Zd
 Zd
 WA
 WA
-WA
+qb
 WA
 WA
 Zd
@@ -9682,7 +9704,7 @@ Ad
 Ad
 WA
 WA
-WA
+Ka
 WA
 WA
 Ad
@@ -9834,7 +9856,7 @@ Ad
 Ad
 WA
 WA
-WA
+Ka
 WA
 WA
 Ad
@@ -9986,7 +10008,7 @@ Zd
 Zd
 WA
 WA
-WA
+tw
 WA
 WA
 Zd
@@ -10744,11 +10766,11 @@ Ad
 Ad
 Ad
 Ka
-Rf
+lh
 MH
 MH
 MH
-Rf
+hF
 Ka
 Rf
 YH
@@ -11047,18 +11069,18 @@ Ad
 Ad
 YH
 YH
-Tv
+Rf
 Rf
 MH
 MH
 MH
 Rf
-Tv
 Rf
 Rf
 Rf
 Rf
-wL
+Rf
+Rf
 YH
 YH
 YH
@@ -11199,13 +11221,13 @@ Ad
 YH
 YH
 Rf
-Tv
+Rf
 Rf
 MH
 MH
 MH
 Rf
-Tv
+Rf
 Rf
 Rf
 Rf
@@ -11351,13 +11373,13 @@ YH
 YH
 Rf
 Rf
-Tv
+Rf
 Rf
 MH
 MH
 MH
 Rf
-Tv
+Rf
 Rf
 Rf
 Rf
@@ -11503,13 +11525,13 @@ Rf
 Rf
 ov
 ov
-Tv
+Rf
 Rf
 MH
 MH
 MH
 Rf
-Tv
+Rf
 Rf
 Rf
 Rf
@@ -11655,13 +11677,13 @@ Rf
 Rf
 Rf
 ov
-Tv
+Rf
 Rf
 MH
 MH
 MH
 Rf
-Tv
+Rf
 Rf
 Rf
 Rf
@@ -11936,7 +11958,7 @@ YH
 YH
 Rf
 Rf
-wL
+Rf
 YH
 YH
 Ad
@@ -11952,7 +11974,7 @@ Ad
 Ad
 Ad
 YH
-wL
+Rf
 Rf
 Rf
 Rf
@@ -12258,7 +12280,7 @@ Rf
 Rf
 Rf
 Rf
-Rf
+FJ
 Rf
 Rf
 Rf
@@ -12849,7 +12871,7 @@ Rf
 HT
 WA
 WA
-WA
+XD
 WA
 WA
 sA
@@ -13000,10 +13022,10 @@ Rf
 Rf
 HT
 WA
-DV
+he
 WA
 WA
-WA
+XD
 WA
 HT
 Rf
@@ -13029,7 +13051,7 @@ Rf
 ov
 ov
 ov
-ov
+lW
 ov
 Rf
 Rf
@@ -13152,10 +13174,10 @@ Rf
 Rf
 HT
 As
-DV
+xC
 WA
 WA
-WA
+XD
 WA
 HT
 Rf
@@ -13166,7 +13188,7 @@ WA
 WA
 OG
 HT
-kL
+Rf
 Rf
 Rf
 Rf
@@ -13318,7 +13340,7 @@ Uy
 Uy
 OG
 HT
-kL
+Rf
 Rf
 Rf
 Rf
@@ -13447,7 +13469,7 @@ Ad
 Ad
 Ad
 YH
-wL
+Rf
 Rf
 Rf
 Rf
@@ -13456,21 +13478,21 @@ ov
 Rf
 HT
 WA
+XD
 WA
-WA
-WA
-WA
+XD
+XD
 PH
 HT
 Rf
-kL
+Rf
 HT
 HT
-gY
-gY
+eR
+eR
 HT
 HT
-kL
+Rf
 Rf
 Rf
 MH
@@ -13615,14 +13637,14 @@ qb
 PH
 HT
 Rf
-kL
-kL
-kL
-Rw
-Rw
-kL
-kL
-kL
+Rf
+Rf
+Rf
+MH
+MH
+Rf
+Rf
+Rf
 Rf
 MH
 MH
@@ -13754,15 +13776,15 @@ YH
 Rf
 Rf
 Rf
-Rf
+FJ
 ov
 ov
 Rf
 HT
 HT
 HT
-eR
-eR
+uH
+uH
 HT
 HT
 HT
@@ -13919,7 +13941,7 @@ Rf
 Rf
 Rf
 Rf
-Rf
+FJ
 Rf
 Rf
 MH
@@ -13946,7 +13968,7 @@ Rf
 Rf
 Rf
 Rf
-wL
+Rf
 YH
 Ad
 Ad
@@ -14083,7 +14105,7 @@ MH
 MH
 Rf
 HT
-fQ
+HT
 HT
 HT
 HT
@@ -14234,10 +14256,10 @@ MH
 MH
 Rf
 Rf
-HT
+fQ
 sA
 WA
-WA
+XD
 WA
 DV
 AW
@@ -14847,8 +14869,8 @@ eX
 WA
 WA
 WA
-WA
-WA
+XD
+XD
 HT
 Rf
 Rf
@@ -15426,7 +15448,7 @@ Ad
 Ad
 Ad
 YH
-wL
+Rf
 Rf
 Rf
 Rf
@@ -15592,7 +15614,7 @@ Rf
 HT
 hl
 WA
-WA
+XD
 Zy
 HT
 HT
@@ -15746,7 +15768,7 @@ rx
 WA
 bI
 WA
-WA
+XD
 eE
 MH
 MH
@@ -16040,14 +16062,14 @@ YH
 Rf
 Rf
 Rf
-Rf
+FJ
 Rf
 Rf
 Rf
 Rf
 HT
-WA
-WA
+XD
+XD
 WA
 WA
 WA
@@ -16060,7 +16082,7 @@ MH
 Rf
 Rf
 Rf
-ov
+lW
 ov
 Rf
 Rf
@@ -16217,7 +16239,7 @@ ov
 Rf
 Rf
 Rf
-wL
+Rf
 YH
 YH
 Ad
@@ -16954,7 +16976,7 @@ Ad
 Ad
 Ad
 YH
-wL
+Rf
 Rf
 Rf
 Rf
@@ -17268,7 +17290,7 @@ Rf
 Rf
 Rf
 Rf
-Rf
+FJ
 Rf
 Rf
 Rf
@@ -17878,7 +17900,7 @@ YH
 Rf
 Rf
 Rf
-wL
+Rf
 YH
 YH
 Ad

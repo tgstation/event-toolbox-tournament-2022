@@ -38,33 +38,32 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 	var/weight_points_coeff = 1
 
 /turf/open/water/event
-	name = "water"
+	name = "shallow water"
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
+	color = "#0FFFFF"
 
 /turf/open/water/event/deep
 	name = "deep water"
-	desc = "Too bad you can't swim!"
-	color = "#0FFFFF"
+	desc = "Too bad you suck at swimming!"
+	color = "#0ce1f0"
+	slowdown = 12
 
 /turf/open/water/event/deep/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/lazy_fishing_spot, /datum/fish_source/event)
 
-/turf/open/water/event/deep/CanAllowThrough(atom/movable/mover, border_dir)
+/turf/open/water/event/Initialize(mapload)
 	. = ..()
-	if(iscarbon(mover))
-		//if(target.buckled)
-		return TRUE
-	if (isvehicle(mover))
-		return TRUE
+	AddElement(/datum/element/lazy_fishing_spot, /datum/fish_source/event)
 
 //fishing boat
 
 /obj/vehicle/ridden/fishingboat
 	name = "fishing boat"
-	desc = "A boat used for traversing water."
+	desc = "A boat used for traversing water. Has a lantern attached to it."
 	icon_state = "goliath_boat"
 	icon = 'icons/obj/lavaland/dragonboat.dmi'
+	light_range = 3
 	can_buckle = TRUE
 	max_buckled_mobs = 3 //doesn't work
 	var/allowed_turf = list(/turf/open/water/event, /turf/open/water/event/deep)

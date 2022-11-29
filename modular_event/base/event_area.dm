@@ -12,6 +12,11 @@
 	static_lighting = TRUE
 	base_lighting_alpha = 0
 
+/area/event/cavern
+	name = "Cavern"
+	static_lighting = TRUE
+	base_lighting_alpha = 0
+
 /area/event/nightclub
 	name = "Club"
 	static_lighting = TRUE

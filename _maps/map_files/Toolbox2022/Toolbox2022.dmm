@@ -113,7 +113,8 @@
 	team_id = "green"
 	},
 /turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "aA" = (
@@ -731,7 +732,8 @@
 /area/space)
 "dg" = (
 /turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "dh" = (
@@ -839,7 +841,8 @@
 "dF" = (
 /obj/structure/flora/rock/style_2,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "dG" = (
@@ -1942,7 +1945,8 @@
 "iC" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "iG" = (
@@ -2132,6 +2136,15 @@
 	},
 /turf/open/floor/glass,
 /area/space)
+"jy" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line,
+/obj/machinery/button/door/directional/south{
+	id = "fishing_contest";
+	name = "Shutters Control";
+	req_access = list("centcom")
+	},
+/turf/open/floor/carpet/neon/simple/red/nodots,
+/area/event)
 "jz" = (
 /obj/structure/curtain/bounty{
 	name = "Changing Room"
@@ -2348,7 +2361,8 @@
 /obj/structure/flora/rock/pile/style_3,
 /obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "kt" = (
@@ -2528,7 +2542,8 @@
 	},
 /obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "li" = (
@@ -3109,7 +3124,8 @@
 	},
 /turf/open/misc/asteroid/basalt/wasteland{
 	icon_state = "wasteland1";
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "nF" = (
@@ -3125,13 +3141,15 @@
 "nJ" = (
 /turf/open/misc/asteroid/basalt/wasteland{
 	icon_state = "wasteland1";
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "nK" = (
 /obj/structure/flora/rock/style_3,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "nL" = (
@@ -4322,7 +4340,8 @@
 	name = "bone spike"
 	},
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "tj" = (
@@ -4797,7 +4816,8 @@
 "uR" = (
 /obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "uS" = (
@@ -5089,10 +5109,14 @@
 /turf/open/floor/pod/dark,
 /area/event/nightclub)
 "wn" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/dark_red/filled/warning,
 /obj/machinery/door/poddoor/shutters/window{
 	id = "fishing_contest"
 	},
-/turf/open/floor/carpet/black,
+/turf/open/floor/carpet/neon/simple/white/nodots,
 /area/event)
 "wo" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
@@ -5152,9 +5176,9 @@
 /turf/open/floor/wood/parquet,
 /area/event)
 "wx" = (
-/obj/machinery/gateway,
 /obj/structure/cable,
 /obj/effect/turf_decal/trimline/red,
+/obj/machinery/gateway/centerstation,
 /turf/open/floor/carpet/neon/simple/white/nodots,
 /area/event)
 "wy" = (
@@ -5797,7 +5821,8 @@
 /obj/structure/flora/rock/pile/style_2,
 /obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "Aa" = (
@@ -6144,7 +6169,8 @@
 	id_tag = "south"
 	},
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "BA" = (
@@ -6371,7 +6397,8 @@
 /area/space)
 "Cx" = (
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "Cy" = (
@@ -6935,7 +6962,8 @@
 	},
 /obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "ED" = (
@@ -7519,7 +7547,8 @@
 "GR" = (
 /obj/structure/flora/rock/pile/style_3,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "GU" = (
@@ -7602,6 +7631,11 @@
 /obj/machinery/vending/snack,
 /turf/open/indestructible/dark,
 /area/space)
+"Hi" = (
+/obj/structure/cable,
+/obj/machinery/computer/gateway_control,
+/turf/open/indestructible/event/plating,
+/area/event)
 "Hj" = (
 /obj/structure/table/wood,
 /turf/open/indestructible/dark,
@@ -7779,7 +7813,8 @@
 "Ib" = (
 /obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "Ic" = (
@@ -8370,7 +8405,8 @@
 "KY" = (
 /obj/structure/statue/bone/rib,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "KZ" = (
@@ -8393,7 +8429,8 @@
 	id_tag = "south"
 	},
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "Ld" = (
@@ -8565,7 +8602,8 @@
 /obj/effect/decal/remains/human,
 /obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "LZ" = (
@@ -8719,7 +8757,8 @@
 	},
 /obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "MF" = (
@@ -9039,14 +9078,6 @@
 	dir = 8
 	},
 /turf/open/floor/plating/abductor,
-/area/event)
-"Oq" = (
-/obj/machinery/button/door/directional/south{
-	id = "fishing_contest";
-	name = "Shutters Control";
-	req_access = list("centcom")
-	},
-/turf/open/floor/carpet/black,
 /area/event)
 "Or" = (
 /mob/living/simple_animal/hostile/carp/megacarp{
@@ -9564,7 +9595,8 @@
 /obj/structure/statue/bone/rib,
 /turf/open/misc/asteroid/basalt/wasteland{
 	icon_state = "wasteland1";
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "Qz" = (
@@ -10124,7 +10156,8 @@
 	dir = 1
 	},
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "SZ" = (
@@ -10553,7 +10586,8 @@
 "UO" = (
 /obj/structure/flora/rock,
 /turf/open/misc/asteroid/basalt/wasteland{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "UR" = (
@@ -10770,10 +10804,11 @@
 /area/event)
 "VL" = (
 /obj/structure/cable,
-/obj/machinery/power/port_gen/pacman/super{
-	anchored = 1;
+/obj/structure{
+	icon = 'icons/obj/power.dmi';
 	icon_state = "portgen2_1";
-	base_icon = "portgen2_1"
+	name = "\improper P.A.C.M.A.N.-type portable generator";
+	desc = "A portable generator for emergency backup power."
 	},
 /turf/open/indestructible/event/plating,
 /area/event)
@@ -11548,7 +11583,8 @@
 	arena_id = "north"
 	},
 /turf/open/misc/ashplanet/ash{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
+	slowdown = 0
 	},
 /area/space)
 "Zl" = (
@@ -50274,7 +50310,7 @@ gp
 Lj
 Lj
 Lj
-Oq
+Lj
 OD
 hb
 wx
@@ -50285,7 +50321,7 @@ VC
 VF
 VF
 VF
-hI
+jy
 OD
 OD
 aa
@@ -50796,7 +50832,7 @@ Lj
 Lj
 Sd
 OD
-cJ
+Hi
 ou
 ou
 ou
