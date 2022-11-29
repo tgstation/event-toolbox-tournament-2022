@@ -71,6 +71,10 @@
 /obj/structure/cable,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"iX" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
 "jb" = (
 /obj/structure/table,
 /obj/item/trash/tray,
@@ -16374,7 +16378,7 @@ HT
 kK
 tx
 tx
-HT
+iX
 HT
 HT
 HT
@@ -16527,7 +16531,7 @@ HT
 HT
 HT
 HT
-Rf
+HT
 Rf
 Rf
 Rf
