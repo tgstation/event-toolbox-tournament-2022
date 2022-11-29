@@ -1,4 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aJ" = (
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
 "bI" = (
 /obj/structure/table,
 /obj/item/storage/fish_case/random,
@@ -6,6 +11,12 @@
 /area/event/cavern)
 "cX" = (
 /obj/structure/window/reinforced/fulltile/indestructible,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
+"el" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "eE" = (
@@ -24,6 +35,9 @@
 /area/event/cavern)
 "eX" = (
 /obj/machinery/light/directional/north,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "fQ" = (
@@ -62,6 +76,21 @@
 /obj/machinery/cell_charger,
 /obj/item/stack/cable_coil/five,
 /obj/structure/cable,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
+"jS" = (
+/obj/structure{
+	icon = 'icons/obj/power.dmi';
+	icon_state = "portgen2_1";
+	name = "\improper P.A.C.M.A.N.-type portable generator";
+	desc = "A portable generator for emergency backup power.";
+	anchored = 1
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "kK" = (
@@ -103,11 +132,24 @@
 	slowdown = 0
 	},
 /area/event/cavern)
+"os" = (
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
 "ov" = (
 /turf/open/misc/ashplanet/ash{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
 	slowdown = 0
 	},
+/area/event/cavern)
+"oL" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/turf/open/indestructible/event/plating,
 /area/event/cavern)
 "qb" = (
 /obj/machinery/light/directional/east,
@@ -127,6 +169,12 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"re" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
 "rx" = (
 /obj/machinery/oven,
 /turf/open/indestructible/event/plating,
@@ -137,6 +185,13 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/sand/plating/volcanic,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
+"sg" = (
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "sA" = (
@@ -213,6 +268,12 @@
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"BH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
 "BR" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /turf/open/indestructible/event/plating,
@@ -281,6 +342,7 @@
 	anchored = 1
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/bot,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "Pv" = (
@@ -295,6 +357,11 @@
 /obj/item/flashlight/lantern,
 /obj/item/flashlight/lantern,
 /obj/structure/closet/crate,
+/obj/effect/turf_decal/bot,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
+"PK" = (
+/obj/effect/turf_decal/sand/volcanic,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "Qg" = (
@@ -326,13 +393,10 @@
 /area/event/cavern)
 "Uy" = (
 /obj/structure/cable,
-/turf/open/indestructible/event/plating,
-/area/event/cavern)
-"UF" = (
-/obj/effect/landmark/observer_start,
-/turf/open/misc/ashplanet/rocky{
-	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
 	},
+/turf/open/indestructible/event/plating,
 /area/event/cavern)
 "WA" = (
 /turf/open/indestructible/event/plating,
@@ -348,8 +412,27 @@
 	},
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
+"Ya" = (
+/obj/structure{
+	icon = 'icons/obj/power.dmi';
+	icon_state = "portgen2_1";
+	name = "\improper P.A.C.M.A.N.-type portable generator";
+	desc = "A portable generator for emergency backup power.";
+	anchored = 1
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/effect/turf_decal/bot,
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
+"Yz" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/indestructible/event/plating,
+/area/event/cavern)
 "YH" = (
-/turf/open/water,
+/turf/open/water/event,
 /area/event/cavern)
 "Zd" = (
 /obj/vehicle/ridden/fishingboat,
@@ -5447,9 +5530,9 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Ad
-Ad
+cX
+cX
+cX
 Ad
 Ad
 Ad
@@ -5600,7 +5683,7 @@ Ad
 Ad
 Ad
 cX
-cX
+tu
 cX
 Ad
 Ad
@@ -5750,11 +5833,11 @@ Ad
 Ad
 Ad
 Ad
-Ad
 cX
-tu
 cX
-Ad
+WA
+cX
+cX
 Ad
 Ad
 Ad
@@ -5902,11 +5985,11 @@ Ad
 Ad
 Ad
 Ad
-cX
-cX
+Ka
 WA
-cX
-cX
+WA
+WA
+Ka
 Ad
 Ad
 Ad
@@ -6057,7 +6140,7 @@ Ad
 Ka
 WA
 WA
-WA
+XD
 Ka
 Ad
 Ad
@@ -6200,23 +6283,23 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
-Ka
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+WA
+XD
+XD
 WA
 WA
-WA
-Ka
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 Ad
 Ad
 Ad
@@ -6351,25 +6434,25 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ka
 WA
 WA
 WA
 WA
 WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
-Ad
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+Ka
 Ad
 Ad
 Ad
@@ -6655,25 +6738,25 @@ Ad
 Ad
 Ad
 Ad
-Ka
+Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 WA
 WA
+qb
 WA
 WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-Ka
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Ad
 Ad
 Ad
 Ad
@@ -6808,23 +6891,23 @@ Ad
 Ad
 Ad
 Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 WA
 WA
-qb
+Ka
 WA
 WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 Ad
 Ad
 Ad
@@ -6969,7 +7052,7 @@ Ad
 WA
 WA
 Ka
-WA
+XD
 WA
 Ad
 Ad
@@ -7112,23 +7195,23 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 WA
 WA
-Ka
+tw
 WA
 WA
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 Ad
 Ad
 Ad
@@ -7263,25 +7346,25 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ka
 WA
 WA
-tw
 WA
 WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
-Ad
+WA
+WA
+WA
+XD
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+Ka
 Ad
 Ad
 Ad
@@ -7567,25 +7650,25 @@ Ad
 Ad
 Ad
 Ad
-Ka
+Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 WA
 WA
+qb
 WA
 WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-Ka
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Ad
 Ad
 Ad
 Ad
@@ -7720,23 +7803,23 @@ Ad
 Ad
 Ad
 Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 WA
 WA
-qb
+Ka
 WA
 WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 Ad
 Ad
 Ad
@@ -8024,23 +8107,23 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 WA
 WA
-Ka
+tw
 WA
-WA
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
+XD
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 Ad
 Ad
 Ad
@@ -8175,25 +8258,25 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ka
 WA
 WA
-tw
 WA
 WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
-Ad
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+Ka
 Ad
 Ad
 Ad
@@ -8336,7 +8419,7 @@ WA
 WA
 WA
 WA
-WA
+XD
 WA
 WA
 WA
@@ -8479,25 +8562,25 @@ Ad
 Ad
 Ad
 Ad
-Ka
+Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 WA
 WA
+qb
+XD
 WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-Ka
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Ad
 Ad
 Ad
 Ad
@@ -8632,23 +8715,23 @@ Ad
 Ad
 Ad
 Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 WA
 WA
-qb
+Ka
 WA
 WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 Ad
 Ad
 Ad
@@ -8936,23 +9019,23 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 WA
 WA
-Ka
+tw
 WA
 WA
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 Ad
 Ad
 Ad
@@ -9087,25 +9170,25 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ka
 WA
 WA
-tw
 WA
 WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
-Ad
+WA
+WA
+WA
+XD
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+Ka
 Ad
 Ad
 Ad
@@ -9249,7 +9332,7 @@ WA
 WA
 WA
 WA
-WA
+XD
 WA
 WA
 WA
@@ -9391,25 +9474,25 @@ Ad
 Ad
 Ad
 Ad
-Ka
+Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 WA
 WA
+qb
 WA
 WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-Ka
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Ad
 Ad
 Ad
 Ad
@@ -9544,23 +9627,23 @@ Ad
 Ad
 Ad
 Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 WA
 WA
-qb
+Ka
 WA
 WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 Ad
 Ad
 Ad
@@ -9848,23 +9931,23 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 WA
 WA
-Ka
+tw
 WA
-WA
-Ad
-Ad
-Ad
-Ad
-Ad
-Ad
+XD
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 Ad
 Ad
 Ad
@@ -9999,25 +10082,25 @@ Ad
 Ad
 Ad
 Ad
-Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+Ka
 WA
 WA
-tw
 WA
 WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
-Ad
+WA
+WA
+WA
+XD
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+WA
+Ka
 Ad
 Ad
 Rh
@@ -10161,7 +10244,7 @@ WA
 WA
 WA
 WA
-WA
+MH
 WA
 WA
 WA
@@ -10303,25 +10386,25 @@ Ad
 Ad
 Ad
 Ad
-Ka
-WA
-WA
-WA
-WA
-WA
-WA
-WA
-WA
+Ad
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
 WA
 MH
+MH
+MH
 WA
-WA
-WA
-WA
-WA
-WA
-WA
-Ka
+Zd
+Zd
+Zd
+Zd
+Zd
+Zd
+Ad
 Ad
 Ad
 Ad
@@ -10456,23 +10539,23 @@ Ad
 Ad
 Ad
 Ad
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
-WA
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 MH
 MH
 MH
-WA
-Zd
-Zd
-Zd
-Zd
-Zd
-Zd
+MH
+MH
+Ad
+Ad
+Ad
+Ad
+Ad
+Ad
 Ad
 Ad
 Ad
@@ -12130,7 +12213,7 @@ Rf
 Rf
 Rf
 Rf
-UF
+Rf
 Rf
 Rf
 Rf
@@ -13335,10 +13418,10 @@ HT
 Rf
 Rf
 HT
-OG
+Ya
 Uy
 Uy
-OG
+jS
 HT
 Rf
 Rf
@@ -13630,10 +13713,10 @@ ov
 ov
 HT
 WA
-qb
-WA
-WA
-qb
+aJ
+Yz
+Yz
+os
 PH
 HT
 Rf
@@ -14561,7 +14644,7 @@ MH
 MH
 MH
 qq
-WA
+re
 WA
 Dt
 LX
@@ -14713,7 +14796,7 @@ MH
 MH
 MH
 qq
-WA
+re
 WA
 ER
 ym
@@ -14865,9 +14948,9 @@ MH
 MH
 Rf
 HT
-eX
+sg
 WA
-WA
+PK
 WA
 XD
 XD
@@ -15461,10 +15544,10 @@ ov
 Rf
 HT
 BR
-WA
-WA
-WA
-WA
+oL
+BH
+BH
+el
 sA
 HT
 Rf
@@ -18963,7 +19046,7 @@ Ad
 Ad
 Ad
 Ad
-YH
+Ad
 YH
 YH
 Rf
@@ -19116,7 +19199,7 @@ Ad
 Ad
 Ad
 YH
-Rf
+YH
 Rf
 Rf
 Rf

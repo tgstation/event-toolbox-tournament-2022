@@ -653,12 +653,6 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/space)
-"cN" = (
-/obj/effect/turf_decal/trimline/dark_red/arrow_cw{
-	dir = 9
-	},
-/turf/open/space/basic,
-/area/space)
 "cO" = (
 /obj/structure/chair/greyscale,
 /obj/effect/turf_decal/bot_white,
@@ -680,12 +674,6 @@
 "cU" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
-"cV" = (
-/obj/effect/turf_decal/trimline/dark_red/arrow_ccw{
-	dir = 10
-	},
-/turf/open/space/basic,
 /area/space)
 "cW" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -1061,15 +1049,6 @@
 /turf/open/floor/iron/stairs/right{
 	dir = 4
 	},
-/area/space)
-"eR" = (
-/obj/effect/turf_decal/trimline/dark_red/arrow_cw{
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_ccw{
-	dir = 10
-	},
-/turf/open/floor/carpet/neon/simple/red/nodots,
 /area/space)
 "eS" = (
 /obj/structure/railing/corner{
@@ -1553,7 +1532,10 @@
 /turf/open/indestructible/dark,
 /area/space)
 "hb" = (
-/turf/open/floor/carpet/neon/simple/white/nodots,
+/obj/effect/turf_decal/trimline/dark_red/filled/line{
+	dir = 8
+	},
+/turf/open/floor/carpet/neon/simple/red/nodots,
 /area/event)
 "hc" = (
 /obj/item/aquarium_prop/rocks{
@@ -2217,12 +2199,6 @@
 	dir = 4
 	},
 /turf/open/indestructible/dark,
-/area/space)
-"jK" = (
-/obj/effect/turf_decal/trimline/dark_red/arrow_cw{
-	dir = 6
-	},
-/turf/open/space/basic,
 /area/space)
 "jM" = (
 /obj/effect/decal/remains/human,
@@ -3713,10 +3689,6 @@
 /obj/machinery/door/window/left/directional/south,
 /turf/open/floor/wood/tile,
 /area/space)
-"qn" = (
-/obj/structure/cable,
-/turf/open/floor/carpet/neon/simple/white/nodots,
-/area/event)
 "qq" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/carpet/black,
@@ -3772,6 +3744,12 @@
 	},
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
+"qA" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line{
+	dir = 9
+	},
+/turf/open/floor/carpet/neon/simple/red/nodots,
+/area/event)
 "qD" = (
 /obj/item/trash/popcorn,
 /obj/structure/table/reinforced/plastitaniumglass{
@@ -4801,6 +4779,9 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"uP" = (
+/turf/open/floor/carpet/neon/simple/black/nodots,
+/area/event)
 "uQ" = (
 /obj/effect/overlay/water,
 /mob/living/simple_animal/fish/goldfish,
@@ -4997,6 +4978,12 @@
 	},
 /turf/open/floor/catwalk_floor/iron,
 /area/space)
+"vI" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line{
+	dir = 5
+	},
+/turf/open/floor/carpet/neon/simple/red/nodots,
+/area/event)
 "vJ" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /obj/effect/turf_decal/tile/dark_blue/fourcorners,
@@ -5116,7 +5103,7 @@
 /obj/machinery/door/poddoor/shutters/window{
 	id = "fishing_contest"
 	},
-/turf/open/floor/carpet/neon/simple/white/nodots,
+/turf/open/floor/carpet/neon/simple/black/nodots,
 /area/event)
 "wo" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
@@ -5176,10 +5163,9 @@
 /turf/open/floor/wood/parquet,
 /area/event)
 "wx" = (
-/obj/structure/cable,
 /obj/effect/turf_decal/trimline/red,
 /obj/machinery/gateway/centerstation,
-/turf/open/floor/carpet/neon/simple/white/nodots,
+/turf/open/floor/carpet/neon/simple/black/nodots,
 /area/event)
 "wy" = (
 /obj/effect/turf_decal/trimline/white/filled/corner,
@@ -5905,12 +5891,6 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/tiled/white,
-/area/space)
-"Ax" = (
-/obj/effect/turf_decal/trimline/dark_red/arrow_ccw{
-	dir = 9
-	},
-/turf/open/space/basic,
 /area/space)
 "Ay" = (
 /obj/structure/disposalpipe/segment{
@@ -8478,6 +8458,12 @@
 /obj/structure/flora/bush/flowers_pp/style_2,
 /turf/open/floor/grass,
 /area/space)
+"Ln" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line{
+	dir = 4
+	},
+/turf/open/floor/carpet/neon/simple/red/nodots,
+/area/event)
 "Lo" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -9236,12 +9222,6 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
-"Pf" = (
-/obj/effect/turf_decal/trimline/dark_red/arrow_ccw{
-	dir = 6
-	},
-/turf/open/space/basic,
-/area/space)
 "Pg" = (
 /obj/structure/kitchenspike,
 /turf/open/misc/asteroid/snow/coldroom,
@@ -9330,15 +9310,6 @@
 /obj/effect/turf_decal/siding/dark/corner,
 /turf/open/floor/plating/abductor,
 /area/event)
-"PB" = (
-/obj/effect/turf_decal/trimline/dark_red/arrow_ccw{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw{
-	dir = 8
-	},
-/turf/open/floor/carpet/neon/simple/red/nodots,
-/area/space)
 "PC" = (
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 8
@@ -9491,10 +9462,6 @@
 	},
 /turf/open/floor/carpet/cyan,
 /area/event/oceanarium)
-"Qf" = (
-/obj/effect/turf_decal/trimline/red,
-/turf/open/floor/carpet/neon/simple/red/nodots,
-/area/space)
 "Qi" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -9598,12 +9565,6 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
 	slowdown = 0
 	},
-/area/space)
-"Qz" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw{
-	dir = 8
-	},
-/turf/open/space/basic,
 /area/space)
 "QC" = (
 /obj/structure/table/wood/fancy,
@@ -9954,15 +9915,6 @@
 	layer = 5
 	},
 /turf/open/floor/iron/cafeteria,
-/area/space)
-"Sh" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/warning{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/dark_red/filled/warning{
-	dir = 4
-	},
-/turf/open/floor/carpet/neon/simple/red/nodots,
 /area/space)
 "Si" = (
 /obj/structure/table/reinforced,
@@ -10903,13 +10855,6 @@
 	},
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
-"Wm" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw,
-/obj/effect/turf_decal/trimline/dark_red/arrow_ccw{
-	dir = 4
-	},
-/turf/open/floor/carpet/neon/simple/red/nodots,
-/area/space)
 "Wn" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/chair/sofa/bench/right{
@@ -11493,6 +11438,12 @@
 /obj/structure/flora/bush/lavendergrass/style_random,
 /turf/open/floor/grass,
 /area/space)
+"YP" = (
+/obj/effect/turf_decal/trimline/dark_red/filled/line{
+	dir = 1
+	},
+/turf/open/floor/carpet/neon/simple/red/nodots,
+/area/event)
 "YQ" = (
 /obj/effect/decal/cleanable/blood/old{
 	dir = 8;
@@ -11669,15 +11620,6 @@
 	dir = 5
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/space)
-"ZI" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_ccw{
-	dir = 10
-	},
-/obj/effect/turf_decal/trimline/dark_red/arrow_cw{
-	dir = 8
-	},
-/turf/open/floor/carpet/neon/simple/red/nodots,
 /area/space)
 "ZJ" = (
 /obj/effect/turf_decal/trimline/neutral/filled/corner{
@@ -47588,15 +47530,15 @@ aa
 aa
 aa
 aa
-Ax
-cV
 aa
-cN
-ZI
-Qf
-Wm
-Qz
-Qz
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -47718,17 +47660,17 @@ aa
 aa
 aa
 aa
-Pf
-jK
 aa
-jK
-PB
-Qf
-eR
-Qz
-Qz
 aa
-Qz
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -47852,9 +47794,9 @@ aa
 aa
 aa
 aa
-Sh
-Sh
-Sh
+aa
+aa
+aa
 aa
 aa
 aa
@@ -48245,8 +48187,8 @@ ay
 ay
 ay
 ay
-ay
-ay
+aa
+aa
 aa
 aa
 aa
@@ -48361,21 +48303,21 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -48491,21 +48433,21 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -48621,22 +48563,22 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -48751,22 +48693,22 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -48881,23 +48823,23 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -49023,11 +48965,11 @@ OD
 OD
 OD
 OD
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
 ay
 aa
 aa
@@ -49154,12 +49096,12 @@ OC
 aN
 OD
 OD
-aa
-aa
-aa
-aa
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -49284,12 +49226,12 @@ VF
 rg
 aN
 OD
-aa
-aa
-aa
-aa
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -49414,13 +49356,13 @@ VF
 VF
 oV
 OD
-aa
-aa
-aa
-aa
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -49544,13 +49486,13 @@ VF
 VF
 oV
 OD
-aa
-aa
-aa
-aa
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -49674,13 +49616,13 @@ VF
 VF
 oV
 OD
-aa
-aa
-aa
-aa
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -49804,14 +49746,14 @@ VF
 VF
 oV
 OD
-aa
-aa
-aa
-aa
 ay
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -49934,14 +49876,14 @@ VF
 VF
 oV
 OD
-aa
-aa
-aa
-aa
 ay
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -50052,10 +49994,10 @@ Lj
 Lj
 tp
 OD
+qA
 hb
-qn
 hb
-hb
+aN
 wn
 UL
 CP
@@ -50064,15 +50006,15 @@ VF
 yH
 Xu
 OD
-aa
-aa
-aa
-aa
 ay
 ay
 ay
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -50182,10 +50124,10 @@ Lj
 Lj
 Dz
 OD
-hb
-qn
-hb
-hb
+YP
+uP
+uP
+hI
 wn
 VC
 VF
@@ -50194,15 +50136,15 @@ VF
 hI
 OD
 OD
-aa
-aa
-aa
-aa
 ay
 ay
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -50312,10 +50254,10 @@ Lj
 Lj
 Lj
 OD
-hb
+YP
 wx
-hb
-hb
+uP
+hI
 wn
 VC
 VF
@@ -50323,16 +50265,16 @@ VF
 VF
 jy
 OD
-OD
-aa
-aa
-aa
-aa
 ay
 ay
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -50442,10 +50384,10 @@ Lj
 Lj
 Dz
 OD
-hb
-qn
-hb
-hb
+YP
+uP
+uP
+hI
 wn
 VC
 VF
@@ -50454,15 +50396,15 @@ VF
 hI
 OD
 OD
-aa
-aa
-aa
-aa
 ay
 ay
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -50572,10 +50514,10 @@ Lj
 Lj
 bz
 OD
-hb
-qn
-hb
-hb
+vI
+Ln
+Ln
+Xu
 wn
 LO
 Bm
@@ -50584,16 +50526,16 @@ VF
 rg
 aN
 OD
-aa
-aa
-aa
-aa
 ay
 ay
 ay
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -50714,16 +50656,16 @@ VF
 VF
 kj
 OD
-aa
-aa
-aa
-aa
 ay
 ay
 ay
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -50844,16 +50786,16 @@ VF
 VF
 kj
 OD
-aa
-aa
-aa
-aa
 ay
 ay
 ay
 ay
 ay
-aa
+ay
+ay
+ay
+ay
+ay
 aa
 aa
 aa
@@ -50974,10 +50916,10 @@ VF
 VF
 kj
 OD
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51104,10 +51046,10 @@ VF
 VF
 kj
 OD
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51234,10 +51176,10 @@ VF
 VF
 kj
 OD
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51364,10 +51306,10 @@ VF
 yH
 Xu
 OD
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51494,10 +51436,10 @@ TO
 Xu
 OD
 OD
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51623,11 +51565,11 @@ OD
 OD
 OD
 OD
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51741,23 +51683,23 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -51871,23 +51813,23 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -52001,23 +51943,23 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -52131,23 +52073,23 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
@@ -52261,23 +52203,23 @@ ay
 ay
 ay
 ay
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
+ay
 ay
 ay
 ay
