@@ -179,7 +179,7 @@
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "qc" = (
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/siding/thinplating_new{
 	dir = 6
 	},
 /turf/open/indestructible/event/plating,
@@ -275,7 +275,7 @@
 /area/event/cavern)
 "ym" = (
 /obj/structure/table_frame/wood,
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/siding/thinplating_new{
 	dir = 4
 	},
 /turf/open/indestructible/event/plating,
@@ -335,7 +335,7 @@
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "Dt" = (
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/siding/thinplating_new{
 	dir = 9
 	},
 /turf/open/indestructible/event/plating,
@@ -349,7 +349,7 @@
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "ER" = (
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/siding/thinplating_new{
 	dir = 5
 	},
 /turf/open/indestructible/event/plating,
@@ -397,9 +397,10 @@
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "LX" = (
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/siding/thinplating_new{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "MH" = (
@@ -430,10 +431,6 @@
 /obj/item/flashlight/lantern,
 /obj/structure/closet/crate,
 /obj/effect/turf_decal/bot,
-/turf/open/indestructible/event/plating,
-/area/event/cavern)
-"PK" = (
-/obj/effect/turf_decal/sand/volcanic,
 /turf/open/indestructible/event/plating,
 /area/event/cavern)
 "Qg" = (
@@ -472,7 +469,7 @@
 /area/event/cavern)
 "XZ" = (
 /obj/structure/table_frame/wood,
-/obj/effect/turf_decal/siding/thinplating_new/light{
+/obj/effect/turf_decal/siding/thinplating_new{
 	dir = 10
 	},
 /turf/open/indestructible/event/plating,
@@ -15021,7 +15018,7 @@ Rf
 HT
 sg
 WA
-PK
+WA
 WA
 XD
 XD
@@ -15172,7 +15169,7 @@ MH
 Rf
 HT
 kZ
-WA
+XD
 Sf
 AW
 DV
