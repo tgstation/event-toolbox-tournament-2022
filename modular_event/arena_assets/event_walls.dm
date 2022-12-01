@@ -14,10 +14,10 @@
 	icon = 'modular_event/arena_assets/survival_pod_walls_blue.dmi'
 
 /turf/closed/indestructible/event/pod/purple
-    icon = 'modular_event/arena_assets/survival_pod_walls_purple.dmi'
+	icon = 'modular_event/arena_assets/survival_pod_walls_purple.dmi'
 
 /turf/closed/indestructible/event/pod/red
-    icon = 'modular_event/arena_assets/survival_pod_walls_red.dmi'
+	icon = 'modular_event/arena_assets/survival_pod_walls_red.dmi'
 
 /turf/closed/indestructible/event/rock
 	name = "rock"
