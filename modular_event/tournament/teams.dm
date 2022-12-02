@@ -8,6 +8,7 @@ GLOBAL_LIST_INIT_TYPED(tournament_teams, /datum/tournament_team, get_tournament_
 	var/datum/ntnet_conversation/team_chat
 	var/datum/outfit/outfit
 	var/datum/outfit/camo_placeholder
+	var/team_fishing_score = 0
 
 /datum/tournament_team/proc/get_clients()
 	var/list/clients = list()
