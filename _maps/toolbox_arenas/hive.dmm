@@ -65,10 +65,10 @@
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/arena)
 "rX" = (
-/obj/structure/alien/resin/wall,
 /obj/structure/alien/weeds{
 	obj_flags = null
 	},
+/obj/structure/alien/resin/membrane,
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/arena)
 "sd" = (
@@ -80,11 +80,11 @@
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/arena)
 "tg" = (
-/obj/structure/alien/resin/wall,
 /obj/structure/alien/weeds{
 	obj_flags = null
 	},
 /obj/effect/decal/cleanable/blood/splatter/over_window,
+/obj/structure/alien/resin/membrane,
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/arena)
 "wG" = (
