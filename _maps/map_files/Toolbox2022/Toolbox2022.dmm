@@ -8279,7 +8279,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/event)
 "DC" = (
-/obj/machinery/jukebox/disco/indestructible,
+/obj/machinery/jukebox/disco/indestructible{
+	req_access = list("bar")
+	},
 /turf/open/floor/glass/plasma{
 	light_color = "#ff00ff";
 	light_range = 4
