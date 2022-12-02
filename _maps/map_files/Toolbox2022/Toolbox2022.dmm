@@ -2311,6 +2311,10 @@
 	},
 /turf/open/floor/carpet/neon/simple/violet/nodots,
 /area/event/nightclub)
+"io" = (
+/obj/effect/mob_spawn/corpse/human/skeleton,
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "ip" = (
 /obj/effect/turf_decal/trimline/blue/filled/end,
 /turf/open/floor/pod/light,
@@ -9275,10 +9279,6 @@
 /obj/structure/sign/nanotrasen,
 /turf/closed/indestructible/riveted,
 /area/event)
-"GT" = (
-/obj/machinery/light/cold/directional/east,
-/turf/closed/indestructible/rock,
-/area/event/nightclub)
 "GU" = (
 /obj/effect/decal/cleanable/blood/bubblegum{
 	icon_state = "floor7-old"
@@ -10058,6 +10058,14 @@
 /obj/item/book/granter/crafting_recipe/boneyard_notes,
 /turf/open/floor/iron/dark,
 /area/event)
+"JP" = (
+/obj/structure/table/wood,
+/obj/item/food/deadmouse/moldy{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "JQ" = (
 /obj/machinery/light/red/directional/south,
 /obj/effect/turf_decal/trimline/white/filled/line,
@@ -11259,6 +11267,12 @@
 	},
 /turf/open/floor/plastic,
 /area/event)
+"Oq" = (
+/obj/item/chair/plastic{
+	pixel_y = 10
+	},
+/turf/open/floor/carpet/neon/simple/violet/nodots,
+/area/event/nightclub)
 "Or" = (
 /mob/living/simple_animal/hostile/carp/megacarp{
 	faction = list("neutral")
@@ -55498,8 +55512,8 @@ dJ
 dJ
 dJ
 sW
-km
-km
+dJ
+dJ
 tv
 tv
 tv
@@ -55628,10 +55642,10 @@ Qo
 Df
 UU
 sW
-km
-km
-km
-km
+dJ
+dJ
+dJ
+dJ
 tv
 Lj
 Lj
@@ -55758,10 +55772,10 @@ gG
 gG
 yW
 sW
-km
-km
-km
-km
+dJ
+dJ
+dJ
+RA
 tv
 Lj
 Lj
@@ -55888,10 +55902,10 @@ Df
 gG
 qz
 sW
-km
-km
-km
-km
+dJ
+dJ
+Oq
+io
 tv
 Lj
 Lj
@@ -56018,10 +56032,10 @@ Qo
 yW
 DI
 sW
-km
-km
-km
-GT
+JP
+RA
+hl
+RA
 tv
 Lj
 Lj
