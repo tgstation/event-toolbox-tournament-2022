@@ -1,0 +1,323 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"b" = (
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"d" = (
+/turf/closed/wall,
+/area/centcom/tdome/arena)
+"i" = (
+/obj/structure/chair/stool/directional/west,
+/obj/item/soap/nanotrasen,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"j" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/decal/cleanable/food/pie_smudge,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"l" = (
+/obj/structure/closet/secure_closet/personal{
+	anchored = 1
+	},
+/obj/effect/turf_decal/tile/dark_blue/full,
+/turf/open/floor/iron/textured_large,
+/area/centcom/tdome/arena)
+"m" = (
+/obj/structure/closet/secure_closet/personal{
+	anchored = 1
+	},
+/obj/item/clothing/under/costume/jabroni,
+/obj/effect/turf_decal/tile/dark_blue/full,
+/turf/open/floor/iron/textured_large,
+/area/centcom/tdome/arena)
+"o" = (
+/obj/structure/chair/stool/directional/east,
+/obj/item/soap/nanotrasen,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"p" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/machinery/shower/directional/east,
+/turf/open/floor/iron/freezer,
+/area/centcom/tdome/arena)
+"q" = (
+/turf/open/floor/iron/freezer,
+/area/centcom/tdome/arena)
+"t" = (
+/obj/structure/sign/poster/official/no_erp{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"x" = (
+/obj/structure/window/reinforced/spawner,
+/obj/machinery/shower/directional/east,
+/turf/open/floor/iron/freezer,
+/area/centcom/tdome/arena)
+"z" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/machinery/shower/directional/west,
+/turf/open/floor/iron/freezer,
+/area/centcom/tdome/arena)
+"C" = (
+/obj/structure/window/reinforced/spawner,
+/obj/machinery/shower/directional/west,
+/turf/open/floor/iron/freezer,
+/area/centcom/tdome/arena)
+"H" = (
+/obj/structure/sign/poster/official/no_erp{
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"I" = (
+/obj/structure/closet/secure_closet/personal{
+	anchored = 1
+	},
+/obj/item/clothing/under/pants/jeans,
+/obj/effect/turf_decal/tile/dark_blue/full,
+/turf/open/floor/iron/textured_large,
+/area/centcom/tdome/arena)
+"K" = (
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"N" = (
+/obj/machinery/shower/directional/west,
+/turf/open/floor/iron/freezer,
+/area/centcom/tdome/arena)
+"O" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"S" = (
+/obj/structure/chair/stool/directional/east,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
+/turf/open/floor/plastic,
+/area/centcom/tdome/arena)
+"V" = (
+/obj/item/bikehorn/rubberducky,
+/turf/open/floor/iron/freezer,
+/area/centcom/tdome/arena)
+"Y" = (
+/obj/machinery/shower/directional/east,
+/turf/open/floor/iron/freezer,
+/area/centcom/tdome/arena)
+
+(1,1,1) = {"
+l
+a
+a
+S
+S
+o
+S
+a
+a
+l
+"}
+(2,1,1) = {"
+l
+a
+a
+l
+l
+l
+l
+a
+a
+l
+"}
+(3,1,1) = {"
+l
+a
+a
+l
+m
+l
+l
+a
+a
+l
+"}
+(4,1,1) = {"
+l
+a
+a
+O
+j
+O
+O
+a
+a
+l
+"}
+(5,1,1) = {"
+l
+a
+a
+a
+a
+a
+H
+a
+a
+l
+"}
+(6,1,1) = {"
+l
+a
+b
+d
+d
+d
+d
+K
+a
+l
+"}
+(7,1,1) = {"
+l
+a
+a
+p
+Y
+Y
+x
+a
+a
+l
+"}
+(8,1,1) = {"
+l
+a
+a
+q
+q
+q
+q
+a
+a
+l
+"}
+(9,1,1) = {"
+l
+a
+a
+q
+V
+q
+q
+a
+a
+l
+"}
+(10,1,1) = {"
+l
+a
+a
+q
+q
+q
+q
+a
+a
+l
+"}
+(11,1,1) = {"
+l
+a
+a
+z
+N
+N
+C
+a
+a
+l
+"}
+(12,1,1) = {"
+l
+a
+b
+d
+d
+d
+d
+K
+a
+l
+"}
+(13,1,1) = {"
+l
+a
+a
+t
+a
+a
+a
+a
+a
+l
+"}
+(14,1,1) = {"
+l
+a
+a
+S
+S
+S
+S
+a
+a
+l
+"}
+(15,1,1) = {"
+l
+a
+a
+l
+l
+I
+l
+a
+a
+l
+"}
+(16,1,1) = {"
+l
+a
+a
+l
+l
+l
+l
+a
+a
+l
+"}
+(17,1,1) = {"
+l
+a
+a
+O
+i
+O
+O
+a
+a
+l
+"}
