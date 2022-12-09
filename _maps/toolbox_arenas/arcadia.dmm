@@ -1,0 +1,556 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aJ" = (
+/obj/structure/chair,
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"aN" = (
+/obj/structure/chair,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"cP" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner,
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"de" = (
+/obj/item/stack/arcadeticket,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"dh" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"et" = (
+/obj/structure/table/reinforced,
+/obj/item/food/pizza/vegetable,
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"eI" = (
+/obj/structure/table/reinforced,
+/obj/item/food/pizza/margherita,
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"iW" = (
+/obj/machinery/light/floor,
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"je" = (
+/obj/machinery/light/floor,
+/turf/open/floor/iron/checker,
+/area/centcom/tdome/arena)
+"jI" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"lC" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/siding/white{
+	dir = 5
+	},
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"lV" = (
+/obj/item/toy/balloon,
+/obj/structure/window/reinforced/spawner/west,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"nm" = (
+/obj/structure/chair/plastic{
+	dir = 4
+	},
+/obj/item/toy/balloon/corgi,
+/turf/open/floor/iron/terracotta/small,
+/area/centcom/tdome/arena)
+"nw" = (
+/obj/item/stack/arcadeticket,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"oQ" = (
+/obj/structure/table/reinforced,
+/obj/item/food/pizza/donkpocket,
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"pW" = (
+/obj/structure/table/reinforced,
+/obj/item/food/pizza/meat,
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"qE" = (
+/obj/item/stack/arcadeticket,
+/turf/open/floor/iron/checker,
+/area/centcom/tdome/arena)
+"qL" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/east,
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"sc" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner/east,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"sB" = (
+/obj/item/kirbyplants/photosynthetic,
+/obj/structure/window/reinforced/spawner/east,
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"vQ" = (
+/obj/item/toy/balloon,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"vZ" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"wn" = (
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"wL" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"xq" = (
+/obj/item/toy/balloon,
+/obj/structure/window/reinforced/spawner/east,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"xt" = (
+/obj/structure/table/reinforced,
+/obj/item/plate,
+/obj/item/bodypart/head/monkey,
+/turf/open/floor/iron/terracotta/small,
+/area/centcom/tdome/arena)
+"xG" = (
+/obj/item/toy/balloon,
+/obj/structure/chair/plastic{
+	dir = 4
+	},
+/turf/open/floor/iron/terracotta/small,
+/area/centcom/tdome/arena)
+"zp" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/plush/beeplushie,
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"zF" = (
+/obj/item/stack/arcadeticket,
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"Ci" = (
+/obj/structure/table/reinforced,
+/obj/item/food/cake/birthday,
+/turf/open/floor/iron/terracotta/small,
+/area/centcom/tdome/arena)
+"CI" = (
+/obj/structure/chair,
+/obj/item/stack/arcadeticket,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"Fk" = (
+/obj/structure/table/reinforced,
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"FG" = (
+/obj/structure/table/reinforced,
+/obj/item/plate,
+/obj/item/food/candy,
+/turf/open/floor/iron/terracotta/small,
+/area/centcom/tdome/arena)
+"FH" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/glass/sillycup/smallcarton,
+/turf/open/floor/iron/terracotta/small,
+/area/centcom/tdome/arena)
+"Hn" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner/north,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"HB" = (
+/obj/item/kirbyplants/photosynthetic,
+/obj/structure/window/reinforced/spawner/west,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"Ih" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 8
+	},
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"Ij" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"It" = (
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"IQ" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/mecha/honk,
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"Jk" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/plush/goatplushie,
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"Kp" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/plush/space_lizard_plushie,
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"Lb" = (
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"MH" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner,
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"MS" = (
+/obj/machinery/light/floor,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"NR" = (
+/obj/structure/chair/stool/directional/east,
+/obj/item/stack/arcadeticket,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"NY" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"Oy" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 1
+	},
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"OI" = (
+/obj/structure/chair/stool/directional/east,
+/obj/effect/turf_decal/siding/white/corner{
+	dir = 4
+	},
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"SD" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/west,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"TJ" = (
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"TW" = (
+/obj/item/toy/balloon,
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"Uj" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/mecha/darkgygax,
+/turf/open/floor/iron/dark/textured_large,
+/area/centcom/tdome/arena)
+"UJ" = (
+/obj/item/toy/balloon,
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/turf/open/floor/iron/terracotta/small,
+/area/centcom/tdome/arena)
+"Vg" = (
+/turf/open/floor/iron/checker,
+/area/centcom/tdome/arena)
+"Vs" = (
+/obj/structure/chair/plastic{
+	dir = 4
+	},
+/turf/open/floor/iron/terracotta/small,
+/area/centcom/tdome/arena)
+"Wg" = (
+/obj/item/stack/arcadeticket,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/eighties/red,
+/area/centcom/tdome/arena)
+"Xw" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/turf/open/floor/iron/terracotta/small,
+/area/centcom/tdome/arena)
+"XP" = (
+/obj/effect/spawner/random/entertainment/arcade{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/west,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+"ZM" = (
+/obj/structure/chair/stool/directional/east,
+/obj/effect/turf_decal/siding/white/corner,
+/turf/open/floor/eighties,
+/area/centcom/tdome/arena)
+
+(1,1,1) = {"
+HB
+Lb
+Lb
+XP
+XP
+XP
+XP
+Lb
+Lb
+HB
+"}
+(2,1,1) = {"
+vQ
+de
+Lb
+vZ
+vZ
+vZ
+vZ
+Lb
+Lb
+vQ
+"}
+(3,1,1) = {"
+aN
+Lb
+Lb
+MS
+Lb
+de
+MS
+de
+Lb
+NY
+"}
+(4,1,1) = {"
+aN
+Lb
+de
+Lb
+Lb
+Lb
+Lb
+Lb
+Lb
+NY
+"}
+(5,1,1) = {"
+CI
+Lb
+Lb
+MS
+Lb
+Lb
+MS
+Lb
+Lb
+NY
+"}
+(6,1,1) = {"
+xq
+jI
+nw
+OI
+NR
+TJ
+ZM
+jI
+nw
+xq
+"}
+(7,1,1) = {"
+Kp
+je
+Vg
+lC
+sc
+sc
+cP
+Vg
+je
+oQ
+"}
+(8,1,1) = {"
+Uj
+qE
+Vg
+xG
+Vs
+Vs
+nm
+Vg
+qE
+eI
+"}
+(9,1,1) = {"
+zp
+Vg
+Vg
+FG
+Ci
+FH
+xt
+qE
+Vg
+Fk
+"}
+(10,1,1) = {"
+IQ
+Vg
+qE
+UJ
+Xw
+Xw
+UJ
+Vg
+Vg
+pW
+"}
+(11,1,1) = {"
+Jk
+je
+Vg
+Hn
+SD
+SD
+MH
+Vg
+je
+et
+"}
+(12,1,1) = {"
+lV
+Wg
+dh
+Oy
+wL
+wL
+Ih
+Wg
+dh
+lV
+"}
+(13,1,1) = {"
+aJ
+It
+It
+iW
+It
+It
+iW
+It
+It
+Ij
+"}
+(14,1,1) = {"
+aJ
+It
+It
+zF
+It
+It
+It
+zF
+zF
+Ij
+"}
+(15,1,1) = {"
+aJ
+It
+It
+iW
+It
+zF
+iW
+It
+It
+Ij
+"}
+(16,1,1) = {"
+TW
+zF
+It
+wn
+wn
+wn
+wn
+It
+It
+TW
+"}
+(17,1,1) = {"
+sB
+It
+It
+qL
+qL
+qL
+qL
+It
+It
+sB
+"}
