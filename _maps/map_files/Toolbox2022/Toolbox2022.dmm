@@ -2299,7 +2299,8 @@
 	desc = "Commonly referred to as 'leapers', the Geron Toad is a massive beast that spits out highly pressurized bubbles containing a unique toxin, knocking down its prey and then crushing it with its girth. This one appears to be restrained with chains.";
 	faction = list("neutral");
 	name = "captured leaper";
-	wander = 0
+	wander = 0;
+	anchored = 1
 	},
 /obj/effect/gibspawner/xeno/bodypartless,
 /obj/effect/turf_decal/delivery,
@@ -4583,7 +4584,9 @@
 /turf/open/indestructible/dark,
 /area/event)
 "qt" = (
-/obj/structure/statue/silver/janitor,
+/obj/structure/statue/silver/janitor{
+	anchored = 1
+	},
 /turf/open/floor/mineral/gold,
 /area/event)
 "qu" = (
@@ -4597,7 +4600,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/event)
 "qw" = (
-/obj/structure/statue/gold/cmo,
+/obj/structure/statue/gold/cmo{
+	anchored = 1
+	},
 /turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/event)
 "qx" = (
@@ -6334,7 +6339,9 @@
 /turf/open/floor/wood/tile,
 /area/event)
 "wr" = (
-/obj/structure/statue/gold/rd,
+/obj/structure/statue/gold/rd{
+	anchored = 1
+	},
 /turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/event)
 "ws" = (
@@ -7771,7 +7778,9 @@
 /turf/open/misc/ironsand,
 /area/event)
 "BL" = (
-/obj/structure/statue/sandstone/venus,
+/obj/structure/statue/sandstone/venus{
+	anchored = 1
+	},
 /turf/open/floor/mineral/gold,
 /area/event)
 "BN" = (
@@ -9021,7 +9030,9 @@
 	},
 /area/event)
 "FY" = (
-/obj/structure/statue/gold/hop,
+/obj/structure/statue/gold/hop{
+	anchored = 1
+	},
 /turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/event)
 "FZ" = (
@@ -10648,7 +10659,9 @@
 /turf/open/floor/iron/freezer,
 /area/event/nightclub)
 "LX" = (
-/obj/structure/statue/gold/ce,
+/obj/structure/statue/gold/ce{
+	anchored = 1
+	},
 /turf/open/floor/carpet/neon/simple/orange/nodots,
 /area/event)
 "LY" = (
@@ -11186,7 +11199,9 @@
 /turf/open/floor/iron,
 /area/event)
 "NT" = (
-/obj/structure/statue/silver/medborg,
+/obj/structure/statue/silver/medborg{
+	anchored = 1
+	},
 /turf/open/floor/mineral/gold,
 /area/event)
 "NU" = (
@@ -39143,7 +39158,7 @@ vz
 vz
 vz
 vz
-vz
+tf
 SG
 cU
 DQ
