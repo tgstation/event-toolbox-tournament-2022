@@ -1,0 +1,695 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"am" = (
+/obj/structure/stone_tile/slab/cracked,
+/obj/effect/mob_spawn/corpse/human/clown,
+/turf/open/misc/basalt/safe,
+/area/centcom/tdome/arena)
+"ax" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"bk" = (
+/obj/structure/destructible/cult/item_dispenser/altar,
+/obj/item/toy/plush/narplush,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"bw" = (
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"bU" = (
+/obj/structure/railing/corner{
+	dir = 1;
+	color = "#8E5450"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"cx" = (
+/obj/structure/stone_tile/slab,
+/obj/item/melee/cultblade/dagger,
+/turf/open/misc/basalt/safe,
+/area/centcom/tdome/arena)
+"cK" = (
+/obj/structure/railing{
+	dir = 8;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"cL" = (
+/obj/structure/railing{
+	dir = 8;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"df" = (
+/obj/structure/railing{
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	icon_state = "floor5"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"dJ" = (
+/obj/effect/mob_spawn/corpse/human/doctor,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"dK" = (
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"el" = (
+/obj/structure/destructible/cult/item_dispenser/forge,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"em" = (
+/obj/structure/stone_tile/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 1
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"fs" = (
+/obj/structure/stone_tile/burnt,
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"fx" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"hG" = (
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"jD" = (
+/obj/structure/railing/corner{
+	color = "#8E5450"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"lb" = (
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"lo" = (
+/obj/effect/rune/blood_boil,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"lI" = (
+/obj/structure/stone_tile/slab/cracked,
+/obj/structure/statue/goliath,
+/turf/open/misc/basalt/safe,
+/area/centcom/tdome/arena)
+"lY" = (
+/obj/structure/railing/corner{
+	dir = 8;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"mw" = (
+/obj/effect/decal/cleanable/blood/drip{
+	icon_state = "floor3"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"my" = (
+/obj/structure/railing{
+	dir = 1;
+	color = "#8E5450"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"mV" = (
+/obj/effect/rune/empower,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"oj" = (
+/obj/effect/mob_spawn/corpse/human/assistant,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"pi" = (
+/obj/structure/railing/corner{
+	dir = 8;
+	color = "#8E5450"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"pP" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 1
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"rA" = (
+/obj/structure/railing{
+	dir = 1;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	icon_state = "floor3"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"sO" = (
+/obj/structure/stone_tile/slab,
+/obj/structure/statue/goliath,
+/turf/open/misc/basalt/safe,
+/area/centcom/tdome/arena)
+"va" = (
+/obj/structure/railing{
+	dir = 8;
+	color = "#8E5450"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"vm" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"vo" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"xc" = (
+/obj/structure/railing{
+	dir = 1;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"xd" = (
+/obj/effect/rune/teleport,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"xe" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"xg" = (
+/obj/structure/stone_tile/block{
+	dir = 4
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"xm" = (
+/obj/structure/railing{
+	dir = 1;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"xr" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 4
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"xt" = (
+/obj/effect/mob_spawn/corpse/human/cargo_tech,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"xS" = (
+/obj/structure/railing{
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"ya" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"yj" = (
+/obj/structure/railing{
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 6
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"yG" = (
+/obj/structure/stone_tile/cracked{
+	dir = 8
+	},
+/obj/structure/stone_tile/burnt{
+	dir = 4
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"AO" = (
+/obj/structure/railing{
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	icon_state = "drip2"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"AU" = (
+/obj/structure/railing{
+	dir = 1;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 5
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"BB" = (
+/obj/structure/stone_tile/block/cracked,
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"Dq" = (
+/obj/structure/railing/corner{
+	dir = 1;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"Es" = (
+/obj/structure/railing/corner{
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"EC" = (
+/obj/structure/railing/corner{
+	dir = 4;
+	color = "#8E5450"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"EG" = (
+/obj/effect/rune/manifest,
+/obj/structure/stone_tile/slab,
+/mob/living/simple_animal/pet/dog/corgi/narsie,
+/turf/open/misc/basalt/safe,
+/area/centcom/tdome/arena)
+"FR" = (
+/obj/structure/railing{
+	dir = 4;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 5
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"Gc" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"Gr" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/mob_spawn/corpse/human/engineer,
+/obj/effect/rune/raise_dead,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"GM" = (
+/obj/structure/railing/corner{
+	dir = 4;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	icon_state = "drip2"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"GW" = (
+/obj/structure/railing{
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"JE" = (
+/obj/structure/railing{
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"KC" = (
+/obj/structure/fluff/drake_statue,
+/obj/structure/stone_tile/slab,
+/turf/open/misc/basalt/safe,
+/area/centcom/tdome/arena)
+"Mn" = (
+/obj/effect/mob_spawn/corpse/human/cook,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"Nd" = (
+/obj/structure/railing{
+	dir = 1;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"NP" = (
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/burnt{
+	dir = 8
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"NS" = (
+/obj/effect/rune/convert,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"NT" = (
+/obj/structure/stone_tile/slab,
+/turf/open/misc/basalt/safe,
+/area/centcom/tdome/arena)
+"Py" = (
+/obj/structure/railing/corner{
+	dir = 4;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"PY" = (
+/obj/structure/railing{
+	dir = 1;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"RX" = (
+/obj/structure/railing{
+	dir = 4;
+	color = "#8E5450"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"Sr" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"Ss" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"TH" = (
+/obj/structure/railing/corner{
+	dir = 4;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 10
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"TV" = (
+/obj/structure/railing{
+	dir = 4;
+	color = "#8E5450"
+	},
+/obj/effect/decal/cleanable/blood/drip{
+	icon_state = "drip4"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"Uc" = (
+/obj/structure/stone_tile{
+	dir = 8
+	},
+/obj/structure/stone_tile/cracked,
+/turf/open/lava,
+/area/centcom/tdome/arena)
+"Vs" = (
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/misc/basalt/safe,
+/area/centcom/tdome/arena)
+"Vv" = (
+/obj/structure/railing{
+	color = "#8E5450"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"Wt" = (
+/obj/effect/decal/cleanable/blood/drip{
+	icon_state = "drip1"
+	},
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"XM" = (
+/obj/structure/destructible/cult/item_dispenser/archives,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"YN" = (
+/obj/effect/rune/manifest,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+"Zb" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/effect/mob_spawn/corpse/human/bartender,
+/turf/open/floor/cult,
+/area/centcom/tdome/arena)
+
+(1,1,1) = {"
+bw
+bw
+Vv
+vm
+lI
+sO
+Uc
+my
+ax
+bw
+"}
+(2,1,1) = {"
+RX
+EC
+Vv
+dK
+xr
+hG
+dK
+my
+jD
+RX
+"}
+(3,1,1) = {"
+dK
+my
+lY
+cK
+va
+va
+va
+bU
+GW
+dK
+"}
+(4,1,1) = {"
+dK
+PY
+fx
+oj
+bw
+YN
+ax
+bw
+AO
+dK
+"}
+(5,1,1) = {"
+dK
+rA
+fx
+vo
+Gc
+bw
+lo
+Zb
+df
+dK
+"}
+(6,1,1) = {"
+dK
+my
+Es
+RX
+RX
+RX
+RX
+Py
+Vv
+dK
+"}
+(7,1,1) = {"
+va
+Dq
+JE
+dK
+yG
+ya
+dK
+xc
+pi
+va
+"}
+(8,1,1) = {"
+XM
+mV
+JE
+xe
+NT
+am
+Uc
+xc
+bw
+Ss
+"}
+(9,1,1) = {"
+bk
+Gr
+yj
+em
+KC
+EG
+BB
+AU
+pP
+ax
+"}
+(10,1,1) = {"
+el
+NS
+Vv
+vm
+Vs
+cx
+NP
+xm
+xt
+vo
+"}
+(11,1,1) = {"
+RX
+GM
+Vv
+dK
+xg
+fs
+dK
+my
+jD
+RX
+"}
+(12,1,1) = {"
+dK
+Nd
+pi
+va
+va
+va
+cL
+bU
+Vv
+dK
+"}
+(13,1,1) = {"
+dK
+my
+dJ
+bw
+mw
+Wt
+bw
+bw
+xS
+dK
+"}
+(14,1,1) = {"
+dK
+my
+bw
+ax
+xd
+Ss
+Mn
+bw
+Vv
+dK
+"}
+(15,1,1) = {"
+dK
+xm
+jD
+TV
+RX
+RX
+FR
+TH
+Vv
+dK
+"}
+(16,1,1) = {"
+va
+bU
+Vv
+dK
+lb
+ya
+dK
+xc
+pi
+va
+"}
+(17,1,1) = {"
+bw
+ax
+Vv
+Sr
+sO
+lI
+BB
+xc
+Ss
+bw
+"}
