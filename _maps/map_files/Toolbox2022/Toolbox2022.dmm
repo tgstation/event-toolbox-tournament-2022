@@ -5246,11 +5246,14 @@
 /turf/open/floor/cult,
 /area/event)
 "sI" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw,
 /obj/machinery/tournament_spawn/red{
 	arena_id = "center"
 	},
 /obj/effect/landmark/tournament_spawn_valid_location,
+/obj/effect/turf_decal/trimline/dark_red/filled/corner,
+/obj/effect/turf_decal/trimline/dark_red/filled/corner{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/event)
 "sJ" = (
@@ -5872,6 +5875,13 @@
 /obj/structure/statue/bone/rib,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plating/rust,
+/area/event)
+"uD" = (
+/obj/effect/landmark/tournament_spawn_valid_location,
+/obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/event)
 "uE" = (
 /obj/structure/chair/plastic,
@@ -9236,7 +9246,7 @@
 /area/event)
 "GJ" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/arrow_ccw{
-	dir = 10
+	dir = 1
 	},
 /obj/effect/landmark/tournament_spawn_valid_location,
 /turf/open/floor/mineral/plastitanium,
@@ -11696,8 +11706,8 @@
 /area/event)
 "PT" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/mid_joiner,
-/obj/effect/turf_decal/trimline/dark_red/filled,
 /obj/effect/landmark/tournament_spawn_valid_location,
+/obj/effect/turf_decal/trimline/dark_red/filled,
 /turf/open/floor/mineral/plastitanium,
 /area/event)
 "PU" = (
@@ -12266,6 +12276,11 @@
 /area/event)
 "RI" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/event)
+"RJ" = (
+/obj/effect/landmark/tournament_spawn_valid_location,
+/obj/effect/turf_decal/trimline/dark_red/filled/arrow_ccw,
+/turf/open/floor/mineral/plastitanium,
 /area/event)
 "RM" = (
 /obj/effect/turf_decal/siding/wood{
@@ -26285,8 +26300,8 @@ om
 Jb
 TF
 Al
-GJ
-qv
+uD
+RJ
 Al
 TF
 NY
