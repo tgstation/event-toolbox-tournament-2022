@@ -1,5 +1,9 @@
 /obj/effect/oneway/Initialize(mapload)
 	. = ..()
+	return INITIALIZE_HINT_LATELOAD
+
+/obj/effect/oneway/LateInitialize()
+	. = ..()
 	invisibility = 0
 	color = "#62ff62"
 	var/obj/machinery/computer/tournament_controller/tournament_controller = GLOB.tournament_controllers[id_tag]
