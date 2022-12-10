@@ -7,8 +7,7 @@ SUBSYSTEM_DEF(auto_equip)
 
 /datum/controller/subsystem/auto_equip/Initialize(start_timeofday)
 	RegisterSignal(SSdcs, COMSIG_GLOB_JOB_AFTER_SPAWN, .proc/on_job_after_spawn)
-
-	return ..()
+	return SS_INIT_SUCCESS
 
 /datum/controller/subsystem/auto_equip/proc/on_job_after_spawn(datum/source, mob/living/spawned, client/client)
 	SIGNAL_HANDLER
