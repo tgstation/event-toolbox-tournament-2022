@@ -97,7 +97,7 @@ SUBSYSTEM_DEF(auto_equip)
 	id = /obj/item/card/id/advanced/gold
 	id_trim = /datum/id_trim/centcom/vip
 
-	box = /obj/item/storage/box/tournament/vip
+	box = /obj/item/storage/box/survival/tournament/vip
 	backpack_contents = list(/obj/item/storage/box/syndie_kit/chameleon = 1)
 
 	shoes = /obj/item/clothing/shoes/laceup
@@ -106,21 +106,37 @@ SUBSYSTEM_DEF(auto_equip)
 	uniform = /obj/item/clothing/under/suit/black_really
 	gloves = /obj/item/clothing/gloves/color/white
 
-// Tournament box
-/obj/item/storage/box/tournament/PopulateContents()
-	new /obj/item/clothing/mask/breath(src)
+/datum/outfit/job/assistant
+	box = /obj/item/storage/box/survival/tournament
 
-	if(!isplasmaman(loc))
-		new /obj/item/tank/internals/emergency_oxygen(src)
-	else
-		new /obj/item/tank/internals/plasmaman/belt(src)
+// Override cham kit to omit gun
+/obj/item/storage/box/syndie_kit/chameleon/PopulateContents()
+	new /obj/item/clothing/under/chameleon(src)
+	new /obj/item/clothing/suit/chameleon(src)
+	new /obj/item/clothing/gloves/chameleon(src)
+	new /obj/item/clothing/shoes/chameleon(src)
+	new /obj/item/clothing/glasses/chameleon(src)
+	new /obj/item/clothing/head/chameleon(src)
+	new /obj/item/clothing/mask/chameleon(src)
+	new /obj/item/clothing/neck/chameleon(src)
+	new /obj/item/storage/backpack/chameleon(src)
+	new /obj/item/storage/belt/chameleon(src)
+	new /obj/item/radio/headset/chameleon(src)
+	new /obj/item/modular_computer/tablet/pda/chameleon(src)
+
+// Tournament box
+/obj/item/storage/box/survival/tournament/
+	name = "tournament survival box"
+
+/obj/item/storage/box/survival/tournament/PopulateContents()
+	..()
 
 	new /obj/item/binoculars(src)
 	new /obj/item/teleportation_scroll(src)
 	//new /obj/item/cowbell(src)
 	new /obj/item/toy/foamfinger/toolbox(src)
 
-/obj/item/storage/box/tournament/vip/PopulateContents()
+/obj/item/storage/box/survival/tournament/vip/PopulateContents()
 	..()
 
 	new /obj/item/clothing/accessory/medal/bronze_heart/donator(src)

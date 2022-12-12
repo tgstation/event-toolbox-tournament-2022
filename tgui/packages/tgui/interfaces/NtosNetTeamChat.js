@@ -170,46 +170,44 @@ export const NtosNetTeamChat = (props, context) => {
                               color={client_color(client)}>
                               {client.name}
                             </Stack.Item>
+                            <Stack.Item>
+                              <Button
+                                disabled={this_client.muted}
+                                compact
+                                icon="bullhorn"
+                                tooltip={
+                                  (!this_client.muted && 'Ping') ||
+                                  'You are muted!'
+                                }
+                                tooltipPosition="left"
+                                onClick={() =>
+                                  act('PRG_ping_user', {
+                                    ref: client.ref,
+                                  })
+                                }
+                              />
+                            </Stack.Item>
                             {client !== this_client && !!is_operator && (
-                              <>
-                                <Stack.Item>
-                                  <Button
-                                    disabled={this_client.muted}
-                                    compact
-                                    icon="bullhorn"
-                                    tooltip={
-                                      (!this_client.muted && 'Ping') ||
-                                      'You are muted!'
-                                    }
-                                    tooltipPosition="left"
-                                    onClick={() =>
-                                      act('PRG_ping_user', {
-                                        ref: client.ref,
-                                      })
-                                    }
-                                  />
-                                </Stack.Item>
-                                <Stack.Item>
-                                  <Button
-                                    compact
-                                    icon={
-                                      (!client.muted && 'volume-up') ||
-                                      'volume-mute'
-                                    }
-                                    color={(!client.muted && 'green') || 'red'}
-                                    tooltip={
-                                      (!client.muted && 'Mute this User') ||
-                                      'Unmute this User'
-                                    }
-                                    tooltipPosition="left"
-                                    onClick={() =>
-                                      act('PRG_mute_user', {
-                                        ref: client.ref,
-                                      })
-                                    }
-                                  />
-                                </Stack.Item>
-                              </>
+                              <Stack.Item>
+                                <Button
+                                  compact
+                                  icon={
+                                    (!client.muted && 'volume-up') ||
+                                    'volume-mute'
+                                  }
+                                  color={(!client.muted && 'green') || 'red'}
+                                  tooltip={
+                                    (!client.muted && 'Mute this User') ||
+                                    'Unmute this User'
+                                  }
+                                  tooltipPosition="left"
+                                  onClick={() =>
+                                    act('PRG_mute_user', {
+                                      ref: client.ref,
+                                    })
+                                  }
+                                />
+                              </Stack.Item>
                             )}
                           </Stack>
                         ))}

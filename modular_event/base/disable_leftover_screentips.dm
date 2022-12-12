@@ -5,4 +5,8 @@
 /datum/hud/New(mob/owner)
 	. = ..()
 
-	screentips_enabled = FALSE
+	screentips_enabled = SCREENTIP_PREFERENCE_DISABLED
+
+/atom/Initialize(mapload, ...)
+	. = ..()
+	flags_1 |= NO_SCREENTIPS_1

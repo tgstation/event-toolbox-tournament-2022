@@ -20,8 +20,10 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	/// The places to disband team members
 	var/list/disband_locations = list()
 
-	/// Old mobs by team
+	/// Old mobs by client
 	var/list/old_mobs = list()
+	/// Old mobs loc by client
+	var/list/old_mobs_loc = list()
 
 	/// The places to spawn toolboxes
 	var/list/toolbox_spawns = list()
@@ -72,6 +74,11 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 		"team_names" = assoc_to_keys(GLOB.tournament_teams),
 	)
 
+/obj/machinery/computer/tournament_controller/ui_data(mob/user)
+	return list(
+		"old_mobs" = old_mobs.len,
+	)
+
 /obj/machinery/computer/tournament_controller/ui_act(action, list/params)
 	. = ..()
 	if (.)
@@ -97,7 +104,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			load_arena(usr, params["arena_template"])
 			return TRUE
 		if ("spawn_teams")
-			spawn_teams(usr, list(params["team_a"], params["team_b"]))
+			spawn_teams(usr, list(params["team_a"], params["team_b"]), params["clear"])
 			return TRUE
 		if ("vv_teams")
 			if (usr.client)
@@ -186,17 +193,16 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	for (var/turf/arena_turf in get_arena_turfs())
 		arena_turf.empty(turf_type = /turf/open/floor/plating, baseturf_type = /turf/open/floor/plating)
 
-	QDEL_LIST(contestants)
-	QDEL_LIST(toolboxes)
-
 	if(manual)
 		message_admins("[key_name_admin(user)] manually cleared the map for [arena_id] arena.")
 		log_admin("[key_name_admin(user)] manually cleared the map for [arena_id] arena.")
 
-/obj/machinery/computer/tournament_controller/proc/spawn_teams(mob/user, list/team_names)
-	QDEL_LIST(contestants)
+/obj/machinery/computer/tournament_controller/proc/spawn_teams(mob/user, list/team_names, clearExisting)
+	if (clearExisting)
+		QDEL_LIST(contestants)
+		QDEL_LIST(toolboxes)
 
-	var/list/new_old_mobs = list()
+	var/list/new_contestants = list()
 
 	var/index = 1
 
@@ -207,27 +213,25 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			return
 
 		var/team_spawn_id = valid_team_spawns[index]
-		new_old_mobs[team_spawn_id] = list()
 
 		var/list/clients = team.get_clients()
 
 		for (var/client/client as anything in clients)
 			var/mob/old_mob = client?.mob
 
-			if (client in old_mobs[team_spawn_id])
-				new_old_mobs[team_spawn_id][client] = old_mobs[team_spawn_id][client]
-				qdel(old_mob)
-			else if (isliving(old_mob))
-				new_old_mobs[team_spawn_id][client] = old_mob
-				old_mob.visible_message(span_notice("[old_mob] teleported away to participate in the tournament!"))
+			if (isliving(old_mob) && !(old_mob in contestants))
+				old_mobs[client] = old_mob
+				old_mobs_loc[client] = get_turf(old_mob)
+				old_mob.visible_message(span_notice("[old_mob] teleported away to participate in the tournament! Watch this space."))
 				playsound(get_turf(old_mob), 'sound/magic/wand_teleport.ogg', 50, TRUE)
 				old_mob.forceMove(src)
 
 			var/mob/living/carbon/human/contestant_mob = new
 
 			client?.prefs?.apply_prefs_to(contestant_mob)
-			if(!(contestant_mob.dna?.species?.type in list(/datum/species/human, /datum/species/moth, /datum/species/lizard, /datum/species/human/felinid)))
+			if (!(contestant_mob.dna?.species?.type in list(/datum/species/human, /datum/species/moth, /datum/species/lizard, /datum/species/human/felinid)))
 				contestant_mob.set_species(/datum/species/human)
+			contestant_mob.forceMove(pick(valid_team_spawns[team_spawn_id]))
 			contestant_mob.equip_inert_outfit(team.outfit, team.camo_placeholder, changeable = FALSE)
 			var/obj/item/card/id/advanced/centcom/ert/id_card = new(contestant_mob)
 			id_card.desc = "A Toolbox Competitor ID Card"
@@ -235,8 +239,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			id_card.assignment = team.name
 			id_card.update_label()
 			id_card.update_icon()
-			contestant_mob.equip_to_slot_if_possible(id_card, ITEM_SLOT_ID, qdel_on_fail = TRUE)
-			contestant_mob.forceMove(pick(valid_team_spawns[team_spawn_id]))
+			contestant_mob.equip_to_slot_if_possible(id_card, ITEM_SLOT_ID)
 			contestant_mob.key = client?.key
 			contestant_mob.reset_perspective()
 			contestant_mob.job = team.name
@@ -245,7 +248,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			ADD_TRAIT(contestant_mob, TRAIT_BYPASS_MEASURES, "arena")
 			RegisterSignal(contestant_mob, COMSIG_LIVING_DEATH, .proc/contestant_died)
 
-			contestants += contestant_mob
+			new_contestants += contestant_mob
 
 			assign_team_hud(contestant_mob, team_spawn_id)
 
@@ -254,11 +257,11 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 		index += 1
 
 	radio.talk_into(src, "Setting up [team_names.Join(" vs ")].")
-	var/message = "spawned [team_names.len] teams ([team_names.Join(", ")]) for [arena_id] arena."
+	var/message = "spawned teams ([team_names.Join(", ")]) at [arena_id] arena."
 	message_admins("[key_name_admin(user)] [message]")
 	log_admin("[key_name(user)] [message]")
 
-	old_mobs = new_old_mobs
+	contestants = new_contestants
 
 /obj/machinery/computer/tournament_controller/proc/contestant_died(source, gibbed)
 	SIGNAL_HANDLER
@@ -278,6 +281,26 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 		toolbox.forceMove(get_turf(spawn_landmark))
 
 		toolboxes += toolbox
+
+/obj/machinery/computer/tournament_controller/proc/disband_teams(mob/user)
+	for (var/client/client as anything in old_mobs)
+		var/mob/living/old_mob = old_mobs[client]
+		if (isnull(old_mob))
+			continue
+
+		if (old_mob.stat <= CONSCIOUS)
+			old_mob.fully_heal(admin_revive = TRUE)
+
+		old_mob.forceMove(old_mobs_loc[client])
+		old_mob.key = client?.key
+		playsound(get_turf(old_mob), 'sound/magic/wand_teleport.ogg', 50, TRUE)
+
+	QDEL_LIST(contestants)
+	old_mobs.Cut()
+	old_mobs_loc.Cut()
+
+	message_admins("[key_name_admin(user)] disbanded [arena_id] arena teams.")
+	log_admin("[key_name_admin(user)] disbanded [arena_id] arena teams.")
 
 /datum/mood_event/toolbox_arena
 	description = "I am taking part in the Toolbox Tournament!"

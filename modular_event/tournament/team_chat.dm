@@ -31,8 +31,9 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	if(isnewplayer(src))
 		return // avoid pre-game lobby issues
 	if(ckey in GLOB.team_chat_admin_ckeys)
-		team_chat_console = new
+		team_chat_console = new(src)
 		team_chat_console.chatprogram.username = key
+		team_chat_console.chatprogram.user = src
 		team_chat_console.chatprogram.netadmin_mode = TRUE
 		for(var/team_name in GLOB.tournament_teams)
 			var/datum/tournament_team/team = GLOB.tournament_teams[team_name]
@@ -45,8 +46,9 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	for(var/team_name in GLOB.tournament_teams)
 		var/datum/tournament_team/team = GLOB.tournament_teams[team_name]
 		if(ckey in team.roster)
-			team_chat_console = new
+			team_chat_console = new(src)
 			team_chat_console.chatprogram.username = key
+			team_chat_console.chatprogram.user = src
 			team.team_chat.add_client(team_chat_console.chatprogram, TRUE)
 			team_chat_console.chatprogram.active_channel = team.team_chat.id
 			open_team_chat.Grant(src)
@@ -99,6 +101,7 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	program_icon = "comment-alt"
 	alert_able = TRUE
 	var/auto_scroll = TRUE
+	var/mob/user
 
 /datum/computer_file/program/chatclient/team/ui_status(mob/user)
 	if(program_state != PROGRAM_STATE_ACTIVE) // Our program was closed. Close the ui if it exists.
@@ -106,10 +109,6 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	return UI_INTERACTIVE
 
 /datum/computer_file/program/chatclient/team/ui_act(action, params)
-	. = ..()
-	if(.)
-		return
-
 	var/datum/ntnet_conversation/channel = SSnetworks.station_network.get_chat_channel_by_id(active_channel)
 	var/authed = FALSE
 	if(channel && ((channel.operator == src) || netadmin_mode))
@@ -156,14 +155,16 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 			channel.mute_user(src, muted)
 			return TRUE
 		if("PRG_ping_user")
-			if(!authed)
-				return
 			var/datum/computer_file/program/chatclient/team/pinged = locate(params["ref"]) in channel.active_clients + channel.offline_clients
 			channel.ping_user(src, pinged)
+			if(!pinged.user)
+				return TRUE
+			to_chat(pinged.user, span_adminnotice("You have been pinged in Team Chat - [channel.title]! Use your Open Team Chat ability to view it."))
 			return TRUE
 		if("PRG_auto_scroll")
 			auto_scroll = !auto_scroll
 			return TRUE
+	..()
 
 /datum/computer_file/program/chatclient/team/ui_close(mob/user)
 	if(program_state != PROGRAM_STATE_KILLED)
@@ -175,7 +176,7 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	active_channel = last_active
 
 /datum/computer_file/program/chatclient/team/ui_data(mob/user)
-	if(!SSnetworks.station_network || !SSnetworks.station_network.chat_channels)
+	if(!SSnetworks.station_network.chat_channels)
 		return list()
 
 	var/list/data = list()
@@ -185,7 +186,7 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	var/list/all_channels = list()
 	for(var/C in SSnetworks.station_network.chat_channels)
 		var/datum/ntnet_conversation/conv = C
-		if(src in conv.active_clients || netadmin_mode)
+		if((src in conv.active_clients) || netadmin_mode)
 			if(conv?.title)
 				all_channels.Add(list(list(
 					"chan" = conv.title,

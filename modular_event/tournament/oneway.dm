@@ -4,6 +4,8 @@
 
 /obj/effect/oneway/LateInitialize()
 	. = ..()
+	name = "arena one way"
+	desc = "Green means go!"
 	invisibility = 0
 	color = "#62ff62"
 	var/obj/machinery/computer/tournament_controller/tournament_controller = GLOB.tournament_controllers[id_tag]
