@@ -197,8 +197,8 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 		message_admins("[key_name_admin(user)] manually cleared the map for [arena_id] arena.")
 		log_admin("[key_name_admin(user)] manually cleared the map for [arena_id] arena.")
 
-/obj/machinery/computer/tournament_controller/proc/spawn_teams(mob/user, list/team_names, clearExisting)
-	if (clearExisting)
+/obj/machinery/computer/tournament_controller/proc/spawn_teams(mob/user, list/team_names, clear_existing)
+	if (clear_existing)
 		QDEL_LIST(contestants)
 		QDEL_LIST(toolboxes)
 
@@ -232,9 +232,9 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			if (!(contestant_mob.dna?.species?.type in list(/datum/species/human, /datum/species/moth, /datum/species/lizard, /datum/species/human/felinid)))
 				contestant_mob.set_species(/datum/species/human)
 			contestant_mob.forceMove(pick(valid_team_spawns[team_spawn_id]))
-			contestant_mob.equip_inert_outfit(team.outfit, team.camo_placeholder, changeable = FALSE)
-			var/obj/item/card/id/advanced/centcom/ert/id_card = new(contestant_mob)
-			id_card.desc = "A Toolbox Competitor ID Card"
+			contestant_mob.equip_inert_outfit(team.outfit)
+			var/obj/item/card/id/advanced/centcom/ert/id_card = new(contestant_mob.loc)
+			id_card.desc = "A Toolbox Tournament Competitor ID Card"
 			id_card.registered_name = contestant_mob.real_name
 			id_card.assignment = team.name
 			id_card.update_label()

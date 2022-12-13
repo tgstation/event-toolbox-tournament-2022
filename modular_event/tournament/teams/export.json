@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Dev Team 2",
+		"toolbox_color": "#eeff00",
+		"roster": [
+			"xyz"
+		],
+		"outfit": {
+			"belt": "/obj/item/storage/belt/utility/full",
+			"back": "/obj/item/storage/backpack/santabag",
+			"glasses": "/obj/item/clothing/glasses/sunglasses",
+			"gloves": "/obj/item/clothing/gloves/color/yellow",
+			"head": "/obj/item/clothing/head/soft/paramedic",
+			"mask": "/obj/item/clothing/mask/gas",
+			"suit": "/obj/item/clothing/suit/hooded/cultrobes",
+			"uniform": "/obj/item/clothing/under/color/grey/ancient"
+		}
+	},
+	{
+		"name": "Dev Team",
+		"toolbox_color": "#eeff00",
+		"roster": [
+			"waylandsmithy"
+		],
+		"outfit": {
+			"gloves": "/obj/item/clothing/gloves/color/yellow",
+			"head": "/obj/item/clothing/head/helmet/riot",
+			"mask": "/obj/item/clothing/mask/gas",
+			"shoes": "/obj/item/clothing/shoes/sneakers/black",
+			"uniform": "/obj/item/clothing/under/color/grey/ancient"
+		}
+	}
+]

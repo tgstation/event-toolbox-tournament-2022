@@ -26,10 +26,14 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	QDEL_NULL(team_chat_console)
 	return ..()
 
+/client
+	var/event_briefed = FALSE
+
 /mob/Login()
 	. = ..()
 	if(isnewplayer(src))
 		return // avoid pre-game lobby issues
+
 	if(ckey in GLOB.team_chat_admin_ckeys)
 		team_chat_console = new(src)
 		team_chat_console.chatprogram.username = key
@@ -52,6 +56,9 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 			team.team_chat.add_client(team_chat_console.chatprogram, TRUE)
 			team_chat_console.chatprogram.active_channel = team.team_chat.id
 			open_team_chat.Grant(src)
+			if(client && !client.event_briefed)
+				to_chat(client, span_userdanger("Welcome toolbox competitor, please take note of your Open Team Chat ability button. From there you can edit your outfit before the tournament starts and ping green names if you need help. Good hunting!"))
+				client.event_briefed = TRUE
 			return
 
 /mob/Logout()
@@ -72,6 +79,9 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 		usr.team_chat_console.chatprogram.program_state = PROGRAM_STATE_ACTIVE
 		usr.team_chat_console.cpu.active_program = usr.team_chat_console.chatprogram
 	usr.team_chat_console.interact(usr)
+
+/datum/ntnet_conversation/team_chan
+	var/datum/tournament_team/team_ref
 
 /datum/ntnet_conversation/changeop(datum/computer_file/program/chatclient/newop)
 	if(istype(newop))
@@ -109,7 +119,7 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	return UI_INTERACTIVE
 
 /datum/computer_file/program/chatclient/team/ui_act(action, params)
-	var/datum/ntnet_conversation/channel = SSnetworks.station_network.get_chat_channel_by_id(active_channel)
+	var/datum/ntnet_conversation/team_chan/channel = SSnetworks.station_network.get_chat_channel_by_id(active_channel)
 	var/authed = FALSE
 	if(channel && ((channel.operator == src) || netadmin_mode))
 		authed = TRUE
@@ -163,6 +173,9 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 			return TRUE
 		if("PRG_auto_scroll")
 			auto_scroll = !auto_scroll
+			return TRUE
+		if("PRG_edit_outfit")
+			usr.client?.open_team_outfit_editor(channel.team_ref.outfit)
 			return TRUE
 	..()
 
