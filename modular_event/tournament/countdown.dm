@@ -10,12 +10,23 @@
 
 	var/list/countdown_timers = list()
 
-	for (var/mob/player_mob as anything in GLOB.player_list)
-		if (player_mob.z == z)
-			var/atom/movable/screen/tournament_countdown/tournament_countdown = new
+	var/eye_dist
+	var/obj/effect/landmark/arena_eye/selected_arena
 
-			countdown_timers[player_mob.client] = tournament_countdown
-			player_mob.client?.screen += tournament_countdown
+	for (var/mob/player_mob as anything in GLOB.player_list)
+		eye_dist = INFINITY
+		selected_arena = null
+		for (var/obj/effect/landmark/arena_eye/an_arena in GLOB.landmarks_list)
+			if (an_arena.z == player_mob.z && get_dist(player_mob, an_arena) < eye_dist)
+				selected_arena = an_arena
+				eye_dist = get_dist(user, an_arena)
+		if (!selected_arena || selected_arena.arena_id != arena_id)
+			continue
+
+		var/atom/movable/screen/tournament_countdown/tournament_countdown = new
+
+		countdown_timers[player_mob.client] = tournament_countdown
+		player_mob.client?.screen += tournament_countdown
 
 	warn_oneways()
 	for (var/timer in 3 to 1 step -1)
