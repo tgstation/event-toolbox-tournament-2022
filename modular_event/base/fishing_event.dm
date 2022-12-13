@@ -68,6 +68,11 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 	max_buckled_mobs = 3 //doesn't work
 	var/allowed_turf = list(/turf/open/water/event, /turf/open/water/event/deep)
 
+/obj/vehicle/ridden/fishingboat/user_unbuckle_mob(mob/living/buckled_mob, mob/user)
+	if(buckled_mob != user)
+		return FALSE // Cannot unbuckle others and strand them in the water
+	return ..()
+
 /datum/component/riding/vehicle/fishingboat
 	vehicle_move_delay = 1
 	var/allowed_turf = list(/turf/open/water/event, /turf/open/water/event/deep)
