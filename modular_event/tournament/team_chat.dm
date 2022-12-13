@@ -73,6 +73,9 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 		usr.team_chat_console.cpu.active_program = usr.team_chat_console.chatprogram
 	usr.team_chat_console.interact(usr)
 
+/datum/ntnet_conversation/team_chan
+	var/datum/tournament_team/team_ref
+
 /datum/ntnet_conversation/changeop(datum/computer_file/program/chatclient/newop)
 	if(istype(newop))
 		operator = newop
@@ -109,7 +112,7 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	return UI_INTERACTIVE
 
 /datum/computer_file/program/chatclient/team/ui_act(action, params)
-	var/datum/ntnet_conversation/channel = SSnetworks.station_network.get_chat_channel_by_id(active_channel)
+	var/datum/ntnet_conversation/team_chan/channel = SSnetworks.station_network.get_chat_channel_by_id(active_channel)
 	var/authed = FALSE
 	if(channel && ((channel.operator == src) || netadmin_mode))
 		authed = TRUE
@@ -163,6 +166,9 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 			return TRUE
 		if("PRG_auto_scroll")
 			auto_scroll = !auto_scroll
+			return TRUE
+		if("PRG_edit_outfit")
+			usr.client?.open_team_outfit_editor(channel.team_ref.outfit)
 			return TRUE
 	..()
 

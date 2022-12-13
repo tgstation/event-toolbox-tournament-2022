@@ -219,6 +219,11 @@ export const NtosNetTeamChat = (props, context) => {
                     onClick={() => act('PRG_auto_scroll')}>
                     Auto scroll
                   </Button.Checkbox>
+                  <Button
+                    fluid
+                    content="Edit Team Outfit"
+                    onClick={() => act('PRG_edit_outfit')}
+                  />
                   {!!(is_operator && authed) && (
                     <Section>
                       <Stack.Item mb="8px">Settings for {title}:</Stack.Item>

@@ -38,27 +38,50 @@ SUBSYSTEM_DEF(auto_equip)
 
 	var/ckey = ckey(mind?.key)
 	var/team_outfit
-	var/team_camo
 
 	for (var/team_name in GLOB.tournament_teams)
 		var/datum/tournament_team/tournament_team = GLOB.tournament_teams[team_name]
 
 		if (ckey in tournament_team.roster)
 			team_outfit = tournament_team.outfit
-			team_camo = tournament_team.camo_placeholder
 			break
 
 	if (team_outfit)
 		// Equip everything else *after* team stuff, so they have their backpacks still.
-		equip_inert_outfit(team_outfit, team_camo)
+		equip_inert_outfit(team_outfit)
 
 	if (ckey in SSauto_equip.vips)
 		equipOutfit(/datum/outfit/job/vip, visual_only)
 	else
 		equipOutfit(equipping.outfit, visual_only)
 
-/mob/living/carbon/human/proc/equip_inert_outfit(datum/outfit/model_outfit, datum/outfit/camo_outfit, changeable = TRUE)
-	camo_outfit.equip(src)
+/mob/living/carbon/human/proc/equip_inert_outfit(datum/outfit/model_outfit)
+	var/datum/outfit/camo_placeholder = new
+	if (model_outfit.belt)
+		camo_placeholder.belt = /obj/item/storage/belt/chameleon
+	if (model_outfit.back)
+		camo_placeholder.back = /obj/item/storage/backpack/chameleon
+	if (model_outfit.ears)
+		camo_placeholder.ears = /obj/item/radio/headset/chameleon
+	if (model_outfit.glasses)
+		camo_placeholder.glasses = /obj/item/clothing/glasses/chameleon
+	if (model_outfit.gloves)
+		camo_placeholder.gloves = /obj/item/clothing/gloves/chameleon
+	if (model_outfit.head)
+		camo_placeholder.head = /obj/item/clothing/head/chameleon
+	if (model_outfit.mask)
+		camo_placeholder.mask = /obj/item/clothing/mask/chameleon
+	if (model_outfit.neck)
+		camo_placeholder.neck = /obj/item/clothing/neck/chameleon
+	if (model_outfit.shoes)
+		camo_placeholder.shoes = /obj/item/clothing/shoes/chameleon
+	if (model_outfit.suit)
+		camo_placeholder.suit = /obj/item/clothing/suit/chameleon
+	if (model_outfit.uniform)
+		camo_placeholder.uniform = /obj/item/clothing/under/chameleon
+
+	camo_placeholder.equip(src)
+	qdel(camo_placeholder)
 
 	// mostly copy pasta from chameleon_outfit/proc/select_outfit but a lot less restrictive
 	var/list/outfit_parts = model_outfit.get_chameleon_disguise_info()
@@ -71,26 +94,20 @@ SUBSYSTEM_DEF(auto_equip)
 		// make the gear fully combat inert
 		target.armor = new
 
-	// todo: fix me?
-	//hardsuit helmets/suit hoods
-	// if(model_outfit.toggle_helmet && (ispath(model_outfit.suit, /obj/item/clothing/suit/space/hardsuit) || ispath(model_outfit.suit, /obj/item/clothing/suit/hooded)))
-	// 	//make sure they are actually wearing the suit, not just holding it, and that they have a chameleon hat
-	// 	if(istype(wear_suit, /obj/item/clothing/suit/chameleon) && istype(head, /obj/item/clothing/head/chameleon))
-	// 		var/helmet_type
-	// 		if(ispath(model_outfit.suit, /obj/item/clothing/suit/space/hardsuit))
-	// 			var/obj/item/clothing/suit/space/hardsuit/hardsuit = model_outfit.suit
-	// 			helmet_type = initial(hardsuit.helmettype)
-	// 		else
-	// 			var/obj/item/clothing/suit/hooded/hooded = model_outfit.suit
-	// 			helmet_type = initial(hooded.hoodtype)
+	//suit hoods
+	//make sure they are actually wearing the suit, not just holding it, and that they have a chameleon hat
+	if(istype(wear_suit, /obj/item/clothing/suit/chameleon) && istype(head, /obj/item/clothing/head/chameleon))
+		var/helmet_type
+		if(ispath(model_outfit.suit, /obj/item/clothing/suit/hooded))
+			var/obj/item/clothing/suit/hooded/hooded = model_outfit.suit
+			helmet_type = initial(hooded.hoodtype)
+		if(helmet_type)
+			var/obj/item/clothing/head/chameleon/hat = head
+			hat.chameleon_action.update_look(src, helmet_type)
 
-	// 		if(helmet_type)
-	// 			var/obj/item/clothing/head/chameleon/hat = head
-	// 			hat.chameleon_action.update_look(src, helmet_type)
-
-	if(!changeable)
-		for(var/action in chameleon_item_actions)
-			qdel(action) // we can't just QDEL_LIST instead because the Cut() will fail
+	// lock cham appearance
+	for(var/action in chameleon_item_actions)
+		qdel(action) // we can't just QDEL_LIST instead because the Cut() will fail
 
 /datum/outfit/job/vip
 	name = "Donator"
