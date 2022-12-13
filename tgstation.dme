@@ -4829,6 +4829,7 @@
 #include "modular_event\base\event_aheal_recall_spells\code\action.dm"
 #include "modular_event\base\event_aheal_recall_spells\code\living.dm"
 #include "modular_event\cowbell\cowbell.dm"
+#include "modular_event\tournament\areana_eye.dm"
 #include "modular_event\tournament\auto_equip.dm"
 #include "modular_event\tournament\controller.dm"
 #include "modular_event\tournament\countdown.dm"

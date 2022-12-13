@@ -26,10 +26,14 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 	QDEL_NULL(team_chat_console)
 	return ..()
 
+/client
+	var/event_briefed = FALSE
+
 /mob/Login()
 	. = ..()
 	if(isnewplayer(src))
 		return // avoid pre-game lobby issues
+
 	if(ckey in GLOB.team_chat_admin_ckeys)
 		team_chat_console = new(src)
 		team_chat_console.chatprogram.username = key
@@ -52,6 +56,9 @@ GLOBAL_LIST_INIT(team_chat_admin_ckeys, list("waylandsmithy", "riggle", "jaredfo
 			team.team_chat.add_client(team_chat_console.chatprogram, TRUE)
 			team_chat_console.chatprogram.active_channel = team.team_chat.id
 			open_team_chat.Grant(src)
+			if(client && !client.event_briefed)
+				to_chat(client, span_userdanger("Welcome toolbox competitor, please take note of your Open Team Chat ability button. From there you can edit your outfit before the tournament starts and ping green names if you need help. Good hunting!"))
+				client.event_briefed = TRUE
 			return
 
 /mob/Logout()
