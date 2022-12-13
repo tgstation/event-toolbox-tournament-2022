@@ -150,7 +150,7 @@ SUBSYSTEM_DEF(auto_equip)
 
 	new /obj/item/binoculars(src)
 	new /obj/item/teleportation_scroll(src)
-	//new /obj/item/cowbell(src)
+	new /obj/item/cowbell(src)
 	new /obj/item/toy/foamfinger/toolbox(src)
 
 /obj/item/storage/box/survival/tournament/vip/PopulateContents()
