@@ -1,4 +1,4 @@
-obj/item/silver_trophy
+/obj/item/silver_trophy
 	name = "silver trophy"
 	desc = "A silver trophy depicting the Milky Way, designated for the runner-up team."
 	icon_state = "silver_trophy"
