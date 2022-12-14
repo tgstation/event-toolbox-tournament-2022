@@ -187,6 +187,8 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 	maptext = MAPTEXT(full_text)
 
 /obj/effect/fishing_score_display/interact(mob/user)
+	if(!user?.client?.holder)
+		return
 	. = ..()
 	ui_interact(user)
 
