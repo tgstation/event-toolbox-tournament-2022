@@ -217,6 +217,7 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 	. = ..()
 	if(.)
 		return
+	var/mob/user = usr
 	if(!user?.client?.holder)
 		return
 
