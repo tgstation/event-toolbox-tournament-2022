@@ -40,12 +40,12 @@ export const FishingTournamentManager = (props, context) => {
               <LabeledList.Item label="Tournament Duration">
                 <NumberInput
                   width="100px"
-                  value={duration}
-                  unit="ds"
+                  value={duration / 10}
+                  unit="s"
                   minValue={0}
                   onChange={(e, value) =>
                     act('set_duration', {
-                      duration: value,
+                      duration: value * 10,
                     })
                   }
                 />
