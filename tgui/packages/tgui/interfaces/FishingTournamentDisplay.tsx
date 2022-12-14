@@ -22,7 +22,7 @@ export const FishingTournamentDisplay = (props, context) => {
           {!!tournament_going_on && (
             <>
               <LabeledList.Item label="Time left">
-                <TimeDisplay value={timeleft} />
+                <TimeDisplay value={timeleft} auto="down" />
               </LabeledList.Item>
               <LabeledList.Item label="Actions">
                 <Button onClick={() => act('end')}>Stop Tournament Now</Button>
