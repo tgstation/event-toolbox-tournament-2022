@@ -19,7 +19,7 @@
 
 // Every fish caught adds to teams fishing score
 /datum/fish_source/event/proc/handle_event_points(obj/item/reward, mob/fisherman)
-	if(!GLOB.fish_scoring_active)
+	if(!GLOB.fishing_panel.is_tournament_active())
 		return
 	if(!fisherman || !fisherman.ckey)
 		return
