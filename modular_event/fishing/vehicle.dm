@@ -3,7 +3,7 @@
 	desc = "A boat used for traversing water. Has a lantern attached to it."
 	icon_state = "goliath_boat"
 	icon = 'icons/obj/lavaland/dragonboat.dmi'
-	light_range = 3
+	light_range = 5
 	can_buckle = TRUE
 	max_buckled_mobs = 3 //doesn't work
 	var/allowed_turf = list(/turf/open/water/event, /turf/open/water/event/deep)
