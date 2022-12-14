@@ -134,13 +134,14 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 	icon = 'modular_event/arena_assets/eventfish.dmi'
 	icon_state = "score_display"
 	maptext_width = 256
-	maptext_height = 3*2*32
+	maptext_height = 4*2*32
 	maptext_x = -32
 	maptext_y = 32
 	interaction_flags_atom = INTERACT_ATOM_ATTACK_HAND | INTERACT_ATOM_UI_INTERACT
 
 	var/duration = 5 MINUTES //dunno
-	var/until_end_timer
+	var/until_end_timer = null
+	var/started_at = 0
 
 /obj/effect/fishing_score_display/proc/start_fish_tournament()
 	//Could reset current scores just to be sure
@@ -149,6 +150,7 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 	GLOB.fish_scoring_active = TRUE
 	if(duration > 1)
 		until_end_timer = addtimer(CALLBACK(src, .proc/end_fish_tournament), duration, TIMER_STOPPABLE)
+		started_at = world.time
 
 
 /obj/effect/fishing_score_display/proc/end_fish_tournament()
@@ -156,6 +158,7 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 	if(until_end_timer != null)
 		deltimer(until_end_timer)
 		until_end_timer = null
+		started_at = 0
 
 /obj/effect/fishing_score_display/Initialize(mapload)
 	. = ..()
@@ -169,7 +172,7 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 	update_maptext()
 
 /obj/effect/fishing_score_display/proc/update_maptext()
-	var/list/lines = list()
+	var/list/lines = list("Time remaining: [DisplayTimeText(world.time - started_at)]")
 	var/list/teams = sortTim(GLOB.tournament_teams.Copy(), /proc/cmp_fishing_score_asc, associative = TRUE)
 	var/ord = 1
 	for(var/team_name in teams)
