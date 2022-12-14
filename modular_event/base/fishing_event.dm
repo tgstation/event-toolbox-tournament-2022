@@ -193,6 +193,8 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 	ui_interact(user)
 
 /obj/effect/fishing_score_display/ui_interact(mob/user, datum/tgui/ui)
+	if(!user?.client?.holder)
+		return
 	ui = SStgui.try_update_ui(user, src, ui)
 	if(!ui)
 		ui = new(user, src, "FishingTournamentDisplay", name)
@@ -214,6 +216,8 @@ GLOBAL_VAR_INIT(fish_scoring_active, FALSE)
 /obj/effect/fishing_score_display/ui_act(action, list/params)
 	. = ..()
 	if(.)
+		return
+	if(!user?.client?.holder)
 		return
 
 	switch(action)
