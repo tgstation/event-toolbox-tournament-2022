@@ -25,7 +25,7 @@ export const FishingTournamentDisplay = (props, context) => {
                 <TimeDisplay value={timeleft} auto="down" />
               </LabeledList.Item>
               <LabeledList.Item label="Actions">
-                <Button onClick={() => act('end')}>Stop Tournament Now</Button>
+                <Button color='red' onClick={() => act('end')}>Stop Tournament Now</Button>
               </LabeledList.Item>
             </>
           )}
