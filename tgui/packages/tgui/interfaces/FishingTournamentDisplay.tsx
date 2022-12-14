@@ -36,7 +36,7 @@ export const FishingTournamentDisplay = (props, context) => {
             <LabeledList>
               <LabeledList.Item label="Tournament Duration">
                 <NumberInput
-                  width="200px"
+                  width="100px"
                   value={duration}
                   unit="ds"
                   minValue={0}
