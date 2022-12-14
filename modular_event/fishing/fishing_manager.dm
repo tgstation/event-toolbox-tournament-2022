@@ -32,7 +32,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 	switch(action)
 		if("open_or_create")
 			if(fishing_tournament)
-				fishing_tournament.ui_interact(usr, ui)
+				fishing_tournament.ui_interact(usr)
 				return TRUE
 			fishing_tournament = new
 			log_admin("[key_name(usr)] created a new fishing tournament")
