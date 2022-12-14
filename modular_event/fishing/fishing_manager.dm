@@ -77,6 +77,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 	data["tournament"] = "[fishing_tournament]"
 	data["tournament_going_on"] = is_tournament_active()
 	data["time_left"] = fishing_tournament?.time_left()
+	data["duration"] = fishing_tournament?.duration
 	return data
 
 /datum/fishing_tournament_manager/proc/is_tournament_active()
