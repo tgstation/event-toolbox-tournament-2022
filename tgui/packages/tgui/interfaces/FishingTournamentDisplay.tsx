@@ -40,7 +40,7 @@ export const FishingTournamentDisplay = (props, context) => {
                   value={duration}
                   unit="ds"
                   minValue={0}
-                  onChange={(e, value) =>
+                  onChange={(_: any, value: number) =>
                     act('set_duration', {
                       duration: value,
                     })
