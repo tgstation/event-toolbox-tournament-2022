@@ -32,7 +32,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 	switch(action)
 		if("open_or_create")
 			if(fishing_tournament)
-				fishing_tournament.ui_interact()
+				fishing_tournament.ui_interact(usr, ui)
 				return TRUE
 			fishing_tournament = new
 			log_admin("[key_name(usr)] created a new fishing tournament")
@@ -63,11 +63,12 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 			if(isnull(fishing_tournament))
 				to_chat(usr, "The fishing tournament is no more!", confidential = TRUE)
 				return TRUE
+			usr.client.debug_variables(fishing_tournament)
 			return TRUE
 		if("start")
 			fishing_tournament?.ui_start_tournament()
 			return TRUE
-		if("end")
+		if("stop")
 			fishing_tournament?.ui_stop_tournament()
 			return TRUE
 	return TRUE
