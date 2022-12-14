@@ -63,7 +63,7 @@ export const FishingTournamentManager = (props, context) => {
                   {!!tournament_going_on && (
                     <Button
                       content='Stop Tournament Now'
-                      color='yellow'
+                      color='orange'
                       onClick={() => act('stop')}
                     />
                   )}
