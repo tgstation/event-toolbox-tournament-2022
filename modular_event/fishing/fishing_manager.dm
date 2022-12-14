@@ -85,7 +85,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 	return !isnull(fishing_tournament?.until_end_timer)
 
 /client/proc/open_fishing_tournament_panel()
-	set category = "Admin"
+	set category = "Admin.Events"
 	set name = "Open Fishing Tournament Panel"
 
 	if(!holder)
