@@ -49,7 +49,7 @@
 /obj/effect/fishing_score_display/proc/update_maptext()
 	var/list/lines = list()
 	if(!isnull(until_end_timer))
-		lines += "Time remaining: [DisplayTimeText(time_left())]"
+		lines += "Time remaining: [DisplayTimeText(time_left(), round_seconds_to = 1)]"
 	else
 		lines += status_text
 	var/list/teams = sortTim(GLOB.tournament_teams.Copy(), /proc/cmp_fishing_score_asc, associative = TRUE)
