@@ -11,6 +11,7 @@
 	var/duration = 10 MINUTES //dunno
 	var/until_end_timer = null
 	var/status_text = "Not yet started"
+	var/given_rods = FALSE
 	var/countdown_started = FALSE
 
 /obj/effect/fishing_score_display/proc/start_fish_tournament()
@@ -46,6 +47,33 @@
 
 /obj/effect/fishing_score_display/process(delta_time)
 	update_maptext()
+
+/obj/effect/fishing_score_display/proc/give_rods()
+	if (!check_rights(R_ADMIN))
+		to_chat(usr, "You do not have permission to do this, you require +ADMIN", confidential = TRUE)
+		return
+	if(given_rods && tgui_alert(usr, "Give every living user fishing toolbox?", "Rods?", list("Yes","No")) != "Yes")
+		return
+
+	given_rods = TRUE
+
+	var/participants = list()
+	for(var/team_name in GLOB.tournament_teams)
+		var/datum/tournament_team/team = GLOB.tournament_teams[team_name]
+		for(var/ckey in team.roster)
+			var/client/client = GLOB.directory[ckey]
+			if (!istype(client))
+				continue
+			var/mob/living/carbon = client?.mob
+			if(!istype(player_mind))
+				message_admins("[ckey] is not carbon! Make sure to account for that!")
+				continue
+
+			participants += client
+
+	for(var/mob/living/carbon/player in participants)
+		var/obj/item/storage/toolbox/fishing/to_give = new(get_turf(player))
+		player.put_in_hands(to_give)
 
 /obj/effect/fishing_score_display/proc/time_left()
 	return timeleft(until_end_timer)
@@ -97,8 +125,12 @@
 		to_chat(usr, "You do not have permission to do this, you require +ADMIN", confidential = TRUE)
 		return
 
-	if(tgui_alert(usr, "Are you SURE you want to start the tournament?",,list("Yes","No")) != "Yes")
+	if(tgui_alert(usr, "Are you sure you want to start the tournament?", "Start?", list("Yes","No")) != "Yes")
 		return
+
+	if(!given_rods && tgui_alert(usr, "Users have not received their rods yet, are you really sure?", "Know what you're doing?", list("Yes","No")) != "Yes")
+		return
+
 	log_admin("[key_name(usr)] started the fishing tournament")
 	message_admins(span_notice("[key_name(usr)] started the fishing tournament"))
 
@@ -142,7 +174,7 @@
 		to_chat(usr, "You do not have permission to do this, you require +ADMIN", confidential = TRUE)
 		return
 
-	if(tgui_alert(usr, "Are you SURE you want to end the tournament?",,list("Yes","No")) != "Yes")
+	if(tgui_alert(usr, "Are you SURE you want to IMMEDIATELY END the tournament?", "WARNING!!", list("Yes","No")) != "Yes")
 		return
 	end_fish_tournament()
 	log_admin("[key_name(usr)] forcefully ended the fishing tournament")

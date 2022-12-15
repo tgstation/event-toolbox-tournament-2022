@@ -65,6 +65,9 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 				return TRUE
 			usr.client.debug_variables(fishing_tournament)
 			return TRUE
+		if("give_rods")
+			fishing_tournament?.give_rods()
+			return TRUE
 		if("start")
 			fishing_tournament?.ui_start_tournament()
 			return TRUE
@@ -79,6 +82,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 	data["tournament_going_on"] = is_tournament_active()
 	data["time_left"] = fishing_tournament?.time_left()
 	data["duration"] = fishing_tournament?.duration
+	data["rods_given"] = fishing_tournament?.given_rods
 	return data
 
 /datum/fishing_tournament_manager/proc/is_tournament_active()

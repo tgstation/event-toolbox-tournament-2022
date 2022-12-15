@@ -7,11 +7,12 @@ type FishingTournamentManagerData = {
   tournament_going_on: boolean;
   time_left: number;
   duration: number;
+  rods_given: boolean;
 };
 
 export const FishingTournamentManager = (props, context) => {
   const { act, data } = useBackend<FishingTournamentManagerData>(context);
-  const { tournament, tournament_going_on, time_left, duration } = data;
+  const { tournament, tournament_going_on, time_left, duration, rods_given } = data;
 
   return (
     <Window>
@@ -56,10 +57,16 @@ export const FishingTournamentManager = (props, context) => {
                   {!tournament_going_on && (
                     <Button
                       content='Start Tournament'
-                      color='green'
+                      color={rods_given ? 'yellow' : 'green'}
                       onClick={() => act('start')}
                     />
                   )}
+                  <Button
+                    content='Give rods'
+                    color={rods_given ? 'green' : 'yellow'}
+                    icon={rods_given ? 'check-square-o' : 'square-o'}
+                    onClick={() => act('give_rods')}
+                  />
                   {!!tournament_going_on && (
                     <Button
                       content='Stop Tournament Now'
