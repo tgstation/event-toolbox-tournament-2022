@@ -245,3 +245,4 @@
 			var/verb_to_use = findtext(tournament.status_text, "ing") ? "is" : "has"
 			msg += "The tournament [verb_to_use] [lowertext(tournament.status_text)]"
 	to_chat(usr, msg)
+	src.balloon_alert(usr, tournament.is_tournament_active() ? "[DisplayTimeText(tournament.time_left(), round_seconds_to = 1)]" : "inactive")
