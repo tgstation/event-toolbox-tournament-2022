@@ -224,7 +224,7 @@
 	var/list/teams = sortTim(GLOB.tournament_teams.Copy(), /proc/cmp_fishing_score_asc, associative = TRUE)
 	var/place = teams.Find(team.name) + 1
 	var/list/suffixes = list("th", "st", "nd", "rd", "th")
-	var/msg = "Your team is [span_bold("[place][suffixes[clamp(place % 10, 0, 4)]]")] with [span_bold(our_score)] points"
+	var/msg = "Your team is [span_bold("[place][suffixes[clamp(place % 10, 0, 4)]]")] with [span_bold("[our_score]")] points"
 	if(place == 1)
 		var/datum/tournament_team/team_behind = teams[place] // We added 1 earlier so no need to add one more
 		msg += "! You are [our_score - team_behind.team_fishing_score] ahead of [team_behind.name]. "
