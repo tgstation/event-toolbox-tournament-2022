@@ -67,7 +67,7 @@
 	if (!check_rights(R_ADMIN))
 		to_chat(usr, "You do not have permission to do this, you require +ADMIN", confidential = TRUE)
 		return
-	if(tgui_alert(usr, "Give every living user fishing toolbox?", "Rods?", list("Yes","No")) != "Yes")
+	if(tgui_alert(usr, "Give every living user a fishing toolbox?", "Rods?", list("Yes","No")) != "Yes")
 		return
 
 	if(given_rods && tgui_alert(usr, "Rods were already given out, are you sure?", "Rods?", list("Yes","No")) != "Yes")
