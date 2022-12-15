@@ -4845,5 +4845,6 @@
 #include "modular_event\tournament\teams.dm"
 #include "modular_event\tournament\toolbox.dm"
 #include "modular_event\tournament\tournament_spawn.dm"
+#include "modular_event\tournament\custom_clothing\old_cargo\old_cargo.dm"
 #include "modular_event\trophy\trophy.dm"
 // END_INCLUDE
