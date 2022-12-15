@@ -1,7 +1,6 @@
 GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 /// The fishing tournament manager singleton that manages the fishing tournament
 /datum/fishing_tournament_manager
-	name = "Fishing Tournament Manager Panel"
 	/// The tournament
 	var/obj/effect/fishing_score_display/fishing_tournament = null
 
@@ -18,7 +17,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 /datum/fishing_tournament_manager/ui_interact(mob/user, datum/tgui/ui = null)
 	ui = SStgui.try_update_ui(user, src, ui)
 	if (!ui)
-		ui = new(user, src, "FishingTournamentManager")
+		ui = new(user, src, "FishingTournamentManager", "Fishing Tournament Manager Panel")
 		ui.open()
 
 /datum/fishing_tournament_manager/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
