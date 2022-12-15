@@ -23,17 +23,19 @@
 		return
 	if(!fisherman || !fisherman.ckey)
 		return
-	var/points = 0
+	var/points = 1
 	var/obj/item/fish/fish = reward
 	if(istype(fish))
 		points = size_points_coeff * fish.size + weight_points_coeff * fish.weight
+	else if(ispath(reward, /obj/item/skub))
+		points = 10
 
-	for(var/datum/tournament_team/T in GLOB.tournament_teams)
-		if(fisherman.ckey in T.roster)
-			T.team_fishing_score += points
-			break
-	message_admins("Couldn't find team for [fisherman.ckey], fish_score : [points]")
-	fisherman.balloon_alert_to_viewers("+[points] points!")
+	var/datum/tournament_team/team = get_team_for_ckey(fisherman.ckey)
+	if(isnull(team))
+		message_admins("Couldn't find team for [fisherman.ckey], fish_score: [points]")
+		return
+	team.team_fishing_score += points
+	fisherman.balloon_alert_to_viewers("caught [reward] for [points] points!")
 
 /datum/fish_source/event/dispense_reward(reward_path, mob/fisherman)
 	// THIS IS EVENT ONLY COPYPASTA REALLY SHOULD ADD SIGNAL/PROC ON MASTER
@@ -48,11 +50,10 @@
 			if(ispath(reward_path,/obj/item/fish))
 				var/obj/item/fish/caught_fish = reward
 				caught_fish.randomize_weight_and_size()
-			handle_event_points(reward, fisherman)
 				//fish caught signal if needed goes here and/or fishing achievements
 			//Try to put it in hand
 			fisherman.put_in_hands(reward)
-			fisherman.balloon_alert(fisherman, "caught [reward]!")
+			handle_event_points(reward, fisherman)
 		else //If someone adds fishing out carp/chests/singularities or whatever just plop it down on the fisher's turf
 			fisherman.balloon_alert(fisherman, "caught something!")
 			new reward_path(get_turf(fisherman))
