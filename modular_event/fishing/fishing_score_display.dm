@@ -31,6 +31,21 @@
 		until_end_timer = null
 	status_text = "Finished"
 
+	var/list/countdown_timers = list()
+
+	for (var/mob/player_mob as anything in GLOB.player_list)
+		var/atom/movable/screen/tournament_countdown/tournament_countdown = new
+
+		countdown_timers[player_mob.client] = tournament_countdown
+		tournament_countdown.set_text("Tournament over!")
+		player_mob.client?.screen += tournament_countdown
+
+	stoplag(3 SECONDS)
+
+	for (var/client/client as anything in countdown_timers)
+		client?.screen -= countdown_timers[client]
+		qdel(countdown_timers[client])
+
 /obj/effect/fishing_score_display/proc/is_tournament_active()
 	return !isnull(until_end_timer)
 
