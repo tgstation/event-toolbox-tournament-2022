@@ -12,7 +12,7 @@
 		/obj/item/fish/coinfish = 6,
 		/obj/item/fish/toolboxfish = 5,
 	)
-	fishing_difficulty = FISHING_DEFAULT_DIFFICULTY + 10
+	fishing_difficulty = 40
 
 	// How many score points per unit of size
 	var/size_points_coeff = 1
