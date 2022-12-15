@@ -10,16 +10,17 @@
 
 	var/list/countdown_timers = list()
 
-	var/eye_dist
+	var/closest_arena_dist
 	var/obj/effect/landmark/arena_eye/selected_arena
 
 	for (var/mob/player_mob as anything in GLOB.player_list)
-		eye_dist = INFINITY
+		closest_arena_dist = INFINITY
 		selected_arena = null
-		for (var/obj/effect/landmark/arena_eye/an_arena in GLOB.landmarks_list)
-			if (an_arena.z == player_mob.z && get_dist(player_mob, an_arena) < eye_dist)
+		for (var/obj/effect/landmark/arena_eye/an_arena as anything in GLOB.arena_eye_list)
+			var/eye_dist = get_dist(player_mob, an_arena)
+			if (an_arena.z == player_mob.z && eye_dist < closest_arena_dist)
 				selected_arena = an_arena
-				eye_dist = get_dist(user, an_arena)
+				closest_arena_dist = eye_dist
 		if (!selected_arena || selected_arena.arena_id != arena_id)
 			continue
 
