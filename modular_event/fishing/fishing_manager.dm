@@ -18,6 +18,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 	ui = SStgui.try_update_ui(user, src, ui)
 	if (!ui)
 		ui = new(user, src, "FishingTournamentManager", "Fishing Tournament Manager Panel")
+		ui.set_autoupdate(FALSE)
 		ui.open()
 
 /datum/fishing_tournament_manager/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
