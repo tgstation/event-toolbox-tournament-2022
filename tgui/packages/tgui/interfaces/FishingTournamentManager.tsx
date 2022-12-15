@@ -12,7 +12,8 @@ type FishingTournamentManagerData = {
 
 export const FishingTournamentManager = (props, context) => {
   const { act, data } = useBackend<FishingTournamentManagerData>(context);
-  const { tournament, tournament_going_on, time_left, duration, rods_given } = data;
+  const { tournament, tournament_going_on, time_left, duration, rods_given } =
+    data;
 
   return (
     <Window title="Fishing Tournament Manager Panel" width={380} height={160}>
@@ -24,62 +25,60 @@ export const FishingTournamentManager = (props, context) => {
             </Button>
             {!!tournament && (
               <>
-              <Button onClick={() => act('open_VV')}>
-                VV
-              </Button>
-              {!!tournament_going_on && (
-                <LabeledList.Item label="Time left">
-                  <TimeDisplay value={time_left} auto="down" />
-                </LabeledList.Item>
-              )}
+                <Button onClick={() => act('open_VV')}>VV</Button>
+                {!!tournament_going_on && (
+                  <LabeledList.Item label="Time left">
+                    <TimeDisplay value={time_left} auto="down" />
+                  </LabeledList.Item>
+                )}
               </>
             )}
           </LabeledList.Item>
           {!!tournament && (
             <>
-            {!tournament_going_on && (
-              <LabeledList.Item label="Tournament Duration">
-                <NumberInput
-                  width="100px"
-                  value={duration / 10}
-                  unit="s"
-                  minValue={0}
-                  maxValue={900}
-                  onChange={(e, value) =>
-                    act('set_duration', {
-                      duration: value * 10,
-                    })
-                  }
-                />
-              </LabeledList.Item>
+              {!tournament_going_on && (
+                <LabeledList.Item label="Tournament Duration">
+                  <NumberInput
+                    width="100px"
+                    value={duration / 10}
+                    unit="s"
+                    minValue={0}
+                    maxValue={900}
+                    onChange={(e, value) =>
+                      act('set_duration', {
+                        duration: value * 10,
+                      })
+                    }
+                  />
+                </LabeledList.Item>
               )}
               <LabeledList.Item label="Actions">
-                  <Button onClick={() => act('get')}>Get</Button>
-                  {!tournament_going_on && (
-                    <Button
-                      content='Start Tournament'
-                      color={rods_given ? 'green' : 'yellow'}
-                      onClick={() => act('start')}
-                    />
-                  )}
+                <Button onClick={() => act('get')}>Get</Button>
+                {!tournament_going_on && (
                   <Button
-                    content='Give rods'
-                    color={rods_given ? 'yellow' : 'green'}
-                    icon={rods_given ? 'check-square-o' : 'square-o'}
-                    onClick={() => act('give_rods')}
+                    content="Start Tournament"
+                    color={rods_given ? 'green' : 'yellow'}
+                    onClick={() => act('start')}
                   />
-                  {!!tournament_going_on && (
-                    <Button
-                      content='Stop Tournament Now'
-                      color='orange'
-                      onClick={() => act('stop')}
-                    />
-                  )}
+                )}
+                <Button
+                  content="Give rods"
+                  color={rods_given ? 'yellow' : 'green'}
+                  icon={rods_given ? 'check-square-o' : 'square-o'}
+                  onClick={() => act('give_rods')}
+                />
+                {!!tournament_going_on && (
                   <Button
-                    content='Delete'
-                    color='red'
-                    onClick={() => act('delete')}
+                    content="Stop Tournament Now"
+                    color="orange"
+                    onClick={() => act('stop')}
                   />
+                )}
+                <Button
+                  content="Delete"
+                  color="red"
+                  onClick={() => act('delete')}
+                />
               </LabeledList.Item>
             </>
           )}
