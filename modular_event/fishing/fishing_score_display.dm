@@ -154,10 +154,13 @@
 		for (var/client in countdown_timers)
 			var/atom/movable/screen/tournament_countdown/tournament_countdown = countdown_timers[client]
 			tournament_countdown.set_text(timer)
+		stoplag(1 SECONDS)
 
 	for (var/client in countdown_timers)
 		var/atom/movable/screen/tournament_countdown/tournament_countdown = countdown_timers[client]
 		tournament_countdown.set_text("Fish!")
+
+	stoplag(2 SECONDS)
 
 	for (var/client/client as anything in countdown_timers)
 		client?.screen -= countdown_timers[client]
