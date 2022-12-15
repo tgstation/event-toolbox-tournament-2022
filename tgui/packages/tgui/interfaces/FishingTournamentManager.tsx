@@ -44,6 +44,7 @@ export const FishingTournamentManager = (props, context) => {
                   value={duration / 10}
                   unit="s"
                   minValue={0}
+                  maxValue={900}
                   onChange={(e, value) =>
                     act('set_duration', {
                       duration: value * 10,
@@ -57,7 +58,7 @@ export const FishingTournamentManager = (props, context) => {
                   {!tournament_going_on && (
                     <Button
                       content='Start Tournament'
-                      color={rods_given ? 'yellow' : 'green'}
+                      color={rods_given ? 'green' : 'yellow'}
                       onClick={() => act('start')}
                     />
                   )}
