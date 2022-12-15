@@ -236,21 +236,27 @@
 	if(TIMER_COOLDOWN_CHECK(user, src))
 		src.balloon_alert(usr, "on cooldown!")
 		to_chat(usr, "The item is on cooldown!")
+		return
 
 	TIMER_COOLDOWN_START(user, src, cooldown_time)
+	var/obj/effect/fishing_score_display/tournament = GLOB?.fishing_panel?.fishing_tournament
+	src.balloon_alert(usr, tournament?.is_tournament_active() ? "[DisplayTimeText(tournament.time_left(), round_seconds_to = 1)]" : "inactive")
 	var/datum/tournament_team/team = get_team_for_ckey(user.ckey)
+	if(isnull(team))
+		to_chat(usr, "You are not in a team.")
+		return
 	var/our_score = team.team_fishing_score
 	var/list/teams = sortTim(GLOB.tournament_teams.Copy(), /proc/cmp_fishing_score_asc, associative = TRUE)
-	var/place = teams.Find(team.name) + 1
+	var/place = teams.Find(team.name)
 	var/list/suffixes = list("th", "st", "nd", "rd", "th")
 	var/msg = "Your team is [span_bold("[place][suffixes[clamp(place % 10, 0, 4)]]")] with [span_bold("[our_score]")] points"
 	if(place == 1)
-		var/datum/tournament_team/team_behind = teams[place] // We added 1 earlier so no need to add one more
+		// Assoc list, the line below is fine
+		var/datum/tournament_team/team_behind = teams[teams[place]]
 		msg += "! You are [span_bold("[our_score - team_behind.team_fishing_score]")] ahead of [team_behind.name]. "
 	else
-		var/datum/tournament_team/team_ahead = teams[place - 2] // We added 1 earlier, account for that
+		var/datum/tournament_team/team_ahead = teams[teams[place - 1]]
 		msg += ", just [span_bold("[team_ahead.team_fishing_score - our_score]")] points behind [team_ahead.name]! "
-	var/obj/effect/fishing_score_display/tournament = GLOB?.fishing_panel?.fishing_tournament
 	if(isnull(tournament))
 		msg += "The tournament is not currently active."
 	else
@@ -258,6 +264,5 @@
 			msg += "There is [DisplayTimeText(tournament.time_left(), round_seconds_to = 1)] remaining."
 		else
 			var/verb_to_use = findtext(tournament.status_text, "ing") ? "is" : "has"
-			msg += "The tournament [verb_to_use] [lowertext(tournament.status_text)]"
+			msg += "The tournament [verb_to_use] [lowertext(tournament.status_text)]."
 	to_chat(usr, msg)
-	src.balloon_alert(usr, tournament.is_tournament_active() ? "[DisplayTimeText(tournament.time_left(), round_seconds_to = 1)]" : "inactive")
