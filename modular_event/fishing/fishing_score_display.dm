@@ -249,7 +249,7 @@
 	var/list/teams = sortTim(GLOB.tournament_teams.Copy(), /proc/cmp_fishing_score_asc, associative = TRUE)
 	var/place = teams.Find(team.name)
 	var/list/suffixes = list("th", "st", "nd", "rd", "th")
-	var/msg = "Your team is [span_bold("[place][suffixes[clamp(place % 10, 0, 4)]]")] with [span_bold("[our_score]")] points"
+	var/msg = "Your team is [span_bold("[place][suffixes[clamp((place - 1) % 10, 0, 4)]]")] with [span_bold("[our_score]")] points"
 	if(place == 1)
 		// Assoc list, the line below is fine
 		var/datum/tournament_team/team_behind = teams[teams[place]]
