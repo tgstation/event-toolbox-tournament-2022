@@ -40,11 +40,7 @@
 		tournament_countdown.set_text("Tournament over!")
 		player_mob.client?.screen += tournament_countdown
 
-	stoplag(3 SECONDS)
-
-	for (var/client/client as anything in countdown_timers)
-		client?.screen -= countdown_timers[client]
-		qdel(countdown_timers[client])
+	addtimer(CALLBACK(src, .proc/remove_timers, countdown_timers), 3 SECONDS)
 
 /obj/effect/fishing_score_display/proc/is_tournament_active()
 	return !isnull(until_end_timer)
@@ -178,8 +174,9 @@
 		tournament_countdown.set_text("Fish!")
 
 	start_fish_tournament()
-	stoplag(2 SECONDS)
+	addtimer(CALLBACK(src, .proc/remove_timers, countdown_timers), 3 SECONDS)
 
+/obj/effect/fishing_score_display/proc/remove_timers(countdown_timers)
 	for (var/client/client as anything in countdown_timers)
 		client?.screen -= countdown_timers[client]
 		qdel(countdown_timers[client])
