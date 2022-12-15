@@ -29,6 +29,9 @@
 		until_end_timer = null
 	status_text = "Finished"
 
+/datum/fishing_tournament_manager/proc/is_tournament_active()
+	return !isnull(until_end_timer)
+
 /obj/effect/fishing_score_display/Initialize(mapload)
 	if(GLOB?.fishing_panel?.fishing_tournament)
 		qdel(src)
@@ -133,3 +136,45 @@
 
 /proc/cmp_fishing_score_asc(datum/tournament_team/A, datum/tournament_team/B)
 	return B.team_fishing_score - A.team_fishing_score
+
+/obj/item/fishing_tournament_timer
+	name = "Fishing Timer"
+	desc = "Use this to check your score and remaining time"
+	icon = 'icons/obj/device.dmi'
+	icon_state = "pinpointer_way"
+	inhand_icon_state = "electronic"
+	worn_icon_state = "pinpointer"
+	lefthand_file = 'icons/mob/inhands/items/devices_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/items/devices_righthand.dmi'
+	slot_flags = ITEM_SLOT_BELT
+	w_class = WEIGHT_CLASS_SMALL
+	var/cooldown_time = 15 SECONDS
+
+/obj/item/fishing_tournament_timer/interact(mob/user)
+	if(TIMER_COOLDOWN_CHECK(user, src))
+		src.balloon_alert(usr, "on cooldown!")
+		to_chat(usr, "The item is on cooldown!")
+
+	TIMER_COOLDOWN_START(user, src, cooldown_time)
+	var/datum/tournament_team/team = get_team_for_ckey(user.ckey)
+	var/our_score = team.team_fishing_score
+	var/list/teams = sortTim(GLOB.tournament_teams.Copy(), /proc/cmp_fishing_score_asc, associative = TRUE)
+	var/place = teams.Find(team.name) + 1
+	var/list/suffixes = list("th", "st", "nd", "rd", "th")
+	var/msg = "Your team is [SPAN_BOLD("[place][suffixes[clamp(place % 10, 0, 4)]]")] with [SPAN_BOLD(our_score)] points"
+	if(place == 1)
+		var/team_behind = teams[place] // We added 1 earlier so no need to add one more
+		msg += "! You are [our_score - team_behind.team_fishing_score] ahead of [team_behind.name]. "
+	else
+		var/team_ahead = teams[place - 2] // We added 1 earlier, account for that
+		msg += ", just [team_ahead.team_fishing_score - our_score] points behind [team_ahead.name]! "
+	var/obj/effect/fishing_score_display/tournament = GLOB?.fishing_panel?.fishing_tournament
+	if(isnull(tournament))
+		msg += "The tournament is not currently active."
+	else
+		if(tournament.is_tournament_active())
+			msg += "There is [DisplayTimeText(tournament.time_left(), round_seconds_to = 1)] remaining."
+		else
+			var/verb_to_use = findtext(tournament.status_text, "ing") ? "is" : "has"
+			msg += "The tournament [verb_to_use] [lowertext(tournament.status_text)]"
+	to_chat(usr, msg)
