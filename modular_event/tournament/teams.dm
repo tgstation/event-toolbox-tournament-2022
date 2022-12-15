@@ -126,7 +126,7 @@ GLOBAL_LIST_INIT_TYPED(tournament_teams, /datum/tournament_team, get_tournament_
 	text2file(json_encode(tournament_teams), "modular_event/tournament/teams/export.json")
 
 /proc/get_team_for_ckey(ckey)
-	for(var/datum/tournament_team/team_name in GLOB.tournament_teams)
+	for(var/team_name in GLOB.tournament_teams)
 		var/datum/tournament_team/team = GLOB.tournament_teams[team_name]
 		if(ckey in team.roster)
 			return team
