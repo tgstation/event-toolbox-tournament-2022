@@ -138,7 +138,7 @@
 	animate(lure, pixel_y = 3, time = 5, loop = -1, flags = ANIMATION_RELATIVE)
 	animate(pixel_y = -3, time = 5, flags = ANIMATION_RELATIVE)
 	// Setup next phase
-	var/wait_time = rand(3 SECONDS, 6 SECONDS)
+	var/wait_time = rand(3 DECISECONDS, 3 SECONDS)
 	next_phase_timer = addtimer(CALLBACK(src, .proc/start_baiting_phase), wait_time, TIMER_STOPPABLE)
 
 /datum/fishing_challenge/proc/start_minigame_phase()
