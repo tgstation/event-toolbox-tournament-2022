@@ -13,7 +13,7 @@ export const FishingTournamentDisplay = (props, context) => {
   const { tournament_going_on, duration, timeleft } = data;
 
   return (
-    <Window title="Fishing Tournament Manager Panel" width={300} height={80}>
+    <Window width={270} height={110}>
       <Window.Content>
         <LabeledList>
           <LabeledList.Item label="Status">

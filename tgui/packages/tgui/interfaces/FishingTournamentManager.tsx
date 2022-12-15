@@ -15,7 +15,7 @@ export const FishingTournamentManager = (props, context) => {
   const { tournament, tournament_going_on, time_left, duration, rods_given } = data;
 
   return (
-    <Window>
+    <Window title="Fishing Tournament Manager Panel" width={330} height={160}>
       <Window.Content>
         <LabeledList>
           <LabeledList.Item label="Status">
