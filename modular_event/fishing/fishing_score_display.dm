@@ -31,7 +31,7 @@
 		until_end_timer = null
 	status_text = "Finished"
 
-/datum/fishing_tournament_manager/proc/is_tournament_active()
+/obj/effect/fishing_score_display/proc/is_tournament_active()
 	return !isnull(until_end_timer)
 
 /obj/effect/fishing_score_display/Initialize(mapload)
@@ -64,12 +64,12 @@
 			var/client/client = GLOB.directory[ckey]
 			if (!istype(client))
 				continue
-			var/mob/living/carbon = client?.mob
-			if(!istype(player_mind))
+			var/mob/living/carbon/player = client?.mob
+			if(!istype(player))
 				message_admins("[ckey] is not carbon! Make sure to account for that!")
 				continue
 
-			participants += client
+			participants += player
 
 	for(var/mob/living/carbon/player in participants)
 		var/obj/item/storage/toolbox/fishing/to_give = new(get_turf(player))
@@ -135,13 +135,10 @@
 	message_admins(span_notice("[key_name(usr)] started the fishing tournament"))
 
 	if (countdown_started)
-		to_chat(user, span_notice("The countdown has already started!"))
+		to_chat(usr, span_notice("The countdown has already started!"))
 		return
 
 	countdown_started = TRUE
-
-	message_admins("[key_name_admin(user)] has started the countdown in the [arena_id] arena.")
-	log_admin("[key_name(user)] has started the countdown in the [arena_id] arena.")
 
 	var/list/countdown_timers = list()
 
@@ -228,12 +225,12 @@
 	var/list/teams = sortTim(GLOB.tournament_teams.Copy(), /proc/cmp_fishing_score_asc, associative = TRUE)
 	var/place = teams.Find(team.name) + 1
 	var/list/suffixes = list("th", "st", "nd", "rd", "th")
-	var/msg = "Your team is [SPAN_BOLD("[place][suffixes[clamp(place % 10, 0, 4)]]")] with [SPAN_BOLD(our_score)] points"
+	var/msg = "Your team is [span_bold("[place][suffixes[clamp(place % 10, 0, 4)]]")] with [span_bold(our_score)] points"
 	if(place == 1)
-		var/team_behind = teams[place] // We added 1 earlier so no need to add one more
+		var/datum/tournament_team/team_behind = teams[place] // We added 1 earlier so no need to add one more
 		msg += "! You are [our_score - team_behind.team_fishing_score] ahead of [team_behind.name]. "
 	else
-		var/team_ahead = teams[place - 2] // We added 1 earlier, account for that
+		var/datum/tournament_team/team_ahead = teams[place - 2] // We added 1 earlier, account for that
 		msg += ", just [team_ahead.team_fishing_score - our_score] points behind [team_ahead.name]! "
 	var/obj/effect/fishing_score_display/tournament = GLOB?.fishing_panel?.fishing_tournament
 	if(isnull(tournament))
