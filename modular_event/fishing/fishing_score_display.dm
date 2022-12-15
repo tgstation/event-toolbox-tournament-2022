@@ -252,7 +252,7 @@
 	var/msg = "Your team is [span_bold("[place][suffixes[clamp((place + 1) % 10, 0, 4)]]")] with [span_bold("[our_score]")] points"
 	if(place == 1)
 		if(length(teams) == 1)
-			msg += "... because you're alone, in the only existing team. That's kind of sad, why not create another one?"
+			msg += "... because you're alone, in the only existing team. That's kind of sad, why not create another one? "
 		else
 			// Assoc list, the line below is fine
 			var/datum/tournament_team/team_behind = teams[teams[place + 1]]
