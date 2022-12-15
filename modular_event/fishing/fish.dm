@@ -5,6 +5,7 @@
 	icon_state = "coin_fish"
 	average_size = 10
 	average_weight = 2500
+	fish_ai_type = FISH_AI_ZIPPY
 
 /obj/item/fish/toolboxfish
 	name = "toolbox fish"
@@ -13,6 +14,7 @@
 	icon_state = "toolbox_fish"
 	average_size = 80
 	average_weight = 3000
+	fish_ai_type = FISH_AI_ZIPPY
 
 /obj/item/fish/gunner_jellyfish
 	average_size = 40
