@@ -231,10 +231,10 @@
 	var/msg = "Your team is [span_bold("[place][suffixes[clamp(place % 10, 0, 4)]]")] with [span_bold("[our_score]")] points"
 	if(place == 1)
 		var/datum/tournament_team/team_behind = teams[place] // We added 1 earlier so no need to add one more
-		msg += "! You are [our_score - team_behind.team_fishing_score] ahead of [team_behind.name]. "
+		msg += "! You are [span_bold("[our_score - team_behind.team_fishing_score]")] ahead of [team_behind.name]. "
 	else
 		var/datum/tournament_team/team_ahead = teams[place - 2] // We added 1 earlier, account for that
-		msg += ", just [team_ahead.team_fishing_score - our_score] points behind [team_ahead.name]! "
+		msg += ", just [span_bold("[team_ahead.team_fishing_score - our_score]")] points behind [team_ahead.name]! "
 	var/obj/effect/fishing_score_display/tournament = GLOB?.fishing_panel?.fishing_tournament
 	if(isnull(tournament))
 		msg += "The tournament is not currently active."
