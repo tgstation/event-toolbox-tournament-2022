@@ -1,6 +1,7 @@
 GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 /// The fishing tournament manager singleton that manages the fishing tournament
 /datum/fishing_tournament_manager
+	name = "Fishing Tournament Manager Panel"
 	/// The tournament
 	var/obj/effect/fishing_score_display/fishing_tournament = null
 
