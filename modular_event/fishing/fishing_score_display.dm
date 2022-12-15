@@ -249,11 +249,14 @@
 	var/list/teams = sortTim(GLOB.tournament_teams.Copy(), /proc/cmp_fishing_score_asc, associative = TRUE)
 	var/place = teams.Find(team.name)
 	var/list/suffixes = list("th", "st", "nd", "rd", "th")
-	var/msg = "Your team is [span_bold("[place][suffixes[clamp((place - 1) % 10, 0, 4)]]")] with [span_bold("[our_score]")] points"
+	var/msg = "Your team is [span_bold("[place][suffixes[clamp((place + 1) % 10, 0, 4)]]")] with [span_bold("[our_score]")] points"
 	if(place == 1)
-		// Assoc list, the line below is fine
-		var/datum/tournament_team/team_behind = teams[teams[place + 1]]
-		msg += "! You are [span_bold("[our_score - team_behind.team_fishing_score]")] points ahead of [team_behind.name]. "
+		if(length(teams == 1))
+			msg += "... because you're alone, in the only existing team. That's kind of sad, why not create another one?"
+		else
+			// Assoc list, the line below is fine
+			var/datum/tournament_team/team_behind = teams[teams[place + 1]]
+			msg += "! You are [span_bold("[our_score - team_behind.team_fishing_score]")] points ahead of [team_behind.name]. "
 	else
 		var/datum/tournament_team/team_ahead = teams[teams[place - 1]]
 		msg += ", just [span_bold("[team_ahead.team_fishing_score - our_score]")] points behind [team_ahead.name]! "
