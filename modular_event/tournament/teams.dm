@@ -124,3 +124,10 @@ GLOBAL_LIST_INIT_TYPED(tournament_teams, /datum/tournament_team, get_tournament_
 		tournament_teams.Add(list(data))
 	fdel("modular_event/tournament/teams/export.json")
 	text2file(json_encode(tournament_teams), "modular_event/tournament/teams/export.json")
+
+/proc/get_team_for_ckey(ckey)
+	for(var/team_name in GLOB.tournament_teams)
+		var/datum/tournament_team/team = GLOB.tournament_teams[team_name]
+		if(ckey in team.roster)
+			return team
+	return null

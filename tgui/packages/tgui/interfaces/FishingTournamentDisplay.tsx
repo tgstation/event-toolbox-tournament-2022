@@ -13,7 +13,7 @@ export const FishingTournamentDisplay = (props, context) => {
   const { tournament_going_on, duration, timeleft } = data;
 
   return (
-    <Window>
+    <Window width={270} height={110}>
       <Window.Content>
         <LabeledList>
           <LabeledList.Item label="Status">
@@ -22,10 +22,12 @@ export const FishingTournamentDisplay = (props, context) => {
           {!!tournament_going_on && (
             <>
               <LabeledList.Item label="Time left">
-                <TimeDisplay value={timeleft} />
+                <TimeDisplay value={timeleft} auto="down" />
               </LabeledList.Item>
               <LabeledList.Item label="Actions">
-                <Button onClick={() => act('end')}>Stop Tournament Now</Button>
+                <Button color="red" onClick={() => act('end')}>
+                  Stop Tournament Now
+                </Button>
               </LabeledList.Item>
             </>
           )}
@@ -36,11 +38,11 @@ export const FishingTournamentDisplay = (props, context) => {
             <LabeledList>
               <LabeledList.Item label="Tournament Duration">
                 <NumberInput
-                  width="200px"
+                  width="100px"
                   value={duration}
                   unit="ds"
                   minValue={0}
-                  onChange={(e, value) =>
+                  onChange={(_: any, value: number) =>
                     act('set_duration', {
                       duration: value,
                     })
