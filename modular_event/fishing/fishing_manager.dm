@@ -87,7 +87,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 	return data
 
 /datum/fishing_tournament_manager/proc/is_tournament_active()
-	return !isnull(fishing_tournament?.is_tournament_active())
+	return fishing_tournament?.is_tournament_active()
 
 /client/proc/open_fishing_tournament_panel()
 	set category = "Admin.Events"
