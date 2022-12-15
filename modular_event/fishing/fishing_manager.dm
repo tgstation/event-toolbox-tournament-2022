@@ -35,6 +35,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 				fishing_tournament.ui_interact(usr)
 				return TRUE
 			fishing_tournament = new
+			fishing_tournament.loc = get_turf(usr)
 			log_admin("[key_name(usr)] created a new fishing tournament")
 			message_admins(span_notice("[key_name(usr)] created a new fishing tournament"))
 			return TRUE
@@ -49,7 +50,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 			if(isnull(fishing_tournament))
 				to_chat(usr, "The fishing tournament is no more!", confidential = TRUE)
 				return TRUE
-			fishing_tournament.loc = get_step(usr, 0)
+			fishing_tournament.loc = get_turf(usr)
 			log_admin("[key_name(usr)] teleported the fishing display to [COORD(fishing_tournament)]")
 			message_admins(span_notice("[key_name(usr)] teleported the fishing display to [COORD(fishing_tournament)]"))
 			return TRUE
@@ -90,7 +91,7 @@ GLOBAL_DATUM_INIT(fishing_panel, /datum/fishing_tournament_manager, new)
 
 /client/proc/open_fishing_tournament_panel()
 	set category = "Admin.Events"
-	set name = "Open Fishing Tournament Panel"
+	set name = "Fishing Tournament Panel"
 
 	if(!holder)
 		return
