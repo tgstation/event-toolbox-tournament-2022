@@ -139,11 +139,7 @@
 		return
 
 	countdown_started = TRUE
-
 	var/list/countdown_timers = list()
-
-	var/eye_dist
-	var/obj/effect/landmark/arena_eye/selected_arena
 
 	for (var/mob/player_mob as anything in GLOB.player_list)
 		var/atom/movable/screen/tournament_countdown/tournament_countdown = new
