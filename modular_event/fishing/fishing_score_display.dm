@@ -11,6 +11,7 @@
 	var/duration = 10 MINUTES //dunno
 	var/until_end_timer = null
 	var/status_text = "Not yet started"
+	var/countdown_started = FALSE
 
 /obj/effect/fishing_score_display/proc/start_fish_tournament()
 	// Reset current scores just to be sure
@@ -98,9 +99,43 @@
 
 	if(tgui_alert(usr, "Are you SURE you want to start the tournament?",,list("Yes","No")) != "Yes")
 		return
-	start_fish_tournament()
 	log_admin("[key_name(usr)] started the fishing tournament")
 	message_admins(span_notice("[key_name(usr)] started the fishing tournament"))
+
+	if (countdown_started)
+		to_chat(user, span_notice("The countdown has already started!"))
+		return
+
+	countdown_started = TRUE
+
+	message_admins("[key_name_admin(user)] has started the countdown in the [arena_id] arena.")
+	log_admin("[key_name(user)] has started the countdown in the [arena_id] arena.")
+
+	var/list/countdown_timers = list()
+
+	var/eye_dist
+	var/obj/effect/landmark/arena_eye/selected_arena
+
+	for (var/mob/player_mob as anything in GLOB.player_list)
+		var/atom/movable/screen/tournament_countdown/tournament_countdown = new
+
+		countdown_timers[player_mob.client] = tournament_countdown
+		player_mob.client?.screen += tournament_countdown
+
+	for (var/timer in 3 to 1 step -1)
+		for (var/client in countdown_timers)
+			var/atom/movable/screen/tournament_countdown/tournament_countdown = countdown_timers[client]
+			tournament_countdown.set_text(timer)
+
+	for (var/client in countdown_timers)
+		var/atom/movable/screen/tournament_countdown/tournament_countdown = countdown_timers[client]
+		tournament_countdown.set_text("Fish!")
+
+	for (var/client/client as anything in countdown_timers)
+		client?.screen -= countdown_timers[client]
+		qdel(countdown_timers[client])
+
+	start_fish_tournament()
 
 /obj/effect/fishing_score_display/proc/ui_stop_tournament()
 	if (!check_rights(R_ADMIN))
