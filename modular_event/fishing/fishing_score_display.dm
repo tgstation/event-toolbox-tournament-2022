@@ -160,13 +160,12 @@
 		var/atom/movable/screen/tournament_countdown/tournament_countdown = countdown_timers[client]
 		tournament_countdown.set_text("Fish!")
 
+	start_fish_tournament()
 	stoplag(2 SECONDS)
 
 	for (var/client/client as anything in countdown_timers)
 		client?.screen -= countdown_timers[client]
 		qdel(countdown_timers[client])
-
-	start_fish_tournament()
 
 /obj/effect/fishing_score_display/proc/ui_stop_tournament()
 	if (!check_rights(R_ADMIN))
