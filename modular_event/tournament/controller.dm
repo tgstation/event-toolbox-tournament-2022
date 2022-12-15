@@ -12,13 +12,15 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	var/list/contestants = list()
 	var/list/toolboxes = list()
 
+	/// Turfs near the spawn beacons for team member mobs
 	var/list/valid_team_spawns = list()
+	/// Turfs that make up the entire prep room, for sweeping items
+	var/list/prep_room_turfs = list()
 
-	/// Shutters that separate teams from the arena
+	/// "Shutters" that separate teams from the arena
 	var/list/obj/effect/oneway/arena_oneways = list()
 
 	/// The places to disband team members
-	var/list/disband_locations = list()
 
 	/// Old mobs by client
 	var/list/old_mobs = list()
@@ -201,6 +203,10 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	if (clear_existing)
 		QDEL_LIST(contestants)
 		QDEL_LIST(toolboxes)
+		for (var/turf/prep_room_turf in prep_room_turfs)
+			for (var/obj/item/garbage in prep_room_turf.contents)
+				if (!garbage.anchored)
+					qdel(garbage) // so fresh and so clean
 
 	var/list/new_contestants = list()
 
@@ -306,3 +312,6 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	description = "I am taking part in the Toolbox Tournament!"
 	mood_change = 42
 	timeout = 5 MINUTES
+
+/area/centcom/tdome/arena/team_prep
+	name = "Thunderdome Arena Team Prep"

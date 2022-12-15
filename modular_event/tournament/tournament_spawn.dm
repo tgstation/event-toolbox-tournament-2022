@@ -41,6 +41,12 @@
 
 	tournament_controller.valid_team_spawns[team] = spawn_locations
 
+	var/area/my_area = get_area(src)
+	for (var/turf/open/near_turf in RANGE_TURFS(7, src))
+		if (get_area(near_turf) != my_area)
+			continue
+		tournament_controller.prep_room_turfs += near_turf
+
 /obj/effect/landmark/tournament_spawn_valid_location
 	name = "valid tournament spawn location"
 	icon_state = "tdome_admin"
