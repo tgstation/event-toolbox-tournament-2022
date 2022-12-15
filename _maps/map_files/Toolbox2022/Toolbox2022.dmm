@@ -2771,13 +2771,7 @@
 /turf/open/floor/glass,
 /area/event)
 "jy" = (
-/obj/effect/turf_decal/trimline/dark_red/filled/line,
-/obj/machinery/button/door/directional/south{
-	id = "fishing_contest";
-	name = "Shutters Control";
-	req_access = list("centcom")
-	},
-/turf/open/floor/carpet/neon/simple/red/nodots,
+/turf/open/floor/eighties/red,
 /area/event)
 "jz" = (
 /obj/structure/curtain/bounty{
@@ -7472,10 +7466,6 @@
 /area/event/nightclub)
 "zM" = (
 /obj/machinery/door/airlock/security,
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "firebot_delivery"
-	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "brig-entrance"
 	},
@@ -9178,6 +9168,14 @@
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
 /area/event/oceanarium)
+"FB" = (
+/obj/machinery/button/door/directional/south{
+	id = "fishing_contest";
+	name = "Shutters Control";
+	req_access = list("centcom")
+	},
+/turf/open/floor/eighties/red,
+/area/event)
 "FC" = (
 /obj/structure/sign/departments/custodian/directional/south,
 /turf/open/floor/iron/smooth,
@@ -9782,10 +9780,6 @@
 /obj/machinery/door/airlock/security,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "brig-entrance"
-	},
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "firebot_delivery"
 	},
 /turf/open/floor/noslip,
 /area/event)
@@ -11654,7 +11648,6 @@
 /turf/closed/indestructible/event/pod/red,
 /area/event)
 "OE" = (
-/obj/structure/falsewall/plastitanium,
 /obj/item/shard,
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "floor6"
@@ -39509,7 +39502,7 @@ vz
 vz
 vz
 vz
-tf
+vz
 SG
 cU
 DQ
@@ -53318,8 +53311,8 @@ VF
 yH
 Xu
 OD
-ay
-ay
+OD
+OD
 ay
 ay
 ay
@@ -53448,8 +53441,8 @@ VF
 hI
 OD
 OD
-ay
-ay
+jy
+OD
 ay
 ay
 ay
@@ -53575,11 +53568,11 @@ VC
 VF
 VF
 VF
-jy
+hI
 OD
-ay
-ay
-ay
+jy
+FB
+OD
 ay
 ay
 ay
@@ -53708,8 +53701,8 @@ VF
 hI
 OD
 OD
-ay
-ay
+jy
+OD
 ay
 ay
 ay
@@ -53838,8 +53831,8 @@ VF
 rg
 aN
 OD
-ay
-ay
+OD
+OD
 ay
 ay
 ay
@@ -60032,7 +60025,7 @@ RA
 Oz
 bm
 Hr
-Wj
+EY
 sW
 vq
 pL
@@ -60552,7 +60545,7 @@ jp
 Oz
 RA
 RA
-EY
+Wj
 sW
 ce
 By
