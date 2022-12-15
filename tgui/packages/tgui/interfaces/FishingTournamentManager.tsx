@@ -63,7 +63,7 @@ export const FishingTournamentManager = (props, context) => {
                   )}
                   <Button
                     content='Give rods'
-                    color={rods_given ? 'green' : 'yellow'}
+                    color={rods_given ? 'yellow' : 'green'}
                     icon={rods_given ? 'check-square-o' : 'square-o'}
                     onClick={() => act('give_rods')}
                   />
