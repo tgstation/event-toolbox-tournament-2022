@@ -77,6 +77,8 @@
 	for(var/mob/living/carbon/player in participants)
 		var/obj/item/storage/toolbox/fishing/to_give = new(get_turf(player))
 		player.put_in_hands(to_give)
+		var/obj/item/fishing_tournament_timer/timer_item = new(get_turf(player))
+		player.put_in_hands(timer_item)
 
 /obj/effect/fishing_score_display/proc/time_left()
 	return timeleft(until_end_timer)
