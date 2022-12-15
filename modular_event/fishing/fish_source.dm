@@ -2,15 +2,15 @@
 	fish_table = list(
 		/obj/item/skub = 5,
 		/obj/item/fish/clownfish = 15,
-		/obj/item/fish/cardinal = 15,
 		/obj/item/fish/greenchromis = 15,
 		/obj/item/fish/needlefish = 15,
+		/obj/item/fish/cardinal = 14,
 		/obj/item/fish/gunner_jellyfish = 12,
-		/obj/item/fish/pufferfish = 9,
-		/obj/item/fish/lanternfish = 6,
-		/obj/item/fish/catfish = 5,
-		/obj/item/fish/toolboxfish = 4,
-		/obj/item/fish/coinfish = 5,
+		/obj/item/fish/pufferfish = 10,
+		/obj/item/fish/lanternfish = 8,
+		/obj/item/fish/catfish = 7,
+		/obj/item/fish/coinfish = 6,
+		/obj/item/fish/toolboxfish = 5,
 	)
 	fishing_difficulty = FISHING_DEFAULT_DIFFICULTY + 5
 
