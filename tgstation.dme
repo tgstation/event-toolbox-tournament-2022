@@ -3513,6 +3513,7 @@
 #include "code\modules\mob\living\basic\basic.dm"
 #include "code\modules\mob\living\basic\basic_defense.dm"
 #include "code\modules\mob\living\basic\health_adjustment.dm"
+#include "code\modules\mob\living\basic\catslug\catslug.dm"
 #include "code\modules\mob\living\basic\farm_animals\pig.dm"
 #include "code\modules\mob\living\basic\farm_animals\sheep.dm"
 #include "code\modules\mob\living\basic\farm_animals\cow\_cow.dm"
