@@ -1,34 +1,240 @@
 [
-	{
-		"name": "Dev Team 2",
-		"toolbox_color": "#eeff00",
-		"roster": [
-			"xyz"
-		],
-		"outfit": {
-			"belt": "/obj/item/storage/belt/utility/full",
-			"back": "/obj/item/storage/backpack/santabag",
-			"glasses": "/obj/item/clothing/glasses/sunglasses",
-			"gloves": "/obj/item/clothing/gloves/color/yellow",
-			"head": "/obj/item/clothing/head/soft/paramedic",
-			"mask": "/obj/item/clothing/mask/gas",
-			"suit": "/obj/item/clothing/suit/hooded/cultrobes",
-			"uniform": "/obj/item/clothing/under/color/grey/ancient"
-		}
-	},
-	{
-		"name": "Dev Team",
-		"toolbox_color": "#eeff00",
-		"roster": [
-			"riggle",
-			"waylandsmithy"
-		],
-		"outfit": {
-			"gloves": "/obj/item/clothing/gloves/color/yellow",
-			"head": "/obj/item/clothing/head/helmet/riot",
-			"mask": "/obj/item/clothing/mask/gas",
-			"shoes": "/obj/item/clothing/shoes/sneakers/black",
-			"uniform": "/obj/item/clothing/under/color/grey/ancient"
-		}
-	}
+  {
+    "name": "Nerfing What Kills Me",
+    "roster": ["Waltermeldron", "Anturke", "John Willard"],
+    "toolbox_color": "#00ff00",
+    "outfit": {}
+  },
+  {
+    "name": "Spacemen:)",
+    "roster": ["EmpressMaia", "DefinitelyNotATraitor", "msd8"],
+    "toolbox_color": "#42c7b5",
+    "outfit": {}
+  },
+  {
+    "name": "Skill Issue 2",
+    "roster": ["Bowlofcereal", "Dudeman100", "Mrgmantheoneandonly"],
+    "toolbox_color": "#65b5fb",
+    "outfit": {}
+  },
+  {
+    "name": "The Cats",
+    "roster": ["Somepan", "Matycer", "Tobias_Kunst"],
+    "toolbox_color": "#48026e",
+    "outfit": {}
+  },
+  {
+    "name": "The Swines",
+    "roster": ["Jerman5", "The spire", "Zray3003"],
+    "toolbox_color": "#ff0f0f",
+    "outfit": {}
+  },
+  {
+    "name": "Terry Twerkers",
+    "roster": ["kieth4", "Saint1453", "Account name contains reserved"],
+    "toolbox_color": "#1369b5",
+    "outfit": {}
+  },
+  {
+    "name": "Manuel Minute Men",
+    "roster": ["FalloutFalconPlays", "Dat_Legion", "Rustybuckets6601"],
+    "toolbox_color": "#b41396",
+    "outfit": {}
+  },
+  {
+    "name": "Campbell Ping",
+    "roster": ["Hoolny", "Castone001", "ItzRiumz"],
+    "toolbox_color": "#ffdbfe",
+    "outfit": {}
+  },
+  {
+    "name": "High-functioning Marines",
+    "roster": ["HaibaneReki", "Bobmancer343", "Srxtreme"],
+    "toolbox_color": "#ff80ff",
+    "outfit": {}
+  },
+  {
+    "name": "Paradise Toolbox Team",
+    "roster": ["bmon", "eric6426", "itsmarmite"],
+    "toolbox_color": "#fa781e",
+    "outfit": {}
+  },
+  {
+    "name": "The Eris Vagabonds",
+    "roster": ["Tristain01", "Rumplenutskin", "Raksha Dakote"],
+    "toolbox_color": "#ff6a00",
+    "outfit": {}
+  },
+  {
+    "name": "Elite IRS team",
+    "roster": ["Blov", "Crackerjack.beta", "lokuthewise"],
+    "toolbox_color": "#6f1490",
+    "outfit": {}
+  },
+  {
+    "name": "Rouny Hive",
+    "roster": ["Otterwatch", "Henriquekill9576", "Anystar1"],
+    "toolbox_color": "#880015",
+    "outfit": {}
+  },
+  {
+    "name": "Super Ajay Bros",
+    "roster": ["Ricardomilos", "cocothegog0", "Maxoess"],
+    "toolbox_color": "#ababab",
+    "outfit": {}
+  },
+  {
+    "name": "Baller Bros",
+    "roster": ["PK_Sonikal", "Jamarkus", "Xander3359"],
+    "toolbox_color": "#d2738a",
+    "outfit": {}
+  },
+  {
+    "name": "Dying For Denholm",
+    "roster": ["scriptis", "awkwardstereo", "trexter555"],
+    "toolbox_color": "#1369b5",
+    "outfit": {}
+  },
+  {
+    "name": "Silly Squad",
+    "roster": ["adeptaxolotl", "hex1fy", "dough115"],
+    "toolbox_color": "#fbf400",
+    "outfit": {}
+  },
+  {
+    "name": "Honk Squad",
+    "roster": ["Satwo", "genebean", "Lightrail"],
+    "toolbox_color": "#4d06b7",
+    "outfit": {}
+  },
+  {
+    "name": "Hopline Miami",
+    "roster": ["InquisitorJohn", "lukashein", "PCPorterro"],
+    "toolbox_color": "#ff0000",
+    "outfit": {}
+  },
+  {
+    "name": "GOOF 2023!!!1!",
+    "roster": ["ihategeese", "tapubulu", "GeneralThrax"],
+    "toolbox_color": "#e2e52e",
+    "outfit": {}
+  },
+  {
+    "name": "OGC",
+    "roster": ["EsotericSeaslug", "Chevrsk", "Talmansen"],
+    "toolbox_color": "#f7e7ce",
+    "outfit": {}
+  },
+  {
+    "name": "Spacemen in Black 2",
+    "roster": ["WeenMachine4003", "Riry733", "pohtato"],
+    "toolbox_color": "#f8f8ff",
+    "outfit": {}
+  },
+  {
+    "name": "Clueless idiots",
+    "roster": ["Arbuzik456", "AyeBlinchik", "onjec"],
+    "toolbox_color": "#ff80ff",
+    "outfit": {}
+  },
+  {
+    "name": "Keep Yourself Safe",
+    "roster": ["PotatoMasher", "Cactusman500", "MrDrPhDExpert"],
+    "toolbox_color": "#184a81",
+    "outfit": {}
+  },
+  {
+    "name": "Monkey Station Aape",
+    "roster": ["Not kiwi2 ", "7thdragon", "niftyryanyan"],
+    "toolbox_color": "#a113b4",
+    "outfit": {}
+  },
+  {
+    "name": "fang of the sun",
+    "roster": ["Bananarama36", "Emuburemu", "Striders13"],
+    "toolbox_color": "#06dd7d",
+    "outfit": {}
+  },
+  {
+    "name": "The Psycho Streamers",
+    "roster": ["ToastGoats", "France Gaymer", "Prototypemeat"],
+    "toolbox_color": "#c0c0c0",
+    "outfit": {}
+  },
+  {
+    "name": "Succulent Steak Seasoning ",
+    "roster": ["Serket", "ImSynthex", "XeonMations"],
+    "toolbox_color": "#ff00d2",
+    "outfit": {}
+  },
+  {
+    "name": "Toolbox Turbulence",
+    "roster": ["Bastian0930", "Azeris", "Improvedname"],
+    "toolbox_color": "#9d12af",
+    "outfit": {}
+  },
+  {
+    "name": "Patent Pending",
+    "roster": ["JoeNamath", "BigGrease", "Jennifer Hawkings"],
+    "toolbox_color": "#c2a1d9",
+    "outfit": {}
+  },
+  {
+    "name": "Moronic Manuel Manual Mining Gang",
+    "roster": ["nickup9", "DaydreamIQ", "Woldmord"],
+    "toolbox_color": "#be38f3",
+    "outfit": {}
+  },
+  {
+    "name": "flom",
+    "roster": ["SinfulBliss", "Realthoman_", "Chimpston"],
+    "toolbox_color": "#1369b5",
+    "outfit": {}
+  },
+  {
+    "name": "Radio Boyz",
+    "roster": ["Revelly", "Pinguinthehouse", "TunaFishnSkys"],
+    "toolbox_color": "#95dc01",
+    "outfit": {}
+  },
+  {
+    "name": "The High-Atmosphere Rodents",
+    "roster": ["Zonespace", "MLCrassus", "Symian"],
+    "toolbox_color": "#f2263b",
+    "outfit": {}
+  },
+  {
+    "name": "Unartificial Unintelligence",
+    "roster": ["fighterofkeyboard", "jonash", "MrKira"],
+    "toolbox_color": "#ea0101",
+    "outfit": {}
+  },
+  {
+    "name": "Uhm Uh Uuu",
+    "roster": ["Fikou", "Mailbox", "Iwishforducks"],
+    "toolbox_color": "#669420",
+    "outfit": {}
+  },
+  {
+    "name": "Side characters who die for comedic effect",
+    "roster": ["WalterTruck", "Sightld2", "Yulice"],
+    "toolbox_color": "#1369b5",
+    "outfit": {}
+  },
+  {
+    "name": "Last Minute Bullshiz",
+    "roster": ["Addust", "Ghom", "Rex9001"],
+    "toolbox_color": "#b41313",
+    "outfit": {}
+  },
+  {
+    "name": "The Mothroaches",
+    "roster": [
+      "Simplemob Mothroach",
+      "Simplemob Mothroach",
+      "Simplemob Mothroach"
+    ],
+    "toolbox_color": "#ffffff",
+    "outfit": {}
+  }
 ]
