@@ -378,6 +378,15 @@
 /obj/item/food/meat/slab/pig/MakeGrillable()
 	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/plain/pig, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE)
 
+/obj/item/food/meat/slab/catslug
+	name = "catslug fillet"
+	icon_state = "donkfillet"
+	desc = "You monster."
+	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 6, /datum/reagent/toxin/slimejelly = 2) //they're squishy guys, makes sense to be slimey
+	tastes = list("slime" = 1, "catslug"= 1, "regret" = 1, "immorality" = 1)
+
+/obj/item/food/meat/slab/catslug/MakeGrillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/plain/catslug, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE)
 
 ////////////////////////////////////// MEAT STEAKS ///////////////////////////////////////////////////////////
 /obj/item/food/meat/steak
@@ -479,6 +488,14 @@
 	name = "pork chops"
 	icon_state = "pigsteak"
 	tastes = list("pig" = 1)
+	foodtypes = MEAT
+
+	/obj/item/food/meat/steak/plain/catslug
+	name = "catslug steak"
+	desc = "You absolute monster."
+	icon_state = "birdsteak"
+	color = "#BCBCBC"
+	tastes = list("slime" = 1, "catslug"= 1, "regret" = 1, "immorality" = 1)
 	foodtypes = MEAT
 
 //////////////////////////////// MEAT CUTLETS ///////////////////////////////////////////////////////
@@ -588,6 +605,10 @@
 	. = ..()
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_CHICKEN, CELL_VIRUS_TABLE_GENERIC_MOB)
 
+/obj/item/food/meat/rawcutlet/catslug
+	name = "raw catslug cutlet"
+	tastes = list("catslug" = 1)
+
 //Cooked cutlets
 
 /obj/item/food/meat/cutlet
@@ -654,3 +675,7 @@
 /obj/item/food/meat/cutlet/chicken
 	name = "chicken cutlet"
 	tastes = list("chicken" = 1)
+
+/obj/item/food/meat/cutlet/catslug
+	name = "catslug cutlet"
+	tastes = list("catslug" = 1)
