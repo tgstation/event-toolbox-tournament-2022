@@ -283,10 +283,13 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 		var/obj/spawn_landmark = pick_n_take(spawns)
 
 		var/obj/item/storage/toolbox/toolbox = new
+		var/obj/item/toolbox_soul/soul = new
 		toolbox.color = toolbox_color
 		toolbox.forceMove(get_turf(spawn_landmark))
+		soul.forceMove(get_turf(spawn_landmark))
 
 		toolboxes += toolbox
+		toolboxes += soul
 
 /obj/machinery/computer/tournament_controller/proc/disband_teams(mob/user)
 	for (var/client/client as anything in old_mobs)
