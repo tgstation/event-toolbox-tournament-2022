@@ -127,7 +127,9 @@
 	animate(lure, pixel_y = 1, time = 1 SECONDS, loop = -1, flags = ANIMATION_RELATIVE)
 	animate(pixel_y = -1, time = 1 SECONDS, flags = ANIMATION_RELATIVE)
 	//Setup next phase
+	// EVENT EDIT: reduce wait time for fishing
 	var/wait_time = rand(1 SECONDS, 10 SECONDS)
+	// END EVENT EDIT
 	next_phase_timer = addtimer(CALLBACK(src, .proc/start_biting_phase), wait_time, TIMER_STOPPABLE)
 
 /datum/fishing_challenge/proc/start_biting_phase()
@@ -138,7 +140,9 @@
 	animate(lure, pixel_y = 3, time = 5, loop = -1, flags = ANIMATION_RELATIVE)
 	animate(pixel_y = -3, time = 5, flags = ANIMATION_RELATIVE)
 	// Setup next phase
+	// EVENT EDIT: reduce reaction time window
 	var/wait_time = rand(3 DECISECONDS, 3 SECONDS)
+	// END EVENT EDIT
 	next_phase_timer = addtimer(CALLBACK(src, .proc/start_baiting_phase), wait_time, TIMER_STOPPABLE)
 
 /datum/fishing_challenge/proc/start_minigame_phase()
