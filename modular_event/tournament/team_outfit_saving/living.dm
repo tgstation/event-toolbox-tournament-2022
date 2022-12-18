@@ -8,7 +8,6 @@
 
 /mob/living/Login()
 	. = ..()
-	// todo: make this not so horribly inefficient
 	for(var/team_name in GLOB.tournament_teams)
 		var/datum/tournament_team/team = GLOB.tournament_teams[team_name]
 		if(ckey in team.roster)

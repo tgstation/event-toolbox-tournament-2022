@@ -33,6 +33,8 @@
 	for (var/timer in 3 to 1 step -1)
 		for (var/client in countdown_timers)
 			var/atom/movable/screen/tournament_countdown/tournament_countdown = countdown_timers[client]
+			if(!tournament_countdown)
+				continue
 			tournament_countdown.set_text(timer)
 
 		stoplag(1 SECONDS)
@@ -42,6 +44,8 @@
 
 	for (var/client in countdown_timers)
 		var/atom/movable/screen/tournament_countdown/tournament_countdown = countdown_timers[client]
+		if(!tournament_countdown)
+			continue
 		tournament_countdown.set_text("Fight!")
 
 	stoplag(2 SECONDS)

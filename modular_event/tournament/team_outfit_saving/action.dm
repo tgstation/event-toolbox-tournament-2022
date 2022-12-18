@@ -19,7 +19,7 @@
 		to_chat(user, span_boldwarning("You cannot use this ability inside [user_area]!"))
 		return FALSE
 
-	if(tgui_alert(user,	"Are you sure you want to overwrite your team's outfit with your currnet chameleon disguise?", "Confirm", list("Yes", "No")) != "Yes")
+	if(tgui_alert(user, "Are you sure you want to overwrite your team's outfit with your currnet chameleon disguise?", "Confirm", list("Yes", "No")) != "Yes")
 		return FALSE
 
 	for(var/datum/action/item_action/chameleon/change/change_action as anything in user.chameleon_item_actions)
