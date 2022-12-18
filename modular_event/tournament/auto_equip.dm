@@ -36,6 +36,8 @@ SUBSYSTEM_DEF(auto_equip)
 		equipOutfit(equipping.outfit, visual_only)
 		return
 
+// Disabled to cut down on cham logic spam, everyone gets a full kit anyway
+/*
 	var/ckey = ckey(mind?.key)
 	var/team_outfit
 
@@ -49,6 +51,7 @@ SUBSYSTEM_DEF(auto_equip)
 	if (team_outfit)
 		// Equip everything else *after* team stuff, so they have their backpacks still.
 		equip_inert_outfit(team_outfit)
+*/
 
 	if (ckey in SSauto_equip.vips)
 		equipOutfit(/datum/outfit/job/vip, visual_only)

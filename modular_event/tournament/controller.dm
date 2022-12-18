@@ -258,7 +258,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 
 			new_contestants += contestant_mob
 
-			assign_team_hud(contestant_mob, team_spawn_id)
+			//assign_team_hud(contestant_mob, team_spawn_id)
 
 		spawn_toolboxes(team.toolbox_color, team_spawn_id, clients.len)
 
