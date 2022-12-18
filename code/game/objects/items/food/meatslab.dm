@@ -490,7 +490,7 @@
 	tastes = list("pig" = 1)
 	foodtypes = MEAT
 
-	/obj/item/food/meat/steak/plain/catslug
+/obj/item/food/meat/steak/plain/catslug
 	name = "catslug steak"
 	desc = "You absolute monster."
 	icon_state = "birdsteak"

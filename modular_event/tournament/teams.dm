@@ -122,8 +122,13 @@ GLOBAL_LIST_INIT_TYPED(tournament_teams, /datum/tournament_team, get_tournament_
 			outfit_parts["uniform"] = team.outfit.uniform
 		data["outfit"] = outfit_parts
 		tournament_teams.Add(list(data))
-	fdel("modular_event/tournament/teams/toolbox_teams.json")
-	text2file(json_encode(tournament_teams), "modular_event/tournament/teams/toolbox_teams.json")
+	fdel("modular_event/tournament/teams/export.json")
+	text2file(json_encode(tournament_teams), "modular_event/tournament/teams/export.json")
+	usr << ftp(file("modular_event/tournament/teams/export.json"))
+
+	var/message = "exported team data."
+	message_admins("[key_name_admin(usr)] [message]")
+	log_admin("[key_name(usr)] [message]")
 
 /proc/get_team_for_ckey(ckey)
 	for(var/team_name in GLOB.tournament_teams)

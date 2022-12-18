@@ -112,6 +112,8 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			if (usr.client)
 				usr.client.debug_variables(GLOB.tournament_teams)
 			return TRUE
+		if ("export_teams")
+			export_tournament_teams()
 
 /obj/machinery/computer/tournament_controller/ui_state(mob/user)
 	return GLOB.admin_state
