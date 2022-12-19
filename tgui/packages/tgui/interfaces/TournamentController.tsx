@@ -19,7 +19,28 @@ const ArenaInfo = (props, context) => {
   );
 
   return (
-    <Section title={'Arena - ' + data.arena_id}>
+    <Section
+      title={
+        <Stack>
+          <Stack.Item
+            grow={1}
+            style={{
+              'overflow': 'hidden',
+              'white-space': 'nowrap',
+              'text-overflow': 'ellipsis',
+            }}>
+            {'Arena - ' + data.arena_id}
+          </Stack.Item>
+          <Stack.Item align="end" shrink={0}>
+            <Button
+              color="transparent"
+              icon="info"
+              tooltip="This interface DOES NOT cache your selections, so it is best to leave it open the entire time you are running an arena."
+              tooltipPosition="bottom-start"
+            />
+          </Stack.Item>
+        </Stack>
+      }>
       <Stack fill>
         <Stack.Item grow>
           <Dropdown
@@ -106,6 +127,19 @@ const RoundInfo = (props, context) => {
         </Stack>
         <Stack vertical mt={2}>
           <Stack.Item>
+            <Button
+              content="Check teams online status"
+              icon="user-check"
+              onClick={() => {
+                act('check_teams_online', {
+                  team_a: selectedTeamA,
+                  team_b: selectedTeamB,
+                });
+              }}
+              tooltip="Check if all team members are connected without needing to attempt spawning."
+            />
+          </Stack.Item>
+          <Stack.Item>
             <Button.Checkbox
               checked={respawnRemove}
               onClick={() => setRespawnRemove(!respawnRemove)}
@@ -122,13 +156,14 @@ const RoundInfo = (props, context) => {
                   clear: respawnRemove,
                 });
               }}
-              tooltip="Respawn before loading maps for the best participant expirence."
+              tooltip="Respawn before loading maps for the best participant experience."
             />
           </Stack.Item>
 
           <Stack.Item>
             <Button.Confirm
               content="Start countdown"
+              color="green"
               icon="stopwatch"
               onClick={() => act('start_countdown')}
               tooltip="This will open the shutters at the end of the countdown."
@@ -153,9 +188,9 @@ const RoundInfo = (props, context) => {
               color="red"
               icon="user-minus"
               onClick={() => act('disband_teams')}
-              tooltip="This will put team members back into their spectator mobs (if they had one)."
+              tooltip="This will delete and put team members back into their spectator mobs (if they had one)."
             />{' '}
-            {data.old_mobs} mobs stored
+            {data.old_mobs} spectator mobs stored
           </Stack.Item>
 
           <Stack.Item>
@@ -166,10 +201,23 @@ const RoundInfo = (props, context) => {
               onClick={() => act('clear_arena')}
               tooltip="You don't have to do this if you're already loading a new map, by the way."
             />
+            <br />
+            Clear automaticly happens on map load, and does not delete teams in
+            prep rooms.
+          </Stack.Item>
+
+          <Stack.Item>
+            <Button
+              content="Export team data"
+              color="yellow"
+              icon="file-arrow-down"
+              onClick={() => act('export_teams')}
+              tooltip="Download the current teams' JSON data including outfits."
+            />
           </Stack.Item>
         </Stack>
       </Section>
-      <Section title="Copy Zone">
+      <Section title="Copy Pasta Zone">
         {selectedTeamA} VS. {selectedTeamB}
         <br />
         <br />
@@ -185,7 +233,7 @@ const RoundInfo = (props, context) => {
 
 export const TournamentController = () => {
   return (
-    <Window width={600} height={532} theme="admin">
+    <Window width={600} height={560} theme="admin">
       <Window.Content scrollable>
         <ArenaInfo />
         <RoundInfo />
