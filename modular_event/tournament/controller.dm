@@ -213,9 +213,12 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			return
 
 		var/list/clients = team.get_clients()
-		output += "[team_name]<br />has [clients.len]/[team.roster.len] members connected<br />"
+		output += "Team: [team_name]<br />[clients.len]/[team.roster.len] members connected<br />"
+		for(var/key in team.roster)
+			output += (GLOB.directory[key]) ? "Online: [key]<br />" : "<strong>Offline</strong>: [key]<br />"
+		output += "<br /><br />"
 
-	user << browse("<html><head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8'><title>Team Online Status</title></head><body>[output]</body></html>","window=team_online_status;size=400x150")
+	user << browse("<html><head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8'><title>Team Online Status</title></head><body>[output]</body></html>","window=team_online_status;size=400x400")
 
 
 /obj/machinery/computer/tournament_controller/proc/spawn_teams(mob/user, list/team_names, clear_existing)

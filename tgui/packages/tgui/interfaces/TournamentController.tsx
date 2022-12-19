@@ -163,6 +163,7 @@ const RoundInfo = (props, context) => {
           <Stack.Item>
             <Button.Confirm
               content="Start countdown"
+              color="green"
               icon="stopwatch"
               onClick={() => act('start_countdown')}
               tooltip="This will open the shutters at the end of the countdown."
@@ -187,7 +188,7 @@ const RoundInfo = (props, context) => {
               color="red"
               icon="user-minus"
               onClick={() => act('disband_teams')}
-              tooltip="This will put team members back into their spectator mobs (if they had one)."
+              tooltip="This will delete and put team members back into their spectator mobs (if they had one)."
             />{' '}
             {data.old_mobs} spectator mobs stored
           </Stack.Item>
@@ -208,7 +209,7 @@ const RoundInfo = (props, context) => {
           <Stack.Item>
             <Button
               content="Export team data"
-              color="green"
+              color="yellow"
               icon="file-arrow-down"
               onClick={() => act('export_teams')}
               tooltip="Download the current teams' JSON data including outfits."
@@ -232,7 +233,7 @@ const RoundInfo = (props, context) => {
 
 export const TournamentController = () => {
   return (
-    <Window width={600} height={532} theme="admin">
+    <Window width={600} height={560} theme="admin">
       <Window.Content scrollable>
         <ArenaInfo />
         <RoundInfo />
