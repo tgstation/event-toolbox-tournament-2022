@@ -127,6 +127,19 @@ const RoundInfo = (props, context) => {
         </Stack>
         <Stack vertical mt={2}>
           <Stack.Item>
+            <Button
+              content="Check teams online status"
+              icon="user-check"
+              onClick={() => {
+                act('check_teams_online', {
+                  team_a: selectedTeamA,
+                  team_b: selectedTeamB,
+                });
+              }}
+              tooltip="Check if all team members are connected without needing to attempt spawning."
+            />
+          </Stack.Item>
+          <Stack.Item>
             <Button.Checkbox
               checked={respawnRemove}
               onClick={() => setRespawnRemove(!respawnRemove)}

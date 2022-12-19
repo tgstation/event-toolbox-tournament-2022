@@ -105,6 +105,9 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 		if ("load_arena")
 			load_arena(usr, params["arena_template"])
 			return TRUE
+		if ("check_teams_online")
+			check_teams_online(usr, list(params["team_a"], params["team_b"]))
+			return TRUE
 		if ("spawn_teams")
 			spawn_teams(usr, list(params["team_a"], params["team_b"]), params["clear"])
 			return TRUE
@@ -200,6 +203,20 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	if(manual)
 		message_admins("[key_name_admin(user)] manually cleared the map for [arena_id] arena.")
 		log_admin("[key_name_admin(user)] manually cleared the map for [arena_id] arena.")
+
+/obj/machinery/computer/tournament_controller/proc/check_teams_online(mob/user, list/team_names)
+	var/output = ""
+	for (var/team_name in team_names)
+		var/datum/tournament_team/team = GLOB.tournament_teams[team_name]
+		if (!istype(team))
+			to_chat(user, span_warning("Couldn't find team: [team_name]"))
+			return
+
+		var/list/clients = team.get_clients()
+		output += "[team_name]<br />has [clients.len]/[team.roster.len] members connected<br />"
+
+	user << browse("<html><head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8'><title>Team Online Status</title></head><body>[output]</body></html>","window=team_online_status;size=400x150")
+
 
 /obj/machinery/computer/tournament_controller/proc/spawn_teams(mob/user, list/team_names, clear_existing)
 	if (clear_existing)
