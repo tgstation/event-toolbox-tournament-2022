@@ -73,7 +73,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 	return list(
 		"arena_id" = arena_id,
 		"arena_templates" = assoc_to_keys(arena_templates),
-		"team_names" = assoc_to_keys(GLOB.tournament_teams),
+		"team_names" = sort_list(assoc_to_keys(GLOB.tournament_teams)),
 	)
 
 /obj/machinery/computer/tournament_controller/ui_data(mob/user)
@@ -230,6 +230,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 				if (!garbage.anchored)
 					qdel(garbage) // so fresh and so clean
 
+	close_oneways()
 	var/list/new_contestants = list()
 
 	var/index = 1
