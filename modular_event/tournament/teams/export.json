@@ -138,8 +138,8 @@
     "outfit": {}
   },
   {
-    "name": "Keep Yourself Safe",
-    "roster": ["PotatoMasher", "Cactusman500", "MrDrPhDExpert"],
+    "name": "Keep Yourself Safe (DISBANDED)",
+    "roster": ["", "Cactusman500", "MrDrPhDExpert"],
     "toolbox_color": "#184a81",
     "outfit": {}
   },
@@ -169,7 +169,7 @@
   },
   {
     "name": "Toolbox Turbulence",
-    "roster": ["Bastian0930", "Azeris", "Improvedname"],
+    "roster": ["Bastian0930", "Azeris", "funnytoilet"],
     "toolbox_color": "#9d12af",
     "outfit": {}
   },
@@ -217,7 +217,7 @@
   },
   {
     "name": "Side characters who die for comedic effect",
-    "roster": ["WalterTruck", "Sightld2", "Yulice"],
+    "roster": ["WalterTruck", "Sightld2", "PotatoMasher"],
     "toolbox_color": "#1369b5",
     "outfit": {}
   },
