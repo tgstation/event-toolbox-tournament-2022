@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;obj&#x2F;machinery&#x2F;computer&#x2F;tournament_controller - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="obj/machinery/computer/tournament_controller.html#var">Var Details</a></header>
+<main>
+<h1>tournament_controller <aside>/<a href="obj.html">obj</a>/<a href="obj/machinery.html">machinery</a>/<a href="obj/machinery/computer/tournament_controller.html">computer/tournament_controller</a></aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L5">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 5"/></a></h1>
+
+<p>Controller for the tournament</p><table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="obj/machinery/computer/tournament_controller.html#var/arena_id">arena_id</a></th><td>The arena ID to be looking for</td></tr>
+            <tr><th><a href="obj/machinery/computer/tournament_controller.html#var/arena_oneways">arena_oneways</a></th><td>&quot;Shutters&quot; that separate teams from the arena</td></tr>
+            <tr><th><a href="obj/machinery/computer/tournament_controller.html#var/old_mobs">old_mobs</a></th><td>The places to disband team members
+Old mobs by client</td></tr>
+            <tr><th><a href="obj/machinery/computer/tournament_controller.html#var/old_mobs_loc">old_mobs_loc</a></th><td>Old mobs loc by client</td></tr>
+            <tr><th><a href="obj/machinery/computer/tournament_controller.html#var/prep_room_turfs">prep_room_turfs</a></th><td>Turfs that make up the entire prep room, for sweeping items</td></tr>
+            <tr><th><a href="obj/machinery/computer/tournament_controller.html#var/radio">radio</a></th><td>Internal radio for death announcements</td></tr>
+            <tr><th><a href="obj/machinery/computer/tournament_controller.html#var/team_hud_ids">team_hud_ids</a></th><td>HUD indexes indexed by team ID</td></tr>
+            <tr><th><a href="obj/machinery/computer/tournament_controller.html#var/toolbox_spawns">toolbox_spawns</a></th><td>The places to spawn toolboxes</td></tr>
+            <tr><th><a href="obj/machinery/computer/tournament_controller.html#var/valid_team_spawns">valid_team_spawns</a></th><td>Turfs near the spawn beacons for team member mobs</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/arena_id"><aside class="declaration">var </aside>arena_id
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L10">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 10"/></a></h3>
+        <p>The arena ID to be looking for</p><h3 id="var/arena_oneways"><aside class="declaration">var </aside>arena_oneways
+            <aside>&ndash; /list/obj/effect/oneway</aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L21">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 21"/></a></h3>
+        <p>&quot;Shutters&quot; that separate teams from the arena</p><h3 id="var/old_mobs"><aside class="declaration">var </aside>old_mobs
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L26">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 26"/></a></h3>
+        <p>The places to disband team members
+Old mobs by client</p><h3 id="var/old_mobs_loc"><aside class="declaration">var </aside>old_mobs_loc
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L28">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 28"/></a></h3>
+        <p>Old mobs loc by client</p><h3 id="var/prep_room_turfs"><aside class="declaration">var </aside>prep_room_turfs
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L18">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 18"/></a></h3>
+        <p>Turfs that make up the entire prep room, for sweeping items</p><h3 id="var/radio"><aside class="declaration">var </aside>radio
+            <aside>&ndash; /<a href="obj.html">obj</a>/<a href="obj/item.html">item</a>/<a href="obj/item/radio.html">radio</a></aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L39">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 39"/></a></h3>
+        <p>Internal radio for death announcements</p><h3 id="var/team_hud_ids"><aside class="declaration">var </aside>team_hud_ids
+            <aside>&ndash; /static/list</aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L36">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 36"/></a></h3>
+        <p>HUD indexes indexed by team ID</p><h3 id="var/toolbox_spawns"><aside class="declaration">var </aside>toolbox_spawns
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L31">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 31"/></a></h3>
+        <p>The places to spawn toolboxes</p><h3 id="var/valid_team_spawns"><aside class="declaration">var </aside>valid_team_spawns
+            <aside>&ndash; /list</aside>
+        
+    
+            <a href="https://github.com/tgstation/event-toolbox-tournament-2022/blob/e8f50629a50344b2bb0462444b163e65d96e03e6/modular_event/tournament/controller.dm#L16">
+        <img src="git.png" width="16" height="16" title="modular_event&#x2F;tournament&#x2F;controller.dm 16"/></a></h3>
+        <p>Turfs near the spawn beacons for team member mobs</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/tgstation/event-toolbox-tournament-2022/tree/e8f50629a50344b2bb0462444b163e65d96e03e6">e8f5062</a>
+        (main) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.4.1</a></footer>
+</body>
+</html>
